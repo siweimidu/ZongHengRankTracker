@@ -143,8 +143,27 @@
         var list = this.currentBooks.slice();
         if (this.sortBy === 'metric') {
           list.sort(function (a, b) { return (b.metric || 0) - (a.metric || 0); });
+        } else if (this.sortBy === 'update') {
+          // 最新更新优先：当日已更在前，其次按章节时间倒序（同频按名次）
+          var toMin = function (b) {
+            var t = (b.latestChapterTime || '').trim();   // 形如 "08-18 06:51"
+            if (!t) return -1;
+            var mp = t.split(/[\s:]+/);
+            if (mp.length < 3) return -1;
+            return (parseInt(mp[0], 10) || 0) * 1440 + (parseInt(mp[1], 10) || 0) * 60 + (parseInt(mp[2], 10) || 0);
+          };
+          list.sort(function (a, b) {
+            var ua = a.updatedToday ? 1e7 + toMin(a) : toMin(a);
+            var ub = b.updatedToday ? 1e7 + toMin(b) : toMin(b);
+            if (ub !== ua) return ub - ua;
+            return (a.rank || 0) - (b.rank || 0);
+          });
         }
         return list;
+      },
+      // 分类是否已收录该分类全部上榜作品（<30 说明官网榜单内就这么少）
+      isFullCoverage: function () {
+        return this.currentBooks.length > 0 && this.currentBooks.length < 30;
       },
     },
 

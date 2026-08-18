@@ -446,6 +446,28 @@ img { display: block; }
 .delta-down { color: var(--down); }
 .delta-new { color: var(--bronze); font-size: 10px; letter-spacing: 0.1em; font-weight: 700; }
 
+/* 排序状态反馈：热度模式 → 指标列金色强调；更新模式 → 更新标记强调 */
+.sort-hot .rank-metric .v { color: var(--bronze); }
+.sort-hot .rank-metric .l { color: var(--bronze); opacity: 0.75; }
+.sort-update .rank-meta .upd {
+  color: var(--navy); font-weight: 660;
+  border-bottom: 1px solid var(--navy);
+  padding-bottom: 1px;
+}
+
+/* 分类收录说明（小于 30 本时显示） */
+.list-note {
+  display: flex; align-items: center; gap: 14px;
+  padding: 18px 4px 6px;
+  animation: fade-up 0.4s var(--ease-out) both;
+}
+.list-note .rule { flex: 1; border-top: 1px solid var(--hairline); }
+.list-note .txt {
+  font-size: 11px; color: var(--ink-3);
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
 /* 卡片视图（纸卡） */
 .card-grid {
   display: grid;

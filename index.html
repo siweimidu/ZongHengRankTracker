@@ -83,6 +83,9 @@
           <div class="text-seg">
             <button :class="{ 'is-active': sortBy === 'rank' }" @click="sortBy = 'rank'">名次</button>
             <button :class="{ 'is-active': sortBy === 'metric' }" @click="sortBy = 'metric'">热度</button>
+            <button :class="{ 'is-active': sortBy === 'update' }" @click="sortBy = 'update'">最新更新</button>
+          </div>
+          <div class="text-seg">
             <button :class="{ 'is-active': view === 'list' }" @click="view = 'list'">目录</button>
             <button :class="{ 'is-active': view === 'grid' }" @click="view = 'grid'">卡片</button>
           </div>
@@ -134,7 +137,8 @@
           </div>
 
           <!-- 目录式榜单 -->
-          <div class="rank-list" v-if="view === 'list'">
+          <div class="rank-list" v-if="view === 'list'"
+               :class="{ 'sort-hot': sortBy === 'metric', 'sort-update': sortBy === 'update' }">
             <div v-for="(b, i) in filteredBooks" :key="b.bookId + '-' + i"
                  class="rank-row" :style="{ '--i': Math.min(i, 16) }" @click="goBook(b.bookId)">
               <div class="rank-no">{{ String(b.rank).padStart(2, '0') }}</div>
@@ -161,6 +165,11 @@
                 <div class="v">{{ fmtNum(b.metric) }}</div>
                 <div class="l">{{ b.metricLabel }}</div>
               </div>
+            </div>
+            <div class="list-note" v-if="isFullCoverage">
+              <span class="rule"></span>
+              <span class="txt">该分类进入纵横{{ activeBoardName }}的全部作品共 {{ currentBooks.length }} 本，已全部收录</span>
+              <span class="rule"></span>
             </div>
           </div>
 
