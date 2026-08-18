@@ -22,12 +22,13 @@
         activeBoard: 'monthly-ticket',
         activeCat: '全部',
         sortBy: 'rank',
-        view: 'grid',
+        view: 'list',
         // 日期导航
         viewDate: '',          // '' = 最新
         dates: [],             // 可用快照日期（含今天）
         datePick: '',
         yesterday: '',
+        briefDate: '',
       };
     },
 
@@ -42,6 +43,21 @@
         var t = this;
         var hit = this.boardsMeta.filter(function (b) { return b.slug === t.activeBoard; })[0];
         return hit ? hit.name : '';
+      },
+      activeBoardEn: function () {
+        var map = {
+          'monthly-ticket': 'Monthly Ticket Board · 月票刊',
+          'one-day': '24h Bestseller · 畅销刊',
+          'new-book': 'New Arrivals · 新书刊',
+          'click': 'Most Read · 点击刊',
+          'recommend': 'Reader’s Choice · 推荐刊',
+          'claque': 'Patron’s Circle · 捧场刊',
+          'end': 'Completed Works · 完结刊',
+          'new-book-subscribe': 'New Subscriptions · 订阅刊',
+          'one-day-update': 'Daily Dispatch · 更新刊',
+          'author-popularity': 'Author Index · 作者刊',
+        };
+        return map[this.activeBoard] || 'Rank Review';
       },
       activeBoardDesc: function () {
         var t = this;
@@ -177,6 +193,7 @@
         });
         this.j('api/market-brief.json').then(function (d) {
           self.brief = d.brief || '';
+          self.briefDate = d.date || '';
           self.typeBrief();
         }).catch(function () {});
         this.j('api/cross-board.json').then(function (d) {

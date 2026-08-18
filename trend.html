@@ -4,30 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>风向趋势 · 纵横风向标</title>
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%230065fd'/%3E%3Cpath d='M6 15l4-4 3 3 5-6' stroke='white' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="css/style.css?v=2">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' fill='%23faf9f6'/%3E%3Ctext x='12' y='17' font-family='serif' font-size='15' text-anchor='middle' fill='%231c1a16'%3E势%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/style.css?v=3">
   <script src="https://unpkg.com/vue@3.4.21/dist/vue.global.prod.js"></script>
   <script src="https://unpkg.com/echarts@5.5.0/dist/echarts.min.js"></script>
-  <script src="js/icons.js?v=2"></script>
+  <script src="js/icons.js?v=3"></script>
 </head>
 <body>
 <div id="app">
   <main class="main">
     <header class="main-header">
       <div class="header-title">
-        <h1>风向趋势 <span style="color:var(--muted-foreground);font-weight:500;font-size:14px">TREND</span></h1>
-        <div class="board-desc">题材热度 · 分类声量 · 榜首时间轴</div>
+        <div class="eyebrow">Trend Review · 风向趋势</div>
+        <h1>题材风向与数据洞察</h1>
       </div>
       <div class="header-actions">
-        <div class="preset-seg" style="flex-wrap:wrap">
-          <button v-for="b in boards" :key="b.slug" class="preset-btn"
+        <div class="text-seg" style="flex-wrap:wrap;max-width:420px">
+          <button v-for="b in boards" :key="b.slug"
                   :class="{ 'is-active': b.slug === activeBoard }"
                   @click="switchBoard(b.slug)">{{ b.name }}</button>
         </div>
-        <a class="icon-btn" href="index.html">
-          <zh-icon name="home" :size="13"></zh-icon> 返回看板
-        </a>
-        <a class="icon-btn" href="https://github.com/siweimidu/ZongHengRankTracker" target="_blank" rel="noopener">
+        <a class="link-btn" href="index.html">返回看板</a>
+        <a class="link-btn" href="https://github.com/siweimidu/ZongHengRankTracker" target="_blank" rel="noopener">
           <zh-icon name="github" :size="13"></zh-icon>
         </a>
       </div>
@@ -35,85 +36,82 @@
 
     <div class="content">
       <div class="state-box" v-if="loading">
-        <div class="spinner"></div> 正在拉取趋势数据…
+        <div class="spinner"></div>
+        <span class="eyebrow">Loading</span>
+        正在核算本期数据…
       </div>
 
       <template v-if="!loading && analysis">
         <!-- 黑马 -->
-        <section v-if="darkhorses.length">
+        <template v-if="darkhorses.length">
           <div class="section-head">
-            <h2 class="section-title"><zh-icon name="bolt" :size="16"></zh-icon> 本榜黑马信号</h2>
-            <span class="section-sub">{{ date }}</span>
+            <h2 class="section-title">本期黑马</h2>
+            <span class="section-sub">{{ boardName }} · {{ date }}</span>
           </div>
-          <div class="dark-grid" style="margin-bottom:26px">
-            <div v-for="(d, i) in darkhorses" :key="d.bookId" class="dark-card" :style="{ '--i': i }">
-              <div class="dark-rank">#{{ d.rank }}</div>
-              <div>
-                <div class="dark-title">{{ d.title }}</div>
-                <div class="dark-sub">{{ d.author }}</div>
-                <span class="dark-reason"><zh-icon name="bolt" :size="10"></zh-icon> {{ d.reason }}</span>
+          <div class="note-list" style="margin-bottom:34px">
+            <div v-for="(d, i) in darkhorses" :key="d.bookId" class="note-row" :style="{ '--i': i }">
+              <div class="note-no">No.{{ d.rank }}</div>
+              <div class="note-main">
+                <span class="note-title">《{{ d.title }}》</span>
+                <div class="note-sub">{{ d.author }} — {{ d.reason }}</div>
               </div>
+              <div class="note-meta">{{ boardName }}</div>
             </div>
           </div>
-        </section>
+        </template>
 
         <!-- 图表 -->
-        <section>
-          <div class="section-head">
-            <h2 class="section-title"><zh-icon name="fire" :size="16"></zh-icon> 数据洞察</h2>
-            <span class="section-sub">{{ boardName }}</span>
+        <div class="section-head">
+          <h2 class="section-title">数据洞察</h2>
+          <span class="section-sub">{{ boardName }}</span>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:14px">
+          <div class="chart-card">
+            <div class="chart-title">分类热度指数</div>
+            <div class="chart-sub">Top10 数量与头部指标加权，衡量各分类声量</div>
+            <div id="chart-cate" style="width:100%;height:330px"></div>
           </div>
-          <div style="display:grid;grid-template-columns:1fr;gap:14px">
+          <div class="chart-grid-2">
             <div class="chart-card">
-              <div class="chart-title"><zh-icon name="grid" :size="14"></zh-icon> 分类热度指数</div>
-              <div class="chart-sub">Top10 数量 + 头部指标对数加权，反映各分类声量</div>
-              <div id="chart-cate" style="width:100%;height:330px"></div>
+              <div class="chart-title">高频题材关键词</div>
+              <div class="chart-sub">基于上榜作品书名与简介统计</div>
+              <div id="chart-kw" style="width:100%;height:290px"></div>
             </div>
-            <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px" class="chart-grid-2">
-              <div class="chart-card">
-                <div class="chart-title"><zh-icon name="star" :size="14"></zh-icon> 高频题材关键词</div>
-                <div class="chart-sub">基于上榜作品书名与简介命中统计</div>
-                <div id="chart-kw" style="width:100%;height:300px"></div>
-              </div>
-              <div class="chart-card">
-                <div class="chart-title"><zh-icon name="trend" :size="14"></zh-icon> 榜首时间轴</div>
-                <div class="chart-sub">历史每日榜首（数据累积后更有洞察）</div>
-                <div id="chart-timeline" style="width:100%;height:300px"></div>
-              </div>
+            <div class="chart-card">
+              <div class="chart-title">榜首时间轴</div>
+              <div class="chart-sub">历史每日榜首（数据累积后更有洞察）</div>
+              <div id="chart-timeline" style="width:100%;height:290px"></div>
             </div>
           </div>
-        </section>
+        </div>
 
-        <!-- 关键词云 -->
-        <section style="margin-top:26px">
-          <div class="section-head">
-            <h2 class="section-title"><zh-icon name="chip" :size="16"></zh-icon> 题材热度速览</h2>
-            <span class="section-sub">点击可复制关键词</span>
-          </div>
-          <div class="kw-cloud">
-            <span v-for="(k, i) in keywordHeat" :key="k.keyword" class="kw-pill" :style="{ '--i': i }"
-                  @click="copyKw(k.keyword)">
-              <zh-icon name="fire" :size="12"></zh-icon>
-              <span class="k">{{ k.keyword }}</span>
-              <span class="c">{{ k.count }} 本</span>
-            </span>
-            <span v-if="!keywordHeat.length" class="section-sub">暂无数据</span>
-          </div>
-        </section>
+        <!-- 关键词 -->
+        <div class="section-head">
+          <h2 class="section-title">题材速览</h2>
+          <span class="section-sub">点击复制关键词</span>
+        </div>
+        <div class="kw-cloud">
+          <span v-for="(k, i) in keywordHeat" :key="k.keyword" class="kw-item" :style="{ '--i': i }"
+                @click="copyKw(k.keyword)">
+            <span>{{ k.keyword }}</span><span class="c">{{ k.count }}</span>
+          </span>
+          <span v-if="!keywordHeat.length" class="section-sub">暂无数据</span>
+        </div>
+
+        <footer class="footer">
+          数据来源 <a href="https://www.zongheng.com/rank" target="_blank" rel="noopener">纵横中文网排行榜</a>
+          · 趋势基于每日快照自动计算 · <a href="index.html">返回看板</a>
+        </footer>
       </template>
 
       <div class="state-box" v-if="!loading && !analysis">
-        <p>该榜单暂无趋势数据</p>
+        <span class="eyebrow">Empty</span>
+        该榜单暂无趋势数据
       </div>
-
-      <footer class="footer">
-        数据来源 <a href="https://www.zongheng.com/rank" target="_blank" rel="noopener">纵横中文网排行榜</a>
-        · 趋势基于每日快照自动计算 · <a href="index.html">返回看板</a>
-      </footer>
     </div>
   </main>
 </div>
 
-<script src="js/trend.js?v=2"></script>
+<script src="js/trend.js?v=3"></script>
 </body>
 </html>

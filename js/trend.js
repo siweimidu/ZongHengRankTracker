@@ -4,8 +4,8 @@
 (function () {
   var createApp = Vue.createApp;
 
-  var PALETTE = ['#0065fd', '#557fff', '#0057da', '#c9a45c', '#6d5ce6',
-    '#34c759', '#e0503f', '#8aa2c8', '#0043ad', '#7f8d9f'];
+  var PALETTE = ['#1e3a5f', '#9c7c3c', '#5f5390', '#8b857a', '#b3462f',
+    '#3d6b50', '#2c5a86', '#7a6432', '#4a463d', '#a8a094'];
 
   var app = createApp({
     data: function () {
@@ -54,11 +54,11 @@
       baseOpt: function () {
         return {
           color: PALETTE,
-          textStyle: { fontFamily: 'inherit', color: '#7f8d9f' },
+          textStyle: { fontFamily: 'inherit', color: '#8b857a' },
           tooltip: {
-            backgroundColor: 'rgba(14,17,21,0.9)', borderWidth: 0,
+            backgroundColor: 'rgba(28,26,22,0.92)', borderWidth: 0,
             textStyle: { color: '#fff', fontSize: 12 },
-            extraCssText: 'border-radius:10px;',
+            extraCssText: 'border-radius:2px;',
           },
         };
       },
@@ -110,22 +110,21 @@
           var cats = (a.category_heat || []).slice(0, 10);
           c1.setOption(Object.assign(this.baseOpt(), {
             grid: { left: 8, right: 44, top: 8, bottom: 8, containLabel: true },
-            xAxis: { type: 'value', splitLine: { lineStyle: { color: '#eef1f6' } } },
+            xAxis: { type: 'value', splitLine: { lineStyle: { color: '#efede6' } } },
             yAxis: {
               type: 'category', inverse: true,
               data: cats.map(function (c) { return c.name; }),
               axisLine: { show: false }, axisTick: { show: false },
-              axisLabel: { color: '#0e1115', fontWeight: 600 },
+              axisLabel: { color: '#1c1a16', fontWeight: 600 },
             },
             series: [{
               type: 'bar', barWidth: 15,
               data: cats.map(function (c) { return c.heat; }),
               itemStyle: {
-                borderRadius: [0, 8, 8, 0],
-                color: new echarts.graphic.LinearGradient(0, 0, 1, 0,
-                  [{ offset: 0, color: '#0057da' }, { offset: 1, color: '#557fff' }]),
+                borderRadius: [0, 1, 1, 0],
+                color: '#1e3a5f',
               },
-              label: { show: true, position: 'right', color: '#7f8d9f', fontSize: 10.5 },
+              label: { show: true, position: 'right', color: '#8b857a', fontSize: 10.5 },
             }],
             animationDuration: 850,
             animationEasing: 'cubicOut',
@@ -141,17 +140,16 @@
             grid: { left: 8, right: 14, top: 12, bottom: 8, containLabel: true },
             xAxis: {
               type: 'category', data: kws.map(function (k) { return k.keyword; }),
-              axisLabel: { rotate: 30, color: '#7f8d9f', fontSize: 10.5 },
-              axisLine: { lineStyle: { color: '#e7eaef' } },
+              axisLabel: { rotate: 30, color: '#8b857a', fontSize: 10.5 },
+              axisLine: { lineStyle: { color: '#e6e2d8' } },
             },
-            yAxis: { type: 'value', splitLine: { lineStyle: { color: '#eef1f6' } } },
+            yAxis: { type: 'value', splitLine: { lineStyle: { color: '#efede6' } } },
             series: [{
               type: 'bar', barWidth: 16,
               data: kws.map(function (k) { return k.count; }),
               itemStyle: {
-                borderRadius: [7, 7, 0, 0],
-                color: new echarts.graphic.LinearGradient(0, 1, 0, 0,
-                  [{ offset: 0, color: '#0065fd' }, { offset: 1, color: '#8ab2ff' }]),
+                borderRadius: [1, 1, 0, 0],
+                color: '#9c7c3c',
               },
             }],
             animationDuration: 850,
@@ -167,7 +165,7 @@
           var base = this.baseOpt();
           c3.setOption(Object.assign(base, {
             tooltip: {
-              backgroundColor: 'rgba(14,17,21,0.9)', borderWidth: 0,
+              backgroundColor: 'rgba(28,26,22,0.92)', borderWidth: 0,
               textStyle: { color: '#fff', fontSize: 12 },
               formatter: function (params) {
                 var idx = params[0] && params[0].dataIndex;
@@ -184,22 +182,22 @@
             xAxis: {
               type: 'category',
               data: tl.map(function (t) { return (t.date || '').slice(5); }),
-              axisLabel: { color: '#7f8d9f', fontSize: 10.5 },
+              axisLabel: { color: '#8b857a', fontSize: 10.5 },
             },
             yAxis: { show: false, min: 0, max: 4 },
             series: [{
               type: 'line', data: tl.map(function () { return 1; }), symbolSize: 10,
-              lineStyle: { color: '#0065fd', width: 2.5 },
-              itemStyle: { color: '#0065fd', borderColor: '#fff', borderWidth: 2 },
-              areaStyle: { color: 'rgba(0,101,253,0.06)' },
+              lineStyle: { color: '#1e3a5f', width: 1.5 },
+              itemStyle: { color: '#1e3a5f', borderColor: '#faf9f6', borderWidth: 2 },
+              areaStyle: { color: 'rgba(30,58,95,0.05)' },
               markPoint: tl.slice(0, 12).map(function (t, i) {
                 var top = (t.top3 && t.top3[0] && t.top3[0].title) || '—';
                 return {
                   coord: [i, 1],
                   symbol: 'roundRect', symbolSize: [56, 20],
                   symbolOffset: [0, -24],
-                  label: { show: true, formatter: top.slice(0, 6), fontSize: 9.5, color: '#00266b', fontWeight: 700 },
-                  itemStyle: { color: 'rgba(229,233,255,0.9)' },
+                  label: { show: true, formatter: top.slice(0, 6), fontSize: 9.5, color: '#1c1a16', fontWeight: 600 },
+                  itemStyle: { color: 'rgba(156,124,60,0.14)' },
                 };
               }),
             }],
