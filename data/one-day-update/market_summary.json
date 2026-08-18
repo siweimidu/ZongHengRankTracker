@@ -1,68 +1,68 @@
 {
- "date": "2026-08-18",
+ "date": "2026-08-19",
  "category_heat": [
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 169767,
-   "heat": 134.1
+   "metric_sum_top10": 139838,
+   "heat": 132.6
   },
   {
    "name": "历史",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 137400,
-   "heat": 132.5
-  },
-  {
-   "name": "武侠仙侠",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 120215,
-   "heat": 131.4
+   "metric_sum_top10": 118201,
+   "heat": 131.3
   },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 118367,
-   "heat": 131.3
+   "metric_sum_top10": 114344,
+   "heat": 131.0
   },
   {
-   "name": "奇闻异事",
-   "count": 17,
+   "name": "武侠仙侠",
+   "count": 30,
    "top10": 10,
-   "metric_sum_top10": 80276,
-   "heat": 128.3
+   "metric_sum_top10": 102580,
+   "heat": 130.2
   },
   {
    "name": "科幻",
-   "count": 17,
+   "count": 16,
    "top10": 10,
-   "metric_sum_top10": 71981,
-   "heat": 127.4
+   "metric_sum_top10": 70160,
+   "heat": 127.2
+  },
+  {
+   "name": "奇闻异事",
+   "count": 16,
+   "top10": 10,
+   "metric_sum_top10": 67580,
+   "heat": 126.9
   },
   {
    "name": "军事",
-   "count": 9,
-   "top10": 9,
-   "metric_sum_top10": 55932,
-   "heat": 121.5
+   "count": 8,
+   "top10": 8,
+   "metric_sum_top10": 49812,
+   "heat": 116.6
   },
   {
    "name": "N次元",
-   "count": 9,
-   "top10": 9,
-   "metric_sum_top10": 52560,
-   "heat": 121.0
+   "count": 8,
+   "top10": 8,
+   "metric_sum_top10": 48227,
+   "heat": 116.3
   },
   {
    "name": "游戏",
    "count": 4,
    "top10": 4,
-   "metric_sum_top10": 21021,
-   "heat": 93.8
+   "metric_sum_top10": 20675,
+   "heat": 93.7
   },
   {
    "name": "现实题材",
@@ -75,42 +75,34 @@
  "keyword_heat": [
   {
    "keyword": "系统",
-   "count": 11
+   "count": 14
   },
   {
    "keyword": "穿越",
-   "count": 11
+   "count": 9
   },
   {
    "keyword": "无敌",
-   "count": 6
+   "count": 7
   },
   {
    "keyword": "重生",
-   "count": 5
+   "count": 7
   },
   {
    "keyword": "杀伐果断",
-   "count": 4
+   "count": 5
   },
   {
    "keyword": "宗门",
+   "count": 4
+  },
+  {
+   "keyword": "种田",
    "count": 3
   },
   {
-   "keyword": "神医",
-   "count": 3
-  },
-  {
-   "keyword": "诸天",
-   "count": 3
-  },
-  {
-   "keyword": "修仙",
-   "count": 3
-  },
-  {
-   "keyword": "签到",
+   "keyword": "大明",
    "count": 2
   },
   {
@@ -118,19 +110,27 @@
    "count": 2
   },
   {
-   "keyword": "赘婿",
+   "keyword": "修仙",
+   "count": 2
+  },
+  {
+   "keyword": "诸天",
+   "count": 2
+  },
+  {
+   "keyword": "神医",
+   "count": 2
+  },
+  {
+   "keyword": "科技",
    "count": 1
   },
   {
-   "keyword": "轻松",
+   "keyword": "苟道",
    "count": 1
   },
   {
-   "keyword": "搞笑",
-   "count": 1
-  },
-  {
-   "keyword": "万界",
+   "keyword": "炼丹",
    "count": 1
   }
  ],
@@ -152,6 +152,26 @@
      "title": "徒手缝合大出血，你叫他实习医生？",
      "author": "咚咚冬眠",
      "bookId": 1551021
+    }
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "top3": [
+    {
+     "title": "大明：我讲屠龙术，老朱在隔壁坐不住了",
+     "author": "我欲迎风起",
+     "bookId": 1567247
+    },
+    {
+     "title": "火红年代：开发北大荒，种田赶山养全家",
+     "author": "慎思量",
+     "bookId": 1516055
+    },
+    {
+     "title": "吞噬九重天",
+     "author": "屠刀成佛",
+     "bookId": 1269302
     }
    ]
   }

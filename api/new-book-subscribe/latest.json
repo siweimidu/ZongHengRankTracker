@@ -1,12 +1,12 @@
 {
  "slug": "new-book-subscribe",
  "name": "新书订阅榜",
- "date": "2026-08-18",
+ "date": "2026-08-19",
  "types": [
   {
    "name": "全部",
    "url": "api/new-book-subscribe/latest/全部.json",
-   "count": 10
+   "count": 9
   },
   {
    "name": "历史",
@@ -21,7 +21,7 @@
   {
    "name": "武侠仙侠",
    "url": "api/new-book-subscribe/latest/武侠仙侠.json",
-   "count": 1
+   "count": 0
   },
   {
    "name": "都市",

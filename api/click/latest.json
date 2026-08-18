@@ -1,7 +1,7 @@
 {
  "slug": "click",
  "name": "点击榜",
- "date": "2026-08-18",
+ "date": "2026-08-19",
  "types": [
   {
    "name": "全部",
@@ -36,6 +36,21 @@
   {
    "name": "奇闻异事",
    "url": "api/click/latest/奇闻异事.json",
+   "count": 30
+  },
+  {
+   "name": "游戏",
+   "url": "api/click/latest/游戏.json",
+   "count": 30
+  },
+  {
+   "name": "N次元",
+   "url": "api/click/latest/N次元.json",
+   "count": 30
+  },
+  {
+   "name": "现实题材",
+   "url": "api/click/latest/现实题材.json",
    "count": 30
   }
  ]

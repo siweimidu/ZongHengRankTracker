@@ -1,0 +1,200 @@
+{
+ "date": "2026-08-19",
+ "prev_date": "2026-08-18",
+ "board": {
+  "slug": "author-popularity",
+  "name": "作者人气榜",
+  "rankType": 12,
+  "period": 0
+ },
+ "trends": {
+  "全部": {
+   "first_day": false,
+   "new_count": 3,
+   "dropped_count": 3,
+   "new_books": [
+    {
+     "title": "大荒剑帝",
+     "author": "食堂包子",
+     "rank": 21,
+     "bookId": 1198878
+    },
+    {
+     "title": "剑动仙朝",
+     "author": "一叶青天",
+     "rank": 27,
+     "bookId": 1456066
+    },
+    {
+     "title": "躺平：老婆修炼我变强",
+     "author": "万红壮",
+     "rank": 30,
+     "bookId": 1296262
+    }
+   ],
+   "dropped_books": [
+    {
+     "title": "凡尘入圣，清算万古！",
+     "author": "二十七杯酒",
+     "prevRank": 27,
+     "bookId": 1477067
+    },
+    {
+     "title": "权力巅峰：从拒绝省厅千金开始",
+     "author": "必看",
+     "prevRank": 28,
+     "bookId": 1479822
+    },
+    {
+     "title": "封总，太太想跟你离婚很久了",
+     "author": "云中觅",
+     "prevRank": 29,
+     "bookId": 1358294
+    }
+   ],
+   "top_movers": [
+    {
+     "bookId": 1325755,
+     "title": "皇叔借点功德，王妃把符画猛了",
+     "author": "安卿心",
+     "rank": 8,
+     "rankChange": 3,
+     "metric": 74897,
+     "metricGrowth": 0.0892,
+     "momentum": 54.7
+    },
+    {
+     "bookId": 1579093,
+     "title": "去你的穷草根，老子是九霄龙！",
+     "author": "镭淞无极",
+     "rank": 9,
+     "rankChange": -1,
+     "metric": 70461,
+     "metricGrowth": 0.0,
+     "momentum": 44.0
+    },
+    {
+     "bookId": 1430876,
+     "title": "都市古仙医2：大医镇世",
+     "author": "超爽黑啤",
+     "rank": 10,
+     "rankChange": -1,
+     "metric": 69678,
+     "metricGrowth": 0.0001,
+     "momentum": 42.0
+    },
+    {
+     "bookId": 1552353,
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "rank": 11,
+     "rankChange": -1,
+     "metric": 69318,
+     "metricGrowth": 0.0006,
+     "momentum": 40.1
+    },
+    {
+     "bookId": 1269302,
+     "title": "吞噬九重天",
+     "author": "屠刀成佛",
+     "rank": 16,
+     "rankChange": 1,
+     "metric": 57960,
+     "metricGrowth": 0.1343,
+     "momentum": 34.0
+    },
+    {
+     "bookId": 1388197,
+     "title": "人间有剑",
+     "author": "平生未知寒",
+     "rank": 15,
+     "rankChange": 0,
+     "metric": 63676,
+     "metricGrowth": 0.1237,
+     "momentum": 33.4
+    },
+    {
+     "bookId": 1268659,
+     "title": "鸿蒙霸体诀",
+     "author": "鱼初见",
+     "rank": 19,
+     "rankChange": 3,
+     "metric": 51729,
+     "metricGrowth": 0.1745,
+     "momentum": 33.2
+    },
+    {
+     "bookId": 1330288,
+     "title": "重生78，开局被女知青退婚",
+     "author": "风里掌灯见惊泓",
+     "rank": 24,
+     "rankChange": 6,
+     "metric": 45239,
+     "metricGrowth": 0.157,
+     "momentum": 30.6
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.0,
+   "summary": "【作者人气榜·全部】3 本新上榜；3 本掉榜；《皇叔借点功德，王妃把符画猛了》升 3 位至第 8 名；当日更新率 0%。"
+  }
+ },
+ "category_heat": [],
+ "keyword_heat": [
+  {
+   "keyword": "无敌",
+   "count": 1
+  },
+  {
+   "keyword": "都市",
+   "count": 1
+  },
+  {
+   "keyword": "重生",
+   "count": 1
+  }
+ ],
+ "timeline": [
+  {
+   "date": "2026-08-18",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    }
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    }
+   ]
+  }
+ ],
+ "total_books": 30
+}

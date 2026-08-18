@@ -1,58 +1,71 @@
 {
- "date": "2026-08-18",
+ "date": "2026-08-19",
  "category_heat": [
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 7542,
-   "heat": 109.8
+   "metric_sum_top10": 8204,
+   "heat": 110.5
   },
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 4577,
-   "heat": 105.9
+   "metric_sum_top10": 4944,
+   "heat": 106.5
   },
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 3697,
-   "heat": 104.2
-  },
-  {
-   "name": "历史",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 2115,
-   "heat": 99.9
+   "metric_sum_top10": 4150,
+   "heat": 105.1
   },
   {
    "name": "科幻",
    "count": 28,
    "top10": 10,
-   "metric_sum_top10": 2137,
-   "heat": 99.9
+   "metric_sum_top10": 2464,
+   "heat": 101.1
+  },
+  {
+   "name": "历史",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 2440,
+   "heat": 101.0
   },
   {
    "name": "奇闻异事",
-   "count": 17,
+   "count": 19,
    "top10": 10,
-   "metric_sum_top10": 667,
-   "heat": 90.8
+   "metric_sum_top10": 705,
+   "heat": 91.3
+  },
+  {
+   "name": "N次元",
+   "count": 13,
+   "top10": 10,
+   "metric_sum_top10": 188,
+   "heat": 81.0
+  },
+  {
+   "name": "现实题材",
+   "count": 12,
+   "top10": 10,
+   "metric_sum_top10": 157,
+   "heat": 79.6
+  },
+  {
+   "name": "游戏",
+   "count": 5,
+   "top10": 5,
+   "metric_sum_top10": 77,
+   "heat": 54.1
   }
  ],
  "keyword_heat": [
-  {
-   "keyword": "玄幻",
-   "count": 5
-  },
-  {
-   "keyword": "穿越",
-   "count": 5
-  },
   {
    "keyword": "无敌",
    "count": 4
@@ -62,11 +75,15 @@
    "count": 4
   },
   {
-   "keyword": "科技",
-   "count": 3
+   "keyword": "玄幻",
+   "count": 4
   },
   {
-   "keyword": "修仙",
+   "keyword": "穿越",
+   "count": 4
+  },
+  {
+   "keyword": "科技",
    "count": 3
   },
   {
@@ -75,6 +92,10 @@
   },
   {
    "keyword": "重生",
+   "count": 2
+  },
+  {
+   "keyword": "修仙",
    "count": 2
   },
   {
@@ -90,11 +111,11 @@
    "count": 1
   },
   {
-   "keyword": "仙侠",
+   "keyword": "末世",
    "count": 1
   },
   {
-   "keyword": "末世",
+   "keyword": "仙侠",
    "count": 1
   },
   {
@@ -102,13 +123,33 @@
    "count": 1
   },
   {
-   "keyword": "系统",
+   "keyword": "杀伐果断",
    "count": 1
   }
  ],
  "timeline": [
   {
    "date": "2026-08-18",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    },
+    {
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-08-19",
    "top3": [
     {
      "title": "剑来",
