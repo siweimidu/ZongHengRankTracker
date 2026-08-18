@@ -1,6 +1,6 @@
 {
  "date": "2026-08-18",
- "prev_date": "2026-08-17",
+ "prev_date": null,
  "board": {
   "slug": "recommend",
   "name": "推荐榜",
@@ -9,531 +9,114 @@
  },
  "trends": {
   "全部": {
-   "first_day": false,
-   "new_count": 9,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "绝色生骄",
-     "author": "沙漠",
-     "rank": 22,
-     "bookId": 1340178
-    },
-    {
-     "title": "封疆悍卒",
-     "author": "宿言辰",
-     "rank": 23,
-     "bookId": 1424492
-    },
-    {
-     "title": "江山绝色榜",
-     "author": "六如和尚",
-     "rank": 24,
-     "bookId": 1494591
-    },
-    {
-     "title": "吞噬九重天",
-     "author": "屠刀成佛",
-     "rank": 25,
-     "bookId": 1269302
-    },
-    {
-     "title": "剑动仙朝",
-     "author": "一叶青天",
-     "rank": 26,
-     "bookId": 1456066
-    },
-    {
-     "title": "鸿蒙霸体诀",
-     "author": "鱼初见",
-     "rank": 27,
-     "bookId": 1268659
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
    "darkhorses": [],
    "update_rate": 0.733,
-   "summary": "【推荐榜·全部】9 本新上榜；当日更新率 73%。"
+   "summary": "【推荐榜·全部】当日更新率 73%。"
   },
   "玄幻奇幻": {
-   "first_day": false,
-   "new_count": 9,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "葬神棺",
-     "author": "浮生一诺",
-     "rank": 22,
-     "bookId": 1316804
-    },
-    {
-     "title": "九天斩神诀",
-     "author": "小知了",
-     "rank": 23,
-     "bookId": 1237810
-    },
-    {
-     "title": "九转仙葫",
-     "author": "西山落尘",
-     "rank": 24,
-     "bookId": 1555785
-    },
-    {
-     "title": "第一剑仙",
-     "author": "火神",
-     "rank": 25,
-     "bookId": 1409892
-    },
-    {
-     "title": "有帝族背景还开挂，我无敌了！",
-     "author": "不太勇敢",
-     "rank": 26,
-     "bookId": 1380095
-    },
-    {
-     "title": "吞天神体",
-     "author": "化十",
-     "rank": 27,
-     "bookId": 1360196
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
    "darkhorses": [],
    "update_rate": 0.667,
-   "summary": "【推荐榜·玄幻奇幻】9 本新上榜。"
+   "summary": "【推荐榜·玄幻奇幻】榜单结构稳定，头部固若金汤。"
   },
   "武侠仙侠": {
-   "first_day": false,
-   "new_count": 9,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "霜刃裁天",
-     "author": "冰融相溅",
-     "rank": 22,
-     "bookId": 1187206
-    },
-    {
-     "title": "大景镇玄司",
-     "author": "藏花主人",
-     "rank": 23,
-     "bookId": 1116640
-    },
-    {
-     "title": "凡人修仙：下山捡到小绿瓶，老头要修仙",
-     "author": "卓卓脑婆",
-     "rank": 24,
-     "bookId": 1569028
-    },
-    {
-     "title": "踏路追仙传",
-     "author": "念鱼儿",
-     "rank": 25,
-     "bookId": 879547
-    },
-    {
-     "title": "洪荒五行真人",
-     "author": "沽源",
-     "rank": 26,
-     "bookId": 346529
-    },
-    {
-     "title": "青山下",
-     "author": "半壶秋风",
-     "rank": 27,
-     "bookId": 1066310
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
    "darkhorses": [],
    "update_rate": 0.3,
-   "summary": "【推荐榜·武侠仙侠】9 本新上榜。"
+   "summary": "【推荐榜·武侠仙侠】榜单结构稳定，头部固若金汤。"
   },
   "历史": {
-   "first_day": false,
-   "new_count": 9,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "嫡子凶猛",
-     "author": "梦入山河",
-     "rank": 22,
-     "bookId": 1342994
-    },
-    {
-     "title": "乱世悍卒：从娶娇妻开始",
-     "author": "雪白馒头",
-     "rank": 23,
-     "bookId": 1433787
-    },
-    {
-     "title": "让你当书童，你成大夏文圣",
-     "author": "炫迈",
-     "rank": 24,
-     "bookId": 1442322
-    },
-    {
-     "title": "边军毒医，顺我者生逆我者死",
-     "author": "万里秋风",
-     "rank": 25,
-     "bookId": 1573829
-    },
-    {
-     "title": "大唐：误认李世民做爹，我成亚洲洲长了",
-     "author": "孤狼",
-     "rank": 26,
-     "bookId": 1533256
-    },
-    {
-     "title": "扬锋汉起",
-     "author": "宇十六",
-     "rank": 27,
-     "bookId": 1196350
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
    "darkhorses": [],
    "update_rate": 0.533,
-   "summary": "【推荐榜·历史】9 本新上榜。"
+   "summary": "【推荐榜·历史】榜单结构稳定，头部固若金汤。"
   },
   "科幻": {
-   "first_day": false,
-   "new_count": 9,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "跨河系火种",
-     "author": "煮面条吃",
-     "rank": 20,
-     "bookId": 1506702
-    },
-    {
-     "title": "上帝之眼",
-     "author": "文心铸剑",
-     "rank": 21,
-     "bookId": 1557314
-    },
-    {
-     "title": "暴雨末世：女邻居求我给她一个家",
-     "author": "拥抱黑夜",
-     "rank": 22,
-     "bookId": 1561989
-    },
-    {
-     "title": "末世：从成为亡灵帝君开始",
-     "author": "无暇自无尘",
-     "rank": 23,
-     "bookId": 1367701
-    },
-    {
-     "title": "机武崛起",
-     "author": "天海可枯",
-     "rank": 24,
-     "bookId": 1285435
-    },
-    {
-     "title": "铁锈北极圈之争",
-     "author": "黄金石",
-     "rank": 25,
-     "bookId": 1558168
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
    "darkhorses": [],
    "update_rate": 0.286,
-   "summary": "【推荐榜·科幻】9 本新上榜。"
+   "summary": "【推荐榜·科幻】榜单结构稳定，头部固若金汤。"
   },
   "都市": {
-   "first_day": false,
-   "new_count": 9,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "警报！真龙出狱！",
-     "author": "红透半边天",
-     "rank": 22,
-     "bookId": 1336529
-    },
-    {
-     "title": "重生急诊医生：从挽救市长千金开始",
-     "author": "纸扇不用扇",
-     "rank": 23,
-     "bookId": 1391941
-    },
-    {
-     "title": "开个诊所来修仙",
-     "author": "李闲鱼",
-     "rank": 24,
-     "bookId": 732001
-    },
-    {
-     "title": "道爷不好惹",
-     "author": "狼吞虎咽",
-     "rank": 25,
-     "bookId": 854743
-    },
-    {
-     "title": "我和软萌女友的恋爱日常",
-     "author": "佛系和尚",
-     "rank": 26,
-     "bookId": 1238123
-    },
-    {
-     "title": "屠狗之辈",
-     "author": "关中老人",
-     "rank": 27,
-     "bookId": 1366450
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
    "darkhorses": [],
    "update_rate": 0.267,
-   "summary": "【推荐榜·都市】9 本新上榜。"
+   "summary": "【推荐榜·都市】榜单结构稳定，头部固若金汤。"
   },
   "奇闻异事": {
-   "first_day": false,
-   "new_count": 6,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "厌胜术",
-     "author": "月下闻歌",
-     "rank": 13,
-     "bookId": 1500557
-    },
-    {
-     "title": "京海诡闻异案录",
-     "author": "鸢鸢妙笔生辉",
-     "rank": 14,
-     "bookId": 1582875
-    },
-    {
-     "title": "我跑长途遇到的那些邪乎事",
-     "author": "南路河畔的纯爱",
-     "rank": 15,
-     "bookId": 1328205
-    },
-    {
-     "title": "悬案录：潜伏",
-     "author": "冷莫颜",
-     "rank": 16,
-     "bookId": 1462368
-    },
-    {
-     "title": "国之将亡必有妖孽",
-     "author": "威武齐夏",
-     "rank": 17,
-     "bookId": 1583668
-    },
-    {
-     "title": "京海异闻专案组",
-     "author": "鸢鸢妙笔生辉",
-     "rank": 18,
-     "bookId": 1581542
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
-   "darkhorses": [
-    {
-     "bookId": 1500557,
-     "title": "厌胜术",
-     "author": "月下闻歌",
-     "rank": 13,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1582875,
-     "title": "京海诡闻异案录",
-     "author": "鸢鸢妙笔生辉",
-     "rank": 14,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1328205,
-     "title": "我跑长途遇到的那些邪乎事",
-     "author": "南路河畔的纯爱",
-     "rank": 15,
-     "reason": "新上榜即进入前列"
-    }
-   ],
+   "darkhorses": [],
    "update_rate": 0.333,
-   "summary": "【推荐榜·奇闻异事】6 本新上榜；黑马《厌胜术》第 13 名。"
+   "summary": "【推荐榜·奇闻异事】榜单结构稳定，头部固若金汤。"
   },
   "游戏": {
-   "first_day": false,
-   "new_count": 2,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "艾斯盖亚世界",
-     "author": "大型努力现场",
-     "rank": 4,
-     "bookId": 899411
-    },
-    {
-     "title": "网游：普攻就加血，这个刺客有点肉",
-     "author": "偷喝酒的猫",
-     "rank": 5,
-     "bookId": 1561946
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
-   "darkhorses": [
-    {
-     "bookId": 899411,
-     "title": "艾斯盖亚世界",
-     "author": "大型努力现场",
-     "rank": 4,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1561946,
-     "title": "网游：普攻就加血，这个刺客有点肉",
-     "author": "偷喝酒的猫",
-     "rank": 5,
-     "reason": "新上榜即进入前列"
-    }
-   ],
+   "darkhorses": [],
    "update_rate": 0.0,
-   "summary": "【推荐榜·游戏】2 本新上榜；黑马《艾斯盖亚世界》第 4 名。"
+   "summary": "【推荐榜·游戏】榜单结构稳定，头部固若金汤。"
   },
   "N次元": {
-   "first_day": false,
-   "new_count": 4,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "我真是被迫加入乐队的！",
-     "author": "披萨蛋糕酱",
-     "rank": 10,
-     "bookId": 1453260
-    },
-    {
-     "title": "红警：心灵终结",
-     "author": "水水水竹子",
-     "rank": 11,
-     "bookId": 1280672
-    },
-    {
-     "title": "鸣式回响",
-     "author": "爱吃兔子的萝卜vv",
-     "rank": 12,
-     "bookId": 1583504
-    },
-    {
-     "title": "穿越奥特世界，开局获得进化信赖者",
-     "author": "海蛋扫福瑞",
-     "rank": 13,
-     "bookId": 1460958
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
-   "darkhorses": [
-    {
-     "bookId": 1453260,
-     "title": "我真是被迫加入乐队的！",
-     "author": "披萨蛋糕酱",
-     "rank": 10,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1280672,
-     "title": "红警：心灵终结",
-     "author": "水水水竹子",
-     "rank": 11,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1583504,
-     "title": "鸣式回响",
-     "author": "爱吃兔子的萝卜vv",
-     "rank": 12,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1460958,
-     "title": "穿越奥特世界，开局获得进化信赖者",
-     "author": "海蛋扫福瑞",
-     "rank": 13,
-     "reason": "新上榜即进入前列"
-    }
-   ],
+   "darkhorses": [],
    "update_rate": 0.154,
-   "summary": "【推荐榜·N次元】4 本新上榜；黑马《我真是被迫加入乐队的！》第 10 名。"
+   "summary": "【推荐榜·N次元】榜单结构稳定，头部固若金汤。"
   },
   "现实题材": {
-   "first_day": false,
-   "new_count": 4,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "在此呼吸",
-     "author": "梦蝶成真",
-     "rank": 10,
-     "bookId": 1584441
-    },
-    {
-     "title": "山有蝉鸣",
-     "author": "乱世TICH",
-     "rank": 11,
-     "bookId": 1336928
-    },
-    {
-     "title": "破冰",
-     "author": "乱世TICH",
-     "rank": 12,
-     "bookId": 1431435
-    },
-    {
-     "title": "铁屑年华",
-     "author": "铁脉",
-     "rank": 13,
-     "bookId": 1583631
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
-   "darkhorses": [
-    {
-     "bookId": 1584441,
-     "title": "在此呼吸",
-     "author": "梦蝶成真",
-     "rank": 10,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1336928,
-     "title": "山有蝉鸣",
-     "author": "乱世TICH",
-     "rank": 11,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1431435,
-     "title": "破冰",
-     "author": "乱世TICH",
-     "rank": 12,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1583631,
-     "title": "铁屑年华",
-     "author": "铁脉",
-     "rank": 13,
-     "reason": "新上榜即进入前列"
-    }
-   ],
+   "darkhorses": [],
    "update_rate": 0.154,
-   "summary": "【推荐榜·现实题材】4 本新上榜；黑马《在此呼吸》第 10 名。"
+   "summary": "【推荐榜·现实题材】榜单结构稳定，头部固若金汤。"
   }
  },
  "category_heat": [
@@ -664,26 +247,6 @@
   }
  ],
  "timeline": [
-  {
-   "date": "2026-08-17",
-   "top3": [
-    {
-     "title": "万仙来朝",
-     "author": "萧瑾瑜",
-     "bookId": 1412188
-    },
-    {
-     "title": "天上白玉京",
-     "author": "莫问江湖",
-     "bookId": 1426506
-    },
-    {
-     "title": "最强狂兵Ⅱ：黑暗荣耀",
-     "author": "烈焰滔滔",
-     "bookId": 1366535
-    }
-   ]
-  },
   {
    "date": "2026-08-18",
    "top3": [

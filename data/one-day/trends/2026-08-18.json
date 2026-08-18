@@ -1,6 +1,6 @@
 {
  "date": "2026-08-18",
- "prev_date": "2026-08-17",
+ "prev_date": null,
  "board": {
   "slug": "one-day",
   "name": "24小时畅销榜",
@@ -9,497 +9,103 @@
  },
  "trends": {
   "全部": {
-   "first_day": false,
-   "new_count": 9,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "逆天邪神",
-     "author": "火星引力",
-     "rank": 22,
-     "bookId": 408586
-    },
-    {
-     "title": "有帝族背景还开挂，我无敌了！",
-     "author": "不太勇敢",
-     "rank": 23,
-     "bookId": 1380095
-    },
-    {
-     "title": "步步登阶",
-     "author": "江湖如梦",
-     "rank": 24,
-     "bookId": 1415874
-    },
-    {
-     "title": "星际猎人",
-     "author": "太极阴阳鱼",
-     "rank": 25,
-     "bookId": 1420145
-    },
-    {
-     "title": "边关兵王：从领娶罪女开始崛起",
-     "author": "青岳",
-     "rank": 26,
-     "bookId": 1421865
-    },
-    {
-     "title": "仙棺，神墟，剑无敌！",
-     "author": "千年老龟",
-     "rank": 27,
-     "bookId": 1268638
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
    "darkhorses": [],
    "update_rate": 0.767,
-   "summary": "【24小时畅销榜·全部】9 本新上榜；当日更新率 76%。"
+   "summary": "【24小时畅销榜·全部】当日更新率 76%。"
   },
   "玄幻奇幻": {
-   "first_day": false,
-   "new_count": 9,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "武道长生，从大离第一纨绔开始",
-     "author": "轻浮你一笑",
-     "rank": 22,
-     "bookId": 1433175
-    },
-    {
-     "title": "吞天混沌经：开局先吞圣女修为",
-     "author": "一阵乱写",
-     "rank": 23,
-     "bookId": 1319063
-    },
-    {
-     "title": "九阳武神",
-     "author": "我吃面包",
-     "rank": 24,
-     "bookId": 1237123
-    },
-    {
-     "title": "混沌塔",
-     "author": "惊蛰落月",
-     "rank": 25,
-     "bookId": 1321620
-    },
-    {
-     "title": "无敌剑域",
-     "author": "青鸾峰上",
-     "rank": 26,
-     "bookId": 435710
-    },
-    {
-     "title": "雪中悍刀行",
-     "author": "烽火戏诸侯",
-     "rank": 27,
-     "bookId": 189169
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
    "darkhorses": [],
    "update_rate": 0.6,
-   "summary": "【24小时畅销榜·玄幻奇幻】9 本新上榜。"
+   "summary": "【24小时畅销榜·玄幻奇幻】榜单结构稳定，头部固若金汤。"
   },
   "武侠仙侠": {
-   "first_day": false,
-   "new_count": 9,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "剑骨",
-     "author": "会摔跤的熊猫",
-     "rank": 22,
-     "bookId": 775517
-    },
-    {
-     "title": "修仙从神秘小鼎开始",
-     "author": "以云为墨",
-     "rank": 23,
-     "bookId": 1324004
-    },
-    {
-     "title": "凡人修仙：坊市散修，变废为宝",
-     "author": "蝉伏",
-     "rank": 24,
-     "bookId": 1503362
-    },
-    {
-     "title": "斩妖",
-     "author": "麻辣白菜",
-     "rank": 25,
-     "bookId": 1293716
-    },
-    {
-     "title": "凡人修仙：从提纯万物开始",
-     "author": "饮马丰川",
-     "rank": 26,
-     "bookId": 1526944
-    },
-    {
-     "title": "逆命相师",
-     "author": "不修边幅",
-     "rank": 27,
-     "bookId": 1068221
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
    "darkhorses": [],
    "update_rate": 0.533,
-   "summary": "【24小时畅销榜·武侠仙侠】9 本新上榜。"
+   "summary": "【24小时畅销榜·武侠仙侠】榜单结构稳定，头部固若金汤。"
   },
   "都市": {
-   "first_day": false,
-   "new_count": 9,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "重回六十年代，从挖何首乌开始",
-     "author": "巍巍青山",
-     "rank": 22,
-     "bookId": 1461517
-    },
-    {
-     "title": "都市古仙医2：大医镇世",
-     "author": "超爽黑啤",
-     "rank": 23,
-     "bookId": 1430876
-    },
-    {
-     "title": "吃蘑菇后，我成了绝世古仙医",
-     "author": "李闲鱼",
-     "rank": 24,
-     "bookId": 1423304
-    },
-    {
-     "title": "屠狗之辈",
-     "author": "关中老人",
-     "rank": 25,
-     "bookId": 1366450
-    },
-    {
-     "title": "逆流年代：从1970开始种田养家",
-     "author": "慎思量",
-     "rank": 26,
-     "bookId": 1391043
-    },
-    {
-     "title": "仙子，求你别再从书里出来了",
-     "author": "佛系和尚",
-     "rank": 27,
-     "bookId": 1473907
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
    "darkhorses": [],
    "update_rate": 0.367,
-   "summary": "【24小时畅销榜·都市】9 本新上榜。"
+   "summary": "【24小时畅销榜·都市】榜单结构稳定，头部固若金汤。"
   },
   "历史": {
-   "first_day": false,
-   "new_count": 9,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "大夏第一镇国公",
-     "author": "一头好人",
-     "rank": 22,
-     "bookId": 1476656
-    },
-    {
-     "title": "公主大婚夜还骄纵？快给本驸马跪下！",
-     "author": "闻腥的猫儿",
-     "rank": 23,
-     "bookId": 1505203
-    },
-    {
-     "title": "边关猎户，我粮肉满仓富甲一方",
-     "author": "橙年岁月",
-     "rank": 24,
-     "bookId": 1478556
-    },
-    {
-     "title": "天下长宁",
-     "author": "知白",
-     "rank": 25,
-     "bookId": 1317295
-    },
-    {
-     "title": "不让江山",
-     "author": "知白",
-     "rank": 26,
-     "bookId": 966275
-    },
-    {
-     "title": "三国：穿越刘备义子，开局驰援关羽",
-     "author": "卖酒郎君",
-     "rank": 27,
-     "bookId": 1544423
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
    "darkhorses": [],
    "update_rate": 0.633,
-   "summary": "【24小时畅销榜·历史】9 本新上榜。"
+   "summary": "【24小时畅销榜·历史】榜单结构稳定，头部固若金汤。"
   },
   "科幻": {
-   "first_day": false,
-   "new_count": 5,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "公路求生：全班只有我一个男人！",
-     "author": "落笔予你",
-     "rank": 12,
-     "bookId": 1552611
-    },
-    {
-     "title": "黑雾之下",
-     "author": "辰燃",
-     "rank": 13,
-     "bookId": 1028637
-    },
-    {
-     "title": "开局一颗种子，还好我有概率眼镜",
-     "author": "吃肉的青蛙",
-     "rank": 14,
-     "bookId": 1373945
-    },
-    {
-     "title": "原点序列",
-     "author": "九天抚彗星",
-     "rank": 15,
-     "bookId": 1236077
-    },
-    {
-     "title": "暗体",
-     "author": "沣水森",
-     "rank": 16,
-     "bookId": 1089055
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
-   "darkhorses": [
-    {
-     "bookId": 1552611,
-     "title": "公路求生：全班只有我一个男人！",
-     "author": "落笔予你",
-     "rank": 12,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1028637,
-     "title": "黑雾之下",
-     "author": "辰燃",
-     "rank": 13,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1373945,
-     "title": "开局一颗种子，还好我有概率眼镜",
-     "author": "吃肉的青蛙",
-     "rank": 14,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1236077,
-     "title": "原点序列",
-     "author": "九天抚彗星",
-     "rank": 15,
-     "reason": "新上榜即进入前列"
-    }
-   ],
+   "darkhorses": [],
    "update_rate": 0.312,
-   "summary": "【24小时畅销榜·科幻】5 本新上榜；黑马《公路求生：全班只有我一个男人！》第 12 名。"
+   "summary": "【24小时畅销榜·科幻】榜单结构稳定，头部固若金汤。"
   },
   "奇闻异事": {
-   "first_day": false,
-   "new_count": 5,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "恶灵信息库",
-     "author": "北极猎手",
-     "rank": 10,
-     "bookId": 1416033
-    },
-    {
-     "title": "黄泉借皮",
-     "author": "苗棋淼",
-     "rank": 11,
-     "bookId": 1317060
-    },
-    {
-     "title": "开局坟场选棺材：我能看见神级弹幕",
-     "author": "大力水手很苗条",
-     "rank": 12,
-     "bookId": 1511615
-    },
-    {
-     "title": "我跑长途遇到的那些邪乎事",
-     "author": "南路河畔的纯爱",
-     "rank": 13,
-     "bookId": 1328205
-    },
-    {
-     "title": "诡异游戏：我的天赋有亿点强",
-     "author": "离火加农炮",
-     "rank": 14,
-     "bookId": 1558255
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
-   "darkhorses": [
-    {
-     "bookId": 1416033,
-     "title": "恶灵信息库",
-     "author": "北极猎手",
-     "rank": 10,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1317060,
-     "title": "黄泉借皮",
-     "author": "苗棋淼",
-     "rank": 11,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1511615,
-     "title": "开局坟场选棺材：我能看见神级弹幕",
-     "author": "大力水手很苗条",
-     "rank": 12,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1328205,
-     "title": "我跑长途遇到的那些邪乎事",
-     "author": "南路河畔的纯爱",
-     "rank": 13,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1558255,
-     "title": "诡异游戏：我的天赋有亿点强",
-     "author": "离火加农炮",
-     "rank": 14,
-     "reason": "新上榜即进入前列"
-    }
-   ],
+   "darkhorses": [],
    "update_rate": 0.286,
-   "summary": "【24小时畅销榜·奇闻异事】5 本新上榜；黑马《恶灵信息库》第 10 名。"
+   "summary": "【24小时畅销榜·奇闻异事】榜单结构稳定，头部固若金汤。"
   },
   "游戏": {
-   "first_day": false,
-   "new_count": 3,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "网游：我的普攻可以盗取万物",
-     "author": "火火火",
-     "rank": 5,
-     "bookId": 1529367
-    },
-    {
-     "title": "我一个肉盾，杀怪奖励万倍攻速什么鬼",
-     "author": "网游大仙",
-     "rank": 6,
-     "bookId": 1319765
-    },
-    {
-     "title": "网游：开局满星账号，爆杀全服",
-     "author": "亦晨",
-     "rank": 7,
-     "bookId": 1352108
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
-   "darkhorses": [
-    {
-     "bookId": 1529367,
-     "title": "网游：我的普攻可以盗取万物",
-     "author": "火火火",
-     "rank": 5,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1319765,
-     "title": "我一个肉盾，杀怪奖励万倍攻速什么鬼",
-     "author": "网游大仙",
-     "rank": 6,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1352108,
-     "title": "网游：开局满星账号，爆杀全服",
-     "author": "亦晨",
-     "rank": 7,
-     "reason": "新上榜即进入前列"
-    }
-   ],
+   "darkhorses": [],
    "update_rate": 0.143,
-   "summary": "【24小时畅销榜·游戏】3 本新上榜；黑马《网游：我的普攻可以盗取万物》第 5 名。"
+   "summary": "【24小时畅销榜·游戏】榜单结构稳定，头部固若金汤。"
   },
   "N次元": {
-   "first_day": false,
-   "new_count": 3,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "四合院：悟性逆天，我的空间吞天地！",
-     "author": "小醋包",
-     "rank": 5,
-     "bookId": 1484663
-    },
-    {
-     "title": "金币即是正义",
-     "author": "盘古混沌",
-     "rank": 6,
-     "bookId": 828765
-    },
-    {
-     "title": "剑来：开局断剑救宁姚，她送我压裙刀",
-     "author": "墨染江山",
-     "rank": 7,
-     "bookId": 1532700
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
-   "darkhorses": [
-    {
-     "bookId": 1484663,
-     "title": "四合院：悟性逆天，我的空间吞天地！",
-     "author": "小醋包",
-     "rank": 5,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 828765,
-     "title": "金币即是正义",
-     "author": "盘古混沌",
-     "rank": 6,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1532700,
-     "title": "剑来：开局断剑救宁姚，她送我压裙刀",
-     "author": "墨染江山",
-     "rank": 7,
-     "reason": "新上榜即进入前列"
-    }
-   ],
+   "darkhorses": [],
    "update_rate": 0.286,
-   "summary": "【24小时畅销榜·N次元】3 本新上榜；黑马《四合院：悟性逆天，我的空间吞天地！》第 5 名。"
+   "summary": "【24小时畅销榜·N次元】榜单结构稳定，头部固若金汤。"
   },
   "现实题材": {
    "first_day": true,
@@ -641,26 +247,6 @@
   }
  ],
  "timeline": [
-  {
-   "date": "2026-08-17",
-   "top3": [
-    {
-     "title": "吞天神体",
-     "author": "化十",
-     "bookId": 1360196
-    },
-    {
-     "title": "无敌天命",
-     "author": "青鸾峰上",
-     "bookId": 1336976
-    },
-    {
-     "title": "吞噬九重天",
-     "author": "屠刀成佛",
-     "bookId": 1269302
-    }
-   ]
-  },
   {
    "date": "2026-08-18",
    "top3": [

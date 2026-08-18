@@ -1,6 +1,6 @@
 {
  "date": "2026-08-18",
- "prev_date": "2026-08-17",
+ "prev_date": null,
  "board": {
   "slug": "new-book-subscribe",
   "name": "新书订阅榜",
@@ -9,124 +9,40 @@
  },
  "trends": {
   "全部": {
-   "first_day": false,
-   "new_count": 3,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "无敌圣体",
-     "author": "列夕",
-     "rank": 8,
-     "bookId": 1562907
-    },
-    {
-     "title": "最狂皇太子",
-     "author": "汉三",
-     "rank": 9,
-     "bookId": 1554262
-    },
-    {
-     "title": "从骑奴到大乾武圣",
-     "author": "一嘟噜葡萄",
-     "rank": 10,
-     "bookId": 1558254
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
-   "darkhorses": [
-    {
-     "bookId": 1562907,
-     "title": "无敌圣体",
-     "author": "列夕",
-     "rank": 8,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1554262,
-     "title": "最狂皇太子",
-     "author": "汉三",
-     "rank": 9,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1558254,
-     "title": "从骑奴到大乾武圣",
-     "author": "一嘟噜葡萄",
-     "rank": 10,
-     "reason": "新上榜即进入前列"
-    }
-   ],
+   "darkhorses": [],
    "update_rate": 0.7,
-   "summary": "【新书订阅榜·全部】3 本新上榜；黑马《无敌圣体》第 8 名；当日更新率 70%。"
+   "summary": "【新书订阅榜·全部】当日更新率 70%。"
   },
   "历史": {
-   "first_day": false,
-   "new_count": 2,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "最狂皇太子",
-     "author": "汉三",
-     "rank": 4,
-     "bookId": 1554262
-    },
-    {
-     "title": "从骑奴到大乾武圣",
-     "author": "一嘟噜葡萄",
-     "rank": 5,
-     "bookId": 1558254
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
-   "darkhorses": [
-    {
-     "bookId": 1554262,
-     "title": "最狂皇太子",
-     "author": "汉三",
-     "rank": 4,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1558254,
-     "title": "从骑奴到大乾武圣",
-     "author": "一嘟噜葡萄",
-     "rank": 5,
-     "reason": "新上榜即进入前列"
-    }
-   ],
+   "darkhorses": [],
    "update_rate": 0.8,
-   "summary": "【新书订阅榜·历史】2 本新上榜；黑马《最狂皇太子》第 4 名。"
+   "summary": "【新书订阅榜·历史】榜单结构稳定，头部固若金汤。"
   },
   "玄幻奇幻": {
-   "first_day": false,
-   "new_count": 1,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "无敌圣体",
-     "author": "列夕",
-     "rank": 3,
-     "bookId": 1562907
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
-   "darkhorses": [
-    {
-     "bookId": 1562907,
-     "title": "无敌圣体",
-     "author": "列夕",
-     "rank": 3,
-     "reason": "新上榜即进入前列"
-    }
-   ],
+   "darkhorses": [],
    "update_rate": 0.667,
-   "summary": "【新书订阅榜·玄幻奇幻】1 本新上榜；黑马《无敌圣体》第 3 名。"
+   "summary": "【新书订阅榜·玄幻奇幻】榜单结构稳定，头部固若金汤。"
   },
   "武侠仙侠": {
-   "first_day": false,
+   "first_day": true,
    "new_count": 0,
    "dropped_count": 0,
    "new_books": [],
@@ -137,7 +53,7 @@
    "summary": "【新书订阅榜·武侠仙侠】榜单结构稳定，头部固若金汤。"
   },
   "都市": {
-   "first_day": false,
+   "first_day": true,
    "new_count": 0,
    "dropped_count": 0,
    "new_books": [],
@@ -319,26 +235,6 @@
   }
  ],
  "timeline": [
-  {
-   "date": "2026-08-17",
-   "top3": [
-    {
-     "title": "三国：穿越刘备义子，开局驰援关羽",
-     "author": "卖酒郎君",
-     "bookId": 1544423
-    },
-    {
-     "title": "让你当个替身，你咋君临天下",
-     "author": "骑着蜗牛追奔驰",
-     "bookId": 1565048
-    },
-    {
-     "title": "斩神刀",
-     "author": "四眼秀才",
-     "bookId": 1555584
-    }
-   ]
-  },
   {
    "date": "2026-08-18",
    "top3": [

@@ -1,6 +1,6 @@
 {
  "date": "2026-08-18",
- "prev_date": "2026-08-17",
+ "prev_date": null,
  "board": {
   "slug": "new-book",
   "name": "新书榜",
@@ -9,403 +9,92 @@
  },
  "trends": {
   "全部": {
-   "first_day": false,
-   "new_count": 9,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "从职业面板开始武道成圣",
-     "author": "鹿血酒",
-     "rank": 22,
-     "bookId": 1578491
-    },
-    {
-     "title": "边军毒医，顺我者生逆我者死",
-     "author": "万里秋风",
-     "rank": 23,
-     "bookId": 1573829
-    },
-    {
-     "title": "林家孽子成首辅，全族跪在村口哭",
-     "author": "陈三寻",
-     "rank": 24,
-     "bookId": 1572848
-    },
-    {
-     "title": "三十六位皇子和亲：大不了打沉中原！",
-     "author": "田郭先生",
-     "rank": 25,
-     "bookId": 1580290
-    },
-    {
-     "title": "医武双绝：觉醒后我震惊全球！",
-     "author": "重上小红楼",
-     "rank": 26,
-     "bookId": 1572418
-    },
-    {
-     "title": "大唐：我一赘婿，你封我为国师作甚？",
-     "author": "青墨子",
-     "rank": 27,
-     "bookId": 1583261
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
    "darkhorses": [],
    "update_rate": 0.967,
-   "summary": "【新书榜·全部】9 本新上榜；当日更新率 96%。"
+   "summary": "【新书榜·全部】当日更新率 96%。"
   },
   "玄幻奇幻": {
-   "first_day": false,
-   "new_count": 9,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "聚宝仙瓶",
-     "author": "馒头不够吃",
-     "rank": 22,
-     "bookId": 1582375
-    },
-    {
-     "title": "我乃天帝，镇压世间一切敌！",
-     "author": "影视作品",
-     "rank": 23,
-     "bookId": 1581783
-    },
-    {
-     "title": "道侣背弃，我捡漏女帝成就无上真仙",
-     "author": "小生无礼",
-     "rank": 24,
-     "bookId": 1569038
-    },
-    {
-     "title": "乾坤造化诀",
-     "author": "凌慕雨",
-     "rank": 25,
-     "bookId": 1579071
-    },
-    {
-     "title": "跳过跳过，告诉我杀谁就够了！",
-     "author": "想入非非ovO",
-     "rank": 26,
-     "bookId": 1577879
-    },
-    {
-     "title": "鸿蒙帝壶",
-     "author": "疯十八",
-     "rank": 27,
-     "bookId": 1581930
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
    "darkhorses": [],
    "update_rate": 1.0,
-   "summary": "【新书榜·玄幻奇幻】9 本新上榜。"
+   "summary": "【新书榜·玄幻奇幻】榜单结构稳定，头部固若金汤。"
   },
   "历史": {
-   "first_day": false,
-   "new_count": 9,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "史上第一败家子",
-     "author": "雀跃",
-     "rank": 22,
-     "bookId": 1580251
-    },
-    {
-     "title": "洪武二十五年",
-     "author": "乌龟喝酒",
-     "rank": 23,
-     "bookId": 1571813
-    },
-    {
-     "title": "杀敌就变强，我靠杀戮成镇国武神",
-     "author": "木头很聪明",
-     "rank": 24,
-     "bookId": 1576066
-    },
-    {
-     "title": "枭雄，武圣，镇北王！",
-     "author": "青衫酌酒",
-     "rank": 25,
-     "bookId": 1574937
-    },
-    {
-     "title": "北疆最狂纨绔：从赐婚进京开始",
-     "author": "七弦",
-     "rank": 26,
-     "bookId": 1576738
-    },
-    {
-     "title": "被陷害后，我被迫成了送子天官！",
-     "author": "丨锦泽丨",
-     "rank": 27,
-     "bookId": 1579092
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
    "darkhorses": [],
    "update_rate": 0.967,
-   "summary": "【新书榜·历史】9 本新上榜。"
+   "summary": "【新书榜·历史】榜单结构稳定，头部固若金汤。"
   },
   "都市": {
-   "first_day": false,
-   "new_count": 9,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "徒儿你都元婴期了，下山找你未婚妻吧",
-     "author": "梦九歌",
-     "rank": 22,
-     "bookId": 1575668
-    },
-    {
-     "title": "诡异降临，开局馋哭裂口女",
-     "author": "都市怪谈会长",
-     "rank": 23,
-     "bookId": 1582371
-    },
-    {
-     "title": "下山第一天，逮个美女总裁暴力宠",
-     "author": "文字画家",
-     "rank": 24,
-     "bookId": 1579073
-    },
-    {
-     "title": "趁校花一贫如洗，忽悠她以身相许",
-     "author": "不吃鱼肉",
-     "rank": 25,
-     "bookId": 1578595
-    },
-    {
-     "title": "重生六九，从卖鱼佬到睥睨香江",
-     "author": "秋栀呓语",
-     "rank": 26,
-     "bookId": 1567922
-    },
-    {
-     "title": "明明是医学泰斗，你们叫他实习医生？",
-     "author": "张锦钊",
-     "rank": 27,
-     "bookId": 1582482
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
    "darkhorses": [],
    "update_rate": 1.0,
-   "summary": "【新书榜·都市】9 本新上榜。"
+   "summary": "【新书榜·都市】榜单结构稳定，头部固若金汤。"
   },
   "武侠仙侠": {
-   "first_day": false,
-   "new_count": 6,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "吞仙炉",
-     "author": "贝果",
-     "rank": 12,
-     "bookId": 1574874
-    },
-    {
-     "title": "疯了吧，憨憨娇妻竟是修仙界第一女仙",
-     "author": "叶无忌",
-     "rank": 13,
-     "bookId": 1582937
-    },
-    {
-     "title": "贴身傲娇公主后，我成天命大反派！",
-     "author": "汉钦",
-     "rank": 14,
-     "bookId": 1580433
-    },
-    {
-     "title": "我都元婴后期了，金手指才来？",
-     "author": "三十而立",
-     "rank": 15,
-     "bookId": 1581939
-    },
-    {
-     "title": "凡人修仙，从卖给仙门大小姐为奴开始",
-     "author": "榜单第一",
-     "rank": 16,
-     "bookId": 1571523
-    },
-    {
-     "title": "聚宝仙瓶",
-     "author": "馒头不够吃",
-     "rank": 17,
-     "bookId": 1582375
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
-   "darkhorses": [
-    {
-     "bookId": 1574874,
-     "title": "吞仙炉",
-     "author": "贝果",
-     "rank": 12,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1582937,
-     "title": "疯了吧，憨憨娇妻竟是修仙界第一女仙",
-     "author": "叶无忌",
-     "rank": 13,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1580433,
-     "title": "贴身傲娇公主后，我成天命大反派！",
-     "author": "汉钦",
-     "rank": 14,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1581939,
-     "title": "我都元婴后期了，金手指才来？",
-     "author": "三十而立",
-     "rank": 15,
-     "reason": "新上榜即进入前列"
-    }
-   ],
+   "darkhorses": [],
    "update_rate": 0.529,
-   "summary": "【新书榜·武侠仙侠】6 本新上榜；黑马《吞仙炉》第 12 名。"
+   "summary": "【新书榜·武侠仙侠】榜单结构稳定，头部固若金汤。"
   },
   "军事": {
-   "first_day": false,
-   "new_count": 2,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "一人干翻加强营，你说这是炊事兵？",
-     "author": "大苏苏",
-     "rank": 5,
-     "bookId": 1576791
-    },
-    {
-     "title": "让你去参军，没让你天天拿一等功啊",
-     "author": "铁无情",
-     "rank": 6,
-     "bookId": 1577248
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
-   "darkhorses": [
-    {
-     "bookId": 1576791,
-     "title": "一人干翻加强营，你说这是炊事兵？",
-     "author": "大苏苏",
-     "rank": 5,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1577248,
-     "title": "让你去参军，没让你天天拿一等功啊",
-     "author": "铁无情",
-     "rank": 6,
-     "reason": "新上榜即进入前列"
-    }
-   ],
+   "darkhorses": [],
    "update_rate": 0.833,
-   "summary": "【新书榜·军事】2 本新上榜；黑马《一人干翻加强营，你说这是炊事兵？》第 5 名。"
+   "summary": "【新书榜·军事】榜单结构稳定，头部固若金汤。"
   },
   "科幻": {
-   "first_day": false,
-   "new_count": 2,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "全民公路求生：你管这叫破面包车？",
-     "author": "无双城",
-     "rank": 5,
-     "bookId": 1582964
-    },
-    {
-     "title": "末世开公司：我的员工全是高阶丧尸",
-     "author": "小陈快快跑",
-     "rank": 6,
-     "bookId": 1576941
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
-   "darkhorses": [
-    {
-     "bookId": 1582964,
-     "title": "全民公路求生：你管这叫破面包车？",
-     "author": "无双城",
-     "rank": 5,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1576941,
-     "title": "末世开公司：我的员工全是高阶丧尸",
-     "author": "小陈快快跑",
-     "rank": 6,
-     "reason": "新上榜即进入前列"
-    }
-   ],
+   "darkhorses": [],
    "update_rate": 1.0,
-   "summary": "【新书榜·科幻】2 本新上榜；黑马《全民公路求生：你管这叫破面包车？》第 5 名。"
+   "summary": "【新书榜·科幻】榜单结构稳定，头部固若金汤。"
   },
   "奇闻异事": {
-   "first_day": false,
-   "new_count": 3,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "开局一具冻干女尸，全网警察苦蹲我直播",
-     "author": "战意如潮",
-     "rank": 7,
-     "bookId": 1575501
-    },
-    {
-     "title": "恐怖降临：我的马家仙出Bug了",
-     "author": "箫冷",
-     "rank": 8,
-     "bookId": 1581931
-    },
-    {
-     "title": "道士断水，只判不饶",
-     "author": "墨池",
-     "rank": 9,
-     "bookId": 1580886
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
-   "darkhorses": [
-    {
-     "bookId": 1575501,
-     "title": "开局一具冻干女尸，全网警察苦蹲我直播",
-     "author": "战意如潮",
-     "rank": 7,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1581931,
-     "title": "恐怖降临：我的马家仙出Bug了",
-     "author": "箫冷",
-     "rank": 8,
-     "reason": "新上榜即进入前列"
-    },
-    {
-     "bookId": 1580886,
-     "title": "道士断水，只判不饶",
-     "author": "墨池",
-     "rank": 9,
-     "reason": "新上榜即进入前列"
-    }
-   ],
+   "darkhorses": [],
    "update_rate": 1.0,
-   "summary": "【新书榜·奇闻异事】3 本新上榜；黑马《开局一具冻干女尸，全网警察苦蹲我直播》第 7 名。"
+   "summary": "【新书榜·奇闻异事】榜单结构稳定，头部固若金汤。"
   },
   "游戏": {
    "first_day": true,
@@ -419,30 +108,15 @@
    "summary": "【新书榜·游戏】榜单结构稳定，头部固若金汤。"
   },
   "N次元": {
-   "first_day": false,
-   "new_count": 1,
+   "first_day": true,
+   "new_count": 0,
    "dropped_count": 0,
-   "new_books": [
-    {
-     "title": "打卡斗罗：谁说食物系不能秒全场？",
-     "author": "小飞象",
-     "rank": 3,
-     "bookId": 1577285
-    }
-   ],
+   "new_books": [],
    "dropped_books": [],
    "top_movers": [],
-   "darkhorses": [
-    {
-     "bookId": 1577285,
-     "title": "打卡斗罗：谁说食物系不能秒全场？",
-     "author": "小飞象",
-     "rank": 3,
-     "reason": "新上榜即进入前列"
-    }
-   ],
+   "darkhorses": [],
    "update_rate": 0.333,
-   "summary": "【新书榜·N次元】1 本新上榜；黑马《打卡斗罗：谁说食物系不能秒全场？》第 3 名。"
+   "summary": "【新书榜·N次元】榜单结构稳定，头部固若金汤。"
   },
   "现实题材": {
    "first_day": true,
@@ -591,26 +265,6 @@
   }
  ],
  "timeline": [
-  {
-   "date": "2026-08-17",
-   "top3": [
-    {
-     "title": "1973，赶山打猎养知青姐妹花",
-     "author": "榜一大哥666",
-     "bookId": 1581152
-    },
-    {
-     "title": "吞仙葫",
-     "author": "落雨听声",
-     "bookId": 1573203
-    },
-    {
-     "title": "一百岁老头子，谁让你装嫩修仙了",
-     "author": "火烈虫",
-     "bookId": 1572566
-    }
-   ]
-  },
   {
    "date": "2026-08-18",
    "top3": [
