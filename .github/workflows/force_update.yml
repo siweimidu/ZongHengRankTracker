@@ -77,7 +77,7 @@ jobs:
     - name: Commit and Push Changes
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: "[Force] Re-scrape & re-summarize ZongHeng ranks ($(date '+%Y-%m-%d'))"
+        commit_message: "[Force] Re-scrape & re-summarize ZongHeng ranks"
         file_pattern: data api
         branch: main
 
