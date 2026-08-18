@@ -1,0 +1,57 @@
+{
+ "slug": "end",
+ "name": "完结榜",
+ "date": "2026-08-18",
+ "types": [
+  {
+   "name": "全部",
+   "url": "api/end/latest/全部.json",
+   "count": 30
+  },
+  {
+   "name": "玄幻奇幻",
+   "url": "api/end/latest/玄幻奇幻.json",
+   "count": 30
+  },
+  {
+   "name": "历史",
+   "url": "api/end/latest/历史.json",
+   "count": 30
+  },
+  {
+   "name": "都市",
+   "url": "api/end/latest/都市.json",
+   "count": 30
+  },
+  {
+   "name": "武侠仙侠",
+   "url": "api/end/latest/武侠仙侠.json",
+   "count": 30
+  },
+  {
+   "name": "科幻",
+   "url": "api/end/latest/科幻.json",
+   "count": 14
+  },
+  {
+   "name": "奇闻异事",
+   "url": "api/end/latest/奇闻异事.json",
+   "count": 14
+  },
+  {
+   "name": "游戏",
+   "url": "api/end/latest/游戏.json",
+   "count": 7
+  },
+  {
+   "name": "N次元",
+   "url": "api/end/latest/N次元.json",
+   "count": 10
+  },
+  {
+   "name": "现实题材",
+   "url": "api/end/latest/现实题材.json",
+   "count": 3
+  }
+ ]
+}

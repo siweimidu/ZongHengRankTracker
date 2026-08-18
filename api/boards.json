@@ -1,0 +1,95 @@
+{
+ "updated_at": "2026-08-18T18:24:29",
+ "boards": [
+  {
+   "slug": "monthly-ticket",
+   "name": "月票榜",
+   "desc": "读者真金白银投票，最能反映付费读者的忠诚度",
+   "is_author": false,
+   "metric_label": "月票",
+   "date": "2026-08-18",
+   "url": "api/monthly-ticket/latest/all.json"
+  },
+  {
+   "slug": "one-day",
+   "name": "24小时畅销榜",
+   "desc": "最近 24 小时销售表现，捕捉即时市场热度",
+   "is_author": false,
+   "metric_label": "24h销量",
+   "date": "2026-08-18",
+   "url": "api/one-day/latest/all.json"
+  },
+  {
+   "slug": "new-book",
+   "name": "新书榜",
+   "desc": "每周新书战场，发现下一批潜力作品的风向标",
+   "is_author": false,
+   "metric_label": "周收藏",
+   "date": "2026-08-18",
+   "url": "api/new-book/latest/all.json"
+  },
+  {
+   "slug": "click",
+   "name": "点击榜",
+   "desc": "流量入口，反映新书引流与老书长尾效应",
+   "is_author": false,
+   "metric_label": "点击",
+   "date": "2026-08-18",
+   "url": "api/click/latest/all.json"
+  },
+  {
+   "slug": "recommend",
+   "name": "推荐榜",
+   "desc": "读者主动推荐行为，衡量口碑传播力",
+   "is_author": false,
+   "metric_label": "推荐",
+   "date": "2026-08-18",
+   "url": "api/recommend/latest/all.json"
+  },
+  {
+   "slug": "claque",
+   "name": "捧场榜",
+   "desc": "打赏金额榜，观察核心粉丝的消费力",
+   "is_author": false,
+   "metric_label": "捧场",
+   "date": "2026-08-18",
+   "url": "api/claque/latest/all.json"
+  },
+  {
+   "slug": "end",
+   "name": "完结榜",
+   "desc": "完本作品的长青指数，经典书的持久生命力",
+   "is_author": false,
+   "metric_label": "阅读",
+   "date": "2026-08-18",
+   "url": "api/end/latest/all.json"
+  },
+  {
+   "slug": "new-book-subscribe",
+   "name": "新书订阅榜",
+   "desc": "新书期订阅转化，判断商业化起步质量",
+   "is_author": false,
+   "metric_label": "订阅",
+   "date": "2026-08-18",
+   "url": "api/new-book-subscribe/latest/all.json"
+  },
+  {
+   "slug": "one-day-update",
+   "name": "24小时更新榜",
+   "desc": "按日更字数排序，观察勤更梯队与爆发更新",
+   "is_author": false,
+   "metric_label": "更新字数",
+   "date": "2026-08-18",
+   "url": "api/one-day-update/latest/all.json"
+  },
+  {
+   "slug": "author-popularity",
+   "name": "作者人气榜",
+   "desc": "头部作者影响力榜，以代表作呈现",
+   "is_author": true,
+   "metric_label": "人气",
+   "date": "2026-08-18",
+   "url": "api/author-popularity/latest/all.json"
+  }
+ ]
+}

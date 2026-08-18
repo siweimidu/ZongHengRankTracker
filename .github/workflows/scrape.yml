@@ -1,0 +1,80 @@
+name: Daily ZongHeng Rank Scraper
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+env:
+  TZ: Asia/Shanghai
+
+on:
+  schedule:
+    # 每天 UTC 20:07（北京时间次日 04:07）触发，避开整点高峰
+    - cron: '7 20 * * *'
+  workflow_dispatch: # 允许手动 Run workflow
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run Scraper (all boards, Top 30 per category)
+      run: python scrape_zongheng.py --top 30 --workers 3
+      env:
+        TZ: Asia/Shanghai
+
+    - name: Build Latest Data with AI Analysis
+      run: |
+        pip install openai
+        python scripts/build_latest.py
+      env:
+        TZ: Asia/Shanghai
+        API_BASE_URL: ${{ secrets.API_BASE_URL }}
+        API_KEY: ${{ secrets.API_KEY }}
+        API_MODEL: ${{ secrets.API_MODEL }}
+
+    - name: Commit and Push Changes
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "[Auto] Update ZongHeng daily ranks ($(date '+%Y-%m-%d'))"
+        file_pattern: data api
+        branch: main
+
+    # ---- 内联部署 Pages（绕过 GITHUB_TOKEN 不触发下游 workflow 的限制） ----
+    - name: Setup Pages
+      uses: actions/configure-pages@v5
+      with:
+        enablement: true
+
+    - name: Upload Pages artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: '.'
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4

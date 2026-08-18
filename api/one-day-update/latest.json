@@ -1,0 +1,62 @@
+{
+ "slug": "one-day-update",
+ "name": "24小时更新榜",
+ "date": "2026-08-18",
+ "types": [
+  {
+   "name": "全部",
+   "url": "api/one-day-update/latest/全部.json",
+   "count": 30
+  },
+  {
+   "name": "都市",
+   "url": "api/one-day-update/latest/都市.json",
+   "count": 30
+  },
+  {
+   "name": "历史",
+   "url": "api/one-day-update/latest/历史.json",
+   "count": 30
+  },
+  {
+   "name": "玄幻奇幻",
+   "url": "api/one-day-update/latest/玄幻奇幻.json",
+   "count": 30
+  },
+  {
+   "name": "武侠仙侠",
+   "url": "api/one-day-update/latest/武侠仙侠.json",
+   "count": 30
+  },
+  {
+   "name": "奇闻异事",
+   "url": "api/one-day-update/latest/奇闻异事.json",
+   "count": 16
+  },
+  {
+   "name": "军事",
+   "url": "api/one-day-update/latest/军事.json",
+   "count": 9
+  },
+  {
+   "name": "科幻",
+   "url": "api/one-day-update/latest/科幻.json",
+   "count": 18
+  },
+  {
+   "name": "游戏",
+   "url": "api/one-day-update/latest/游戏.json",
+   "count": 4
+  },
+  {
+   "name": "N次元",
+   "url": "api/one-day-update/latest/N次元.json",
+   "count": 10
+  },
+  {
+   "name": "现实题材",
+   "url": "api/one-day-update/latest/现实题材.json",
+   "count": 0
+  }
+ ]
+}

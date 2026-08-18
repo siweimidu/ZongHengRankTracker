@@ -1,0 +1,364 @@
+{
+ "date": "2026-08-18",
+ "prev_date": "2026-08-17",
+ "board": {
+  "slug": "new-book-subscribe",
+  "name": "新书订阅榜",
+  "rankType": 9,
+  "period": 0
+ },
+ "trends": {
+  "全部": {
+   "first_day": false,
+   "new_count": 3,
+   "dropped_count": 0,
+   "new_books": [
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "rank": 8,
+     "bookId": 1562907
+    },
+    {
+     "title": "最狂皇太子",
+     "author": "汉三",
+     "rank": 9,
+     "bookId": 1554262
+    },
+    {
+     "title": "从骑奴到大乾武圣",
+     "author": "一嘟噜葡萄",
+     "rank": 10,
+     "bookId": 1558254
+    }
+   ],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [
+    {
+     "bookId": 1562907,
+     "title": "无敌圣体",
+     "author": "列夕",
+     "rank": 8,
+     "reason": "新上榜即进入前列"
+    },
+    {
+     "bookId": 1554262,
+     "title": "最狂皇太子",
+     "author": "汉三",
+     "rank": 9,
+     "reason": "新上榜即进入前列"
+    },
+    {
+     "bookId": 1558254,
+     "title": "从骑奴到大乾武圣",
+     "author": "一嘟噜葡萄",
+     "rank": 10,
+     "reason": "新上榜即进入前列"
+    }
+   ],
+   "update_rate": 0.7,
+   "summary": "【新书订阅榜·全部】3 本新上榜；黑马《无敌圣体》第 8 名；当日更新率 70%。"
+  },
+  "历史": {
+   "first_day": false,
+   "new_count": 2,
+   "dropped_count": 0,
+   "new_books": [
+    {
+     "title": "最狂皇太子",
+     "author": "汉三",
+     "rank": 4,
+     "bookId": 1554262
+    },
+    {
+     "title": "从骑奴到大乾武圣",
+     "author": "一嘟噜葡萄",
+     "rank": 5,
+     "bookId": 1558254
+    }
+   ],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [
+    {
+     "bookId": 1554262,
+     "title": "最狂皇太子",
+     "author": "汉三",
+     "rank": 4,
+     "reason": "新上榜即进入前列"
+    },
+    {
+     "bookId": 1558254,
+     "title": "从骑奴到大乾武圣",
+     "author": "一嘟噜葡萄",
+     "rank": 5,
+     "reason": "新上榜即进入前列"
+    }
+   ],
+   "update_rate": 0.8,
+   "summary": "【新书订阅榜·历史】2 本新上榜；黑马《最狂皇太子》第 4 名。"
+  },
+  "玄幻奇幻": {
+   "first_day": false,
+   "new_count": 1,
+   "dropped_count": 0,
+   "new_books": [
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "rank": 3,
+     "bookId": 1562907
+    }
+   ],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [
+    {
+     "bookId": 1562907,
+     "title": "无敌圣体",
+     "author": "列夕",
+     "rank": 3,
+     "reason": "新上榜即进入前列"
+    }
+   ],
+   "update_rate": 0.667,
+   "summary": "【新书订阅榜·玄幻奇幻】1 本新上榜；黑马《无敌圣体》第 3 名。"
+  },
+  "武侠仙侠": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0.0,
+   "summary": "【新书订阅榜·武侠仙侠】榜单结构稳定，头部固若金汤。"
+  },
+  "都市": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 1.0,
+   "summary": "【新书订阅榜·都市】榜单结构稳定，头部固若金汤。"
+  },
+  "科幻": {
+   "first_day": true,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0,
+   "summary": "【新书订阅榜·科幻】榜单结构稳定，头部固若金汤。"
+  },
+  "奇闻异事": {
+   "first_day": true,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0,
+   "summary": "【新书订阅榜·奇闻异事】榜单结构稳定，头部固若金汤。"
+  },
+  "游戏": {
+   "first_day": true,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0,
+   "summary": "【新书订阅榜·游戏】榜单结构稳定，头部固若金汤。"
+  },
+  "N次元": {
+   "first_day": true,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0,
+   "summary": "【新书订阅榜·N次元】榜单结构稳定，头部固若金汤。"
+  },
+  "现实题材": {
+   "first_day": true,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0,
+   "summary": "【新书订阅榜·现实题材】榜单结构稳定，头部固若金汤。"
+  }
+ },
+ "category_heat": [
+  {
+   "name": "历史",
+   "count": 5,
+   "top10": 5,
+   "metric_sum_top10": 30248,
+   "heat": 100.7
+  },
+  {
+   "name": "玄幻奇幻",
+   "count": 3,
+   "top10": 3,
+   "metric_sum_top10": 6865,
+   "heat": 81.1
+  },
+  {
+   "name": "武侠仙侠",
+   "count": 1,
+   "top10": 1,
+   "metric_sum_top10": 16063,
+   "heat": 79.7
+  },
+  {
+   "name": "都市",
+   "count": 1,
+   "top10": 1,
+   "metric_sum_top10": 2628,
+   "heat": 65.6
+  },
+  {
+   "name": "科幻",
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
+  },
+  {
+   "name": "奇闻异事",
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
+  },
+  {
+   "name": "游戏",
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
+  },
+  {
+   "name": "N次元",
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
+  },
+  {
+   "name": "现实题材",
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
+  }
+ ],
+ "keyword_heat": [
+  {
+   "keyword": "穿越",
+   "count": 4
+  },
+  {
+   "keyword": "系统",
+   "count": 2
+  },
+  {
+   "keyword": "诸天",
+   "count": 2
+  },
+  {
+   "keyword": "苟道",
+   "count": 1
+  },
+  {
+   "keyword": "修仙",
+   "count": 1
+  },
+  {
+   "keyword": "杀伐果断",
+   "count": 1
+  },
+  {
+   "keyword": "历史",
+   "count": 1
+  },
+  {
+   "keyword": "三国",
+   "count": 1
+  },
+  {
+   "keyword": "万界",
+   "count": 1
+  },
+  {
+   "keyword": "高武",
+   "count": 1
+  },
+  {
+   "keyword": "末世",
+   "count": 1
+  },
+  {
+   "keyword": "无敌",
+   "count": 1
+  }
+ ],
+ "timeline": [
+  {
+   "date": "2026-08-17",
+   "top3": [
+    {
+     "title": "三国：穿越刘备义子，开局驰援关羽",
+     "author": "卖酒郎君",
+     "bookId": 1544423
+    },
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "斩神刀",
+     "author": "四眼秀才",
+     "bookId": 1555584
+    }
+   ]
+  },
+  {
+   "date": "2026-08-18",
+   "top3": [
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "九转仙葫",
+     "author": "西山落尘",
+     "bookId": 1555785
+    },
+    {
+     "title": "三国：穿越刘备义子，开局驰援关羽",
+     "author": "卖酒郎君",
+     "bookId": 1544423
+    }
+   ]
+  }
+ ],
+ "total_books": 10
+}

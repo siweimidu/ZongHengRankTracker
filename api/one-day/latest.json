@@ -1,0 +1,57 @@
+{
+ "slug": "one-day",
+ "name": "24小时畅销榜",
+ "date": "2026-08-18",
+ "types": [
+  {
+   "name": "全部",
+   "url": "api/one-day/latest/全部.json",
+   "count": 30
+  },
+  {
+   "name": "玄幻奇幻",
+   "url": "api/one-day/latest/玄幻奇幻.json",
+   "count": 30
+  },
+  {
+   "name": "武侠仙侠",
+   "url": "api/one-day/latest/武侠仙侠.json",
+   "count": 30
+  },
+  {
+   "name": "都市",
+   "url": "api/one-day/latest/都市.json",
+   "count": 30
+  },
+  {
+   "name": "历史",
+   "url": "api/one-day/latest/历史.json",
+   "count": 30
+  },
+  {
+   "name": "科幻",
+   "url": "api/one-day/latest/科幻.json",
+   "count": 16
+  },
+  {
+   "name": "奇闻异事",
+   "url": "api/one-day/latest/奇闻异事.json",
+   "count": 14
+  },
+  {
+   "name": "游戏",
+   "url": "api/one-day/latest/游戏.json",
+   "count": 7
+  },
+  {
+   "name": "N次元",
+   "url": "api/one-day/latest/N次元.json",
+   "count": 7
+  },
+  {
+   "name": "现实题材",
+   "url": "api/one-day/latest/现实题材.json",
+   "count": 0
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>风向趋势 · 纵横风向标</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%230c1c3d'/%3E%3Cpath d='M6 15l4-4 3 3 5-6' stroke='%23c9a45c' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/vue@3.4.21/dist/vue.global.prod.js"></script>
+  <script src="https://unpkg.com/echarts@5.5.0/dist/echarts.min.js"></script>
+  <script src="js/icons.js"></script>
+</head>
+<body>
+<div id="app">
+  <div class="liquid-bg">
+    <div class="liquid-blob blob-1"></div>
+    <div class="liquid-blob blob-2"></div>
+    <div class="liquid-blob blob-3"></div>
+  </div>
+
+  <nav class="topbar container">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" v-html="icons.logo" style="width:42px;height:42px;display:grid;place-items:center"></span>
+      <span class="brand-text">
+        <span class="brand-title">风向趋势</span><br>
+        <span class="brand-sub">TREND INTELLIGENCE</span>
+      </span>
+    </a>
+    <div class="topbar-links">
+      <a class="glass-btn" href="index.html">
+        <zh-icon name="home" :size="16"></zh-icon> 返回看板
+      </a>
+      <a class="glass-btn" href="https://github.com/siweimidu/ZongHengRankTracker" target="_blank" rel="noopener">
+        <zh-icon name="github" :size="16"></zh-icon> GitHub
+      </a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-head">
+        <div>
+          <h1 class="hero-title">题材风向 <span class="gold">趋势情报</span></h1>
+          <p class="hero-sub"><zh-icon name="trend" :size="14"></zh-icon>
+            题材热度 · 分类声量 · 跨榜格局，每日自动更新</p>
+        </div>
+        <div class="hero-meta">
+          <span class="hero-date"><zh-icon name="calendar" :size="15"></zh-icon>
+            {{ date || '加载中' }}</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 榜单选择 -->
+    <section class="section">
+      <div class="board-tabs">
+        <button v-for="b in boards" :key="b.slug" class="board-tab"
+                :class="{ 'is-active': b.slug === activeBoard }"
+                @click="switchBoard(b.slug)">
+          <zh-icon name="trend" :size="14"></zh-icon> {{ b.name }}
+        </button>
+      </div>
+    </section>
+
+    <div class="state-box" v-if="loading">
+      <div class="spinner"></div> 正在拉取趋势数据…
+    </div>
+
+    <template v-if="!loading && analysis">
+      <!-- 黑马区 -->
+      <section class="section" v-if="darkhorses.length">
+        <div class="section-head">
+          <h2 class="section-title"><zh-icon name="bolt" :size="19"></zh-icon> 本榜黑马信号</h2>
+        </div>
+        <div class="darkhorse-grid">
+          <div v-for="(d, i) in darkhorses" :key="d.bookId" class="darkhorse-card" :style="{ '--i': i }">
+            <div class="darkhorse-rank">#{{ d.rank }}</div>
+            <div>
+              <div class="darkhorse-title">{{ d.title }}</div>
+              <div class="darkhorse-sub">{{ d.author }}</div>
+              <span class="darkhorse-reason"><zh-icon name="bolt" :size="11"></zh-icon> {{ d.reason }}</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 图表 -->
+      <section class="section">
+        <div class="chart-card">
+          <div class="chart-title"><zh-icon name="fire" :size="17"></zh-icon> 分类热度指数</div>
+          <div class="chart-sub">上榜数量 60% + Top10 占比 40% 加权，反映各分类在{{ boardName }}的声量</div>
+          <div id="chart-cate" class="chart-box"></div>
+        </div>
+        <div class="chart-grid-2">
+          <div class="chart-card">
+            <div class="chart-title"><zh-icon name="star" :size="17"></zh-icon> 高频题材关键词</div>
+            <div class="chart-sub">基于全部上榜作品的书名与简介命中统计</div>
+            <div id="chart-kw" class="chart-box"></div>
+          </div>
+          <div class="chart-card">
+            <div class="chart-title"><zh-icon name="trend" :size="17"></zh-icon> 榜单 Top3 时间轴</div>
+            <div class="chart-sub">历史每日榜首三部曲（数据累积后更有洞察）</div>
+            <div id="chart-timeline" class="chart-box"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 关键词云 -->
+      <section class="section">
+        <div class="chart-card">
+          <div class="chart-title"><zh-icon name="chip" :size="17"></zh-icon> 题材热度速览</div>
+          <div class="chart-sub">字号与热度无关，热度看计数徽章 —— 点击可复制关键词</div>
+          <div class="kw-cloud">
+            <span v-for="(k, i) in keywordHeat" :key="k.keyword" class="kw-pill" :style="{ '--i': i }"
+                  @click="copyKw(k.keyword)">
+              <zh-icon name="fire" :size="13"></zh-icon>
+              <span class="k">{{ k.keyword }}</span>
+              <span class="c">{{ k.count }} 本</span>
+            </span>
+            <span v-if="!keywordHeat.length" class="section-desc">暂无数据</span>
+          </div>
+        </div>
+      </section>
+    </template>
+
+    <footer class="footer">
+      数据来源 <a href="https://www.zongheng.com/rank" target="_blank" rel="noopener">纵横中文网排行榜</a>
+      · 趋势基于每日快照自动计算 · <a href="index.html">返回看板</a>
+    </footer>
+  </main>
+</div>
+
+<script src="js/trend.js"></script>
+</body>
+</html>

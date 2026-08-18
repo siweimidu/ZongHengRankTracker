@@ -1,0 +1,96 @@
+name: Force Update (Re-scrape + Re-summarize)
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+env:
+  TZ: Asia/Shanghai
+
+on:
+  workflow_dispatch:
+    inputs:
+      re-scrape:
+        description: '是否重新抓取今天的榜单数据'
+        required: false
+        default: true
+        type: boolean
+      re-ai:
+        description: '是否强制重新生成 AI 分析'
+        required: false
+        default: true
+        type: boolean
+
+jobs:
+  force-update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Remove today's snapshot (for a clean re-scrape)
+      if: ${{ inputs.re-scrape }}
+      run: |
+        D=$(TZ=Asia/Shanghai date '+%Y%m%d')
+        rm -f data/*/snapshots/ranks_${D}.json
+        rm -f data/*/task_state_${D}.json
+
+    - name: Run Scraper
+      if: ${{ inputs.re-scrape }}
+      run: python scrape_zongheng.py --top 30 --workers 3
+
+    - name: Build Latest Data with AI (force)
+      run: |
+        pip install openai
+        if [ "${{ inputs.re-ai }}" = "true" ]; then
+          python scripts/build_latest.py --force
+        else
+          python scripts/build_latest.py
+        fi
+      env:
+        API_BASE_URL: ${{ secrets.API_BASE_URL }}
+        API_KEY: ${{ secrets.API_KEY }}
+        API_MODEL: ${{ secrets.API_MODEL }}
+
+    - name: Commit and Push Changes
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "[Force] Re-scrape & re-summarize ZongHeng ranks ($(date '+%Y-%m-%d'))"
+        file_pattern: data api
+        branch: main
+
+    - name: Setup Pages
+      uses: actions/configure-pages@v5
+      with:
+        enablement: true
+
+    - name: Upload Pages artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: '.'
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
