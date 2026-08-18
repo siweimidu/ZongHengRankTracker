@@ -71,7 +71,7 @@
    "dropped_books": [],
    "top_movers": [],
    "darkhorses": [],
-   "update_rate": 0.367,
+   "update_rate": 0.4,
    "summary": "【推荐榜·都市】榜单结构稳定，头部固若金汤。"
   },
   "奇闻异事": {
@@ -84,39 +84,6 @@
    "darkhorses": [],
    "update_rate": 0.353,
    "summary": "【推荐榜·奇闻异事】榜单结构稳定，头部固若金汤。"
-  },
-  "游戏": {
-   "first_day": true,
-   "new_count": 0,
-   "dropped_count": 0,
-   "new_books": [],
-   "dropped_books": [],
-   "top_movers": [],
-   "darkhorses": [],
-   "update_rate": 0.0,
-   "summary": "【推荐榜·游戏】榜单结构稳定，头部固若金汤。"
-  },
-  "N次元": {
-   "first_day": true,
-   "new_count": 0,
-   "dropped_count": 0,
-   "new_books": [],
-   "dropped_books": [],
-   "top_movers": [],
-   "darkhorses": [],
-   "update_rate": 0.154,
-   "summary": "【推荐榜·N次元】榜单结构稳定，头部固若金汤。"
-  },
-  "现实题材": {
-   "first_day": true,
-   "new_count": 0,
-   "dropped_count": 0,
-   "new_books": [],
-   "dropped_books": [],
-   "top_movers": [],
-   "darkhorses": [],
-   "update_rate": 0.083,
-   "summary": "【推荐榜·现实题材】榜单结构稳定，头部固若金汤。"
   }
  },
  "category_heat": [
@@ -124,36 +91,36 @@
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 7525,
+   "metric_sum_top10": 7542,
    "heat": 109.8
   },
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 4569,
+   "metric_sum_top10": 4577,
    "heat": 105.9
   },
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 3692,
+   "metric_sum_top10": 3697,
    "heat": 104.2
-  },
-  {
-   "name": "科幻",
-   "count": 28,
-   "top10": 10,
-   "metric_sum_top10": 2131,
-   "heat": 99.9
   },
   {
    "name": "历史",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 2106,
-   "heat": 99.8
+   "metric_sum_top10": 2115,
+   "heat": 99.9
+  },
+  {
+   "name": "科幻",
+   "count": 28,
+   "top10": 10,
+   "metric_sum_top10": 2137,
+   "heat": 99.9
   },
   {
    "name": "奇闻异事",
@@ -161,27 +128,6 @@
    "top10": 10,
    "metric_sum_top10": 667,
    "heat": 90.8
-  },
-  {
-   "name": "N次元",
-   "count": 13,
-   "top10": 10,
-   "metric_sum_top10": 163,
-   "heat": 79.9
-  },
-  {
-   "name": "现实题材",
-   "count": 12,
-   "top10": 10,
-   "metric_sum_top10": 130,
-   "heat": 78.1
-  },
-  {
-   "name": "游戏",
-   "count": 5,
-   "top10": 5,
-   "metric_sum_top10": 77,
-   "heat": 54.1
   }
  ],
  "keyword_heat": [
