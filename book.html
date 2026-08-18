@@ -2,103 +2,92 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>作品详情 · 纵横风向标</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%23c9a45c'/%3E%3Cpath d='M6 16l3-4 2.5 2.5L16 9' stroke='white' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=2">
   <script src="https://unpkg.com/vue@3.4.21/dist/vue.global.prod.js"></script>
-  <script src="js/icons.js"></script>
+  <script src="js/icons.js?v=2"></script>
 </head>
 <body>
 <div id="app">
-  <div class="liquid-bg">
-    <div class="liquid-blob blob-1"></div>
-    <div class="liquid-blob blob-2"></div>
-    <div class="liquid-blob blob-3"></div>
-  </div>
+  <main class="main">
+    <header class="main-header">
+      <div class="header-title">
+        <h1>作品情报 <span style="color:var(--muted-foreground);font-weight:500;font-size:14px">BOOK</span></h1>
+        <div class="board-desc">跨榜表现 · 更新状态 · 原著直链</div>
+      </div>
+      <div class="header-actions">
+        <a class="icon-btn" href="index.html"><zh-icon name="home" :size="13"></zh-icon> 返回看板</a>
+        <a class="icon-btn" href="trend.html"><zh-icon name="trend" :size="13"></zh-icon> 风向趋势</a>
+      </div>
+    </header>
 
-  <nav class="topbar container">
-    <a class="brand" href="index.html">
-      <span class="brand-mark" v-html="icons.logo" style="width:42px;height:42px;display:grid;place-items:center"></span>
-      <span class="brand-text">
-        <span class="brand-title">作品情报</span><br>
-        <span class="brand-sub">BOOK INTELLIGENCE</span>
-      </span>
-    </a>
-    <div class="topbar-links">
-      <a class="glass-btn" href="index.html"><zh-icon name="home" :size="16"></zh-icon> 返回看板</a>
-      <a class="glass-btn" href="trend.html"><zh-icon name="trend" :size="16"></zh-icon> 风向趋势</a>
-    </div>
-  </nav>
+    <div class="content">
+      <div class="state-box" v-if="loading">
+        <div class="spinner"></div> 正在全站检索这本书…
+      </div>
 
-  <main class="container">
-    <div class="state-box" v-if="loading">
-      <div class="spinner"></div> 正在全站检索这本书…
-    </div>
+      <div class="state-box" v-else-if="!book">
+        <zh-icon name="search" :size="24"></zh-icon>
+        <p style="margin-top:10px">没有找到该作品的上榜记录（可能已掉榜）</p>
+        <a class="btn-ghost" style="margin-top:16px" href="index.html">返回看板</a>
+      </div>
 
-    <div class="state-box" v-else-if="!book">
-      <zh-icon name="search" :size="26"></zh-icon>
-      <p style="margin-top:10px">没有找到 bookId={{ bookId }} 的上榜记录（可能已掉榜）</p>
-      <a class="glass-btn" style="margin-top:16px" href="index.html">返回看板</a>
-    </div>
-
-    <template v-if="book">
-      <!-- 主卡片 -->
-      <section class="hero" style="display:flex; gap:28px; align-items:center; flex-wrap:wrap;">
-        <img :src="book.cover" :alt="book.title"
-             style="width:150px;height:202px;border-radius:18px;object-fit:cover;
-                    box-shadow:0 18px 44px rgba(0,0,0,0.45); flex:none;">
-        <div style="flex:1; min-width:260px; position:relative; z-index:1;">
-          <h1 class="hero-title" style="font-size:26px;">《{{ book.title }}》</h1>
-          <p class="hero-sub" style="margin-top:10px;">
-            <zh-icon name="author" :size="14"></zh-icon> {{ book.author }}
-            <span v-if="book.category" style="margin-left:8px">
-              <zh-icon name="book" :size="14"></zh-icon> {{ book.category }}</span>
-          </p>
-          <p style="margin-top:16px; font-size:13.5px; line-height:1.9; color:rgba(255,255,255,0.82); max-width:640px;">
-            {{ book.intro || '暂无简介' }}
-          </p>
-          <div style="margin-top:18px; display:flex; gap:10px; flex-wrap:wrap;">
-            <a class="glass-btn" :href="book.url" target="_blank" rel="noopener"
-               style="background:rgba(255,255,255,0.12); color:#fff; border-color:rgba(255,255,255,0.25);">
-              <zh-icon name="external" :size="15"></zh-icon> 在纵横打开原著
-            </a>
-            <span class="glass-btn" style="background:rgba(201,164,92,0.18); color:#ecd9a8; border-color:rgba(201,164,92,0.4); cursor:default;">
-              <zh-icon name="check" :size="15"></zh-icon> {{ book.serialStatus === 1 ? '已完结' : '连载中' }}
-            </span>
-          </div>
-        </div>
-      </section>
-
-      <!-- 跨榜表现 -->
-      <section class="section">
-        <div class="section-head">
-          <h2 class="section-title"><zh-icon name="cross" :size="19"></zh-icon> 跨榜表现</h2>
-          <span class="section-desc">该书今日在全站各榜单的上榜位置</span>
-        </div>
-        <div class="cross-list">
-          <div v-for="(r, i) in appearances" :key="r.board" class="cross-item" :style="{ '--i': i }"
-               style="cursor:default;">
-            <div class="cross-score">#{{ r.rank }}<span class="l">RANK</span></div>
-            <div class="cross-main">
-              <div class="cross-title">{{ r.boardName }} <span style="font-size:11px;color:var(--text-3)">（{{ r.category }}）</span></div>
-              <div class="row-meta" style="margin-top:6px;">
-                <span class="tag gold">{{ r.metricLabel }} {{ fmtNum(r.metric) }}</span>
-                <span class="flag today" v-if="r.updatedToday">今日更新：{{ r.latestChapter }}</span>
-              </div>
+      <template v-if="book">
+        <!-- 主卡片 -->
+        <section class="detail-hero">
+          <img v-if="book.cover" class="detail-cover" :class="{ 'is-square': isAuthorCover }"
+               :src="book.cover" :alt="book.title">
+          <div class="detail-main">
+            <h1 class="detail-title">《{{ book.title }}》</h1>
+            <div class="detail-meta">
+              <span><zh-icon name="author" :size="13"></zh-icon> {{ book.author }}</span>
+              <span v-if="book.category"><zh-icon name="book" :size="13"></zh-icon> {{ book.category }}</span>
+              <span class="tag gold" v-if="book.serialStatus === 1">已完结</span>
+              <span class="tag" v-else>连载中</span>
+            </div>
+            <p class="detail-intro">{{ book.intro || '暂无简介' }}</p>
+            <div class="detail-actions">
+              <a class="btn-primary" :href="book.url" target="_blank" rel="noopener">
+                <zh-icon name="external" :size="14"></zh-icon> 在纵横打开原著
+              </a>
+              <span class="btn-ghost" v-if="book.latestChapter" style="cursor:default">
+                <zh-icon name="clock" :size="13"></zh-icon> {{ book.latestChapter }}（{{ book.latestChapterTime }}）
+              </span>
             </div>
           </div>
-          <div v-if="!appearances.length" class="section-desc">该作品当前仅在一个榜单出现</div>
-        </div>
-      </section>
-    </template>
+        </section>
 
-    <footer class="footer">
-      数据仅用于分析学习 · 作品版权归原作者与纵横中文网所有
-    </footer>
+        <!-- 跨榜表现 -->
+        <section style="margin-top:26px">
+          <div class="section-head">
+            <h2 class="section-title"><zh-icon name="cross" :size="16"></zh-icon> 跨榜表现</h2>
+            <span class="section-sub">该书在全站各榜单的上榜位置</span>
+          </div>
+          <div class="cross-list">
+            <div v-for="(r, i) in appearances" :key="r.board" class="cross-item" :style="{ '--i': i }" style="cursor:default">
+              <div class="cross-score">#{{ r.rank }}<span class="l">RANK</span></div>
+              <div class="cross-main">
+                <div class="cross-title">{{ r.boardName }} <span class="meta">（{{ r.category }}）</span></div>
+                <div class="row-meta" style="margin-top:5px">
+                  <span class="tag">{{ r.metricLabel }} {{ fmtNum(r.metric) }}</span>
+                  <span class="flag today" v-if="r.updatedToday">今日更新：{{ r.latestChapter }}</span>
+                </div>
+              </div>
+            </div>
+            <div v-if="!appearances.length" class="section-sub">该作品当前仅在一个榜单出现</div>
+          </div>
+        </section>
+      </template>
+
+      <footer class="footer">
+        数据仅用于分析学习 · 作品版权归原作者与纵横中文网所有
+      </footer>
+    </div>
   </main>
 </div>
 
-<script src="js/book.js"></script>
+<script src="js/book.js?v=2"></script>
 </body>
 </html>

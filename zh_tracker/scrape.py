@@ -115,7 +115,9 @@ def scrape_board(board: dict, client: ZongHengClient, top_n: int = TOP_N,
         _write_json(os.path.join(DATA_DIR, slug, "discovered_categories.json"),
                     categories)
 
-    # ---- 第 3 步：逐分类 Top N ----
+    # ---- 第 3 步：逐分类 Top N（no_categories 榜单跳过，只保留「全部」）----
+    if board.get("no_categories"):
+        categories = []
     for cat in categories:
         cname = cat["name"]
         if cname in completed:

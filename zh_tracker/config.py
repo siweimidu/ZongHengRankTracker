@@ -160,6 +160,7 @@ BOARDS = [
         "extra": {},
         "enabled": True,
         "is_author": True,
+        "no_categories": True,  # 该榜 API 不支持 cateFineId 过滤，仅抓「全部」
         "desc": "头部作者影响力榜，以代表作呈现",
     },
 ]

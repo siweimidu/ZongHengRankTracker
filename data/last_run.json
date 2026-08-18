@@ -1,90 +1,18 @@
 {
- "finished_at": "2026-08-18T18:12:32",
- "elapsed_sec": 75.5,
+ "finished_at": "2026-08-18T19:38:11",
+ "elapsed_sec": 5.4,
  "client_stats": {
-  "requests": 105,
-  "retries": 1,
+  "requests": 1,
+  "retries": 0,
   "failures": 0
  },
  "reports": [
   {
-   "slug": "new-book",
-   "name": "新书榜",
-   "ok": true,
-   "categories": 9,
-   "books": 161,
-   "warnings": []
-  },
-  {
-   "slug": "one-day",
-   "name": "24小时畅销榜",
-   "ok": true,
-   "categories": 9,
-   "books": 194,
-   "warnings": []
-  },
-  {
-   "slug": "monthly-ticket",
-   "name": "月票榜",
-   "ok": true,
-   "categories": 12,
-   "books": 238,
-   "warnings": []
-  },
-  {
-   "slug": "click",
-   "name": "点击榜",
-   "ok": true,
-   "categories": 10,
-   "books": 300,
-   "warnings": []
-  },
-  {
-   "slug": "recommend",
-   "name": "推荐榜",
-   "ok": true,
-   "categories": 10,
-   "books": 227,
-   "warnings": []
-  },
-  {
-   "slug": "claque",
-   "name": "捧场榜",
-   "ok": true,
-   "categories": 9,
-   "books": 149,
-   "warnings": []
-  },
-  {
-   "slug": "new-book-subscribe",
-   "name": "新书订阅榜",
-   "ok": true,
-   "categories": 5,
-   "books": 20,
-   "warnings": []
-  },
-  {
-   "slug": "end",
-   "name": "完结榜",
-   "ok": true,
-   "categories": 10,
-   "books": 198,
-   "warnings": []
-  },
-  {
-   "slug": "one-day-update",
-   "name": "24小时更新榜",
-   "ok": true,
-   "categories": 10,
-   "books": 207,
-   "warnings": []
-  },
-  {
    "slug": "author-popularity",
    "name": "作者人气榜",
    "ok": true,
-   "categories": 10,
-   "books": 300,
+   "categories": 1,
+   "books": 30,
    "warnings": []
   }
  ]

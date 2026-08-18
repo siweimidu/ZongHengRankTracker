@@ -1,199 +1,221 @@
 /**
- * 风向趋势页逻辑 —— ECharts 可视化（无构建步骤）。
+ * 风向趋势页 v2 —— ECharts 可视化（豆包蓝调色板，无可选链语法）。
  */
 (function () {
-  const { createApp, ref, computed, onMounted, nextTick } = Vue;
+  var createApp = Vue.createApp;
 
-  // 商务蓝金调色板
-  const PALETTE = ['#2563eb', '#c9a45c', '#7c5cff', '#0e7ac4', '#e0533f',
-    '#1fa06b', '#d49a2e', '#5a6b8c', '#8b5cf6', '#1648b8'];
+  var PALETTE = ['#0065fd', '#557fff', '#0057da', '#c9a45c', '#6d5ce6',
+    '#34c759', '#e0503f', '#8aa2c8', '#0043ad', '#7f8d9f'];
 
-  const app = createApp({
-    setup() {
-      const loading = ref(true);
-      const boards = ref([]);
-      const activeBoard = ref('');
-      const analysis = ref(null);
-      const date = ref('');
-      const icons = window.ZhIcons;
-      let charts = [];
+  var app = createApp({
+    data: function () {
+      return {
+        icons: window.ZhIcons,
+        loading: true,
+        boards: [],
+        activeBoard: 'monthly-ticket',
+        analysis: null,
+        date: '',
+      };
+    },
 
-      async function j(p) {
-        const r = await fetch(p);
-        if (!r.ok) throw new Error(p + ' ' + r.status);
-        return r.json();
-      }
+    computed: {
+      boardName: function () {
+        var t = this;
+        var hit = this.boards.filter(function (b) { return b.slug === t.activeBoard; })[0];
+        return hit ? hit.name : '';
+      },
+      darkhorses: function () {
+        var t = this.analysis && this.analysis.trends && this.analysis.trends['全部'];
+        return (t && t.darkhorses) || [];
+      },
+      keywordHeat: function () {
+        return this.analysis ? (this.analysis.keyword_heat || []).slice(0, 18) : [];
+      },
+    },
 
-      async function load() {
-        loading.value = true;
-        try {
-          const meta = await j('api/boards.json');
-          boards.value = meta.boards || [];
-          const p = new URLSearchParams(location.search);
-          const want = p.get('board');
-          if (want && boards.value.find(b => b.slug === want)) {
-            activeBoard.value = want;
-          } else if (boards.value.length) {
-            activeBoard.value = boards.value[0].slug;
-          }
-          await loadBoard();
-        } catch (e) {
-          console.error(e);
-        } finally {
-          loading.value = false;
+    methods: {
+      j: function (p) {
+        return fetch(p).then(function (r) {
+          if (!r.ok) throw new Error(p);
+          return r.json();
+        });
+      },
+      switchBoard: function (slug) {
+        if (slug === this.activeBoard) return;
+        location.href = 'trend.html?board=' + encodeURIComponent(slug);
+      },
+      copyKw: function (kw) {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(kw).catch(function () {});
         }
-      }
+      },
 
-      async function loadBoard() {
-        analysis.value = null;
-        charts.forEach(c => c.dispose());
-        charts = [];
-        try {
-          const d = await j(`api/${activeBoard.value}/latest/all.json`);
-          analysis.value = d.analysis || null;
-          date.value = d.date || '';
-          loading.value = false;          // 先让 v-if 容器进入 DOM
-          await nextTick();
-          await nextTick();
-          renderCharts();
-        } catch (e) {
-          console.error(e);
-          loading.value = false;
-        }
-      }
-
-      function switchBoard(slug) {
-        if (slug === activeBoard.value) return;
-        activeBoard.value = slug;
-        const u = new URL(location);
-        u.searchParams.set('board', slug);
-        history.replaceState(null, '', u);
-        loadBoard();
-      }
-
-      const boardName = computed(() =>
-        boards.value.find(b => b.slug === activeBoard.value)?.name || '');
-      const darkhorses = computed(() =>
-        analysis.value?.trends?.['全部']?.darkhorses || []);
-      const keywordHeat = computed(() =>
-        (analysis.value?.keyword_heat || []).slice(0, 18));
-
-      function baseOpt() {
+      baseOpt: function () {
         return {
           color: PALETTE,
-          textStyle: { fontFamily: 'inherit', color: '#5a6b8c' },
-          tooltip: { backgroundColor: 'rgba(12,28,61,0.92)', borderWidth: 0,
+          textStyle: { fontFamily: 'inherit', color: '#7f8d9f' },
+          tooltip: {
+            backgroundColor: 'rgba(14,17,21,0.9)', borderWidth: 0,
             textStyle: { color: '#fff', fontSize: 12 },
-            extraCssText: 'border-radius:10px;backdrop-filter:blur(8px);' },
+            extraCssText: 'border-radius:10px;',
+          },
         };
-      }
+      },
+      mk: function (id) {
+        var el = document.getElementById(id);
+        return el ? echarts.init(el) : null;
+      },
 
-      function mk(id) {
-        const el = document.getElementById(id);
-        if (!el) return null;
-        return echarts.init(el);
-      }
+      load: function () {
+        var self = this;
+        this.loading = true;
+        this.j('api/boards.json').then(function (meta) {
+          self.boards = meta.boards || [];
+          var p = new URLSearchParams(location.search);
+          var want = p.get('board');
+          var hit = self.boards.filter(function (b) { return b.slug === want; })[0];
+          if (hit) self.activeBoard = want;
+          else if (self.boards.length) self.activeBoard = self.boards[0].slug;
+          return self.loadBoard();
+        }).catch(function (e) {
+          console.error(e);
+          self.loading = false;
+        });
+      },
 
-      function renderCharts() {
-        const a = analysis.value;
-        if (!a) return;
+      loadBoard: function () {
+        var self = this;
+        this.analysis = null;
+        var p = this.j('api/' + this.activeBoard + '/latest/all.json');
+        return p.then(function (d) {
+          self.analysis = d.analysis || null;
+          self.date = d.date || '';
+          self.loading = false;
+          self.$nextTick(function () { self.$nextTick(function () { self.renderCharts(); }); });
+        }).catch(function (e) {
+          console.error(e);
+          self.loading = false;
+        });
+      },
 
-        // 1) 分类热度横向条形图
-        const c1 = mk('chart-cate');
+      renderCharts: function () {
+        var a = this.analysis;
+        if (!a || typeof echarts === 'undefined') return;
+        var self = this;
+
+        // 1) 分类热度横向条形
+        var c1 = this.mk('chart-cate');
         if (c1) {
-          const cats = (a.category_heat || []).slice(0, 10);
-          c1.setOption({
-            ...baseOpt(),
-            grid: { left: 8, right: 40, top: 10, bottom: 10, containLabel: true },
-            xAxis: { type: 'value', splitLine: { lineStyle: { color: 'rgba(120,140,180,0.15)' } } },
-            yAxis: { type: 'category', inverse: true,
-              data: cats.map(c => c.name),
+          var cats = (a.category_heat || []).slice(0, 10);
+          c1.setOption(Object.assign(this.baseOpt(), {
+            grid: { left: 8, right: 44, top: 8, bottom: 8, containLabel: true },
+            xAxis: { type: 'value', splitLine: { lineStyle: { color: '#eef1f6' } } },
+            yAxis: {
+              type: 'category', inverse: true,
+              data: cats.map(function (c) { return c.name; }),
               axisLine: { show: false }, axisTick: { show: false },
-              axisLabel: { color: '#1d2b4f', fontWeight: 600 } },
+              axisLabel: { color: '#0e1115', fontWeight: 600 },
+            },
+            series: [{
+              type: 'bar', barWidth: 15,
+              data: cats.map(function (c) { return c.heat; }),
+              itemStyle: {
+                borderRadius: [0, 8, 8, 0],
+                color: new echarts.graphic.LinearGradient(0, 0, 1, 0,
+                  [{ offset: 0, color: '#0057da' }, { offset: 1, color: '#557fff' }]),
+              },
+              label: { show: true, position: 'right', color: '#7f8d9f', fontSize: 10.5 },
+            }],
+            animationDuration: 850,
+            animationEasing: 'cubicOut',
+          }));
+          this._charts.push(c1);
+        }
+
+        // 2) 关键词柱状
+        var c2 = this.mk('chart-kw');
+        if (c2) {
+          var kws = (a.keyword_heat || []).slice(0, 12);
+          c2.setOption(Object.assign(this.baseOpt(), {
+            grid: { left: 8, right: 14, top: 12, bottom: 8, containLabel: true },
+            xAxis: {
+              type: 'category', data: kws.map(function (k) { return k.keyword; }),
+              axisLabel: { rotate: 30, color: '#7f8d9f', fontSize: 10.5 },
+              axisLine: { lineStyle: { color: '#e7eaef' } },
+            },
+            yAxis: { type: 'value', splitLine: { lineStyle: { color: '#eef1f6' } } },
             series: [{
               type: 'bar', barWidth: 16,
-              data: cats.map(c => c.heat),
-              itemStyle: { borderRadius: [0, 9, 9, 0],
-                color: new echarts.graphic.LinearGradient(0, 0, 1, 0,
-                  [{ offset: 0, color: '#1648b8' }, { offset: 1, color: '#5b8def' }]) },
-              label: { show: true, position: 'right', color: '#5a6b8c', fontSize: 11 },
-            }],
-            animationDuration: 900,
-            animationEasing: 'elasticOut',
-          });
-          charts.push(c1);
-        }
-
-        // 2) 关键词柱状图
-        const c2 = mk('chart-kw');
-        if (c2) {
-          const kws = (a.keyword_heat || []).slice(0, 12);
-          c2.setOption({
-            ...baseOpt(),
-            grid: { left: 8, right: 20, top: 14, bottom: 10, containLabel: true },
-            xAxis: { type: 'category', data: kws.map(k => k.keyword),
-              axisLabel: { rotate: 32, color: '#5a6b8c', fontSize: 11 },
-              axisLine: { lineStyle: { color: 'rgba(120,140,180,0.3)' } } },
-            yAxis: { type: 'value', splitLine: { lineStyle: { color: 'rgba(120,140,180,0.15)' } } },
-            series: [{
-              type: 'bar', barWidth: 18,
-              data: kws.map(k => k.count),
-              itemStyle: { borderRadius: [8, 8, 0, 0],
+              data: kws.map(function (k) { return k.count; }),
+              itemStyle: {
+                borderRadius: [7, 7, 0, 0],
                 color: new echarts.graphic.LinearGradient(0, 1, 0, 0,
-                  [{ offset: 0, color: '#c9a45c' }, { offset: 1, color: '#ecd9a8' }]) },
+                  [{ offset: 0, color: '#0065fd' }, { offset: 1, color: '#8ab2ff' }]),
+              },
             }],
-            animationDuration: 900,
-            animationEasing: 'elasticOut',
-          });
-          charts.push(c2);
+            animationDuration: 850,
+            animationEasing: 'cubicOut',
+          }));
+          this._charts.push(c2);
         }
 
-        // 3) Top3 时间轴
-        const c3 = mk('chart-timeline');
+        // 3) 榜首时间轴
+        var c3 = this.mk('chart-timeline');
         if (c3) {
-          const tl = a.timeline || [];
-          c3.setOption({
-            ...baseOpt(),
-            tooltip: { ...baseOpt().tooltip,
-              formatter: (params) => {
-                const idx = params[0]?.dataIndex;
+          var tl = a.timeline || [];
+          var base = this.baseOpt();
+          c3.setOption(Object.assign(base, {
+            tooltip: {
+              backgroundColor: 'rgba(14,17,21,0.9)', borderWidth: 0,
+              textStyle: { color: '#fff', fontSize: 12 },
+              formatter: function (params) {
+                var idx = params[0] && params[0].dataIndex;
                 if (idx == null || !tl[idx]) return '';
-                const t = tl[idx];
-                return `<b>${t.date}</b><br>` + (t.top3 || []).map(
-                  (b, i) => `${i + 1}. 《${b.title}》 ${b.author}`).join('<br>');
-              } },
-            grid: { left: 8, right: 20, top: 20, bottom: 10, containLabel: true },
-            xAxis: { type: 'category', data: tl.map(t => (t.date || '').slice(5)),
-              axisLabel: { color: '#5a6b8c', fontSize: 11 } },
+                var t = tl[idx];
+                var lines = ['<b>' + t.date + '</b>'];
+                (t.top3 || []).forEach(function (b, i) {
+                  lines.push((i + 1) + '. 《' + b.title + '》 ' + b.author);
+                });
+                return lines.join('<br>');
+              },
+            },
+            grid: { left: 8, right: 16, top: 26, bottom: 8, containLabel: true },
+            xAxis: {
+              type: 'category',
+              data: tl.map(function (t) { return (t.date || '').slice(5); }),
+              axisLabel: { color: '#7f8d9f', fontSize: 10.5 },
+            },
             yAxis: { show: false, min: 0, max: 4 },
             series: [{
-              type: 'line', data: tl.map(() => 1), symbolSize: 12,
-              lineStyle: { color: '#2563eb', width: 3 },
-              itemStyle: { color: '#2563eb', borderColor: '#fff', borderWidth: 2 },
-              areaStyle: { color: 'rgba(37,99,235,0.08)' },
-              markPoint: tl.map((t, i) => ({
-                coord: [i, 1],
-                symbol: 'roundRect', symbolSize: [52, 20],
-                symbolOffset: [0, -22],
-                label: { show: true, formatter: (t.top3?.[0]?.title || '—').slice(0, 6),
-                  fontSize: 10, color: '#0c1c3d', fontWeight: 700 },
-                itemStyle: { color: 'rgba(201,164,92,0.16)' },
-              })).slice(0, 12),
+              type: 'line', data: tl.map(function () { return 1; }), symbolSize: 10,
+              lineStyle: { color: '#0065fd', width: 2.5 },
+              itemStyle: { color: '#0065fd', borderColor: '#fff', borderWidth: 2 },
+              areaStyle: { color: 'rgba(0,101,253,0.06)' },
+              markPoint: tl.slice(0, 12).map(function (t, i) {
+                var top = (t.top3 && t.top3[0] && t.top3[0].title) || '—';
+                return {
+                  coord: [i, 1],
+                  symbol: 'roundRect', symbolSize: [56, 20],
+                  symbolOffset: [0, -24],
+                  label: { show: true, formatter: top.slice(0, 6), fontSize: 9.5, color: '#00266b', fontWeight: 700 },
+                  itemStyle: { color: 'rgba(229,233,255,0.9)' },
+                };
+              }),
             }],
-          });
-          charts.push(c3);
+          }));
+          this._charts.push(c3);
         }
-      }
+      },
+    },
 
-      function copyKw(kw) {
-        navigator.clipboard?.writeText(kw).catch(() => {});
-      }
-
-      onMounted(load);
-      window.addEventListener('resize', () => charts.forEach(c => c.resize()));
-
-      return { icons, loading, boards, activeBoard, boardName, analysis, date,
-        darkhorses, keywordHeat, switchBoard, copyKw };
+    mounted: function () {
+      var self = this;
+      this._charts = [];
+      this.load();
+      window.addEventListener('resize', function () {
+        (self._charts || []).forEach(function (c) { c.resize(); });
+      });
     },
   });
 

@@ -164,7 +164,9 @@ def clean_book(b: dict, rank: int, metric_label: str) -> dict:
         "author": (b.get("pseudonym") or "").strip(),
         "authorId": b.get("authorId") or 0,
         "authorCover": (b.get("authorCover") or "").strip(),
-        "cover": (b.get("bookCover") or "").strip(),
+        # 封面 fallback：作者榜等场景 bookCover 为空时用作者头像
+        "cover": ((b.get("bookCover") or "").strip()
+                  or (b.get("authorCover") or "").strip()),
         "category": (b.get("cateFineName") or "").strip(),
         "cateFineId": b.get("cateFineId") or 0,
         "metric": b.get("number") or 0,          # 榜单核心指标（月票/点击…）

@@ -2,281 +2,271 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>纵横风向标 · ZongHeng Rank Tracker</title>
   <meta name="description" content="追踪纵横中文网全部排行榜，每日自动抓取 Top 30 并结合 AI 生成趋势分析的在线看板">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%232563eb'/%3E%3Cpath d='M7 16l3-3.5 2.5 2.5 4.5-5' stroke='white' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%230065fd'/%3E%3Cpath d='M7 16l3-3.5 2.5 2.5 4.5-5' stroke='white' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css?v=2">
   <script src="https://unpkg.com/vue@3.4.21/dist/vue.global.prod.js"></script>
-  <script src="js/icons.js"></script>
+  <script src="js/icons.js?v=2"></script>
 </head>
 <body>
 <div id="app">
-  <div class="liquid-bg">
-    <div class="liquid-blob blob-1"></div>
-    <div class="liquid-blob blob-2"></div>
-    <div class="liquid-blob blob-3"></div>
+  <div class="app">
+    <!-- ===== 侧边栏 ===== -->
+    <aside class="sidebar" :class="{ open: sidebarOpen }">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" v-html="icons.logo" style="width:38px;height:38px;display:grid;place-items:center"></span>
+        <span>
+          <span class="brand-name">纵横风向标</span>
+          <div class="brand-sub">ZONGHENG RANK TRACKER</div>
+        </span>
+      </a>
+      <div class="update-date">
+        <span class="dot-live"></span>
+        {{ boardsDate || '加载中…' }} 更新 · 每日 04:07
+      </div>
+
+      <div>
+        <div class="nav-label">榜单 BOARDS</div>
+        <nav class="board-nav">
+          <a v-for="b in boards" :key="b.slug" :href="boardHref(b)"
+             :class="{ 'is-active': b.slug === activeBoard }">
+            <zh-icon :name="boardIcon(b)" :size="15"></zh-icon>
+            {{ b.name }}
+          </a>
+        </nav>
+      </div>
+
+      <div v-if="categories.length > 1">
+        <div class="nav-label">分类 CATEGORIES</div>
+        <nav class="cat-nav">
+          <button v-for="c in categories" :key="c.name"
+                  :class="{ 'is-active': c.name === activeCat }"
+                  @click="setCat(c.name)">
+            <span>{{ c.name }}</span><span class="cnt">{{ c.books.length }}</span>
+          </button>
+        </nav>
+      </div>
+
+      <div class="sidebar-foot">
+        <a class="side-link" href="trend.html">
+          <zh-icon name="trend" :size="15"></zh-icon> 风向趋势
+        </a>
+        <a class="side-link" href="https://github.com/siweimidu/ZongHengRankTracker" target="_blank" rel="noopener">
+          <zh-icon name="github" :size="15"></zh-icon> GitHub
+        </a>
+      </div>
+    </aside>
+    <div class="sidebar-overlay" :class="{ show: sidebarOpen }" @click="sidebarOpen = false"></div>
+
+    <!-- ===== 主内容 ===== -->
+    <main class="main">
+      <header class="main-header">
+        <button class="menu-btn" @click="sidebarOpen = true" aria-label="打开菜单">
+          <zh-icon name="menu" :size="17"></zh-icon>
+        </button>
+        <div class="header-title">
+          <h1>{{ activeBoardName }}<span style="color:var(--muted-foreground);font-weight:500;font-size:14px;margin-left:6px">{{ activeCat }}</span></h1>
+          <div class="board-desc">{{ activeBoardDesc }}</div>
+        </div>
+        <div class="header-actions">
+          <!-- 日期切换器 -->
+          <div class="date-bar">
+            <div class="preset-seg">
+              <button class="preset-btn" :class="{ 'is-active': viewDate === '' }" @click="setViewDate('')">最新</button>
+              <button class="preset-btn" :class="{ 'is-active': viewDate === yesterday }" @click="setViewDate(yesterday)" :disabled="!hasYesterday">昨日</button>
+            </div>
+            <button class="date-nav-btn" @click="stepDate(-1)" :disabled="!canPrev" aria-label="前一天">
+              <zh-icon name="chevronLeft" :size="14"></zh-icon>
+            </button>
+            <button class="date-btn" :class="{ 'is-history': viewDate !== '' }">
+              <zh-icon name="calendar" :size="13"></zh-icon>
+              <span>{{ viewDate === '' ? boardsDate : viewDate }}</span>
+              <input type="date" class="date-input-hidden" v-model="datePick" :min="minDate" :max="maxDate">
+            </button>
+            <button class="date-nav-btn" @click="stepDate(1)" :disabled="!canNext" aria-label="后一天">
+              <zh-icon name="chevronRight" :size="14"></zh-icon>
+            </button>
+          </div>
+          <!-- 排序 -->
+          <div class="sort-seg">
+            <button class="sort-btn" :class="{ 'is-active': sortBy === 'rank' }" @click="sortBy = 'rank'">
+              <zh-icon name="crown" :size="12"></zh-icon> 名次
+            </button>
+            <button class="sort-btn" :class="{ 'is-active': sortBy === 'metric' }" @click="sortBy = 'metric'">
+              <zh-icon name="fire" :size="12"></zh-icon> 热度
+            </button>
+          </div>
+          <button class="icon-btn" @click="view = view === 'grid' ? 'list' : 'grid'">
+            <zh-icon :name="view === 'grid' ? 'list' : 'grid'" :size="13"></zh-icon>
+            {{ view === 'grid' ? '列表' : '卡片' }}
+          </button>
+        </div>
+      </header>
+
+      <div class="content">
+        <!-- 状态 -->
+        <div class="state-box" v-if="loading">
+          <div class="spinner"></div>
+          正在拉取榜单数据…
+        </div>
+
+        <template v-if="!loading">
+          <!-- 统计 -->
+          <div class="stat-row">
+            <div class="stat-pill">
+              <span class="stat-ic blue"><zh-icon name="book" :size="16"></zh-icon></span>
+              <div><div class="stat-num">{{ stats.books }}<span class="unit">本</span></div><div class="stat-name">本榜覆盖作品</div></div>
+            </div>
+            <div class="stat-pill">
+              <span class="stat-ic"><zh-icon name="star" :size="16"></zh-icon></span>
+              <div><div class="stat-num">{{ stats.newBooks }}</div><div class="stat-name">{{ stats.newHint }}</div></div>
+            </div>
+            <div class="stat-pill">
+              <span class="stat-ic green"><zh-icon name="clock" :size="16"></zh-icon></span>
+              <div><div class="stat-num">{{ stats.updateRate }}<span class="unit">%</span></div><div class="stat-name">上榜作品当日更新率</div></div>
+            </div>
+            <div class="stat-pill">
+              <span class="stat-ic gold"><zh-icon name="medal" :size="16"></zh-icon></span>
+              <div><div class="stat-num">{{ stats.boards }}<span class="unit">个</span></div><div class="stat-name">全站追踪榜单</div></div>
+            </div>
+          </div>
+
+          <!-- AI 日报 -->
+          <div class="ai-brief" v-if="brief && viewDate === ''">
+            <span class="ai-chip"><zh-icon name="chip" :size="12"></zh-icon> AI 风向日报</span>
+            <p class="ai-text">{{ briefTyped }}<span class="cursor" v-if="briefTyping"></span></p>
+          </div>
+
+          <!-- 分类速评 -->
+          <div class="cat-note" v-if="catTrend && catTrend.summary">
+            <zh-icon name="chip" :size="14"></zh-icon>
+            <div>
+              <strong>{{ activeBoardName }} · {{ activeCat }}</strong> —— {{ catTrend.summary }}
+              <div v-if="catTrend.first_day" style="margin-top:3px">首日基线采集中，明日起展示对比信号</div>
+              <div v-else style="margin-top:3px">
+                新上榜 {{ catTrend.new_count }} · 掉榜 {{ catTrend.dropped_count }} · 当日更新率 {{ Math.round((catTrend.update_rate || 0) * 100) }}%
+              </div>
+            </div>
+          </div>
+
+          <!-- 书籍网格 -->
+          <div class="book-grid" v-if="view === 'grid' && filteredBooks.length">
+            <article v-for="(b, i) in filteredBooks" :key="b.bookId + '-' + i"
+                     class="book-card" :style="{ '--i': Math.min(i, 20) }" @click="goBook(b.bookId)">
+              <div class="cover-wrap" :class="{ 'is-square': isAuthorBoard }">
+                <div class="rank-badge" :class="rankClass(b.rank)">{{ b.rank }}</div>
+                <img v-if="b.cover" :src="b.cover" :alt="b.title" loading="lazy">
+                <span v-else class="cover-fallback">{{ b.title.slice(0, 4) }}</span>
+              </div>
+              <div class="book-body">
+                <div class="book-title-row">
+                  <span class="book-title">{{ b.title }}</span>
+                  <zh-icon v-if="b.rank <= 3" name="crown" :size="13" style="color:#d49a2e"></zh-icon>
+                </div>
+                <div class="book-author"><zh-icon name="author" :size="11"></zh-icon> {{ b.author }}</div>
+                <div class="book-tags">
+                  <span class="tag" v-if="b.category">{{ b.category }}</span>
+                  <span class="tag gold" v-if="b.serialStatus === 1">完结</span>
+                  <span class="tag violet" v-if="isDarkhorse(b)">黑马</span>
+                </div>
+                <p class="book-intro">{{ b.intro || '暂无简介' }}</p>
+                <div class="book-foot">
+                  <span class="book-metric">{{ fmtNum(b.metric) }}<span class="mlabel">{{ b.metricLabel }}</span></span>
+                  <span class="book-flags">
+                    <span class="flag today" v-if="b.updatedToday" title="今日已更新"><zh-icon name="clock" :size="10"></zh-icon></span>
+                    <span class="flag new" v-if="isNew(b)">新</span>
+                    <span class="flag up" v-if="rankChangeOf(b) > 0">↑{{ rankChangeOf(b) }}</span>
+                    <span class="flag down" v-else-if="rankChangeOf(b) < 0">↓{{ -rankChangeOf(b) }}</span>
+                  </span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- 列表视图 -->
+          <div class="book-rows" v-if="view === 'list' && filteredBooks.length">
+            <div v-for="(b, i) in filteredBooks" :key="b.bookId + '-' + i"
+                 class="book-row" :style="{ '--i': Math.min(i, 24) }" @click="goBook(b.bookId)">
+              <div v-if="b.rank <= 3" class="rank-badge" :class="rankClass(b.rank)">{{ b.rank }}</div>
+              <div v-else class="r-plain">{{ b.rank }}</div>
+              <img v-if="b.cover" class="row-cover" :class="{ 'is-square': isAuthorBoard }" :src="b.cover" :alt="b.title" loading="lazy">
+              <div style="min-width:0">
+                <div class="row-title">{{ b.title }}</div>
+                <div class="row-meta">
+                  <span>{{ b.author }}</span>
+                  <span class="tag" v-if="b.category">{{ b.category }}</span>
+                  <span class="flag today" v-if="b.updatedToday">今日更新</span>
+                  <span class="flag up" v-if="rankChangeOf(b) > 0">↑{{ rankChangeOf(b) }}</span>
+                  <span class="flag down" v-else-if="rankChangeOf(b) < 0">↓{{ -rankChangeOf(b) }}</span>
+                </div>
+              </div>
+              <div class="row-metric">
+                <div class="v">{{ fmtNum(b.metric) }}</div>
+                <div class="l">{{ b.metricLabel }}</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 空态 -->
+          <div class="state-box" v-if="!filteredBooks.length">
+            <zh-icon name="search" :size="24"></zh-icon>
+            <p style="margin-top:10px">该日期暂无快照数据</p>
+          </div>
+
+          <!-- 黑马 -->
+          <section v-if="darkhorses.length && viewDate === ''" style="margin-top:28px">
+            <div class="section-head">
+              <h2 class="section-title"><zh-icon name="bolt" :size="16"></zh-icon> 今日黑马</h2>
+              <span class="section-sub">新上榜即进前列 / 单日名次暴涨</span>
+            </div>
+            <div class="dark-grid">
+              <div v-for="(d, i) in darkhorses" :key="d.bookId" class="dark-card" :style="{ '--i': i }" @click="goBook(d.bookId)">
+                <div class="dark-rank">#{{ d.rank }}</div>
+                <div style="min-width:0">
+                  <div class="dark-title">{{ d.title }}</div>
+                  <div class="dark-sub">{{ d.author }} · {{ activeBoardName }}</div>
+                  <span class="dark-reason"><zh-icon name="bolt" :size="10"></zh-icon> {{ d.reason }}</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- 跨榜影响力 -->
+          <section v-if="crossTop.length && viewDate === ''" style="margin-top:28px">
+            <div class="section-head">
+              <h2 class="section-title"><zh-icon name="cross" :size="16"></zh-icon> 跨榜影响力 · Top 10</h2>
+              <span class="section-sub">同时上榜多个榜单的全能作品</span>
+            </div>
+            <div class="cross-list">
+              <div v-for="(c, i) in crossTop" :key="c.bookId" class="cross-item" :style="{ '--i': i }" @click="goBook(c.bookId)">
+                <div class="cross-score">{{ c.score }}<span class="l">SCORE</span></div>
+                <img v-if="c.cover" class="cross-cover" :src="c.cover" :alt="c.title" loading="lazy">
+                <div class="cross-main">
+                  <div class="cross-title">{{ c.title }} <span class="meta">{{ c.author }} · {{ c.category }}</span></div>
+                  <div class="cross-boards">
+                    <span v-for="bd in c.boards" :key="bd.board" class="cross-pill">
+                      {{ bd.name }} #{{ bd.rank }}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </template>
+
+        <footer class="footer">
+          数据来源 <a href="https://www.zongheng.com/rank" target="_blank" rel="noopener">纵横中文网排行榜</a>
+          · 每日自动抓取并由 AI 生成趋势分析 ·
+          <a href="https://github.com/siweimidu/ZongHengRankTracker" target="_blank" rel="noopener">ZongHengRankTracker</a>
+          <br>本项目仅用于数据分析学习，作品版权归原作者与平台所有
+        </footer>
+      </div>
+    </main>
   </div>
-
-  <!-- 顶部导航 -->
-  <nav class="topbar container">
-    <a class="brand" href="index.html">
-      <span class="brand-mark" v-html="icons.logo" style="width:42px;height:42px;display:grid;place-items:center"></span>
-      <span class="brand-text">
-        <span class="brand-title">纵横风向标</span><br>
-        <span class="brand-sub">ZONGHENG RANK TRACKER</span>
-      </span>
-    </a>
-    <div class="topbar-links">
-      <a class="glass-btn" href="trend.html">
-        <zh-icon name="trend" :size="16"></zh-icon> 风向趋势
-      </a>
-      <a class="glass-btn" href="https://github.com/siweimidu/ZongHengRankTracker" target="_blank" rel="noopener">
-        <zh-icon name="github" :size="16"></zh-icon> GitHub
-      </a>
-    </div>
-  </nav>
-
-  <main class="container">
-    <!-- Hero -->
-    <section class="hero">
-      <div class="hero-head">
-        <div>
-          <h1 class="hero-title">纵横中文网 <span class="gold">全榜追踪</span></h1>
-          <p class="hero-sub">
-            <zh-icon name="eye" :size="14"></zh-icon>
-            十大榜单 · 分类自动发现 · 每日 AI 风向解码
-          </p>
-        </div>
-        <div class="hero-meta">
-          <span class="hero-date">
-            <zh-icon name="calendar" :size="15"></zh-icon>
-            {{ boardsDate || '数据加载中' }} 更新
-          </span>
-        </div>
-      </div>
-      <div class="hero-stats">
-        <div class="stat-card">
-          <div class="stat-label"><zh-icon name="book" :size="14"></zh-icon> 追踪榜单</div>
-          <div class="stat-value">{{ stats.boards }}<span class="unit">个</span></div>
-          <div class="stat-hint">月票 · 畅销 · 点击 · 推荐等全系列</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-label"><zh-icon name="grid" :size="14"></zh-icon> 覆盖作品</div>
-          <div class="stat-value">{{ stats.books }}<span class="unit">本</span></div>
-          <div class="stat-hint">去重后的全站上榜书目</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-label"><zh-icon name="star" :size="14"></zh-icon> 今日新上榜</div>
-          <div class="stat-value">{{ stats.newBooks }}<span class="unit">本</span></div>
-          <div class="stat-hint">{{ stats.newHint }}</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-label"><zh-icon name="clock" :size="14"></zh-icon> 当日更新率</div>
-          <div class="stat-value">{{ stats.updateRate }}<span class="unit">%</span></div>
-          <div class="stat-hint">上榜作品勤更比例</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- AI 日报 -->
-    <section class="brief-card" v-if="brief">
-      <span class="brief-badge"><zh-icon name="chip" :size="14"></zh-icon> AI 风向日报</span>
-      <p class="brief-text">{{ briefTyped }}<span class="cursor" v-if="briefTyping"></span></p>
-    </section>
-
-    <!-- 榜单 Tabs -->
-    <section class="section">
-      <div class="section-head">
-        <h2 class="section-title"><zh-icon name="medal" :size="19"></zh-icon> 榜单看板</h2>
-        <span class="section-desc">每分类追踪 Top 30 · 点击卡片查看跨榜表现</span>
-      </div>
-      <div class="board-tabs">
-        <button v-for="b in boards" :key="b.slug" class="board-tab"
-                :class="{ 'is-active': b.slug === activeBoard }"
-                @click="switchBoard(b.slug)">
-          <zh-icon :name="boardIcon(b)" :size="15"></zh-icon> {{ b.name }}
-        </button>
-      </div>
-
-      <!-- 分类 chips -->
-      <div class="cat-chips" v-if="categories.length">
-        <button v-for="c in categories" :key="c.name" class="cat-chip"
-                :class="{ 'is-active': c.name === activeCat }"
-                @click="activeCat = c.name">
-          {{ c.name }} <span class="cnt">{{ c.books.length }}</span>
-        </button>
-      </div>
-
-      <!-- 工具栏 -->
-      <div class="toolbar" v-if="currentBooks.length">
-        <div class="search-box">
-          <zh-icon name="search" :size="16"></zh-icon>
-          <input v-model="query" placeholder="搜索书名 / 作者 / 题材关键词…">
-        </div>
-        <div class="seg-group">
-          <button class="seg-item" :class="{ 'is-active': sortBy === 'rank' }" @click="sortBy = 'rank'">
-            <zh-icon name="crown" :size="13"></zh-icon> 名次
-          </button>
-          <button class="seg-item" :class="{ 'is-active': sortBy === 'metric' }" @click="sortBy = 'metric'">
-            <zh-icon name="fire" :size="13"></zh-icon> 热度
-          </button>
-        </div>
-        <div class="seg-group">
-          <button class="seg-item" :class="{ 'is-active': view === 'grid' }" @click="view = 'grid'">
-            <zh-icon name="grid" :size="13"></zh-icon> 卡片
-          </button>
-          <button class="seg-item" :class="{ 'is-active': view === 'list' }" @click="view = 'list'">
-            <zh-icon name="list" :size="13"></zh-icon> 列表
-          </button>
-        </div>
-      </div>
-
-      <!-- 分类趋势速评 -->
-      <div class="trend-note" v-if="catTrend && catTrend.summary">
-        <zh-icon name="chip" :size="16"></zh-icon>
-        <div>
-          <strong>{{ activeBoardName }} · {{ activeCat }}</strong> —— {{ catTrend.summary }}
-          <div style="margin-top:5px; display:flex; gap:14px; flex-wrap:wrap; font-size:12px; color: var(--text-3);">
-            <span v-if="catTrend.first_day">首日基线采集中，明日起展示对比信号</span>
-            <span v-else>
-              <span style="color:#6d3fe0">新上榜 {{ catTrend.new_count }}</span> ·
-              <span style="color:#5a6b8c">掉榜 {{ catTrend.dropped_count }}</span> ·
-              当日更新率 {{ Math.round((catTrend.update_rate || 0) * 100) }}%
-            </span>
-          </div>
-        </div>
-      </div>
-
-      <!-- 书籍网格 -->
-      <div class="book-grid" v-if="view === 'grid' && filteredBooks.length">
-        <article v-for="(b, i) in filteredBooks" :key="b.bookId + '-' + i"
-                 class="book-card" :style="{ '--i': i }" @click="openBook(b)">
-          <div class="book-cover-wrap">
-            <div class="rank-badge" :class="rankClass(b.rank)">{{ b.rank }}</div>
-            <img :src="b.cover" :alt="b.title" loading="lazy" @error="onCoverError">
-          </div>
-          <div class="book-body">
-            <div class="book-title-row">
-              <span class="book-title">{{ b.title }}</span>
-              <zh-icon v-if="b.rank <= 3" name="crown" :size="14" style="color:#d49a2e"></zh-icon>
-            </div>
-            <div class="book-author"><zh-icon name="author" :size="12"></zh-icon> {{ b.author }}</div>
-            <div class="book-tags">
-              <span class="tag" v-if="b.category">{{ b.category }}</span>
-              <span class="tag gold" v-if="b.serialStatus === 1">完结</span>
-              <span class="tag violet" v-if="isDarkhorse(b)">黑马</span>
-            </div>
-            <p class="book-intro">{{ b.intro || '暂无简介' }}</p>
-            <div class="book-foot">
-              <span class="book-metric">{{ fmtNum(b.metric) }}<span class="mlabel">{{ b.metricLabel }}</span></span>
-              <span class="book-flags">
-                <span class="flag today" v-if="b.updatedToday" title="今日已更新">
-                  <zh-icon name="clock" :size="11"></zh-icon> 更新
-                </span>
-                <span class="flag new" v-if="isNew(b)">
-                  <zh-icon name="star" :size="11"></zh-icon> 新
-                </span>
-                <span class="flag up" v-if="rankChangeOf(b) > 0">
-                  <zh-icon name="up" :size="11"></zh-icon> {{ rankChangeOf(b) }}
-                </span>
-                <span class="flag down" v-else-if="rankChangeOf(b) < 0">
-                  <zh-icon name="down" :size="11"></zh-icon> {{ -rankChangeOf(b) }}
-                </span>
-              </span>
-            </div>
-            <div class="momentum-bar" v-if="momentumOf(b) > 0"
-                 :style="{ width: momentumOf(b) + '%', '--i': i }"></div>
-          </div>
-        </article>
-      </div>
-
-      <!-- 紧凑列表 -->
-      <div class="book-rows" v-if="view === 'list' && filteredBooks.length">
-        <div v-for="(b, i) in filteredBooks" :key="b.bookId + '-' + i"
-             class="book-row" :style="{ '--i': i }" @click="openBook(b)">
-          <div v-if="b.rank <= 3" class="rank-badge" :class="rankClass(b.rank)">{{ b.rank }}</div>
-          <div v-else class="r-plain">{{ b.rank }}</div>
-          <img class="row-cover" :src="b.cover" :alt="b.title" loading="lazy" @error="onCoverError">
-          <div style="min-width:0">
-            <div class="row-title">{{ b.title }}</div>
-            <div class="row-meta">
-              <span>{{ b.author }}</span>
-              <span class="tag" v-if="b.category">{{ b.category }}</span>
-              <span class="flag today" v-if="b.updatedToday">今日更新</span>
-              <span class="flag up" v-if="rankChangeOf(b) > 0">↑{{ rankChangeOf(b) }}</span>
-              <span class="flag down" v-else-if="rankChangeOf(b) < 0">↓{{ -rankChangeOf(b) }}</span>
-            </div>
-          </div>
-          <div class="row-metric">
-            <div class="v">{{ fmtNum(b.metric) }}</div>
-            <div class="l">{{ b.metricLabel }}</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- 空态 -->
-      <div class="state-box" v-if="loading">
-        <div class="spinner"></div>
-        正在拉取榜单数据…
-      </div>
-      <div class="state-box" v-else-if="!filteredBooks.length && categories.length">
-        <zh-icon name="search" :size="26"></zh-icon>
-        <p style="margin-top:10px">没有匹配「{{ query }}」的作品，换个关键词试试</p>
-      </div>
-
-      <!-- 黑马区 -->
-      <section class="section" v-if="darkhorses.length">
-        <div class="section-head">
-          <h2 class="section-title"><zh-icon name="bolt" :size="19"></zh-icon> 今日黑马</h2>
-          <span class="section-desc">新上榜即进前列 / 单日名次暴涨的作品</span>
-        </div>
-        <div class="darkhorse-grid">
-          <div v-for="(d, i) in darkhorses" :key="d.bookId" class="darkhorse-card" :style="{ '--i': i }"
-               @click="goBook(d.bookId)">
-            <div class="darkhorse-rank">#{{ d.rank }}</div>
-            <div style="min-width:0">
-              <div class="darkhorse-title">{{ d.title }}</div>
-              <div class="darkhorse-sub">{{ d.author }} · {{ activeBoardName }}</div>
-              <span class="darkhorse-reason"><zh-icon name="bolt" :size="11"></zh-icon> {{ d.reason }}</span>
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
-
-    <!-- 跨榜影响力 -->
-    <section class="section" v-if="crossTop.length">
-      <div class="section-head">
-        <h2 class="section-title"><zh-icon name="cross" :size="19"></zh-icon> 跨榜影响力 · Top 15</h2>
-        <span class="section-desc">同时在多个榜单出现的全能型作品</span>
-      </div>
-      <div class="cross-list">
-        <div v-for="(c, i) in crossTop" :key="c.bookId" class="cross-item" :style="{ '--i': i }"
-             @click="goBook(c.bookId)">
-          <div class="cross-score">{{ c.score }}<span class="l">SCORE</span></div>
-          <img class="cross-cover" :src="c.cover" :alt="c.title" loading="lazy" @error="onCoverError">
-          <div class="cross-main">
-            <div class="cross-title">{{ c.title }} <span style="font-size:11.5px;color:var(--text-3);font-weight:500">{{ c.author }} · {{ c.category }}</span></div>
-            <div class="cross-boards">
-              <span v-for="bd in c.boards" :key="bd.board" class="cross-board-pill">
-                <zh-icon name="medal" :size="10"></zh-icon> {{ bd.name }} #{{ bd.rank }}
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-      数据来源 <a href="https://www.zongheng.com/rank" target="_blank" rel="noopener">纵横中文网排行榜</a>
-      · 每日自动抓取并由 AI 生成趋势分析 ·
-      <a href="https://github.com/siweimidu/ZongHengRankTracker" target="_blank" rel="noopener">ZongHengRankTracker</a>
-      <br>本项目仅用于数据分析学习，作品版权归原作者与平台所有
-    </footer>
-  </main>
 </div>
 
-<script src="js/app.js"></script>
+<script src="js/app.js?v=2"></script>
 </body>
 </html>
