@@ -71,7 +71,7 @@
    "dropped_books": [],
    "top_movers": [],
    "darkhorses": [],
-   "update_rate": 0.833,
+   "update_rate": 1.0,
    "summary": "【新书榜·军事】榜单结构稳定，头部固若金汤。"
   },
   "科幻": {
@@ -115,7 +115,7 @@
    "dropped_books": [],
    "top_movers": [],
    "darkhorses": [],
-   "update_rate": 0.333,
+   "update_rate": 0.667,
    "summary": "【新书榜·N次元】榜单结构稳定，头部固若金汤。"
   },
   "现实题材": {
@@ -135,43 +135,43 @@
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 18130,
-   "heat": 116.7
+   "metric_sum_top10": 18756,
+   "heat": 116.9
   },
   {
    "name": "历史",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 15582,
-   "heat": 115.5
-  },
-  {
-   "name": "武侠仙侠",
-   "count": 17,
-   "top10": 10,
-   "metric_sum_top10": 15006,
-   "heat": 115.2
+   "metric_sum_top10": 16059,
+   "heat": 115.7
   },
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 14542,
-   "heat": 114.9
+   "metric_sum_top10": 14991,
+   "heat": 115.2
+  },
+  {
+   "name": "武侠仙侠",
+   "count": 17,
+   "top10": 10,
+   "metric_sum_top10": 15137,
+   "heat": 115.2
   },
   {
    "name": "奇闻异事",
    "count": 9,
    "top10": 9,
-   "metric_sum_top10": 11251,
-   "heat": 108.9
+   "metric_sum_top10": 11292,
+   "heat": 109.0
   },
   {
    "name": "科幻",
    "count": 6,
    "top10": 6,
-   "metric_sum_top10": 7665,
-   "heat": 93.9
+   "metric_sum_top10": 7809,
+   "heat": 94.1
   },
   {
    "name": "军事",
@@ -184,8 +184,8 @@
    "name": "N次元",
    "count": 3,
    "top10": 3,
-   "metric_sum_top10": 2476,
-   "heat": 73.1
+   "metric_sum_top10": 2903,
+   "heat": 74.3
   },
   {
    "name": "游戏",
@@ -209,7 +209,7 @@
   },
   {
    "keyword": "系统",
-   "count": 8
+   "count": 7
   },
   {
    "keyword": "修仙",
@@ -220,11 +220,11 @@
    "count": 4
   },
   {
-   "keyword": "宗门",
-   "count": 3
+   "keyword": "杀伐果断",
+   "count": 4
   },
   {
-   "keyword": "杀伐果断",
+   "keyword": "宗门",
    "count": 3
   },
   {
@@ -237,6 +237,10 @@
   },
   {
    "keyword": "都市",
+   "count": 2
+  },
+  {
+   "keyword": "搞笑",
    "count": 2
   },
   {
@@ -256,11 +260,7 @@
    "count": 1
   },
   {
-   "keyword": "搞笑",
-   "count": 1
-  },
-  {
-   "keyword": "科技",
+   "keyword": "轻松",
    "count": 1
   }
  ],
