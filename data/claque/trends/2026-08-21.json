@@ -1,0 +1,785 @@
+{
+ "date": "2026-08-21",
+ "prev_date": "2026-08-20",
+ "board": {
+  "slug": "claque",
+  "name": "捧场榜",
+  "rankType": 7,
+  "period": 0
+ },
+ "trends": {
+  "全部": {
+   "first_day": false,
+   "new_count": 3,
+   "dropped_count": 3,
+   "new_books": [
+    {
+     "title": "大唐：我一赘婿，你封我为国师作甚？",
+     "author": "青墨子",
+     "rank": 9,
+     "bookId": 1583261
+    },
+    {
+     "title": "吞噬九重天",
+     "author": "屠刀成佛",
+     "rank": 22,
+     "bookId": 1269302
+    },
+    {
+     "title": "警报！真龙出狱！",
+     "author": "红透半边天",
+     "rank": 27,
+     "bookId": 1336529
+    }
+   ],
+   "dropped_books": [
+    {
+     "title": "道上青天",
+     "author": "六道蚂蚱",
+     "prevRank": 28,
+     "bookId": 1316455
+    },
+    {
+     "title": "妖魔乱世：我靠杀妖夺寿无限推演",
+     "author": "清风莫语",
+     "prevRank": 29,
+     "bookId": 1578634
+    },
+    {
+     "title": "天上白玉京",
+     "author": "莫问江湖",
+     "prevRank": 30,
+     "bookId": 1426506
+    }
+   ],
+   "top_movers": [
+    {
+     "bookId": 1552353,
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "rank": 3,
+     "rankChange": 1,
+     "metric": 29174,
+     "metricGrowth": 0.2572,
+     "momentum": 68.5
+    },
+    {
+     "bookId": 1473924,
+     "title": "玄幻：拳练百遍，顿悟自见！",
+     "author": "尼罗河",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 58803,
+     "metricGrowth": 0.0017,
+     "momentum": 68.2
+    },
+    {
+     "bookId": 1367620,
+     "title": "不是说好解毒么，怎么成仙帝了？",
+     "author": "抹茶春卷",
+     "rank": 4,
+     "rankChange": -1,
+     "metric": 26300,
+     "metricGrowth": 0.0,
+     "momentum": 54.0
+    },
+    {
+     "bookId": 1415876,
+     "title": "天黑请点灯",
+     "author": "罗樵森",
+     "rank": 5,
+     "rankChange": 0,
+     "metric": 12500,
+     "metricGrowth": 0.0163,
+     "momentum": 52.5
+    },
+    {
+     "bookId": 916691,
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "rank": 8,
+     "rankChange": 1,
+     "metric": 9221,
+     "metricGrowth": 0.4521,
+     "momentum": 51.2
+    },
+    {
+     "bookId": 1478384,
+     "title": "凡人修仙：疯了吧！你一百岁了还要修仙",
+     "author": "我家有母老虎",
+     "rank": 6,
+     "rankChange": 0,
+     "metric": 12337,
+     "metricGrowth": 0.0182,
+     "momentum": 50.5
+    },
+    {
+     "bookId": 325639,
+     "title": "星辰之主",
+     "author": "减肥专家",
+     "rank": 7,
+     "rankChange": 0,
+     "metric": 10000,
+     "metricGrowth": 0.25,
+     "momentum": 50.0
+    },
+    {
+     "bookId": 1420145,
+     "title": "星际猎人",
+     "author": "太极阴阳鱼",
+     "rank": 15,
+     "rankChange": 5,
+     "metric": 3100,
+     "metricGrowth": 0.4762,
+     "momentum": 47.3
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1583261,
+     "title": "大唐：我一赘婿，你封我为国师作甚？",
+     "author": "青墨子",
+     "rank": 9,
+     "reason": "新上榜即进入前列"
+    }
+   ],
+   "update_rate": 0.133,
+   "summary": "【捧场榜·全部】3 本新上榜；3 本掉榜；《盗梦千年》升 1 位至第 3 名；黑马《大唐：我一赘婿，你封我为国师作甚？》第 9 名；当日更新率 13%。"
+  },
+  "玄幻奇幻": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1552353,
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "rank": 2,
+     "rankChange": 1,
+     "metric": 29174,
+     "metricGrowth": 0.2572,
+     "momentum": 70.5
+    },
+    {
+     "bookId": 1367620,
+     "title": "不是说好解毒么，怎么成仙帝了？",
+     "author": "抹茶春卷",
+     "rank": 3,
+     "rankChange": -1,
+     "metric": 26300,
+     "metricGrowth": 0.0,
+     "momentum": 64.0
+    },
+    {
+     "bookId": 1269302,
+     "title": "吞噬九重天",
+     "author": "屠刀成佛",
+     "rank": 11,
+     "rankChange": 7,
+     "metric": 2104,
+     "metricGrowth": 1.104,
+     "momentum": 61.7
+    },
+    {
+     "bookId": 916691,
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "rank": 5,
+     "rankChange": 1,
+     "metric": 9221,
+     "metricGrowth": 0.4521,
+     "momentum": 57.2
+    },
+    {
+     "bookId": 1478384,
+     "title": "凡人修仙：疯了吧！你一百岁了还要修仙",
+     "author": "我家有母老虎",
+     "rank": 4,
+     "rankChange": 0,
+     "metric": 12337,
+     "metricGrowth": 0.0182,
+     "momentum": 54.5
+    },
+    {
+     "bookId": 1435440,
+     "title": "齐天",
+     "author": "日落红尘",
+     "rank": 6,
+     "rankChange": -1,
+     "metric": 6713,
+     "metricGrowth": 0.0153,
+     "momentum": 50.5
+    },
+    {
+     "bookId": 1336976,
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "rank": 8,
+     "rankChange": 1,
+     "metric": 3029,
+     "metricGrowth": 0.2001,
+     "momentum": 50.3
+    },
+    {
+     "bookId": 1360196,
+     "title": "吞天神体",
+     "author": "化十",
+     "rank": 9,
+     "rankChange": -1,
+     "metric": 2700,
+     "metricGrowth": 0.0385,
+     "momentum": 44.8
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.167,
+   "summary": "【捧场榜·玄幻奇幻】《盗梦千年》升 1 位至第 2 名。"
+  },
+  "武侠仙侠": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 672340,
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "rank": 1,
+     "rankChange": 1,
+     "metric": 5216,
+     "metricGrowth": 0.2672,
+     "momentum": 72.6
+    },
+    {
+     "bookId": 1410173,
+     "title": "众仙俯首",
+     "author": "咸鱼老白",
+     "rank": 2,
+     "rankChange": -1,
+     "metric": 4616,
+     "metricGrowth": 0.0226,
+     "momentum": 66.6
+    },
+    {
+     "bookId": 1287844,
+     "title": "凡尘飞仙",
+     "author": "齐甲",
+     "rank": 12,
+     "rankChange": 0,
+     "metric": 400,
+     "metricGrowth": 0.3333,
+     "momentum": 40.3
+    },
+    {
+     "bookId": 953526,
+     "title": "五仙门",
+     "author": "看得两叁言",
+     "rank": 14,
+     "rankChange": 0,
+     "metric": 112,
+     "metricGrowth": 0.0275,
+     "momentum": 34.7
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.174,
+   "summary": "【捧场榜·武侠仙侠】《剑来》升 1 位至第 1 名。"
+  },
+  "历史": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1583261,
+     "title": "大唐：我一赘婿，你封我为国师作甚？",
+     "author": "青墨子",
+     "rank": 2,
+     "rankChange": 5,
+     "metric": 8323,
+     "metricGrowth": 24.7678,
+     "momentum": 98.4
+    },
+    {
+     "bookId": 1476656,
+     "title": "大夏第一镇国公",
+     "author": "一头好人",
+     "rank": 9,
+     "rankChange": 11,
+     "metric": 301,
+     "metricGrowth": 300.0,
+     "momentum": 84.0
+    },
+    {
+     "bookId": 1473924,
+     "title": "玄幻：拳练百遍，顿悟自见！",
+     "author": "尼罗河",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 58803,
+     "metricGrowth": 0.0017,
+     "momentum": 68.2
+    },
+    {
+     "bookId": 1424492,
+     "title": "封疆悍卒",
+     "author": "宿言辰",
+     "rank": 3,
+     "rankChange": -1,
+     "metric": 2305,
+     "metricGrowth": 0.0463,
+     "momentum": 64.9
+    },
+    {
+     "bookId": 1494591,
+     "title": "江山绝色榜",
+     "author": "六如和尚",
+     "rank": 4,
+     "rankChange": -1,
+     "metric": 2100,
+     "metricGrowth": 0.0,
+     "momentum": 54.0
+    },
+    {
+     "bookId": 1494905,
+     "title": "天命纨绔",
+     "author": "梁山老鬼",
+     "rank": 5,
+     "rankChange": -1,
+     "metric": 2000,
+     "metricGrowth": 0.0,
+     "momentum": 52.0
+    },
+    {
+     "bookId": 1421865,
+     "title": "边关兵王：从领娶罪女开始崛起",
+     "author": "青岳",
+     "rank": 8,
+     "rankChange": 1,
+     "metric": 302,
+     "metricGrowth": 0.5025,
+     "momentum": 51.3
+    },
+    {
+     "bookId": 1406951,
+     "title": "从军赋",
+     "author": "风尘落雨",
+     "rank": 11,
+     "rankChange": 2,
+     "metric": 300,
+     "metricGrowth": 2.0,
+     "momentum": 50.7
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1476656,
+     "title": "大夏第一镇国公",
+     "author": "一头好人",
+     "rank": 9,
+     "reason": "一日上升 11 位"
+    }
+   ],
+   "update_rate": 0.2,
+   "summary": "【捧场榜·历史】《大唐：我一赘婿，你封我为国师作甚？》升 5 位至第 2 名；黑马《大夏第一镇国公》第 9 名。"
+  },
+  "都市": {
+   "first_day": false,
+   "new_count": 2,
+   "dropped_count": 2,
+   "new_books": [
+    {
+     "title": "让你军转民，你干成中东军火商？",
+     "author": "风丘颜凉",
+     "rank": 19,
+     "bookId": 1530530
+    },
+    {
+     "title": "阎王下山",
+     "author": "苍月夜",
+     "rank": 20,
+     "bookId": 1345021
+    }
+   ],
+   "dropped_books": [
+    {
+     "title": "五十年代：带着随身空间进城奔小康",
+     "author": "我哩个逗",
+     "prevRank": 28,
+     "bookId": 1504587
+    },
+    {
+     "title": "重回六十年代，从挖何首乌开始",
+     "author": "巍巍青山",
+     "prevRank": 30,
+     "bookId": 1461517
+    }
+   ],
+   "top_movers": [
+    {
+     "bookId": 1336529,
+     "title": "警报！真龙出狱！",
+     "author": "红透半边天",
+     "rank": 3,
+     "rankChange": 2,
+     "metric": 1500,
+     "metricGrowth": 2.0,
+     "momentum": 74.7
+    },
+    {
+     "bookId": 1379651,
+     "title": "诡异游戏：开局觉醒Bug级天赋",
+     "author": "予作",
+     "rank": 11,
+     "rankChange": 16,
+     "metric": 200,
+     "metricGrowth": -0.5902,
+     "momentum": 60.0
+    },
+    {
+     "bookId": 1415874,
+     "title": "步步登阶",
+     "author": "江湖如梦",
+     "rank": 6,
+     "rankChange": 0,
+     "metric": 900,
+     "metricGrowth": 1.25,
+     "momentum": 54.5
+    },
+    {
+     "bookId": 1280541,
+     "title": "舔狗反派只想苟，女主不按套路走！",
+     "author": "我是愤怒",
+     "rank": 4,
+     "rankChange": -1,
+     "metric": 1000,
+     "metricGrowth": 0.0,
+     "momentum": 54.0
+    },
+    {
+     "bookId": 1322926,
+     "title": "重生1958：从窝在深山打猎开始",
+     "author": "妖道无涯",
+     "rank": 5,
+     "rankChange": -1,
+     "metric": 1000,
+     "metricGrowth": 0.0,
+     "momentum": 52.0
+    },
+    {
+     "bookId": 1235644,
+     "title": "盖世神医",
+     "author": "狐颜乱语",
+     "rank": 7,
+     "rankChange": 0,
+     "metric": 500,
+     "metricGrowth": 0.25,
+     "momentum": 50.0
+    },
+    {
+     "bookId": 1538777,
+     "title": "分手后，她才发现穷校草是顶级太子爷",
+     "author": "东方墨奕",
+     "rank": 8,
+     "rankChange": 0,
+     "metric": 400,
+     "metricGrowth": 0.3333,
+     "momentum": 48.3
+    },
+    {
+     "bookId": 1480611,
+     "title": "悔婚？反手娶了资本家大小姐！",
+     "author": "山野听风",
+     "rank": 12,
+     "rankChange": -1,
+     "metric": 100,
+     "metricGrowth": 0.0,
+     "momentum": 38.0
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1379651,
+     "title": "诡异游戏：开局觉醒Bug级天赋",
+     "author": "予作",
+     "rank": 11,
+     "reason": "一日上升 16 位"
+    }
+   ],
+   "update_rate": 0.133,
+   "summary": "【捧场榜·都市】2 本新上榜；2 本掉榜；《警报！真龙出狱！》升 2 位至第 3 名；黑马《诡异游戏：开局觉醒Bug级天赋》第 11 名。"
+  },
+  "奇闻异事": {
+   "first_day": true,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0.0,
+   "summary": "【捧场榜·奇闻异事】榜单结构稳定，头部固若金汤。"
+  },
+  "科幻": {
+   "first_day": true,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0.0,
+   "summary": "【捧场榜·科幻】榜单结构稳定，头部固若金汤。"
+  },
+  "游戏": {
+   "first_day": true,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0.0,
+   "summary": "【捧场榜·游戏】榜单结构稳定，头部固若金汤。"
+  },
+  "N次元": {
+   "first_day": true,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0.0,
+   "summary": "N次元榜单呈现高度固化态势，头部同人作品凭借强IP护城河垄断流量，长尾效应显著。现状显示该品类增量乏力，纯同人创作边际效益递减。建议编辑部：引导作者尝试“同人+原创体系”融合，或挖掘冷门高共鸣IP，打破单一题材审美疲劳，通过差异化世界观重构提升读者的付费粘性。"
+  },
+  "现实题材": {
+   "first_day": true,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0,
+   "summary": "榜单固化反映出“现实题材”进入存量深水区，读者对平庸职场文审美疲劳。目前缺乏黑马，说明市场急需“硬核职业+强叙事钩子”的破局之作。建议作者：避开套路化创业，聚焦医疗、法律、刑侦等强专业壁垒领域，强化“行业潜规则+极致冲突”，以专业深度构建不可替代的阅读价值。"
+  }
+ },
+ "category_heat": [
+  {
+   "name": "玄幻奇幻",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 134974,
+   "heat": 132.3
+  },
+  {
+   "name": "历史",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 76434,
+   "heat": 127.9
+  },
+  {
+   "name": "武侠仙侠",
+   "count": 23,
+   "top10": 10,
+   "metric_sum_top10": 23601,
+   "heat": 118.7
+  },
+  {
+   "name": "都市",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 9700,
+   "heat": 111.8
+  },
+  {
+   "name": "科幻",
+   "count": 6,
+   "top10": 6,
+   "metric_sum_top10": 13604,
+   "heat": 98.4
+  },
+  {
+   "name": "奇闻异事",
+   "count": 5,
+   "top10": 5,
+   "metric_sum_top10": 14105,
+   "heat": 94.7
+  },
+  {
+   "name": "N次元",
+   "count": 1,
+   "top10": 1,
+   "metric_sum_top10": 100000,
+   "heat": 94.0
+  },
+  {
+   "name": "游戏",
+   "count": 1,
+   "top10": 1,
+   "metric_sum_top10": 300,
+   "heat": 48.6
+  },
+  {
+   "name": "现实题材",
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
+  }
+ ],
+ "keyword_heat": [
+  {
+   "keyword": "穿越",
+   "count": 8
+  },
+  {
+   "keyword": "玄幻",
+   "count": 8
+  },
+  {
+   "keyword": "无敌",
+   "count": 5
+  },
+  {
+   "keyword": "杀伐果断",
+   "count": 4
+  },
+  {
+   "keyword": "诸天",
+   "count": 3
+  },
+  {
+   "keyword": "历史",
+   "count": 2
+  },
+  {
+   "keyword": "系统",
+   "count": 2
+  },
+  {
+   "keyword": "修仙",
+   "count": 2
+  },
+  {
+   "keyword": "群像",
+   "count": 2
+  },
+  {
+   "keyword": "重生",
+   "count": 1
+  },
+  {
+   "keyword": "赘婿",
+   "count": 1
+  },
+  {
+   "keyword": "轻松",
+   "count": 1
+  },
+  {
+   "keyword": "搞笑",
+   "count": 1
+  },
+  {
+   "keyword": "星际",
+   "count": 1
+  },
+  {
+   "keyword": "科技",
+   "count": 1
+  }
+ ],
+ "timeline": [
+  {
+   "date": "2026-08-18",
+   "top3": [
+    {
+     "title": "从演戏开始，长生不死！",
+     "author": "风雷皇",
+     "bookId": 1565060
+    },
+    {
+     "title": "玄幻：拳练百遍，顿悟自见！",
+     "author": "尼罗河",
+     "bookId": 1473924
+    },
+    {
+     "title": "不是说好解毒么，怎么成仙帝了？",
+     "author": "抹茶春卷",
+     "bookId": 1367620
+    }
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "top3": [
+    {
+     "title": "从演戏开始，长生不死！",
+     "author": "风雷皇",
+     "bookId": 1565060
+    },
+    {
+     "title": "玄幻：拳练百遍，顿悟自见！",
+     "author": "尼罗河",
+     "bookId": 1473924
+    },
+    {
+     "title": "不是说好解毒么，怎么成仙帝了？",
+     "author": "抹茶春卷",
+     "bookId": 1367620
+    }
+   ]
+  },
+  {
+   "date": "2026-08-20",
+   "top3": [
+    {
+     "title": "玄幻：拳练百遍，顿悟自见！",
+     "author": "尼罗河",
+     "bookId": 1473924
+    },
+    {
+     "title": "从演戏开始，长生不死！",
+     "author": "风雷皇",
+     "bookId": 1565060
+    },
+    {
+     "title": "不是说好解毒么，怎么成仙帝了？",
+     "author": "抹茶春卷",
+     "bookId": 1367620
+    }
+   ]
+  },
+  {
+   "date": "2026-08-21",
+   "top3": [
+    {
+     "title": "玄幻：拳练百遍，顿悟自见！",
+     "author": "尼罗河",
+     "bookId": 1473924
+    },
+    {
+     "title": "从演戏开始，长生不死！",
+     "author": "风雷皇",
+     "bookId": 1565060
+    },
+    {
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "bookId": 1552353
+    }
+   ]
+  }
+ ],
+ "total_books": 30
+}

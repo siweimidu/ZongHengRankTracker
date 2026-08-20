@@ -1,68 +1,68 @@
 {
- "date": "2026-08-19",
+ "date": "2026-08-21",
  "category_heat": [
-  {
-   "name": "都市",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 139838,
-   "heat": 132.6
-  },
   {
    "name": "历史",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 118201,
-   "heat": 131.3
+   "metric_sum_top10": 155366,
+   "heat": 133.4
   },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 114344,
-   "heat": 131.0
+   "metric_sum_top10": 152454,
+   "heat": 133.3
+  },
+  {
+   "name": "都市",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 120971,
+   "heat": 131.5
   },
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 102580,
-   "heat": 130.2
-  },
-  {
-   "name": "科幻",
-   "count": 16,
-   "top10": 10,
-   "metric_sum_top10": 70160,
-   "heat": 127.2
+   "metric_sum_top10": 101567,
+   "heat": 130.1
   },
   {
    "name": "奇闻异事",
-   "count": 16,
+   "count": 15,
    "top10": 10,
-   "metric_sum_top10": 67580,
-   "heat": 126.9
+   "metric_sum_top10": 79517,
+   "heat": 128.2
+  },
+  {
+   "name": "科幻",
+   "count": 17,
+   "top10": 10,
+   "metric_sum_top10": 63685,
+   "heat": 126.5
   },
   {
    "name": "军事",
-   "count": 8,
-   "top10": 8,
-   "metric_sum_top10": 49812,
-   "heat": 116.6
+   "count": 10,
+   "top10": 10,
+   "metric_sum_top10": 61797,
+   "heat": 126.2
   },
   {
    "name": "N次元",
-   "count": 8,
-   "top10": 8,
-   "metric_sum_top10": 48227,
-   "heat": 116.3
+   "count": 10,
+   "top10": 10,
+   "metric_sum_top10": 57720,
+   "heat": 125.7
   },
   {
    "name": "游戏",
-   "count": 4,
-   "top10": 4,
-   "metric_sum_top10": 20675,
-   "heat": 93.7
+   "count": 3,
+   "top10": 3,
+   "metric_sum_top10": 17638,
+   "heat": 88.4
   },
   {
    "name": "现实题材",
@@ -74,43 +74,31 @@
  ],
  "keyword_heat": [
   {
-   "keyword": "系统",
-   "count": 14
-  },
-  {
    "keyword": "穿越",
-   "count": 9
+   "count": 10
   },
   {
-   "keyword": "无敌",
-   "count": 7
+   "keyword": "系统",
+   "count": 8
   },
   {
    "keyword": "重生",
    "count": 7
   },
   {
-   "keyword": "杀伐果断",
-   "count": 5
-  },
-  {
-   "keyword": "宗门",
-   "count": 4
-  },
-  {
-   "keyword": "种田",
-   "count": 3
-  },
-  {
-   "keyword": "大明",
-   "count": 2
+   "keyword": "无敌",
+   "count": 6
   },
   {
    "keyword": "玄幻",
-   "count": 2
+   "count": 3
   },
   {
    "keyword": "修仙",
+   "count": 3
+  },
+  {
+   "keyword": "战神",
    "count": 2
   },
   {
@@ -118,19 +106,31 @@
    "count": 2
   },
   {
-   "keyword": "神医",
+   "keyword": "签到",
    "count": 2
   },
   {
-   "keyword": "科技",
-   "count": 1
+   "keyword": "杀伐果断",
+   "count": 2
+  },
+  {
+   "keyword": "历史",
+   "count": 2
+  },
+  {
+   "keyword": "三国",
+   "count": 2
   },
   {
    "keyword": "苟道",
    "count": 1
   },
   {
-   "keyword": "炼丹",
+   "keyword": "兵王",
+   "count": 1
+  },
+  {
+   "keyword": "大明",
    "count": 1
   }
  ],
@@ -172,6 +172,26 @@
      "title": "吞噬九重天",
      "author": "屠刀成佛",
      "bookId": 1269302
+    }
+   ]
+  },
+  {
+   "date": "2026-08-21",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "大夏第一镇国公",
+     "author": "一头好人",
+     "bookId": 1476656
+    },
+    {
+     "title": "玄幻：挖矿两年半，摸尸才能变强",
+     "author": "晨昏线",
+     "bookId": 1560780
     }
    ]
   }
