@@ -1,5 +1,5 @@
 {
- "date": "2026-08-21",
+ "date": "2026-08-22",
  "board": {
   "slug": "end",
   "name": "完结榜",
@@ -19,7 +19,7 @@
    "cover": "https://static.zongheng.com/upload/cover/f7/f9/f7f98fe1824758f6e7eca4e298b124571743388118565.jpeg",
    "category": "现实题材",
    "cateFineId": 8109,
-   "metric": 117,
+   "metric": 229,
    "metricLabel": "阅读",
    "serialStatus": 1,
    "intro": "外星探索200载，归来竟发现自己成为了全民偶像\r 基因革命使地球文明进入到长生时代。地球在圣贤王的统治下一片繁荣，全球共产。\r 而月球的流放者们虽艰苦求生，却在绝境中点燃了反抗的火焰。\r 一场关于基因革命与文明存亡的时代变革在暗流涌动。归来成为精神图腾的林奇将如何抉择？\r 一个全民长生未来的奇妙幻想，一场地月文明之间的精彩对抗。且看长篇悬疑科幻——《秦皇不老》",
@@ -88,59 +88,24 @@
  ],
  "trend": {
   "first_day": false,
-  "new_count": 1,
+  "new_count": 0,
   "dropped_count": 0,
-  "new_books": [
-   {
-    "title": "秦皇不老",
-    "author": "簪君",
-    "rank": 1,
-    "bookId": 1387209
-   }
-  ],
+  "new_books": [],
   "dropped_books": [],
   "top_movers": [
-   {
-    "bookId": 1328897,
-    "title": "医海沉浮",
-    "author": "妙手秀才",
-    "rank": 2,
-    "rankChange": -1,
-    "metric": 45,
-    "metricGrowth": 0.0,
-    "momentum": 66.0
-   },
-   {
-    "bookId": 1448723,
-    "title": "破浪三十年",
-    "author": "汗青",
-    "rank": 3,
-    "rankChange": -1,
-    "metric": 892,
-    "metricGrowth": 0.0,
-    "momentum": 64.0
-   },
-   {
-    "bookId": 1521331,
-    "title": "男人脊梁",
-    "author": "西门瘦肉",
-    "rank": 4,
-    "rankChange": -1,
-    "metric": 372,
-    "metricGrowth": 0.0,
-    "momentum": 54.0
-   }
-  ],
-  "darkhorses": [
    {
     "bookId": 1387209,
     "title": "秦皇不老",
     "author": "簪君",
     "rank": 1,
-    "reason": "新上榜即进入前列"
+    "rankChange": 0,
+    "metric": 229,
+    "metricGrowth": 0.9573,
+    "momentum": 71.9
    }
   ],
+  "darkhorses": [],
   "update_rate": 0.0,
-  "summary": "现实题材榜单固化严重，头部效应极弱，阅读量断层显示用户对“强共鸣”内容渴求度高。《秦皇不老》夺魁证明历史与现实钩沉具备突围潜力。建议作者深挖“职场+时代变迁”的厚重感，避开平铺直叙的职业流水账；编辑应加大对具有社会话题度、人物弧光明显的现实主义作品的扶持，利用榜单缺口打造“爆款标杆”。"
+  "summary": "【完结榜·现实题材】榜单结构稳定，头部固若金汤。"
  }
 }

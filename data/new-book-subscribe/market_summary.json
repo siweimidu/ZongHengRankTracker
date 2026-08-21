@@ -1,33 +1,33 @@
 {
- "date": "2026-08-21",
+ "date": "2026-08-22",
  "category_heat": [
   {
    "name": "历史",
-   "count": 5,
-   "top10": 5,
-   "metric_sum_top10": 15661,
-   "heat": 95.5
+   "count": 6,
+   "top10": 6,
+   "metric_sum_top10": 29223,
+   "heat": 104.4
   },
   {
    "name": "玄幻奇幻",
    "count": 3,
    "top10": 3,
-   "metric_sum_top10": 6777,
-   "heat": 81.0
+   "metric_sum_top10": 8777,
+   "heat": 83.0
+  },
+  {
+   "name": "都市",
+   "count": 2,
+   "top10": 2,
+   "metric_sum_top10": 2944,
+   "heat": 70.4
   },
   {
    "name": "武侠仙侠",
    "count": 1,
    "top10": 1,
-   "metric_sum_top10": 3021,
-   "heat": 66.6
-  },
-  {
-   "name": "都市",
-   "count": 1,
-   "top10": 1,
-   "metric_sum_top10": 2626,
-   "heat": 65.6
+   "metric_sum_top10": 1597,
+   "heat": 61.7
   },
   {
    "name": "科幻",
@@ -68,7 +68,19 @@
  "keyword_heat": [
   {
    "keyword": "穿越",
-   "count": 4
+   "count": 5
+  },
+  {
+   "keyword": "万界",
+   "count": 2
+  },
+  {
+   "keyword": "末世",
+   "count": 2
+  },
+  {
+   "keyword": "无敌",
+   "count": 1
   },
   {
    "keyword": "历史",
@@ -83,14 +95,6 @@
    "count": 1
   },
   {
-   "keyword": "万界",
-   "count": 1
-  },
-  {
-   "keyword": "无敌",
-   "count": 1
-  },
-  {
    "keyword": "系统",
    "count": 1
   },
@@ -99,7 +103,7 @@
    "count": 1
   },
   {
-   "keyword": "末世",
+   "keyword": "宗门",
    "count": 1
   }
  ],
@@ -161,6 +165,26 @@
      "title": "斩神刀",
      "author": "四眼秀才",
      "bookId": 1555584
+    }
+   ]
+  },
+  {
+   "date": "2026-08-22",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
     }
    ]
   }

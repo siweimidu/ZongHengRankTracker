@@ -1,5 +1,5 @@
 {
- "date": "2026-08-21",
+ "date": "2026-08-22",
  "board": {
   "slug": "recommend",
   "name": "推荐榜",
@@ -19,12 +19,12 @@
    "cover": "https://static.zongheng.com/upload/cover/b9/16/b916b2ba11f417d81e9c579e89639a1a1754372655986.jpeg",
    "category": "游戏",
    "cateFineId": 8107,
-   "metric": 99,
+   "metric": 124,
    "metricLabel": "推荐",
    "serialStatus": 0,
    "intro": "手握史诗神兵，身披史诗武装，谈笑间，群敌灰飞烟灭，这是一部热血沸腾的战斗物语……当然不是，其实只是个讲述一个不断推倒萌妹子的男人一路开挂的故事主角光环万岁！",
-   "latestChapter": "第9324章，最速传说",
-   "latestChapterTime": "08-20 08:52",
+   "latestChapter": "第9325章，盛唐",
+   "latestChapterTime": "08-21 23:59",
    "updatedToday": false,
    "url": "https://www.zongheng.com/book/338556.html"
   },
@@ -38,7 +38,7 @@
    "cover": "https://static.zongheng.com/upload/cover/e2/c0/e2c013cf7c0eb133a292076ba1c9ca221783071586988.jpeg",
    "category": "游戏",
    "cateFineId": 8107,
-   "metric": 28,
+   "metric": 35,
    "metricLabel": "推荐",
    "serialStatus": 0,
    "intro": "并不单纯的娱乐游戏，也并不是无缘无故出现在自己身边的人，连自己获得的职业都不是偶然，真是一个令人讨厌的世界……但既然已经来了，那么就在只能重新拾起那把残剑了……以逝去希剑之名，化混乱世界之恶！踏无尽黑暗之路，斩扰乱众生之罪！",
@@ -49,6 +49,25 @@
   },
   {
    "rank": 3,
+   "bookId": 899411,
+   "title": "艾斯盖亚世界",
+   "author": "大型努力现场",
+   "authorId": 51677122,
+   "authorCover": "",
+   "cover": "https://static.zongheng.com/upload/cover/35/cf/35cff642c808933262b97514b430a5d81726288426270.jpeg",
+   "category": "游戏",
+   "cateFineId": 8107,
+   "metric": 14,
+   "metricLabel": "推荐",
+   "serialStatus": 1,
+   "intro": "世界的门扉向你打开。 当你第一次踏足她的时候，你发现了她秘密。 你在这里，可以获得力量、权利、财富…… 你想要的一切都在这里， 但是，生命却只有一次，这不是你可以选择的， 因为当你踏入的时候，命运已经注定。 从这里开始，少年，你想获得什么，就要付出什么， 做万人之上，还是烂泥之下， 抉择吧！",
+   "latestChapter": "第一千六百四十八章 安顿（大结局）",
+   "latestChapterTime": "04-30 23:53",
+   "updatedToday": false,
+   "url": "https://www.zongheng.com/book/899411.html"
+  },
+  {
+   "rank": 4,
    "bookId": 1533211,
    "title": "网游：我和怪物的一万种死法",
    "author": "醉卧九重云",
@@ -67,25 +86,6 @@
    "url": "https://www.zongheng.com/book/1533211.html"
   },
   {
-   "rank": 4,
-   "bookId": 899411,
-   "title": "艾斯盖亚世界",
-   "author": "大型努力现场",
-   "authorId": 51677122,
-   "authorCover": "",
-   "cover": "https://static.zongheng.com/upload/cover/35/cf/35cff642c808933262b97514b430a5d81726288426270.jpeg",
-   "category": "游戏",
-   "cateFineId": 8107,
-   "metric": 7,
-   "metricLabel": "推荐",
-   "serialStatus": 1,
-   "intro": "世界的门扉向你打开。 当你第一次踏足她的时候，你发现了她秘密。 你在这里，可以获得力量、权利、财富…… 你想要的一切都在这里， 但是，生命却只有一次，这不是你可以选择的， 因为当你踏入的时候，命运已经注定。 从这里开始，少年，你想获得什么，就要付出什么， 做万人之上，还是烂泥之下， 抉择吧！",
-   "latestChapter": "第一千六百四十八章 安顿（大结局）",
-   "latestChapterTime": "04-30 23:53",
-   "updatedToday": false,
-   "url": "https://www.zongheng.com/book/899411.html"
-  },
-  {
    "rank": 5,
    "bookId": 1561946,
    "title": "网游：普攻就加血，这个刺客有点肉",
@@ -95,7 +95,7 @@
    "cover": "https://static.zongheng.com/upload/cover/ea/18/ea18f99d593d0a5ae6237df2268934d01784107261893.jpeg",
    "category": "游戏",
    "cateFineId": 8107,
-   "metric": 3,
+   "metric": 5,
    "metricLabel": "推荐",
    "serialStatus": 0,
    "intro": "陈默重生回诸神之战开服那天，曾经的遗憾都将被一一弥补",
@@ -106,14 +106,65 @@
   }
  ],
  "trend": {
-  "first_day": true,
+  "first_day": false,
   "new_count": 0,
   "dropped_count": 0,
   "new_books": [],
   "dropped_books": [],
-  "top_movers": [],
+  "top_movers": [
+   {
+    "bookId": 899411,
+    "title": "艾斯盖亚世界",
+    "author": "大型努力现场",
+    "rank": 3,
+    "rankChange": 1,
+    "metric": 14,
+    "metricGrowth": 1.0,
+    "momentum": 70.5
+   },
+   {
+    "bookId": 338556,
+    "title": "网游之剑刃舞者",
+    "author": "不是闻人",
+    "rank": 1,
+    "rankChange": 0,
+    "metric": 124,
+    "metricGrowth": 0.2525,
+    "momentum": 70.0
+   },
+   {
+    "bookId": 604580,
+    "title": "网游之剑逝",
+    "author": "静望枫雪",
+    "rank": 2,
+    "rankChange": 0,
+    "metric": 35,
+    "metricGrowth": 0.25,
+    "momentum": 68.0
+   },
+   {
+    "bookId": 1561946,
+    "title": "网游：普攻就加血，这个刺客有点肉",
+    "author": "偷喝酒的猫",
+    "rank": 5,
+    "rankChange": 0,
+    "metric": 5,
+    "metricGrowth": 0.6667,
+    "momentum": 55.3
+   },
+   {
+    "bookId": 1533211,
+    "title": "网游：我和怪物的一万种死法",
+    "author": "醉卧九重云",
+    "rank": 4,
+    "rankChange": -1,
+    "metric": 10,
+    "metricGrowth": 0.0,
+    "momentum": 54.0
+   }
+  ],
   "darkhorses": [],
   "update_rate": 0.0,
-  "summary": "【推荐榜·游戏】榜单结构稳定，头部固若金汤。"
+  "summary": "【推荐榜·游戏】《艾斯盖亚世界》升 1 位至第 3 名。"
  }
 }
