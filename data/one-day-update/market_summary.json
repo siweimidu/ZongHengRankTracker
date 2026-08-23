@@ -1,68 +1,68 @@
 {
- "date": "2026-08-23",
+ "date": "2026-08-24",
  "category_heat": [
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 134784,
-   "heat": 132.3
+   "metric_sum_top10": 139068,
+   "heat": 132.6
   },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 132922,
-   "heat": 132.2
+   "metric_sum_top10": 117091,
+   "heat": 131.2
   },
   {
    "name": "历史",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 109375,
-   "heat": 130.7
+   "metric_sum_top10": 115143,
+   "heat": 131.1
   },
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 110031,
-   "heat": 130.7
+   "metric_sum_top10": 100921,
+   "heat": 130.1
   },
   {
    "name": "奇闻异事",
-   "count": 13,
+   "count": 17,
    "top10": 10,
-   "metric_sum_top10": 73544,
-   "heat": 127.6
+   "metric_sum_top10": 71067,
+   "heat": 127.3
+  },
+  {
+   "name": "军事",
+   "count": 10,
+   "top10": 10,
+   "metric_sum_top10": 68384,
+   "heat": 127.0
   },
   {
    "name": "科幻",
    "count": 15,
    "top10": 10,
-   "metric_sum_top10": 55955,
-   "heat": 125.5
-  },
-  {
-   "name": "军事",
-   "count": 9,
-   "top10": 9,
-   "metric_sum_top10": 52449,
-   "heat": 121.0
+   "metric_sum_top10": 63598,
+   "heat": 126.5
   },
   {
    "name": "N次元",
-   "count": 7,
-   "top10": 7,
-   "metric_sum_top10": 39981,
-   "heat": 110.8
+   "count": 8,
+   "top10": 8,
+   "metric_sum_top10": 44434,
+   "heat": 115.7
   },
   {
    "name": "游戏",
-   "count": 5,
-   "top10": 5,
-   "metric_sum_top10": 24814,
-   "heat": 99.1
+   "count": 4,
+   "top10": 4,
+   "metric_sum_top10": 20561,
+   "heat": 93.6
   },
   {
    "name": "现实题材",
@@ -75,11 +75,11 @@
  "keyword_heat": [
   {
    "keyword": "系统",
-   "count": 12
+   "count": 14
   },
   {
    "keyword": "穿越",
-   "count": 8
+   "count": 10
   },
   {
    "keyword": "无敌",
@@ -90,19 +90,15 @@
    "count": 5
   },
   {
+   "keyword": "都市",
+   "count": 3
+  },
+  {
    "keyword": "玄幻",
    "count": 3
   },
   {
-   "keyword": "修仙",
-   "count": 2
-  },
-  {
-   "keyword": "都市",
-   "count": 2
-  },
-  {
-   "keyword": "诸天",
+   "keyword": "神医",
    "count": 2
   },
   {
@@ -114,23 +110,27 @@
    "count": 2
   },
   {
-   "keyword": "神医",
+   "keyword": "种田",
    "count": 2
   },
   {
-   "keyword": "万界",
+   "keyword": "修仙",
    "count": 2
+  },
+  {
+   "keyword": "诸天",
+   "count": 1
   },
   {
    "keyword": "苟道",
    "count": 1
   },
   {
-   "keyword": "工业",
+   "keyword": "大明",
    "count": 1
   },
   {
-   "keyword": "大明",
+   "keyword": "宗门",
    "count": 1
   }
  ],
@@ -232,6 +232,26 @@
      "title": "鸿蒙霸体诀",
      "author": "鱼初见",
      "bookId": 1268659
+    }
+   ]
+  },
+  {
+   "date": "2026-08-24",
+   "top3": [
+    {
+     "title": "东北修道三十年，世人敬我如敬神",
+     "author": "火出全宇宙",
+     "bookId": 1457294
+    },
+    {
+     "title": "徒手缝合大出血，你叫他实习医生？",
+     "author": "咚咚冬眠",
+     "bookId": 1551021
+    },
+    {
+     "title": "吞噬九重天",
+     "author": "屠刀成佛",
+     "bookId": 1269302
     }
    ]
   }

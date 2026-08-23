@@ -1,7 +1,7 @@
 {
  "slug": "recommend",
  "name": "推荐榜",
- "date": "2026-08-23",
+ "date": "2026-08-24",
  "types": [
   {
    "name": "全部",
@@ -26,7 +26,7 @@
   {
    "name": "科幻",
    "url": "api/recommend/latest/科幻.json",
-   "count": 30
+   "count": 28
   },
   {
    "name": "都市",
@@ -36,7 +36,7 @@
   {
    "name": "奇闻异事",
    "url": "api/recommend/latest/奇闻异事.json",
-   "count": 23
+   "count": 24
   },
   {
    "name": "游戏",
@@ -46,12 +46,12 @@
   {
    "name": "N次元",
    "url": "api/recommend/latest/N次元.json",
-   "count": 15
+   "count": 10
   },
   {
    "name": "现实题材",
    "url": "api/recommend/latest/现实题材.json",
-   "count": 12
+   "count": 11
   }
  ]
 }

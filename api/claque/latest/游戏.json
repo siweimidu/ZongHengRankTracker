@@ -1,5 +1,5 @@
 {
- "date": "2026-08-23",
+ "date": "2026-08-24",
  "board": {
   "slug": "claque",
   "name": "捧场榜",
@@ -8,36 +8,23 @@
   "metric_label": "捧场"
  },
  "category": "游戏",
- "books": [
-  {
-   "rank": 1,
-   "bookId": 1533211,
-   "title": "网游：我和怪物的一万种死法",
-   "author": "醉卧九重云",
-   "authorId": 51174565,
-   "authorCover": "",
-   "cover": "https://static.zongheng.com/upload/cover/e9/fe/e9fe0d9525758c25f86265dd9af204711781139240876.jpeg",
-   "category": "游戏",
-   "cateFineId": 8107,
-   "metric": 300,
-   "metricLabel": "捧场",
-   "serialStatus": 0,
-   "intro": "【每天5更，网游，乐子，爽！】\r 每一个遇到地球玩家的外星人都知道，那个叫秦帝的家伙会先送死几十次，然后杀光所有人！",
-   "latestChapter": "第268章 驯服龙雀",
-   "latestChapterTime": "07-01 18:40",
-   "updatedToday": false,
-   "url": "https://www.zongheng.com/book/1533211.html"
-  }
- ],
+ "books": [],
  "trend": {
   "first_day": false,
   "new_count": 0,
-  "dropped_count": 0,
+  "dropped_count": 1,
   "new_books": [],
-  "dropped_books": [],
+  "dropped_books": [
+   {
+    "title": "网游：我和怪物的一万种死法",
+    "author": "醉卧九重云",
+    "prevRank": 1,
+    "bookId": 1533211
+   }
+  ],
   "top_movers": [],
   "darkhorses": [],
-  "update_rate": 0.0,
-  "summary": "【捧场榜·游戏】榜单结构稳定，头部固若金汤。"
+  "update_rate": 0,
+  "summary": "【捧场榜·游戏】1 本掉榜。"
  }
 }

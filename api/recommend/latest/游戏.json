@@ -1,5 +1,5 @@
 {
- "date": "2026-08-23",
+ "date": "2026-08-24",
  "board": {
   "slug": "recommend",
   "name": "推荐榜",
@@ -19,7 +19,7 @@
    "cover": "https://static.zongheng.com/upload/cover/b9/16/b916b2ba11f417d81e9c579e89639a1a1754372655986.jpeg",
    "category": "游戏",
    "cateFineId": 8107,
-   "metric": 142,
+   "metric": 3,
    "metricLabel": "推荐",
    "serialStatus": 0,
    "intro": "手握史诗神兵，身披史诗武装，谈笑间，群敌灰飞烟灭，这是一部热血沸腾的战斗物语……当然不是，其实只是个讲述一个不断推倒萌妹子的男人一路开挂的故事主角光环万岁！",
@@ -38,7 +38,7 @@
    "cover": "https://static.zongheng.com/upload/cover/e2/c0/e2c013cf7c0eb133a292076ba1c9ca221783071586988.jpeg",
    "category": "游戏",
    "cateFineId": 8107,
-   "metric": 42,
+   "metric": 49,
    "metricLabel": "推荐",
    "serialStatus": 0,
    "intro": "并不单纯的娱乐游戏，也并不是无缘无故出现在自己身边的人，连自己获得的职业都不是偶然，真是一个令人讨厌的世界……但既然已经来了，那么就在只能重新拾起那把残剑了……以逝去希剑之名，化混乱世界之恶！踏无尽黑暗之路，斩扰乱众生之罪！",
@@ -95,12 +95,12 @@
    "cover": "https://static.zongheng.com/upload/cover/ea/18/ea18f99d593d0a5ae6237df2268934d01784107261893.jpeg",
    "category": "游戏",
    "cateFineId": 8107,
-   "metric": 5,
+   "metric": 6,
    "metricLabel": "推荐",
    "serialStatus": 0,
    "intro": "陈默重生回诸神之战开服那天，曾经的遗憾都将被一一弥补",
-   "latestChapter": "第114章 二次加固",
-   "latestChapterTime": "08-22 20:01",
+   "latestChapter": "第116章 一级军事任务",
+   "latestChapterTime": "08-23 21:36",
    "updatedToday": false,
    "url": "https://www.zongheng.com/book/1561946.html"
   }
@@ -118,9 +118,9 @@
     "author": "不是闻人",
     "rank": 1,
     "rankChange": 0,
-    "metric": 142,
-    "metricGrowth": 0.1452,
-    "momentum": 69.5
+    "metric": 3,
+    "metricGrowth": -0.9789,
+    "momentum": 68.0
    },
    {
     "bookId": 604580,
@@ -128,9 +128,19 @@
     "author": "静望枫雪",
     "rank": 2,
     "rankChange": 0,
-    "metric": 42,
+    "metric": 49,
+    "metricGrowth": 0.1667,
+    "momentum": 67.6
+   },
+   {
+    "bookId": 1561946,
+    "title": "网游：普攻就加血，这个刺客有点肉",
+    "author": "偷喝酒的猫",
+    "rank": 5,
+    "rankChange": 0,
+    "metric": 6,
     "metricGrowth": 0.2,
-    "momentum": 67.8
+    "momentum": 53.8
    }
   ],
   "darkhorses": [],
