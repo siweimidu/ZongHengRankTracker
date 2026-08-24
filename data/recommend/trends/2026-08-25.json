@@ -1,0 +1,1715 @@
+{
+ "date": "2026-08-25",
+ "prev_date": "2026-08-24",
+ "board": {
+  "slug": "recommend",
+  "name": "推荐榜",
+  "rankType": 6,
+  "period": 0
+ },
+ "trends": {
+  "全部": {
+   "first_day": false,
+   "new_count": 4,
+   "dropped_count": 4,
+   "new_books": [
+    {
+     "title": "人在末世，我能联通现实",
+     "author": "精英hr",
+     "rank": 17,
+     "bookId": 1365591
+    },
+    {
+     "title": "五仙门",
+     "author": "看得两叁言",
+     "rank": 23,
+     "bookId": 953526
+    },
+    {
+     "title": "绝色生骄",
+     "author": "沙漠",
+     "rank": 24,
+     "bookId": 1340178
+    },
+    {
+     "title": "大魏芳华",
+     "author": "西风紧",
+     "rank": 26,
+     "bookId": 1202028
+    }
+   ],
+   "dropped_books": [
+    {
+     "title": "躺平：老婆修炼我变强",
+     "author": "万红壮",
+     "prevRank": 17,
+     "bookId": 1296262
+    },
+    {
+     "title": "舔狗反派只想苟，女主不按套路走！",
+     "author": "我是愤怒",
+     "prevRank": 23,
+     "bookId": 1280541
+    },
+    {
+     "title": "割鹿记",
+     "author": "无罪",
+     "prevRank": 24,
+     "bookId": 1326684
+    },
+    {
+     "title": "仙棺，神墟，剑无敌！",
+     "author": "千年老龟",
+     "prevRank": 28,
+     "bookId": 1268638
+    }
+   ],
+   "top_movers": [
+    {
+     "bookId": 1385191,
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "rank": 2,
+     "rankChange": 3,
+     "metric": 1327,
+     "metricGrowth": 16.6933,
+     "momentum": 89.8
+    },
+    {
+     "bookId": 1366535,
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "rank": 4,
+     "rankChange": 6,
+     "metric": 1051,
+     "metricGrowth": 18.1091,
+     "momentum": 86.0
+    },
+    {
+     "bookId": 1412188,
+     "title": "万仙来朝",
+     "author": "萧瑾瑜",
+     "rank": 8,
+     "rankChange": 13,
+     "metric": 439,
+     "metricGrowth": 13.6333,
+     "momentum": 80.8
+    },
+    {
+     "bookId": 1415876,
+     "title": "天黑请点灯",
+     "author": "罗樵森",
+     "rank": 10,
+     "rankChange": 17,
+     "metric": 403,
+     "metricGrowth": 17.3182,
+     "momentum": 78.6
+    },
+    {
+     "bookId": 672340,
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 1758,
+     "metricGrowth": 3.1857,
+     "momentum": 75.1
+    },
+    {
+     "bookId": 1417960,
+     "title": "sss级仙医出狱",
+     "author": "步行天下",
+     "rank": 3,
+     "rankChange": -1,
+     "metric": 1198,
+     "metricGrowth": 7.6187,
+     "momentum": 75.0
+    },
+    {
+     "bookId": 916691,
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "rank": 11,
+     "rankChange": 11,
+     "metric": 352,
+     "metricGrowth": 11.1379,
+     "momentum": 73.3
+    },
+    {
+     "bookId": 1410173,
+     "title": "众仙俯首",
+     "author": "咸鱼老白",
+     "rank": 12,
+     "rankChange": 17,
+     "metric": 314,
+     "metricGrowth": 14.7,
+     "momentum": 73.3
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1412188,
+     "title": "万仙来朝",
+     "author": "萧瑾瑜",
+     "rank": 8,
+     "reason": "一日上升 13 位"
+    },
+    {
+     "bookId": 1415876,
+     "title": "天黑请点灯",
+     "author": "罗樵森",
+     "rank": 10,
+     "reason": "一日上升 17 位"
+    },
+    {
+     "bookId": 916691,
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "rank": 11,
+     "reason": "一日上升 11 位"
+    },
+    {
+     "bookId": 1410173,
+     "title": "众仙俯首",
+     "author": "咸鱼老白",
+     "rank": 12,
+     "reason": "一日上升 17 位"
+    },
+    {
+     "bookId": 1435440,
+     "title": "齐天",
+     "author": "日落红尘",
+     "rank": 16,
+     "reason": "一日上升 9 位"
+    }
+   ],
+   "update_rate": 0.1,
+   "summary": "【推荐榜·全部】4 本新上榜；4 本掉榜；《星辰大道》升 3 位至第 2 名；黑马《万仙来朝》第 8 名；当日更新率 10%。"
+  },
+  "玄幻奇幻": {
+   "first_day": false,
+   "new_count": 8,
+   "dropped_count": 8,
+   "new_books": [
+    {
+     "title": "灰烬领主",
+     "author": "我爱小豆",
+     "rank": 12,
+     "bookId": 1215587
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "rank": 15,
+     "bookId": 1562907
+    },
+    {
+     "title": "万剑朝宗",
+     "author": "六道沉沦",
+     "rank": 16,
+     "bookId": 1419877
+    },
+    {
+     "title": "九玄",
+     "author": "地星引力",
+     "rank": 20,
+     "bookId": 1584245
+    },
+    {
+     "title": "武道长生，从大离第一纨绔开始",
+     "author": "轻浮你一笑",
+     "rank": 22,
+     "bookId": 1433175
+    },
+    {
+     "title": "无敌剑道",
+     "author": "贪睡的龙",
+     "rank": 23,
+     "bookId": 1472092
+    }
+   ],
+   "dropped_books": [
+    {
+     "title": "大道问鼎",
+     "author": "杜醒",
+     "prevRank": 16,
+     "bookId": 484955
+    },
+    {
+     "title": "时空法则",
+     "author": "千方明灭",
+     "prevRank": 20,
+     "bookId": 839210
+    },
+    {
+     "title": "齿轮之证",
+     "author": "天洗",
+     "prevRank": 23,
+     "bookId": 877423
+    },
+    {
+     "title": "每日结算：从北境镖师开始武道成圣",
+     "author": "璀璨星空",
+     "prevRank": 26,
+     "bookId": 1579044
+    },
+    {
+     "title": "第一天骄",
+     "author": "苏月夕",
+     "prevRank": 27,
+     "bookId": 1401735
+    },
+    {
+     "title": "剑斩仙门",
+     "author": "蜗牛狂奔",
+     "prevRank": 28,
+     "bookId": 1463182
+    }
+   ],
+   "top_movers": [
+    {
+     "bookId": 1412188,
+     "title": "万仙来朝",
+     "author": "萧瑾瑜",
+     "rank": 3,
+     "rankChange": 6,
+     "metric": 439,
+     "metricGrowth": 13.6333,
+     "momentum": 93.8
+    },
+    {
+     "bookId": 1385191,
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 1327,
+     "metricGrowth": 16.6933,
+     "momentum": 84.3
+    },
+    {
+     "bookId": 916691,
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "rank": 4,
+     "rankChange": 6,
+     "metric": 352,
+     "metricGrowth": 11.1379,
+     "momentum": 82.3
+    },
+    {
+     "bookId": 1336976,
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "rank": 2,
+     "rankChange": 1,
+     "metric": 745,
+     "metricGrowth": 11.6271,
+     "momentum": 82.1
+    },
+    {
+     "bookId": 1435440,
+     "title": "齐天",
+     "author": "日落红尘",
+     "rank": 6,
+     "rankChange": 5,
+     "metric": 244,
+     "metricGrowth": 8.76,
+     "momentum": 74.3
+    },
+    {
+     "bookId": 342974,
+     "title": "永夜君王",
+     "author": "烟雨江南",
+     "rank": 14,
+     "rankChange": 10,
+     "metric": 64,
+     "metricGrowth": 9.6667,
+     "momentum": 66.4
+    },
+    {
+     "bookId": 408586,
+     "title": "逆天邪神",
+     "author": "火星引力",
+     "rank": 5,
+     "rankChange": 0,
+     "metric": 311,
+     "metricGrowth": 5.4792,
+     "momentum": 61.4
+    },
+    {
+     "bookId": 1269302,
+     "title": "吞噬九重天",
+     "author": "屠刀成佛",
+     "rank": 7,
+     "rankChange": -1,
+     "metric": 215,
+     "metricGrowth": 3.5745,
+     "momentum": 55.6
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1215587,
+     "title": "灰烬领主",
+     "author": "我爱小豆",
+     "rank": 12,
+     "reason": "新上榜即进入前列"
+    },
+    {
+     "bookId": 342974,
+     "title": "永夜君王",
+     "author": "烟雨江南",
+     "rank": 14,
+     "reason": "一日上升 10 位"
+    },
+    {
+     "bookId": 1562907,
+     "title": "无敌圣体",
+     "author": "列夕",
+     "rank": 15,
+     "reason": "新上榜即进入前列"
+    }
+   ],
+   "update_rate": 0.133,
+   "summary": "【推荐榜·玄幻奇幻】8 本新上榜；8 本掉榜；《万仙来朝》升 6 位至第 3 名；黑马《灰烬领主》第 12 名。"
+  },
+  "武侠仙侠": {
+   "first_day": false,
+   "new_count": 7,
+   "dropped_count": 7,
+   "new_books": [
+    {
+     "title": "不是说好解毒么，怎么成仙帝了？",
+     "author": "抹茶春卷",
+     "rank": 9,
+     "bookId": 1367620
+    },
+    {
+     "title": "玄幻：人在废丹房，我能合成万物",
+     "author": "墨明棋妙",
+     "rank": 14,
+     "bookId": 1491365
+    },
+    {
+     "title": "大景镇玄司",
+     "author": "藏花主人",
+     "rank": 22,
+     "bookId": 1116640
+    },
+    {
+     "title": "凡人登仙：从杂役院开始",
+     "author": "宿火",
+     "rank": 24,
+     "bookId": 1501507
+    },
+    {
+     "title": "平天策",
+     "author": "无罪",
+     "rank": 25,
+     "bookId": 688697
+    },
+    {
+     "title": "求道武侠世界",
+     "author": "大荒散人",
+     "rank": 28,
+     "bookId": 511940
+    }
+   ],
+   "dropped_books": [
+    {
+     "title": "修仙从神秘小鼎开始",
+     "author": "以云为墨",
+     "prevRank": 14,
+     "bookId": 1324004
+    },
+    {
+     "title": "凡人修仙：下山捡到小绿瓶，老头要修仙",
+     "author": "卓卓脑婆",
+     "prevRank": 16,
+     "bookId": 1569028
+    },
+    {
+     "title": "凡人修仙：从五行同修开始",
+     "author": "年年有裕",
+     "prevRank": 19,
+     "bookId": 1504610
+    },
+    {
+     "title": "神女录，我以阴阳证大道！",
+     "author": "一品小楼",
+     "prevRank": 20,
+     "bookId": 1501990
+    },
+    {
+     "title": "望仙门",
+     "author": "门外秋千",
+     "prevRank": 22,
+     "bookId": 1176364
+    },
+    {
+     "title": "聚宝仙瓶",
+     "author": "馒头不够吃",
+     "prevRank": 24,
+     "bookId": 1582375
+    }
+   ],
+   "top_movers": [
+    {
+     "bookId": 1410173,
+     "title": "众仙俯首",
+     "author": "咸鱼老白",
+     "rank": 3,
+     "rankChange": 3,
+     "metric": 314,
+     "metricGrowth": 14.7,
+     "momentum": 86.8
+    },
+    {
+     "bookId": 953526,
+     "title": "五仙门",
+     "author": "看得两叁言",
+     "rank": 6,
+     "rankChange": 4,
+     "metric": 175,
+     "metricGrowth": 24.0,
+     "momentum": 79.6
+    },
+    {
+     "bookId": 1552353,
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 497,
+     "metricGrowth": 5.6267,
+     "momentum": 75.5
+    },
+    {
+     "bookId": 672340,
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 1758,
+     "metricGrowth": 3.1857,
+     "momentum": 75.1
+    },
+    {
+     "bookId": 1575696,
+     "title": "崔九鲢传奇",
+     "author": "纪明",
+     "rank": 7,
+     "rankChange": 18,
+     "metric": 100,
+     "metricGrowth": -0.8884,
+     "momentum": 68.0
+    },
+    {
+     "bookId": 1388197,
+     "title": "人间有剑",
+     "author": "平生未知寒",
+     "rank": 4,
+     "rankChange": 1,
+     "metric": 282,
+     "metricGrowth": 7.0571,
+     "momentum": 67.1
+    },
+    {
+     "bookId": 1478384,
+     "title": "凡人修仙：疯了吧！你一百岁了还要修仙",
+     "author": "我家有母老虎",
+     "rank": 5,
+     "rankChange": -1,
+     "metric": 181,
+     "metricGrowth": 4.0278,
+     "momentum": 60.0
+    },
+    {
+     "bookId": 1250683,
+     "title": "一剑吞鸿",
+     "author": "曹家大官人",
+     "rank": 11,
+     "rankChange": 15,
+     "metric": 39,
+     "metricGrowth": -0.8194,
+     "momentum": 60.0
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1575696,
+     "title": "崔九鲢传奇",
+     "author": "纪明",
+     "rank": 7,
+     "reason": "一日上升 18 位"
+    },
+    {
+     "bookId": 1367620,
+     "title": "不是说好解毒么，怎么成仙帝了？",
+     "author": "抹茶春卷",
+     "rank": 9,
+     "reason": "新上榜即进入前列"
+    },
+    {
+     "bookId": 1250683,
+     "title": "一剑吞鸿",
+     "author": "曹家大官人",
+     "rank": 11,
+     "reason": "一日上升 15 位"
+    },
+    {
+     "bookId": 1572566,
+     "title": "一百岁老头子，谁让你装嫩修仙了",
+     "author": "火烈虫",
+     "rank": 13,
+     "reason": "一日上升 16 位"
+    },
+    {
+     "bookId": 1491365,
+     "title": "玄幻：人在废丹房，我能合成万物",
+     "author": "墨明棋妙",
+     "rank": 14,
+     "reason": "新上榜即进入前列"
+    }
+   ],
+   "update_rate": 0.133,
+   "summary": "【推荐榜·武侠仙侠】7 本新上榜；7 本掉榜；《众仙俯首》升 3 位至第 3 名；黑马《崔九鲢传奇》第 7 名。"
+  },
+  "历史": {
+   "first_day": false,
+   "new_count": 7,
+   "dropped_count": 7,
+   "new_books": [
+    {
+     "title": "边军悍卒",
+     "author": "木有金箍",
+     "rank": 17,
+     "bookId": 1363170
+    },
+    {
+     "title": "边关兵王：从领娶罪女开始崛起",
+     "author": "青岳",
+     "rank": 20,
+     "bookId": 1421865
+    },
+    {
+     "title": "寒甲问山河",
+     "author": "宇十六",
+     "rank": 23,
+     "bookId": 1583637
+    },
+    {
+     "title": "三国最强军神",
+     "author": "海阁1号",
+     "rank": 26,
+     "bookId": 688871
+    },
+    {
+     "title": "大明1368",
+     "author": "翻滚的土肥圆",
+     "rank": 28,
+     "bookId": 586575
+    },
+    {
+     "title": "让你当书童，你成大夏文圣",
+     "author": "炫迈",
+     "rank": 29,
+     "bookId": 1442322
+    }
+   ],
+   "dropped_books": [
+    {
+     "title": "正气凛然西门庆",
+     "author": "俺老孙来也",
+     "prevRank": 18,
+     "bookId": 1442951
+    },
+    {
+     "title": "大夏第一镇国公",
+     "author": "一头好人",
+     "prevRank": 20,
+     "bookId": 1476656
+    },
+    {
+     "title": "草寇称王，从拿下凶猛女悍匪开始！",
+     "author": "沉默的鹦鹉",
+     "prevRank": 21,
+     "bookId": 1566106
+    },
+    {
+     "title": "灾荒年捡回姐妹花，我粮肉满仓！",
+     "author": "小小月月落落",
+     "prevRank": 22,
+     "bookId": 1469616
+    },
+    {
+     "title": "大唐：我一赘婿，你封我为国师作甚？",
+     "author": "青墨子",
+     "prevRank": 23,
+     "bookId": 1583261
+    },
+    {
+     "title": "十国千娇",
+     "author": "西风紧",
+     "prevRank": 24,
+     "bookId": 382294
+    }
+   ],
+   "top_movers": [
+    {
+     "bookId": 1340178,
+     "title": "绝色生骄",
+     "author": "沙漠",
+     "rank": 3,
+     "rankChange": 5,
+     "metric": 169,
+     "metricGrowth": 8.9412,
+     "momentum": 88.5
+    },
+    {
+     "bookId": 1270202,
+     "title": "大明：寒门辅臣",
+     "author": "寒梅惊雪",
+     "rank": 10,
+     "rankChange": 17,
+     "metric": 62,
+     "metricGrowth": 61.0,
+     "momentum": 82.0
+    },
+    {
+     "bookId": 1202028,
+     "title": "大魏芳华",
+     "author": "西风紧",
+     "rank": 4,
+     "rankChange": 6,
+     "metric": 137,
+     "metricGrowth": 8.7857,
+     "momentum": 80.9
+    },
+    {
+     "bookId": 1473924,
+     "title": "玄幻：拳练百遍，顿悟自见！",
+     "author": "尼罗河",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 437,
+     "metricGrowth": 7.0926,
+     "momentum": 78.7
+    },
+    {
+     "bookId": 1494591,
+     "title": "江山绝色榜",
+     "author": "六如和尚",
+     "rank": 2,
+     "rankChange": 1,
+     "metric": 222,
+     "metricGrowth": 4.4146,
+     "momentum": 76.9
+    },
+    {
+     "bookId": 1421501,
+     "title": "大明第一墙头草",
+     "author": "随轻风去",
+     "rank": 9,
+     "rankChange": 5,
+     "metric": 80,
+     "metricGrowth": 15.0,
+     "momentum": 72.0
+    },
+    {
+     "bookId": 1323994,
+     "title": "逍遥四公子",
+     "author": "修果",
+     "rank": 15,
+     "rankChange": 13,
+     "metric": 23,
+     "metricGrowth": 22.0,
+     "momentum": 70.8
+    },
+    {
+     "bookId": 1326470,
+     "title": "天命：从大业十二年开始",
+     "author": "赵子曰",
+     "rank": 5,
+     "rankChange": 1,
+     "metric": 132,
+     "metricGrowth": 5.9474,
+     "momentum": 64.3
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1270202,
+     "title": "大明：寒门辅臣",
+     "author": "寒梅惊雪",
+     "rank": 10,
+     "reason": "一日上升 17 位"
+    },
+    {
+     "bookId": 1406951,
+     "title": "从军赋",
+     "author": "风尘落雨",
+     "rank": 11,
+     "reason": "一日上升 18 位"
+    },
+    {
+     "bookId": 1323994,
+     "title": "逍遥四公子",
+     "author": "修果",
+     "rank": 15,
+     "reason": "一日上升 13 位"
+    },
+    {
+     "bookId": 1495731,
+     "title": "明末：我崇祯，再造大明",
+     "author": "廉颇老矣",
+     "rank": 21,
+     "reason": "一日上升 9 位"
+    }
+   ],
+   "update_rate": 0.067,
+   "summary": "【推荐榜·历史】7 本新上榜；7 本掉榜；《绝色生骄》升 5 位至第 3 名；黑马《大明：寒门辅臣》第 10 名。"
+  },
+  "科幻": {
+   "first_day": false,
+   "new_count": 1,
+   "dropped_count": 1,
+   "new_books": [
+    {
+     "title": "深渊：无限战争",
+     "author": "格林德沃",
+     "rank": 20,
+     "bookId": 1582157
+    }
+   ],
+   "dropped_books": [
+    {
+     "title": "变成丧尸后被人类捡到",
+     "author": "伯牙",
+     "prevRank": 28,
+     "bookId": 1568390
+    }
+   ],
+   "top_movers": [
+    {
+     "bookId": 1365591,
+     "title": "人在末世，我能联通现实",
+     "author": "精英hr",
+     "rank": 3,
+     "rankChange": 7,
+     "metric": 225,
+     "metricGrowth": -0.7276,
+     "momentum": 81.5
+    },
+    {
+     "bookId": 325639,
+     "title": "星辰之主",
+     "author": "减肥专家",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 848,
+     "metricGrowth": 6.1864,
+     "momentum": 77.9
+    },
+    {
+     "bookId": 1420145,
+     "title": "星际猎人",
+     "author": "太极阴阳鱼",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 263,
+     "metricGrowth": 2.2469,
+     "momentum": 72.0
+    },
+    {
+     "bookId": 1488852,
+     "title": "摘星",
+     "author": "辰燃",
+     "rank": 5,
+     "rankChange": 6,
+     "metric": 22,
+     "metricGrowth": -0.8817,
+     "momentum": 67.0
+    },
+    {
+     "bookId": 718689,
+     "title": "踏星",
+     "author": "随散飘风",
+     "rank": 7,
+     "rankChange": 7,
+     "metric": 14,
+     "metricGrowth": -0.75,
+     "momentum": 65.5
+    },
+    {
+     "bookId": 1367623,
+     "title": "十天一天赋，成为吸血鬼的我太BUG了",
+     "author": "道三生",
+     "rank": 4,
+     "rankChange": -1,
+     "metric": 26,
+     "metricGrowth": 1.6,
+     "momentum": 59.1
+    },
+    {
+     "bookId": 1170710,
+     "title": "地球原来是监狱",
+     "author": "难起笔名",
+     "rank": 6,
+     "rankChange": -1,
+     "metric": 16,
+     "metricGrowth": 3.0,
+     "momentum": 56.9
+    },
+    {
+     "bookId": 1561989,
+     "title": "暴雨末世：女邻居求我给她一个家",
+     "author": "拥抱黑夜",
+     "rank": 13,
+     "rankChange": 9,
+     "metric": 4,
+     "metricGrowth": -0.5,
+     "momentum": 56.0
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1561989,
+     "title": "暴雨末世：女邻居求我给她一个家",
+     "author": "拥抱黑夜",
+     "rank": 13,
+     "reason": "一日上升 9 位"
+    }
+   ],
+   "update_rate": 0.036,
+   "summary": "【推荐榜·科幻】1 本新上榜；1 本掉榜；《人在末世，我能联通现实》升 7 位至第 3 名；黑马《暴雨末世：女邻居求我给她一个家》第 13 名。"
+  },
+  "都市": {
+   "first_day": false,
+   "new_count": 11,
+   "dropped_count": 11,
+   "new_books": [
+    {
+     "title": "重生1992的那些事",
+     "author": "瑶湖居士",
+     "rank": 7,
+     "bookId": 1317231
+    },
+    {
+     "title": "东北修道三十年，世人敬我如敬神",
+     "author": "火出全宇宙",
+     "rank": 9,
+     "bookId": 1457294
+    },
+    {
+     "title": "悔婚？反手娶了资本家大小姐！",
+     "author": "山野听风",
+     "rank": 15,
+     "bookId": 1480611
+    },
+    {
+     "title": "警报！真龙出狱！",
+     "author": "红透半边天",
+     "rank": 21,
+     "bookId": 1336529
+    },
+    {
+     "title": "谁在建功立业4天台新贵",
+     "author": "寂寞的时候很冷",
+     "rank": 22,
+     "bookId": 1439196
+    },
+    {
+     "title": "屠狗之辈",
+     "author": "关中老人",
+     "rank": 24,
+     "bookId": 1366450
+    }
+   ],
+   "dropped_books": [
+    {
+     "title": "重返1998",
+     "author": "笔舞春秋",
+     "prevRank": 11,
+     "bookId": 1190533
+    },
+    {
+     "title": "重生60：从深山打猎开始致富",
+     "author": "KITTT",
+     "prevRank": 14,
+     "bookId": 1392025
+    },
+    {
+     "title": "透视神瞳：左手帝王绿，右手美人腰",
+     "author": "抹茶鲱鱼",
+     "prevRank": 16,
+     "bookId": 1533014
+    },
+    {
+     "title": "伪装成人类的日常生活",
+     "author": "到处打滚",
+     "prevRank": 19,
+     "bookId": 1461626
+    },
+    {
+     "title": "步步登阶",
+     "author": "江湖如梦",
+     "prevRank": 21,
+     "bookId": 1415874
+    },
+    {
+     "title": "开局复兴港娱，内娱急了",
+     "author": "豆浆渐冷",
+     "prevRank": 23,
+     "bookId": 1486368
+    }
+   ],
+   "top_movers": [
+    {
+     "bookId": 1366535,
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 1051,
+     "metricGrowth": 18.1091,
+     "momentum": 83.0
+    },
+    {
+     "bookId": 1417960,
+     "title": "sss级仙医出狱",
+     "author": "步行天下",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 1198,
+     "metricGrowth": 7.6187,
+     "momentum": 79.0
+    },
+    {
+     "bookId": 1379651,
+     "title": "诡异游戏：开局觉醒Bug级天赋",
+     "author": "予作",
+     "rank": 3,
+     "rankChange": 1,
+     "metric": 99,
+     "metricGrowth": 4.8235,
+     "momentum": 75.3
+    },
+    {
+     "bookId": 1516055,
+     "title": "火红年代：开发北大荒，种田赶山养全家",
+     "author": "慎思量",
+     "rank": 11,
+     "rankChange": 6,
+     "metric": 35,
+     "metricGrowth": 7.75,
+     "momentum": 66.1
+    },
+    {
+     "bookId": 1250673,
+     "title": "好戏登场",
+     "author": "鸟川鸣",
+     "rank": 4,
+     "rankChange": 1,
+     "metric": 82,
+     "metricGrowth": 3.8235,
+     "momentum": 64.3
+    },
+    {
+     "bookId": 1322926,
+     "title": "重生1958：从窝在深山打猎开始",
+     "author": "妖道无涯",
+     "rank": 14,
+     "rankChange": 6,
+     "metric": 34,
+     "metricGrowth": 10.3333,
+     "momentum": 61.9
+    },
+    {
+     "bookId": 1292521,
+     "title": "妙手大仙医",
+     "author": "金佛",
+     "rank": 6,
+     "rankChange": 0,
+     "metric": 76,
+     "metricGrowth": 3.75,
+     "momentum": 57.7
+    },
+    {
+     "bookId": 1280541,
+     "title": "舔狗反派只想苟，女主不按套路走！",
+     "author": "我是愤怒",
+     "rank": 5,
+     "rankChange": -2,
+     "metric": 76,
+     "metricGrowth": 1.8148,
+     "momentum": 57.4
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1317231,
+     "title": "重生1992的那些事",
+     "author": "瑶湖居士",
+     "rank": 7,
+     "reason": "新上榜即进入前列"
+    },
+    {
+     "bookId": 1457294,
+     "title": "东北修道三十年，世人敬我如敬神",
+     "author": "火出全宇宙",
+     "rank": 9,
+     "reason": "新上榜即进入前列"
+    },
+    {
+     "bookId": 1480611,
+     "title": "悔婚？反手娶了资本家大小姐！",
+     "author": "山野听风",
+     "rank": 15,
+     "reason": "新上榜即进入前列"
+    }
+   ],
+   "update_rate": 0.1,
+   "summary": "【推荐榜·都市】11 本新上榜；11 本掉榜；黑马《重生1992的那些事》第 7 名。"
+  },
+  "奇闻异事": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1415876,
+     "title": "天黑请点灯",
+     "author": "罗樵森",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 403,
+     "metricGrowth": 17.3182,
+     "momentum": 84.6
+    },
+    {
+     "bookId": 797251,
+     "title": "全职阴阳先生",
+     "author": "周小辫儿",
+     "rank": 2,
+     "rankChange": 7,
+     "metric": 7,
+     "metricGrowth": -0.5,
+     "momentum": 83.5
+    },
+    {
+     "bookId": 975494,
+     "title": "听僵",
+     "author": "六孛岩出",
+     "rank": 3,
+     "rankChange": 3,
+     "metric": 7,
+     "metricGrowth": -0.8333,
+     "momentum": 71.5
+    },
+    {
+     "bookId": 1416033,
+     "title": "恶灵信息库",
+     "author": "北极猎手",
+     "rank": 4,
+     "rankChange": 4,
+     "metric": 7,
+     "metricGrowth": -0.8108,
+     "momentum": 64.0
+    },
+    {
+     "bookId": 1500557,
+     "title": "厌胜术",
+     "author": "月下闻歌",
+     "rank": 5,
+     "rankChange": -2,
+     "metric": 5,
+     "metricGrowth": 1.5,
+     "momentum": 56.9
+    },
+    {
+     "bookId": 1457409,
+     "title": "顶级中式惊悚：纸嫁衣",
+     "author": "两簇拟墨葬祭凜",
+     "rank": 7,
+     "rankChange": -3,
+     "metric": 4,
+     "metricGrowth": 1.0,
+     "momentum": 52.0
+    },
+    {
+     "bookId": 1579282,
+     "title": "我授太上箓，斩鬼伏魔，只杀不渡！",
+     "author": "昆仑妖道",
+     "rank": 6,
+     "rankChange": -1,
+     "metric": 4,
+     "metricGrowth": -0.9184,
+     "momentum": 50.0
+    },
+    {
+     "bookId": 1491568,
+     "title": "贫道看事，只杀不渡！",
+     "author": "三两二钱",
+     "rank": 8,
+     "rankChange": -1,
+     "metric": 4,
+     "metricGrowth": -0.8947,
+     "momentum": 46.0
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.0,
+   "summary": "【推荐榜·奇闻异事】榜单结构稳定，头部固若金汤。"
+  },
+  "游戏": {
+   "first_day": false,
+   "new_count": 1,
+   "dropped_count": 0,
+   "new_books": [
+    {
+     "title": "网游：全是数值，你管这叫圣骑士？",
+     "author": "禅心道骨",
+     "rank": 4,
+     "bookId": 1572294
+    }
+   ],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 338556,
+     "title": "网游之剑刃舞者",
+     "author": "不是闻人",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 28,
+     "metricGrowth": 8.3333,
+     "momentum": 79.5
+    },
+    {
+     "bookId": 1561946,
+     "title": "网游：普攻就加血，这个刺客有点肉",
+     "author": "偷喝酒的猫",
+     "rank": 2,
+     "rankChange": 3,
+     "metric": 11,
+     "metricGrowth": 0.8333,
+     "momentum": 77.2
+    },
+    {
+     "bookId": 604580,
+     "title": "网游之剑逝",
+     "author": "静望枫雪",
+     "rank": 3,
+     "rankChange": -1,
+     "metric": 7,
+     "metricGrowth": -0.8571,
+     "momentum": 64.0
+    },
+    {
+     "bookId": 899411,
+     "title": "艾斯盖亚世界",
+     "author": "大型努力现场",
+     "rank": 5,
+     "rankChange": -2,
+     "metric": 14,
+     "metricGrowth": 0.0,
+     "momentum": 52.0
+    },
+    {
+     "bookId": 1533211,
+     "title": "网游：我和怪物的一万种死法",
+     "author": "醉卧九重云",
+     "rank": 6,
+     "rankChange": -2,
+     "metric": 10,
+     "metricGrowth": 0.0,
+     "momentum": 50.0
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1572294,
+     "title": "网游：全是数值，你管这叫圣骑士？",
+     "author": "禅心道骨",
+     "rank": 4,
+     "reason": "新上榜即进入前列"
+    }
+   ],
+   "update_rate": 0.0,
+   "summary": "【推荐榜·游戏】1 本新上榜；黑马《网游：全是数值，你管这叫圣骑士？》第 4 名。"
+  },
+  "N次元": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 828765,
+     "title": "金币即是正义",
+     "author": "盘古混沌",
+     "rank": 2,
+     "rankChange": 3,
+     "metric": 14,
+     "metricGrowth": -0.8793,
+     "momentum": 73.5
+    },
+    {
+     "bookId": 1490982,
+     "title": "逆天邪神之续章",
+     "author": "二维时间",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 36,
+     "metricGrowth": 1.4,
+     "momentum": 72.7
+    },
+    {
+     "bookId": 1566739,
+     "title": "斗罗V：从签到开始，忽悠小舞当老婆",
+     "author": "米尼魂淡君",
+     "rank": 3,
+     "rankChange": -1,
+     "metric": 6,
+     "metricGrowth": 1.0,
+     "momentum": 68.0
+    },
+    {
+     "bookId": 1394242,
+     "title": "剑来：宁姚做大，秀做小",
+     "author": "隋家书香院",
+     "rank": 4,
+     "rankChange": 2,
+     "metric": 3,
+     "metricGrowth": -0.9483,
+     "momentum": 59.0
+    },
+    {
+     "bookId": 1585162,
+     "title": "逆天邪神之终章",
+     "author": "又是明月",
+     "rank": 5,
+     "rankChange": -2,
+     "metric": 1,
+     "metricGrowth": 0.0,
+     "momentum": 52.0
+    },
+    {
+     "bookId": 1565259,
+     "title": "四合院：从中医学徒开始创建顶级家族",
+     "author": "白熊叙",
+     "rank": 6,
+     "rankChange": -2,
+     "metric": 1,
+     "metricGrowth": 0.0,
+     "momentum": 50.0
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.1,
+   "summary": "【推荐榜·N次元】《金币即是正义》升 3 位至第 2 名。"
+  },
+  "现实题材": {
+   "first_day": false,
+   "new_count": 1,
+   "dropped_count": 0,
+   "new_books": [
+    {
+     "title": "退伍兵王回归，一拳横扫黑暗势力？",
+     "author": "狼天下",
+     "rank": 7,
+     "bookId": 1562819
+    }
+   ],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1485632,
+     "title": "浊证",
+     "author": "长安肆少",
+     "rank": 1,
+     "rankChange": 3,
+     "metric": 25,
+     "metricGrowth": -0.8555,
+     "momentum": 75.5
+    },
+    {
+     "bookId": 1473406,
+     "title": "喀什的云朵",
+     "author": "乱世TICH",
+     "rank": 3,
+     "rankChange": 4,
+     "metric": 10,
+     "metricGrowth": -0.6667,
+     "momentum": 74.0
+    },
+    {
+     "bookId": 1238558,
+     "title": "我的网恋女孩们",
+     "author": "紫叶风筝",
+     "rank": 2,
+     "rankChange": -1,
+     "metric": 14,
+     "metricGrowth": 1.0,
+     "momentum": 70.0
+    },
+    {
+     "bookId": 1489390,
+     "title": "养爷",
+     "author": "曼荷本尊",
+     "rank": 5,
+     "rankChange": -2,
+     "metric": 9,
+     "metricGrowth": 3.5,
+     "momentum": 59.5
+    },
+    {
+     "bookId": 1463775,
+     "title": "稀土：大国锁钥",
+     "author": "创里有作",
+     "rank": 4,
+     "rankChange": 1,
+     "metric": 10,
+     "metricGrowth": -0.8529,
+     "momentum": 56.5
+    },
+    {
+     "bookId": 744527,
+     "title": "我的成长人生时代",
+     "author": "乌龙流",
+     "rank": 6,
+     "rankChange": -4,
+     "metric": 6,
+     "metricGrowth": 0.0,
+     "momentum": 50.0
+    },
+    {
+     "bookId": 1336928,
+     "title": "山有蝉鸣",
+     "author": "乱世TICH",
+     "rank": 8,
+     "rankChange": -2,
+     "metric": 40,
+     "metricGrowth": 0.0,
+     "momentum": 46.0
+    },
+    {
+     "bookId": 1463995,
+     "title": "湘阳路警事",
+     "author": "明珠蒋蒋",
+     "rank": 9,
+     "rankChange": -1,
+     "metric": 21,
+     "metricGrowth": 0.0,
+     "momentum": 44.0
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1562819,
+     "title": "退伍兵王回归，一拳横扫黑暗势力？",
+     "author": "狼天下",
+     "rank": 7,
+     "reason": "新上榜即进入前列"
+    }
+   ],
+   "update_rate": 0.0,
+   "summary": "【推荐榜·现实题材】1 本新上榜；《浊证》升 3 位至第 1 名；黑马《退伍兵王回归，一拳横扫黑暗势力？》第 7 名。"
+  }
+ },
+ "category_heat": [
+  {
+   "name": "玄幻奇幻",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 4154,
+   "heat": 105.1
+  },
+  {
+   "name": "武侠仙侠",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 3534,
+   "heat": 103.9
+  },
+  {
+   "name": "都市",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 2771,
+   "heat": 102.0
+  },
+  {
+   "name": "历史",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 1605,
+   "heat": 97.7
+  },
+  {
+   "name": "科幻",
+   "count": 28,
+   "top10": 10,
+   "metric_sum_top10": 1447,
+   "heat": 96.9
+  },
+  {
+   "name": "奇闻异事",
+   "count": 24,
+   "top10": 10,
+   "metric_sum_top10": 445,
+   "heat": 87.7
+  },
+  {
+   "name": "现实题材",
+   "count": 12,
+   "top10": 10,
+   "metric_sum_top10": 138,
+   "heat": 78.6
+  },
+  {
+   "name": "N次元",
+   "count": 10,
+   "top10": 10,
+   "metric_sum_top10": 87,
+   "heat": 75.0
+  },
+  {
+   "name": "游戏",
+   "count": 6,
+   "top10": 6,
+   "metric_sum_top10": 72,
+   "heat": 57.5
+  }
+ ],
+ "keyword_heat": [
+  {
+   "keyword": "玄幻",
+   "count": 6
+  },
+  {
+   "keyword": "穿越",
+   "count": 5
+  },
+  {
+   "keyword": "无敌",
+   "count": 4
+  },
+  {
+   "keyword": "诸天",
+   "count": 4
+  },
+  {
+   "keyword": "科技",
+   "count": 3
+  },
+  {
+   "keyword": "历史",
+   "count": 2
+  },
+  {
+   "keyword": "仙侠",
+   "count": 2
+  },
+  {
+   "keyword": "修仙",
+   "count": 2
+  },
+  {
+   "keyword": "兵王",
+   "count": 1
+  },
+  {
+   "keyword": "重生",
+   "count": 1
+  },
+  {
+   "keyword": "星际",
+   "count": 1
+  },
+  {
+   "keyword": "群像",
+   "count": 1
+  },
+  {
+   "keyword": "末世",
+   "count": 1
+  },
+  {
+   "keyword": "杀伐果断",
+   "count": 1
+  },
+  {
+   "keyword": "三国",
+   "count": 1
+  }
+ ],
+ "timeline": [
+  {
+   "date": "2026-08-18",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    },
+    {
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    },
+    {
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-08-20",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    },
+    {
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-08-21",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    },
+    {
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-08-22",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    },
+    {
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-08-23",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    },
+    {
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-08-24",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "sss级仙医出狱",
+     "author": "步行天下",
+     "bookId": 1417960
+    },
+    {
+     "title": "星辰之主",
+     "author": "减肥专家",
+     "bookId": 325639
+    }
+   ]
+  },
+  {
+   "date": "2026-08-25",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    },
+    {
+     "title": "sss级仙医出狱",
+     "author": "步行天下",
+     "bookId": 1417960
+    }
+   ]
+  }
+ ],
+ "total_books": 30
+}

@@ -1,68 +1,68 @@
 {
- "date": "2026-08-24",
+ "date": "2026-08-25",
  "category_heat": [
-  {
-   "name": "都市",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 139068,
-   "heat": 132.6
-  },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 117091,
-   "heat": 131.2
+   "metric_sum_top10": 223560,
+   "heat": 136.3
+  },
+  {
+   "name": "都市",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 159767,
+   "heat": 133.7
   },
   {
    "name": "历史",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 115143,
-   "heat": 131.1
+   "metric_sum_top10": 114180,
+   "heat": 131.0
   },
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 100921,
-   "heat": 130.1
+   "metric_sum_top10": 104409,
+   "heat": 130.3
   },
   {
    "name": "奇闻异事",
    "count": 17,
    "top10": 10,
-   "metric_sum_top10": 71067,
-   "heat": 127.3
-  },
-  {
-   "name": "军事",
-   "count": 10,
-   "top10": 10,
-   "metric_sum_top10": 68384,
-   "heat": 127.0
+   "metric_sum_top10": 67447,
+   "heat": 126.9
   },
   {
    "name": "科幻",
-   "count": 15,
+   "count": 13,
    "top10": 10,
-   "metric_sum_top10": 63598,
-   "heat": 126.5
+   "metric_sum_top10": 56686,
+   "heat": 125.6
+  },
+  {
+   "name": "军事",
+   "count": 9,
+   "top10": 9,
+   "metric_sum_top10": 59846,
+   "heat": 122.0
   },
   {
    "name": "N次元",
-   "count": 8,
-   "top10": 8,
-   "metric_sum_top10": 44434,
-   "heat": 115.7
+   "count": 6,
+   "top10": 6,
+   "metric_sum_top10": 39529,
+   "heat": 106.7
   },
   {
    "name": "游戏",
    "count": 4,
    "top10": 4,
-   "metric_sum_top10": 20561,
-   "heat": 93.6
+   "metric_sum_top10": 20228,
+   "heat": 93.5
   },
   {
    "name": "现实题材",
@@ -75,34 +75,46 @@
  "keyword_heat": [
   {
    "keyword": "系统",
-   "count": 14
+   "count": 13
   },
   {
    "keyword": "穿越",
-   "count": 10
+   "count": 9
   },
   {
    "keyword": "无敌",
-   "count": 6
+   "count": 8
   },
   {
    "keyword": "重生",
-   "count": 5
-  },
-  {
-   "keyword": "都市",
-   "count": 3
+   "count": 6
   },
   {
    "keyword": "玄幻",
+   "count": 5
+  },
+  {
+   "keyword": "宗门",
+   "count": 4
+  },
+  {
+   "keyword": "杀伐果断",
    "count": 3
+  },
+  {
+   "keyword": "诸天",
+   "count": 2
+  },
+  {
+   "keyword": "工业",
+   "count": 2
   },
   {
    "keyword": "神医",
    "count": 2
   },
   {
-   "keyword": "杀伐果断",
+   "keyword": "万界",
    "count": 2
   },
   {
@@ -110,27 +122,15 @@
    "count": 2
   },
   {
-   "keyword": "种田",
-   "count": 2
-  },
-  {
    "keyword": "修仙",
    "count": 2
   },
   {
-   "keyword": "诸天",
+   "keyword": "星际",
    "count": 1
   },
   {
-   "keyword": "苟道",
-   "count": 1
-  },
-  {
-   "keyword": "大明",
-   "count": 1
-  },
-  {
-   "keyword": "宗门",
+   "keyword": "科技",
    "count": 1
   }
  ],
@@ -252,6 +252,26 @@
      "title": "吞噬九重天",
      "author": "屠刀成佛",
      "bookId": 1269302
+    }
+   ]
+  },
+  {
+   "date": "2026-08-25",
+   "top3": [
+    {
+     "title": "亡者序言",
+     "author": "九天抚彗星",
+     "bookId": 1414590
+    },
+    {
+     "title": "九脉被夺，我以魔种证无敌！",
+     "author": "剑九歌",
+     "bookId": 1485661
+    },
+    {
+     "title": "让你军转民，你干成中东军火商？",
+     "author": "风丘颜凉",
+     "bookId": 1530530
     }
    ]
   }
