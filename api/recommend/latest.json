@@ -1,7 +1,7 @@
 {
  "slug": "recommend",
  "name": "推荐榜",
- "date": "2026-08-26",
+ "date": "2026-08-27",
  "types": [
   {
    "name": "全部",
@@ -36,7 +36,7 @@
   {
    "name": "奇闻异事",
    "url": "api/recommend/latest/奇闻异事.json",
-   "count": 27
+   "count": 30
   },
   {
    "name": "游戏",
@@ -51,7 +51,7 @@
   {
    "name": "现实题材",
    "url": "api/recommend/latest/现实题材.json",
-   "count": 12
+   "count": 13
   }
  ]
 }
