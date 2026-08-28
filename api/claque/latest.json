@@ -1,7 +1,7 @@
 {
  "slug": "claque",
  "name": "捧场榜",
- "date": "2026-08-27",
+ "date": "2026-08-28",
  "types": [
   {
    "name": "全部",
@@ -21,7 +21,7 @@
   {
    "name": "历史",
    "url": "api/claque/latest/历史.json",
-   "count": 23
+   "count": 25
   },
   {
    "name": "都市",
@@ -32,26 +32,6 @@
    "name": "奇闻异事",
    "url": "api/claque/latest/奇闻异事.json",
    "count": 4
-  },
-  {
-   "name": "科幻",
-   "url": "api/claque/latest/科幻.json",
-   "count": 3
-  },
-  {
-   "name": "游戏",
-   "url": "api/claque/latest/游戏.json",
-   "count": 0
-  },
-  {
-   "name": "N次元",
-   "url": "api/claque/latest/N次元.json",
-   "count": 0
-  },
-  {
-   "name": "现实题材",
-   "url": "api/claque/latest/现实题材.json",
-   "count": 0
   }
  ]
 }
