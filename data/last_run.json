@@ -1,6 +1,6 @@
 {
- "finished_at": "2026-08-28T13:00:35",
- "elapsed_sec": 112.3,
+ "finished_at": "2026-08-29T10:57:56",
+ "elapsed_sec": 120.6,
  "client_stats": {
   "requests": 112,
   "retries": 60,
@@ -11,8 +11,8 @@
    "slug": "one-day",
    "name": "24小时畅销榜",
    "ok": true,
-   "categories": 10,
-   "books": 203,
+   "categories": 9,
+   "books": 194,
    "warnings": []
   },
   {
@@ -35,10 +35,9 @@
    "slug": "click",
    "name": "点击榜",
    "ok": true,
-   "categories": 7,
-   "books": 210,
+   "categories": 8,
+   "books": 240,
    "warnings": [
-    "游戏: rank/details rankType=5 cate=8107 page=1 failed after 4 tries: HTTP 405",
     "N次元: rank/details rankType=5 cate=8108 page=1 failed after 4 tries: HTTP 405",
     "现实题材: rank/details rankType=5 cate=8109 page=1 failed after 4 tries: HTTP 405"
    ]
@@ -54,16 +53,13 @@
    ]
   },
   {
-   "slug": "claque",
-   "name": "捧场榜",
-   "ok": true,
-   "categories": 6,
-   "books": 149,
+   "slug": "new-book-subscribe",
+   "name": "新书订阅榜",
+   "ok": false,
+   "categories": 0,
+   "books": 0,
    "warnings": [
-    "科幻: rank/details rankType=7 cate=8105 page=1 failed after 4 tries: HTTP 405",
-    "游戏: rank/details rankType=7 cate=8107 page=1 failed after 4 tries: HTTP 405",
-    "N次元: rank/details rankType=7 cate=8108 page=1 failed after 4 tries: HTTP 405",
-    "现实题材: rank/details rankType=7 cate=8109 page=1 failed after 4 tries: HTTP 405"
+    "rank/details rankType=9 cate=0 page=1 failed after 4 tries: HTTP 405"
    ]
   },
   {
@@ -80,13 +76,27 @@
    ]
   },
   {
-   "slug": "new-book-subscribe",
-   "name": "新书订阅榜",
+   "slug": "one-day-update",
+   "name": "24小时更新榜",
    "ok": false,
    "categories": 0,
    "books": 0,
    "warnings": [
-    "rank/details rankType=9 cate=0 page=1 failed after 4 tries: HTTP 405"
+    "rank/details rankType=10 cate=0 page=1 failed after 4 tries: HTTP 405"
+   ]
+  },
+  {
+   "slug": "claque",
+   "name": "捧场榜",
+   "ok": true,
+   "categories": 5,
+   "books": 149,
+   "warnings": [
+    "奇闻异事: rank/details rankType=7 cate=8106 page=1 failed after 4 tries: HTTP 405",
+    "科幻: rank/details rankType=7 cate=8105 page=1 failed after 4 tries: HTTP 405",
+    "游戏: rank/details rankType=7 cate=8107 page=1 failed after 4 tries: HTTP 405",
+    "N次元: rank/details rankType=7 cate=8108 page=1 failed after 4 tries: HTTP 405",
+    "现实题材: rank/details rankType=7 cate=8109 page=1 failed after 4 tries: HTTP 405"
    ]
   },
   {
@@ -97,16 +107,6 @@
    "books": 0,
    "warnings": [
     "rank/details rankType=12 cate=0 page=1 failed after 4 tries: HTTP 405"
-   ]
-  },
-  {
-   "slug": "one-day-update",
-   "name": "24小时更新榜",
-   "ok": false,
-   "categories": 0,
-   "books": 0,
-   "warnings": [
-    "rank/details rankType=10 cate=0 page=1 failed after 4 tries: HTTP 405"
    ]
   }
  ]

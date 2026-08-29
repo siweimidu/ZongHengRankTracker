@@ -1,7 +1,7 @@
 {
  "slug": "one-day",
  "name": "24小时畅销榜",
- "date": "2026-08-28",
+ "date": "2026-08-29",
  "types": [
   {
    "name": "全部",
@@ -36,22 +36,22 @@
   {
    "name": "奇闻异事",
    "url": "api/one-day/latest/奇闻异事.json",
-   "count": 18
+   "count": 14
   },
   {
    "name": "游戏",
    "url": "api/one-day/latest/游戏.json",
-   "count": 6
+   "count": 4
   },
   {
    "name": "N次元",
    "url": "api/one-day/latest/N次元.json",
-   "count": 10
+   "count": 9
   },
   {
    "name": "现实题材",
    "url": "api/one-day/latest/现实题材.json",
-   "count": 2
+   "count": 0
   }
  ]
 }

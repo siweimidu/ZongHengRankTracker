@@ -1,7 +1,7 @@
 {
  "slug": "claque",
  "name": "捧场榜",
- "date": "2026-08-28",
+ "date": "2026-08-29",
  "types": [
   {
    "name": "全部",
@@ -21,17 +21,12 @@
   {
    "name": "历史",
    "url": "api/claque/latest/历史.json",
-   "count": 25
+   "count": 29
   },
   {
    "name": "都市",
    "url": "api/claque/latest/都市.json",
    "count": 30
-  },
-  {
-   "name": "奇闻异事",
-   "url": "api/claque/latest/奇闻异事.json",
-   "count": 4
   }
  ]
 }

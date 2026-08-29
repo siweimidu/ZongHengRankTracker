@@ -1,5 +1,5 @@
 {
- "date": "2026-08-28",
+ "date": "2026-08-29",
  "board": {
   "slug": "one-day",
   "name": "24小时畅销榜",
@@ -8,81 +8,29 @@
   "metric_label": "24h销量"
  },
  "category": "现实题材",
- "books": [
-  {
-   "rank": 1,
-   "bookId": 1489390,
-   "title": "养爷",
-   "author": "曼荷本尊",
-   "authorId": 36788097,
-   "authorCover": "",
-   "cover": "https://static.zongheng.com/upload/cover/90/ec/90ece4a014ff042f8d607406e5e396e81775546668881.jpeg",
-   "category": "现实题材",
-   "cateFineId": 8109,
-   "metric": 197,
-   "metricLabel": "24h销量",
-   "serialStatus": 1,
-   "intro": "孤儿丁未从小被人称傻子的养爷收养，拿到大学录取通知书这天，养爷被矿霸打伤。为了救重伤昏迷中的爷爷，丁未被迫作出一个惊人的决定……",
-   "latestChapter": "第206章  归心似箭",
-   "latestChapterTime": "04-06 22:42",
-   "updatedToday": false,
-   "url": "https://www.zongheng.com/book/1489390.html"
-  },
-  {
-   "rank": 2,
-   "bookId": 1387209,
-   "title": "秦皇不老",
-   "author": "簪君",
-   "authorId": 83873547,
-   "authorCover": "",
-   "cover": "https://static.zongheng.com/upload/cover/f7/f9/f7f98fe1824758f6e7eca4e298b124571743388118565.jpeg",
-   "category": "现实题材",
-   "cateFineId": 8109,
-   "metric": 54,
-   "metricLabel": "24h销量",
-   "serialStatus": 1,
-   "intro": "外星探索200载，归来竟发现自己成为了全民偶像\r 基因革命使地球文明进入到长生时代。地球在圣贤王的统治下一片繁荣，全球共产。\r 而月球的流放者们虽艰苦求生，却在绝境中点燃了反抗的火焰。\r 一场关于基因革命与文明存亡的时代变革在暗流涌动。归来成为精神图腾的林奇将如何抉择？\r 一个全民长生未来的奇妙幻想，一场地月文明之间的精彩对抗。且看长篇悬疑科幻——《秦皇不老》",
-   "latestChapter": "第82章 后记",
-   "latestChapterTime": "02-02 22:11",
-   "updatedToday": false,
-   "url": "https://www.zongheng.com/book/1387209.html"
-  }
- ],
+ "books": [],
  "trend": {
   "first_day": false,
-  "new_count": 1,
-  "dropped_count": 0,
-  "new_books": [
+  "new_count": 0,
+  "dropped_count": 2,
+  "new_books": [],
+  "dropped_books": [
    {
     "title": "养爷",
     "author": "曼荷本尊",
-    "rank": 1,
+    "prevRank": 1,
     "bookId": 1489390
-   }
-  ],
-  "dropped_books": [],
-  "top_movers": [
+   },
    {
-    "bookId": 1387209,
     "title": "秦皇不老",
     "author": "簪君",
-    "rank": 2,
-    "rankChange": -1,
-    "metric": 54,
-    "metricGrowth": -0.594,
-    "momentum": 66.0
+    "prevRank": 2,
+    "bookId": 1387209
    }
   ],
-  "darkhorses": [
-   {
-    "bookId": 1489390,
-    "title": "养爷",
-    "author": "曼荷本尊",
-    "rank": 1,
-    "reason": "新上榜即进入前列"
-   }
-  ],
-  "update_rate": 0.0,
-  "summary": "【24小时畅销榜·现实题材】1 本新上榜；黑马《养爷》第 1 名。"
+  "top_movers": [],
+  "darkhorses": [],
+  "update_rate": 0,
+  "summary": "【24小时畅销榜·现实题材】2 本掉榜。"
  }
 }
