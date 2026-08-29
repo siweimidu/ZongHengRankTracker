@@ -1,17 +1,17 @@
 {
  "slug": "new-book-subscribe",
  "name": "新书订阅榜",
- "date": "2026-08-27",
+ "date": "2026-08-30",
  "types": [
   {
    "name": "全部",
    "url": "api/new-book-subscribe/latest/全部.json",
-   "count": 11
+   "count": 10
   },
   {
    "name": "历史",
    "url": "api/new-book-subscribe/latest/历史.json",
-   "count": 5
+   "count": 4
   },
   {
    "name": "玄幻奇幻",
