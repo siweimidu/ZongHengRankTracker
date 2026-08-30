@@ -1,61 +1,61 @@
 {
- "date": "2026-08-30",
+ "date": "2026-08-31",
  "category_heat": [
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 4388234,
-   "heat": 159.6
+   "metric_sum_top10": 4220380,
+   "heat": 159.3
   },
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 1029300,
-   "heat": 148.2
-  },
-  {
-   "name": "历史",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 731426,
-   "heat": 145.6
+   "metric_sum_top10": 995881,
+   "heat": 148.0
   },
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 648975,
-   "heat": 144.6
+   "metric_sum_top10": 790867,
+   "heat": 146.2
+  },
+  {
+   "name": "历史",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 747673,
+   "heat": 145.7
   },
   {
    "name": "奇闻异事",
-   "count": 13,
+   "count": 14,
    "top10": 10,
-   "metric_sum_top10": 167157,
-   "heat": 134.0
+   "metric_sum_top10": 174737,
+   "heat": 134.4
   },
   {
    "name": "科幻",
-   "count": 14,
+   "count": 20,
    "top10": 10,
-   "metric_sum_top10": 134842,
-   "heat": 132.3
+   "metric_sum_top10": 124142,
+   "heat": 131.7
   },
   {
    "name": "N次元",
-   "count": 7,
-   "top10": 7,
-   "metric_sum_top10": 11511,
-   "heat": 101.1
+   "count": 9,
+   "top10": 9,
+   "metric_sum_top10": 9416,
+   "heat": 107.5
   },
   {
    "name": "游戏",
    "count": 6,
    "top10": 6,
-   "metric_sum_top10": 4333,
-   "heat": 89.5
+   "metric_sum_top10": 4563,
+   "heat": 89.9
   },
   {
    "name": "现实题材",
@@ -83,8 +83,16 @@
    "count": 4
   },
   {
-   "keyword": "重生",
+   "keyword": "系统",
    "count": 3
+  },
+  {
+   "keyword": "重生",
+   "count": 2
+  },
+  {
+   "keyword": "兵王",
+   "count": 2
   },
   {
    "keyword": "群像",
@@ -95,23 +103,11 @@
    "count": 2
   },
   {
-   "keyword": "系统",
-   "count": 2
-  },
-  {
    "keyword": "修仙",
    "count": 2
   },
   {
-   "keyword": "大明",
-   "count": 2
-  },
-  {
    "keyword": "科技",
-   "count": 1
-  },
-  {
-   "keyword": "兵王",
    "count": 1
   },
   {
@@ -120,6 +116,10 @@
   },
   {
    "keyword": "仙侠",
+   "count": 1
+  },
+  {
+   "keyword": "都市",
    "count": 1
   },
   {
@@ -385,6 +385,26 @@
      "title": "星辰大道",
      "author": "随散飘风",
      "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-08-31",
+   "top3": [
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    },
+    {
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "bookId": 1366535
     }
    ]
   }

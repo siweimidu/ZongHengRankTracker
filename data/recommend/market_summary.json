@@ -1,94 +1,90 @@
 {
- "date": "2026-08-30",
+ "date": "2026-08-31",
  "category_heat": [
-  {
-   "name": "玄幻奇幻",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 23073,
-   "heat": 118.5
-  },
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 17123,
-   "heat": 116.2
+   "metric_sum_top10": 849,
+   "heat": 92.7
+  },
+  {
+   "name": "玄幻奇幻",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 755,
+   "heat": 91.8
   },
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 14327,
-   "heat": 114.8
+   "metric_sum_top10": 480,
+   "heat": 88.3
   },
   {
    "name": "历史",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 7653,
-   "heat": 109.9
-  },
-  {
-   "name": "科幻",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 6873,
-   "heat": 109.1
+   "metric_sum_top10": 413,
+   "heat": 87.1
   },
   {
    "name": "奇闻异事",
-   "count": 30,
+   "count": 23,
    "top10": 10,
-   "metric_sum_top10": 2225,
-   "heat": 100.3
+   "metric_sum_top10": 411,
+   "heat": 87.1
   },
   {
    "name": "现实题材",
-   "count": 15,
+   "count": 12,
    "top10": 10,
-   "metric_sum_top10": 400,
-   "heat": 86.9
+   "metric_sum_top10": 413,
+   "heat": 87.1
+  },
+  {
+   "name": "科幻",
+   "count": 29,
+   "top10": 10,
+   "metric_sum_top10": 249,
+   "heat": 83.2
   },
   {
    "name": "N次元",
-   "count": 12,
+   "count": 10,
    "top10": 10,
-   "metric_sum_top10": 360,
-   "heat": 86.0
+   "metric_sum_top10": 248,
+   "heat": 83.1
   },
   {
    "name": "游戏",
-   "count": 8,
-   "top10": 8,
-   "metric_sum_top10": 318,
-   "heat": 77.1
+   "count": 7,
+   "top10": 7,
+   "metric_sum_top10": 63,
+   "heat": 60.5
   }
  ],
  "keyword_heat": [
   {
    "keyword": "玄幻",
-   "count": 6
+   "count": 5
   },
   {
-   "keyword": "无敌",
-   "count": 4
+   "keyword": "穿越",
+   "count": 5
   },
   {
    "keyword": "诸天",
    "count": 4
   },
   {
-   "keyword": "穿越",
+   "keyword": "无敌",
    "count": 4
   },
   {
-   "keyword": "科技",
-   "count": 3
-  },
-  {
    "keyword": "历史",
-   "count": 2
+   "count": 3
   },
   {
    "keyword": "仙侠",
@@ -99,15 +95,19 @@
    "count": 2
   },
   {
-   "keyword": "兵王",
-   "count": 1
+   "keyword": "科技",
+   "count": 2
   },
   {
    "keyword": "重生",
    "count": 1
   },
   {
-   "keyword": "群像",
+   "keyword": "轻松",
+   "count": 1
+  },
+  {
+   "keyword": "搞笑",
    "count": 1
   },
   {
@@ -119,11 +119,11 @@
    "count": 1
   },
   {
-   "keyword": "末世",
+   "keyword": "兵王",
    "count": 1
   },
   {
-   "keyword": "三国",
+   "keyword": "系统",
    "count": 1
   }
  ],
@@ -385,6 +385,26 @@
      "title": "最强狂兵Ⅱ：黑暗荣耀",
      "author": "烈焰滔滔",
      "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-08-31",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "sss级仙医出狱",
+     "author": "步行天下",
+     "bookId": 1417960
+    },
+    {
+     "title": "人间有剑",
+     "author": "平生未知寒",
+     "bookId": 1388197
     }
    ]
   }
