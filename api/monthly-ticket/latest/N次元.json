@@ -1,5 +1,5 @@
 {
- "date": "2026-09-01",
+ "date": "2026-09-02",
  "board": {
   "slug": "monthly-ticket",
   "name": "月票榜",
@@ -19,7 +19,7 @@
    "cover": "https://static.zongheng.com/upload/cover/e6/01/e601afee925246a308e4efa4488487f21787216802146.jpeg",
    "category": "N次元",
    "cateFineId": 8108,
-   "metric": 1,
+   "metric": 2,
    "metricLabel": "月票",
    "serialStatus": 0,
    "intro": "同人作品，断更续写。\r （自断更章节：2175章开始续写。原著完结遥遥无期，那便执笔，为它谱写一个结局。）\r 永夜崩，神尊陨，倾月玲珑终成神。\r 龙域行，希心碎，化身修罗饮龙血。\r 千影落渊，针锋相对修罗场，云画婚典，亡万魂……",
@@ -27,39 +27,40 @@
    "latestChapterTime": "08-31 23:49",
    "updatedToday": false,
    "url": "https://www.zongheng.com/book/1490982.html"
+  },
+  {
+   "rank": 2,
+   "bookId": 828765,
+   "title": "金币即是正义",
+   "author": "盘古混沌",
+   "authorId": 50375294,
+   "authorCover": "",
+   "cover": "https://static.zongheng.com/upload/cover/21/13/21139144c460e05676b1f3f82a50111d1772187675845.jpeg",
+   "category": "N次元",
+   "cateFineId": 8108,
+   "metric": 1,
+   "metricLabel": "月票",
+   "serialStatus": 1,
+   "intro": "剑之上，为魔法。 魔法之上，为权力。 权力之上，为利益。 利益的象征，则为金钱。 带着自己的秘密和100枚金币，艾罗来到了帝国的边陲小镇，他将在这里白手起家，建立属于自己的冒险者公会，并以此建立自己的经济帝国。 【本作同名漫画已登录哔哩哔哩漫画，欢迎大家观看！】",
+   "latestChapter": "最后 我们的开始",
+   "latestChapterTime": "07-08 00:58",
+   "updatedToday": false,
+   "url": "https://www.zongheng.com/book/828765.html"
   }
  ],
  "trend": {
   "first_day": false,
-  "new_count": 0,
-  "dropped_count": 4,
-  "new_books": [],
-  "dropped_books": [
-   {
-    "title": "满级小李飞刀，我在水浒当判官！",
-    "author": "十九言",
-    "prevRank": 2,
-    "bookId": 1517316
-   },
-   {
-    "title": "剑来：宁姚做大，秀做小",
-    "author": "隋家书香院",
-    "prevRank": 3,
-    "bookId": 1394242
-   },
-   {
-    "title": "剑来：开局断剑救宁姚，她送我压裙刀",
-    "author": "墨染江山",
-    "prevRank": 4,
-    "bookId": 1532700
-   },
+  "new_count": 1,
+  "dropped_count": 0,
+  "new_books": [
    {
     "title": "金币即是正义",
     "author": "盘古混沌",
-    "prevRank": 5,
+    "rank": 2,
     "bookId": 828765
    }
   ],
+  "dropped_books": [],
   "top_movers": [
    {
     "bookId": 1490982,
@@ -67,13 +68,21 @@
     "author": "二维时间",
     "rank": 1,
     "rankChange": 0,
-    "metric": 1,
-    "metricGrowth": -0.9977,
-    "momentum": 68.0
+    "metric": 2,
+    "metricGrowth": 1.0,
+    "momentum": 72.0
    }
   ],
-  "darkhorses": [],
+  "darkhorses": [
+   {
+    "bookId": 828765,
+    "title": "金币即是正义",
+    "author": "盘古混沌",
+    "rank": 2,
+    "reason": "新上榜即进入前列"
+   }
+  ],
   "update_rate": 0.0,
-  "summary": "N次元榜单固化严重，长尾同人占据绝对统治力，原创题材集体失声。头部作品《逆天邪神之续章》霸榜，说明“情怀+续写”仍是流量密码。建议编辑部：扶持“综漫+快穿”类原创，打破单一同人垄断；作者切忌盲目跟风，应在“经典IP+新奇脑洞”的缝隙中寻找差异化切入点，避开高饱和度赛道。"
+  "summary": "N次元榜单固化严重，头部同人作品《逆天邪神之续章》统治力极强，但市场容量亟待扩充。《金币即是正义》作为原创流黑马入局，证明读者对“金钱/经营+爽文”的变体需求正在回升。\n\n**建议：** 编辑部应加大对“综漫+经营/养成”题材的扶持，鼓励作者跳出纯同人套路，将热门IP元素与轻小说爽点深度融合，以差异化设定打破同人垄断。"
  }
 }

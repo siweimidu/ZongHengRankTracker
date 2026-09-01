@@ -1,7 +1,7 @@
 {
  "slug": "monthly-ticket",
  "name": "月票榜",
- "date": "2026-09-01",
+ "date": "2026-09-02",
  "types": [
   {
    "name": "全部",
@@ -16,52 +16,52 @@
   {
    "name": "武侠仙侠",
    "url": "api/monthly-ticket/latest/武侠仙侠.json",
-   "count": 23
+   "count": 30
   },
   {
    "name": "历史",
    "url": "api/monthly-ticket/latest/历史.json",
-   "count": 26
+   "count": 30
   },
   {
    "name": "都市",
    "url": "api/monthly-ticket/latest/都市.json",
-   "count": 28
+   "count": 30
   },
   {
    "name": "现代言情",
    "url": "api/monthly-ticket/latest/现代言情.json",
-   "count": 18
+   "count": 30
   },
   {
    "name": "科幻",
    "url": "api/monthly-ticket/latest/科幻.json",
-   "count": 3
+   "count": 6
   },
   {
    "name": "奇闻异事",
    "url": "api/monthly-ticket/latest/奇闻异事.json",
-   "count": 4
+   "count": 8
   },
   {
    "name": "古代言情",
    "url": "api/monthly-ticket/latest/古代言情.json",
-   "count": 8
+   "count": 27
   },
   {
    "name": "游戏",
    "url": "api/monthly-ticket/latest/游戏.json",
-   "count": 0
+   "count": 1
   },
   {
    "name": "N次元",
    "url": "api/monthly-ticket/latest/N次元.json",
-   "count": 1
+   "count": 2
   },
   {
    "name": "现实题材",
    "url": "api/monthly-ticket/latest/现实题材.json",
-   "count": 0
+   "count": 1
   }
  ]
 }

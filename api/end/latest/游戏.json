@@ -1,5 +1,5 @@
 {
- "date": "2026-08-31",
+ "date": "2026-09-02",
  "board": {
   "slug": "end",
   "name": "完结榜",
@@ -19,7 +19,7 @@
    "cover": "https://static.zongheng.com/upload/cover/21/51/2151ba5fce76351b7a4602bfa7f346f71756124012740.jpeg",
    "category": "游戏",
    "cateFineId": 8107,
-   "metric": 123,
+   "metric": 2159,
    "metricLabel": "阅读",
    "serialStatus": 1,
    "intro": "（虚拟网游+神级天赋+无敌+不圣母+杀伐果断） 遭到女友和好兄弟背刺的李凡，重生到《无尽苍穹》开服第一天，李凡转职隐藏职业盾铠战士。 随即，觉醒了刷怪永久增加敏捷属性的SSS天赋。 1万点敏捷=100次/秒攻速+200米/秒移速？ 这也太变态了！ 神级隐藏职业，SSS级天赋，想不起飞都难啊。 【反派：“卧槽，家人们谁懂啊？他一个盾铠战士，双速已经超越了光！”】 【最终魔神：“我刚入侵海蓝星，就被他一秒几亿刀给秒杀了，太离谱了！”】",
@@ -38,7 +38,7 @@
    "cover": "https://static.zongheng.com/upload/cover/48/9d/489dee236aeb2c622aa419d56964bbe51780545315805.jpeg",
    "category": "游戏",
    "cateFineId": 8107,
-   "metric": 13737,
+   "metric": 1484,
    "metricLabel": "阅读",
    "serialStatus": 1,
    "intro": "开局一张刮刮乐，喜中全服唯一SSS级天赋【灵魂之火】！\r 　　自此，林墨开始了他的无敌之路。\r 　　烧装备，获得装备进化点！\r 　　新手木剑=银铁剑=流银巨剑=创世之刃=碎世·流光剑！\r 　　烧技能，获得技能进化点！\r 　　急速射击=二连射=三连射=五连射=诛天·七星连射！\r 　　烧宠物，获得宠物进化点！\r 　　白狐=三尾妖狐=六尾魔狐=九尾神狐=狐仙=狐族圣女=天惑·狐族女帝！\r 　　三年后，当神谕吞噬现实，灭世主神引领虚空虫族大军降临的那一刻。\r 　　世界各国相继沦陷。\r 　　林墨手握金色神武，脚踏远古不朽级地狱魔龙，一道SSS级禁咒技能瞬杀侵入大夏的【虚空死神·诺斯】！\r 　　面对东瀛、灯塔、日不落等帝国强者的求救信号。\r 　　林墨脚踩虚空死神的尸体，蔑视诸国。\r 　　“跪下来。”\r 　　“求我！”",
@@ -57,7 +57,7 @@
    "cover": "https://static.zongheng.com/upload/cover/25/f8/25f8608b011eaf485a2a25244a3354491750838301240.jpeg",
    "category": "游戏",
    "cateFineId": 8107,
-   "metric": 6989,
+   "metric": 30,
    "metricLabel": "阅读",
    "serialStatus": 1,
    "intro": "异世界降临，无数怪物穿过裂缝，席卷人类城市，人类迎来末日危机！\r 自此，人类进入全民转职时代，各国以培养职业强者，争夺异世界攻略排名为荣！\r 当沉睡百万年的龙国第一王者，带着百万年的挂机资源复苏之时。\r 异世界的BOSS颤抖。\r 全球各国T0级职业强者，纷纷贡献膝盖……",
@@ -127,66 +127,43 @@
  "trend": {
   "first_day": false,
   "new_count": 0,
-  "dropped_count": 2,
+  "dropped_count": 0,
   "new_books": [],
-  "dropped_books": [
-   {
-    "title": "网游：开局满星账号，爆杀全服",
-    "author": "亦晨",
-    "prevRank": 7,
-    "bookId": 1352108
-   },
-   {
-    "title": "网游之帝皇归来",
-    "author": "妖邪有泪",
-    "prevRank": 8,
-    "bookId": 222531
-   }
-  ],
+  "dropped_books": [],
   "top_movers": [
    {
     "bookId": 1319765,
     "title": "我一个肉盾，杀怪奖励万倍攻速什么鬼",
     "author": "网游大仙",
     "rank": 1,
-    "rankChange": 3,
-    "metric": 123,
-    "metricGrowth": 0.4643,
-    "momentum": 78.2
+    "rankChange": 0,
+    "metric": 2159,
+    "metricGrowth": 16.5528,
+    "momentum": 84.3
    },
    {
     "bookId": 1417046,
     "title": "网游：开局刮刮乐，觉醒唯一SSS天赋",
     "author": "亦晨",
     "rank": 2,
-    "rankChange": -1,
-    "metric": 13737,
-    "metricGrowth": 0.1172,
-    "momentum": 67.4
+    "rankChange": 0,
+    "metric": 1484,
+    "metricGrowth": -0.892,
+    "momentum": 66.0
    },
    {
     "bookId": 1271862,
     "title": "网游：挂机百万年，我醒来成神",
     "author": "亦晨",
     "rank": 3,
-    "rankChange": -1,
-    "metric": 6989,
-    "metricGrowth": 0.1949,
-    "momentum": 65.8
-   },
-   {
-    "bookId": 1237660,
-    "title": "网游之全服公敌",
-    "author": "黑白相间",
-    "rank": 4,
-    "rankChange": -1,
-    "metric": 111,
-    "metricGrowth": 0.0,
-    "momentum": 54.0
+    "rankChange": 0,
+    "metric": 30,
+    "metricGrowth": -0.9957,
+    "momentum": 64.0
    }
   ],
   "darkhorses": [],
   "update_rate": 0.0,
-  "summary": "【完结榜·游戏】2 本掉榜；《我一个肉盾，杀怪奖励万倍攻速什么鬼》升 3 位至第 1 名。"
+  "summary": "【完结榜·游戏】榜单结构稳定，头部固若金汤。"
  }
 }
