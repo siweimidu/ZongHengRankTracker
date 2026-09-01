@@ -1,5 +1,5 @@
 {
- "date": "2026-08-31",
+ "date": "2026-09-01",
  "board": {
   "slug": "monthly-ticket",
   "name": "月票榜",
@@ -8,55 +8,29 @@
   "metric_label": "月票"
  },
  "category": "现实题材",
- "books": [
-  {
-   "rank": 1,
-   "bookId": 1387209,
-   "title": "秦皇不老",
-   "author": "簪君",
-   "authorId": 83873547,
-   "authorCover": "",
-   "cover": "https://static.zongheng.com/upload/cover/f7/f9/f7f98fe1824758f6e7eca4e298b124571743388118565.jpeg",
-   "category": "现实题材",
-   "cateFineId": 8109,
-   "metric": 5,
-   "metricLabel": "月票",
-   "serialStatus": 1,
-   "intro": "外星探索200载，归来竟发现自己成为了全民偶像\r 基因革命使地球文明进入到长生时代。地球在圣贤王的统治下一片繁荣，全球共产。\r 而月球的流放者们虽艰苦求生，却在绝境中点燃了反抗的火焰。\r 一场关于基因革命与文明存亡的时代变革在暗流涌动。归来成为精神图腾的林奇将如何抉择？\r 一个全民长生未来的奇妙幻想，一场地月文明之间的精彩对抗。且看长篇悬疑科幻——《秦皇不老》",
-   "latestChapter": "第82章 后记",
-   "latestChapterTime": "02-02 22:11",
-   "updatedToday": false,
-   "url": "https://www.zongheng.com/book/1387209.html"
-  },
-  {
-   "rank": 2,
-   "bookId": 1436445,
-   "title": "七与十七",
-   "author": "知白",
-   "authorId": 1185346,
-   "authorCover": "",
-   "cover": "https://static.zongheng.com/upload/cover/0a/cd/0acd9930492159f58b920660919715591779953171873.jpeg",
-   "category": "现实题材",
-   "cateFineId": 8109,
-   "metric": 4,
-   "metricLabel": "月票",
-   "serialStatus": 0,
-   "intro": "抗战烽烟中一个十七岁少年的七年。",
-   "latestChapter": "第六章",
-   "latestChapterTime": "06-26 17:05",
-   "updatedToday": false,
-   "url": "https://www.zongheng.com/book/1436445.html"
-  }
- ],
+ "books": [],
  "trend": {
   "first_day": false,
   "new_count": 0,
-  "dropped_count": 0,
+  "dropped_count": 2,
   "new_books": [],
-  "dropped_books": [],
+  "dropped_books": [
+   {
+    "title": "秦皇不老",
+    "author": "簪君",
+    "prevRank": 1,
+    "bookId": 1387209
+   },
+   {
+    "title": "七与十七",
+    "author": "知白",
+    "prevRank": 2,
+    "bookId": 1436445
+   }
+  ],
   "top_movers": [],
   "darkhorses": [],
-  "update_rate": 0.0,
-  "summary": "现实题材榜单进入“存量博弈”僵局，头部作品断层且月票数极低，说明该品类在纵横生态内缺乏强力流量支撑。目前市场处于“审美疲劳期”，纯写实作品难破圈。建议编辑部：加大对“现实+”复合型题材（如现实+职场博弈/行业内幕）的扶持，引入强冲突叙事；作者应避开平铺直叙，通过极致的社会痛点或反差人设制造话题，打破流量冰点。"
+  "update_rate": 0,
+  "summary": "纵横现实题材榜单进入“存量博弈”期，头部格局固化，新书入局门槛极高。近期无新书突围，折射出题材红利衰退，读者对“行业文+爽点”的套路审美疲劳。建议作者避开同质化职场叙事，转向“强冲突+时代痛点”的社会深度挖掘，通过极致的人物弧光破局。编辑部应加大对非典型现实题材的扶持，避免榜单沦为老书的“养老院”。"
  }
 }

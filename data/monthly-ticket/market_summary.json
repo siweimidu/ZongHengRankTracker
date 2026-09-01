@@ -1,82 +1,82 @@
 {
- "date": "2026-08-31",
+ "date": "2026-09-01",
  "category_heat": [
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 87123,
-   "heat": 128.9
-  },
-  {
-   "name": "历史",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 14677,
-   "heat": 115.0
-  },
-  {
-   "name": "都市",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 11804,
-   "heat": 113.3
+   "metric_sum_top10": 1508,
+   "heat": 97.2
   },
   {
    "name": "武侠仙侠",
-   "count": 30,
+   "count": 23,
    "top10": 10,
-   "metric_sum_top10": 10994,
-   "heat": 112.7
+   "metric_sum_top10": 374,
+   "heat": 86.3
   },
   {
-   "name": "奇闻异事",
-   "count": 12,
+   "name": "都市",
+   "count": 28,
    "top10": 10,
-   "metric_sum_top10": 7744,
-   "heat": 110.0
+   "metric_sum_top10": 252,
+   "heat": 83.3
+  },
+  {
+   "name": "历史",
+   "count": 26,
+   "top10": 10,
+   "metric_sum_top10": 143,
+   "heat": 78.9
   },
   {
    "name": "现代言情",
-   "count": 30,
+   "count": 18,
    "top10": 10,
-   "metric_sum_top10": 6796,
-   "heat": 109.0
-  },
-  {
-   "name": "科幻",
-   "count": 14,
-   "top10": 10,
-   "metric_sum_top10": 4070,
-   "heat": 105.0
+   "metric_sum_top10": 71,
+   "heat": 73.4
   },
   {
    "name": "古代言情",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 4076,
-   "heat": 105.0
+   "count": 8,
+   "top10": 8,
+   "metric_sum_top10": 24,
+   "heat": 57.2
+  },
+  {
+   "name": "奇闻异事",
+   "count": 4,
+   "top10": 4,
+   "metric_sum_top10": 105,
+   "heat": 52.5
+  },
+  {
+   "name": "科幻",
+   "count": 3,
+   "top10": 3,
+   "metric_sum_top10": 19,
+   "heat": 35.4
   },
   {
    "name": "N次元",
-   "count": 5,
-   "top10": 5,
-   "metric_sum_top10": 456,
-   "heat": 67.9
+   "count": 1,
+   "top10": 1,
+   "metric_sum_top10": 1,
+   "heat": 9.4
   },
   {
    "name": "游戏",
-   "count": 4,
-   "top10": 4,
-   "metric_sum_top10": 57,
-   "heat": 47.7
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
   },
   {
    "name": "现实题材",
-   "count": 2,
-   "top10": 2,
-   "metric_sum_top10": 9,
-   "heat": 26.0
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
   }
  ],
  "keyword_heat": [
@@ -86,18 +86,18 @@
   },
   {
    "keyword": "穿越",
-   "count": 6
+   "count": 7
   },
   {
    "keyword": "无敌",
-   "count": 5
+   "count": 6
   },
   {
    "keyword": "诸天",
    "count": 4
   },
   {
-   "keyword": "重生",
+   "keyword": "修仙",
    "count": 3
   },
   {
@@ -105,15 +105,7 @@
    "count": 2
   },
   {
-   "keyword": "科技",
-   "count": 2
-  },
-  {
-   "keyword": "历史",
-   "count": 2
-  },
-  {
-   "keyword": "修仙",
+   "keyword": "重生",
    "count": 2
   },
   {
@@ -121,23 +113,31 @@
    "count": 2
   },
   {
+   "keyword": "兵王",
+   "count": 2
+  },
+  {
+   "keyword": "仙侠",
+   "count": 2
+  },
+  {
    "keyword": "轻松",
    "count": 2
   },
   {
-   "keyword": "系统",
-   "count": 2
-  },
-  {
-   "keyword": "兵王",
-   "count": 1
-  },
-  {
-   "keyword": "仙侠",
+   "keyword": "历史",
    "count": 1
   },
   {
    "keyword": "鉴宝",
+   "count": 1
+  },
+  {
+   "keyword": "科技",
+   "count": 1
+  },
+  {
+   "keyword": "搞笑",
    "count": 1
   }
  ],
@@ -419,6 +419,26 @@
      "title": "星辰大道",
      "author": "随散飘风",
      "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-09-01",
+   "top3": [
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "bookId": 1552353
+    },
+    {
+     "title": "鸿蒙霸体诀",
+     "author": "鱼初见",
+     "bookId": 1268659
     }
    ]
   }
