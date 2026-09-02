@@ -1,0 +1,683 @@
+{
+ "date": "2026-09-03",
+ "prev_date": "2026-09-02",
+ "board": {
+  "slug": "new-book-subscribe",
+  "name": "新书订阅榜",
+  "rankType": 9,
+  "period": 0
+ },
+ "trends": {
+  "全部": {
+   "first_day": false,
+   "new_count": 1,
+   "dropped_count": 0,
+   "new_books": [
+    {
+     "title": "重生70：猎山猎水猎人生",
+     "author": "指能生金",
+     "rank": 9,
+     "bookId": 1563351
+    }
+   ],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1555584,
+     "title": "斩神刀",
+     "author": "四眼秀才",
+     "rank": 2,
+     "rankChange": 2,
+     "metric": 4896,
+     "metricGrowth": 0.979,
+     "momentum": 75.0
+    },
+    {
+     "bookId": 1539197,
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 6287,
+     "metricGrowth": -0.3261,
+     "momentum": 68.0
+    },
+    {
+     "bookId": 1565048,
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "rank": 3,
+     "rankChange": -1,
+     "metric": 3626,
+     "metricGrowth": 0.3914,
+     "momentum": 66.5
+    },
+    {
+     "bookId": 1557966,
+     "title": "聚宝仙炉",
+     "author": "我没偷懒",
+     "rank": 7,
+     "rankChange": 1,
+     "metric": 1333,
+     "metricGrowth": 14.1477,
+     "momentum": 65.5
+    },
+    {
+     "bookId": 1561182,
+     "title": "高武严父，永远比儿子高五个境界",
+     "author": "邯郸财阀",
+     "rank": 4,
+     "rankChange": 1,
+     "metric": 3217,
+     "metricGrowth": 0.5716,
+     "momentum": 59.5
+    },
+    {
+     "bookId": 1562907,
+     "title": "无敌圣体",
+     "author": "列夕",
+     "rank": 5,
+     "rankChange": -2,
+     "metric": 3012,
+     "metricGrowth": 0.162,
+     "momentum": 53.6
+    },
+    {
+     "bookId": 1555228,
+     "title": "爷爷托梦后，我靠戒指掌控万界",
+     "author": "一缕微光",
+     "rank": 6,
+     "rankChange": 0,
+     "metric": 1376,
+     "metricGrowth": 0.0496,
+     "momentum": 50.9
+    },
+    {
+     "bookId": 1552548,
+     "title": "执剑人",
+     "author": "浮生一诺",
+     "rank": 8,
+     "rankChange": -1,
+     "metric": 1042,
+     "metricGrowth": 0.1015,
+     "momentum": 47.3
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1563351,
+     "title": "重生70：猎山猎水猎人生",
+     "author": "指能生金",
+     "rank": 9,
+     "reason": "新上榜即进入前列"
+    }
+   ],
+   "update_rate": 0.333,
+   "summary": "【新书订阅榜·全部】1 本新上榜；《斩神刀》升 2 位至第 2 名；黑马《重生70：猎山猎水猎人生》第 9 名；当日更新率 33%。"
+  },
+  "历史": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1565048,
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 3626,
+     "metricGrowth": 0.3914,
+     "momentum": 68.5
+    },
+    {
+     "bookId": 1539197,
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 6287,
+     "metricGrowth": -0.3261,
+     "momentum": 68.0
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.0,
+   "summary": "【新书订阅榜·历史】榜单结构稳定，头部固若金汤。"
+  },
+  "玄幻奇幻": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1555584,
+     "title": "斩神刀",
+     "author": "四眼秀才",
+     "rank": 1,
+     "rankChange": 1,
+     "metric": 4896,
+     "metricGrowth": 0.979,
+     "momentum": 74.5
+    },
+    {
+     "bookId": 1562907,
+     "title": "无敌圣体",
+     "author": "列夕",
+     "rank": 2,
+     "rankChange": -1,
+     "metric": 3012,
+     "metricGrowth": 0.162,
+     "momentum": 67.6
+    },
+    {
+     "bookId": 1552548,
+     "title": "执剑人",
+     "author": "浮生一诺",
+     "rank": 3,
+     "rankChange": 0,
+     "metric": 1042,
+     "metricGrowth": 0.1015,
+     "momentum": 65.3
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.333,
+   "summary": "【新书订阅榜·玄幻奇幻】《斩神刀》升 1 位至第 1 名。"
+  },
+  "武侠仙侠": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1557966,
+     "title": "聚宝仙炉",
+     "author": "我没偷懒",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 1333,
+     "metricGrowth": 14.1477,
+     "momentum": 83.0
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 1.0,
+   "summary": "【新书订阅榜·武侠仙侠】榜单结构稳定，头部固若金汤。"
+  },
+  "都市": {
+   "first_day": false,
+   "new_count": 1,
+   "dropped_count": 0,
+   "new_books": [
+    {
+     "title": "重生70：猎山猎水猎人生",
+     "author": "指能生金",
+     "rank": 3,
+     "bookId": 1563351
+    }
+   ],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1561182,
+     "title": "高武严父，永远比儿子高五个境界",
+     "author": "邯郸财阀",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 3217,
+     "metricGrowth": 0.5716,
+     "momentum": 71.0
+    },
+    {
+     "bookId": 1555228,
+     "title": "爷爷托梦后，我靠戒指掌控万界",
+     "author": "一缕微光",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 1376,
+     "metricGrowth": 0.0496,
+     "momentum": 66.9
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1563351,
+     "title": "重生70：猎山猎水猎人生",
+     "author": "指能生金",
+     "rank": 3,
+     "reason": "新上榜即进入前列"
+    }
+   ],
+   "update_rate": 0.333,
+   "summary": "【新书订阅榜·都市】1 本新上榜；黑马《重生70：猎山猎水猎人生》第 3 名。"
+  },
+  "科幻": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0,
+   "summary": "【新书订阅榜·科幻】榜单结构稳定，头部固若金汤。"
+  },
+  "奇闻异事": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0,
+   "summary": "【新书订阅榜·奇闻异事】榜单结构稳定，头部固若金汤。"
+  },
+  "游戏": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0,
+   "summary": "【新书订阅榜·游戏】榜单结构稳定，头部固若金汤。"
+  },
+  "N次元": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0,
+   "summary": "【新书订阅榜·N次元】榜单结构稳定，头部固若金汤。"
+  },
+  "现实题材": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0,
+   "summary": "现实题材榜单进入“固化期”，头部作品护城河极深，新书突围难度指数级上升。当前市场偏好强冲突、强代入的“职场+行业”深耕型叙事，平铺直叙的写实流已难获青睐。建议作者：避开泛泛的都市生活，聚焦稀缺行业（如高端制造、特殊技术领域）进行“职业化+爽点”重构，通过高频的行业博弈节奏，打破存量市场的审美疲劳。"
+  }
+ },
+ "category_heat": [
+  {
+   "name": "玄幻奇幻",
+   "count": 3,
+   "top10": 3,
+   "metric_sum_top10": 8950,
+   "heat": 83.1
+  },
+  {
+   "name": "历史",
+   "count": 2,
+   "top10": 2,
+   "metric_sum_top10": 9913,
+   "heat": 79.9
+  },
+  {
+   "name": "都市",
+   "count": 3,
+   "top10": 3,
+   "metric_sum_top10": 4664,
+   "heat": 78.0
+  },
+  {
+   "name": "武侠仙侠",
+   "count": 1,
+   "top10": 1,
+   "metric_sum_top10": 1333,
+   "heat": 60.3
+  },
+  {
+   "name": "科幻",
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
+  },
+  {
+   "name": "奇闻异事",
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
+  },
+  {
+   "name": "游戏",
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
+  },
+  {
+   "name": "N次元",
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
+  },
+  {
+   "name": "现实题材",
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
+  }
+ ],
+ "keyword_heat": [
+  {
+   "keyword": "穿越",
+   "count": 2
+  },
+  {
+   "keyword": "万界",
+   "count": 2
+  },
+  {
+   "keyword": "末世",
+   "count": 2
+  },
+  {
+   "keyword": "诸天",
+   "count": 1
+  },
+  {
+   "keyword": "系统",
+   "count": 1
+  },
+  {
+   "keyword": "高武",
+   "count": 1
+  },
+  {
+   "keyword": "无敌",
+   "count": 1
+  },
+  {
+   "keyword": "宗门",
+   "count": 1
+  },
+  {
+   "keyword": "重生",
+   "count": 1
+  }
+ ],
+ "timeline": [
+  {
+   "date": "2026-08-18",
+   "top3": [
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "九转仙葫",
+     "author": "西山落尘",
+     "bookId": 1555785
+    },
+    {
+     "title": "三国：穿越刘备义子，开局驰援关羽",
+     "author": "卖酒郎君",
+     "bookId": 1544423
+    }
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "top3": [
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    },
+    {
+     "title": "斩神刀",
+     "author": "四眼秀才",
+     "bookId": 1555584
+    }
+   ]
+  },
+  {
+   "date": "2026-08-21",
+   "top3": [
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "三国：穿越刘备义子，开局驰援关羽",
+     "author": "卖酒郎君",
+     "bookId": 1544423
+    },
+    {
+     "title": "斩神刀",
+     "author": "四眼秀才",
+     "bookId": 1555584
+    }
+   ]
+  },
+  {
+   "date": "2026-08-22",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    }
+   ]
+  },
+  {
+   "date": "2026-08-23",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    }
+   ]
+  },
+  {
+   "date": "2026-08-24",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    },
+    {
+     "title": "三国：穿越刘备义子，开局驰援关羽",
+     "author": "卖酒郎君",
+     "bookId": 1544423
+    }
+   ]
+  },
+  {
+   "date": "2026-08-25",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    },
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    }
+   ]
+  },
+  {
+   "date": "2026-08-26",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    },
+    {
+     "title": "斩神刀",
+     "author": "四眼秀才",
+     "bookId": 1555584
+    }
+   ]
+  },
+  {
+   "date": "2026-08-27",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    },
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    }
+   ]
+  },
+  {
+   "date": "2026-08-30",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    },
+    {
+     "title": "斩神刀",
+     "author": "四眼秀才",
+     "bookId": 1555584
+    }
+   ]
+  },
+  {
+   "date": "2026-08-31",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "三国：穿越刘备义子，开局驰援关羽",
+     "author": "卖酒郎君",
+     "bookId": 1544423
+    }
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    }
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "斩神刀",
+     "author": "四眼秀才",
+     "bookId": 1555584
+    },
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    }
+   ]
+  }
+ ],
+ "total_books": 9
+}
