@@ -1,68 +1,68 @@
 {
- "date": "2026-09-03",
+ "date": "2026-09-04",
  "category_heat": [
-  {
-   "name": "都市",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 134599,
-   "heat": 132.3
-  },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 133825,
-   "heat": 132.3
+   "metric_sum_top10": 223043,
+   "heat": 136.3
+  },
+  {
+   "name": "都市",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 126686,
+   "heat": 131.8
   },
   {
    "name": "历史",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 119349,
-   "heat": 131.4
+   "metric_sum_top10": 123628,
+   "heat": 131.7
   },
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 100807,
-   "heat": 130.1
-  },
-  {
-   "name": "科幻",
-   "count": 15,
-   "top10": 10,
-   "metric_sum_top10": 72103,
-   "heat": 127.4
+   "metric_sum_top10": 103686,
+   "heat": 130.3
   },
   {
    "name": "奇闻异事",
-   "count": 16,
+   "count": 15,
    "top10": 10,
-   "metric_sum_top10": 64111,
+   "metric_sum_top10": 66279,
+   "heat": 126.8
+  },
+  {
+   "name": "科幻",
+   "count": 14,
+   "top10": 10,
+   "metric_sum_top10": 64035,
    "heat": 126.5
   },
   {
    "name": "N次元",
-   "count": 7,
-   "top10": 7,
-   "metric_sum_top10": 58143,
-   "heat": 113.8
+   "count": 9,
+   "top10": 9,
+   "metric_sum_top10": 71187,
+   "heat": 123.3
   },
   {
    "name": "军事",
-   "count": 7,
-   "top10": 7,
-   "metric_sum_top10": 48368,
-   "heat": 112.3
+   "count": 8,
+   "top10": 8,
+   "metric_sum_top10": 56658,
+   "heat": 117.6
   },
   {
    "name": "游戏",
    "count": 3,
    "top10": 3,
-   "metric_sum_top10": 13494,
-   "heat": 86.3
+   "metric_sum_top10": 13048,
+   "heat": 86.1
   },
   {
    "name": "现实题材",
@@ -74,35 +74,27 @@
  ],
  "keyword_heat": [
   {
-   "keyword": "系统",
-   "count": 8
-  },
-  {
    "keyword": "穿越",
-   "count": 6
+   "count": 9
   },
   {
-   "keyword": "无敌",
+   "keyword": "系统",
    "count": 5
   },
   {
-   "keyword": "重生",
-   "count": 3
+   "keyword": "无敌",
+   "count": 4
   },
   {
    "keyword": "玄幻",
    "count": 3
   },
   {
+   "keyword": "重生",
+   "count": 3
+  },
+  {
    "keyword": "大明",
-   "count": 2
-  },
-  {
-   "keyword": "杀伐果断",
-   "count": 2
-  },
-  {
-   "keyword": "种田",
    "count": 2
   },
   {
@@ -114,7 +106,11 @@
    "count": 1
   },
   {
-   "keyword": "历史",
+   "keyword": "杀伐果断",
+   "count": 1
+  },
+  {
+   "keyword": "鉴宝",
    "count": 1
   },
   {
@@ -126,11 +122,15 @@
    "count": 1
   },
   {
-   "keyword": "战神",
+   "keyword": "历史",
    "count": 1
   },
   {
    "keyword": "签到",
+   "count": 1
+  },
+  {
+   "keyword": "都市",
    "count": 1
   }
  ],
@@ -392,6 +392,26 @@
      "title": "九霄神鼎",
      "author": "墨狩",
      "bookId": 1557513
+    }
+   ]
+  },
+  {
+   "date": "2026-09-04",
+   "top3": [
+    {
+     "title": "九霄神鼎",
+     "author": "墨狩",
+     "bookId": 1557513
+    },
+    {
+     "title": "火影，觉醒时空间之力，爆打原始人",
+     "author": "靖青",
+     "bookId": 1554438
+    },
+    {
+     "title": "监国太子，开局软禁崇祯",
+     "author": "不知明月",
+     "bookId": 1508524
     }
    ]
   }

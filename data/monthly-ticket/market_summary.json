@@ -1,61 +1,68 @@
 {
- "date": "2026-09-03",
+ "date": "2026-09-04",
  "category_heat": [
-  {
-   "name": "玄幻奇幻",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 7465,
-   "heat": 109.7
-  },
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 6909,
-   "heat": 109.1
+   "metric_sum_top10": 8794,
+   "heat": 111.0
+  },
+  {
+   "name": "玄幻奇幻",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 8591,
+   "heat": 110.8
   },
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 1411,
-   "heat": 96.7
+   "metric_sum_top10": 1604,
+   "heat": 97.7
   },
   {
    "name": "历史",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 815,
-   "heat": 92.4
+   "metric_sum_top10": 950,
+   "heat": 93.6
   },
   {
    "name": "现代言情",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 418,
-   "heat": 87.2
+   "metric_sum_top10": 491,
+   "heat": 88.5
   },
   {
    "name": "古代言情",
-   "count": 29,
+   "count": 30,
    "top10": 10,
-   "metric_sum_top10": 235,
-   "heat": 82.7
+   "metric_sum_top10": 284,
+   "heat": 84.2
   },
   {
    "name": "奇闻异事",
    "count": 8,
    "top10": 8,
-   "metric_sum_top10": 556,
-   "heat": 81.4
+   "metric_sum_top10": 709,
+   "heat": 83.3
   },
   {
    "name": "科幻",
    "count": 8,
    "top10": 8,
-   "metric_sum_top10": 234,
-   "heat": 74.7
+   "metric_sum_top10": 273,
+   "heat": 75.9
+  },
+  {
+   "name": "N次元",
+   "count": 2,
+   "top10": 2,
+   "metric_sum_top10": 10,
+   "heat": 26.7
   },
   {
    "name": "游戏",
@@ -63,13 +70,6 @@
    "top10": 2,
    "metric_sum_top10": 8,
    "heat": 25.2
-  },
-  {
-   "name": "N次元",
-   "count": 2,
-   "top10": 2,
-   "metric_sum_top10": 4,
-   "heat": 20.6
   },
   {
    "name": "现实题材",
@@ -86,15 +86,19 @@
   },
   {
    "keyword": "穿越",
-   "count": 6
+   "count": 7
   },
   {
    "keyword": "无敌",
-   "count": 4
+   "count": 5
   },
   {
    "keyword": "诸天",
    "count": 4
+  },
+  {
+   "keyword": "重生",
+   "count": 3
   },
   {
    "keyword": "历史",
@@ -106,10 +110,6 @@
   },
   {
    "keyword": "科技",
-   "count": 2
-  },
-  {
-   "keyword": "重生",
    "count": 2
   },
   {
@@ -125,6 +125,10 @@
    "count": 2
   },
   {
+   "keyword": "系统",
+   "count": 2
+  },
+  {
    "keyword": "兵王",
    "count": 1
   },
@@ -134,10 +138,6 @@
   },
   {
    "keyword": "鉴宝",
-   "count": 1
-  },
-  {
-   "keyword": "星际",
    "count": 1
   }
  ],
@@ -479,6 +479,26 @@
      "title": "最强狂兵Ⅱ：黑暗荣耀",
      "author": "烈焰滔滔",
      "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-09-04",
+   "top3": [
+    {
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "bookId": 1552353
+    },
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
     }
    ]
   }

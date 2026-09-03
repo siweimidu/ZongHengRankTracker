@@ -1,20 +1,12 @@
 {
- "finished_at": "2026-09-03T06:53:36",
- "elapsed_sec": 60.2,
+ "finished_at": "2026-09-04T06:52:58",
+ "elapsed_sec": 60.9,
  "client_stats": {
   "requests": 95,
   "retries": 0,
   "failures": 0
  },
  "reports": [
-  {
-   "slug": "one-day",
-   "name": "24小时畅销榜",
-   "ok": true,
-   "categories": 9,
-   "books": 197,
-   "warnings": []
-  },
   {
    "slug": "new-book",
    "name": "新书榜",
@@ -24,11 +16,19 @@
    "warnings": []
   },
   {
+   "slug": "one-day",
+   "name": "24小时畅销榜",
+   "ok": true,
+   "categories": 10,
+   "books": 194,
+   "warnings": []
+  },
+  {
    "slug": "monthly-ticket",
    "name": "月票榜",
    "ok": true,
    "categories": 12,
-   "books": 230,
+   "books": 231,
    "warnings": []
   },
   {
@@ -76,7 +76,7 @@
    "name": "完结榜",
    "ok": true,
    "categories": 10,
-   "books": 211,
+   "books": 214,
    "warnings": []
   },
   {
@@ -84,7 +84,7 @@
    "name": "24小时更新榜",
    "ok": true,
    "categories": 10,
-   "books": 198,
+   "books": 199,
    "warnings": []
   }
  ]
