@@ -1,5 +1,5 @@
 {
- "date": "2026-09-04",
+ "date": "2026-09-05",
  "board": {
   "slug": "claque",
   "name": "捧场榜",
@@ -19,17 +19,36 @@
    "cover": "https://static.zongheng.com/upload/cover/5e/92/5e92bc1fbd960a00a17aaff6b5a59e4d1740124513858.jpeg",
    "category": "科幻",
    "cateFineId": 8105,
-   "metric": 7700,
+   "metric": 7800,
    "metricLabel": "捧场",
    "serialStatus": 0,
    "intro": "世纪之交，人类懵懂着踏入星空，就此暴露在诸神的视线之下。少年罗南背负着祖父的罪孽，走出实验室，且看他： 高举燃烧的笔记，脚踏诸神的尸骨； 书写万物的格式，增删宇宙的星图。 当知：万物皆备于我；必信：吾心即是宇宙。",
-   "latestChapter": "第一千四百六十九章 有勇气（下）",
-   "latestChapterTime": "09-03 23:56",
+   "latestChapter": "第一千四百七十章 超规格（下）",
+   "latestChapterTime": "09-04 23:53",
    "updatedToday": false,
    "url": "https://www.zongheng.com/book/325639.html"
   },
   {
    "rank": 2,
+   "bookId": 1451287,
+   "title": "末世，从吞尸体开始进化",
+   "author": "只是小脑虎",
+   "authorId": 56457896,
+   "authorCover": "",
+   "cover": "https://static.zongheng.com/upload/cover/5c/d6/5cd609abf0534c2f185ab7566dcbd4771787646840381.jpeg",
+   "category": "科幻",
+   "cateFineId": 8105,
+   "metric": 300,
+   "metricLabel": "捧场",
+   "serialStatus": 0,
+   "intro": "废土末世，流民如蝼蚁。堡垒高墙之内是天堂？不，只是另一座囚牢。\r 徐煜重生在这片充满危机的废土上，想要获取力量，想要在这吃人的废土活下去，那就只有不断变强！\r 没有食物？遍地都是“食材”，以身为炉，炼化万般凶煞，以牙为刃，撕开人族生路！\r 【吞噬能量+9】\r 【请选择加点方式：气血/精神力】",
+   "latestChapter": "第742章 坐镇南域",
+   "latestChapterTime": "08-31 23:53",
+   "updatedToday": false,
+   "url": "https://www.zongheng.com/book/1451287.html"
+  },
+  {
+   "rank": 3,
    "bookId": 1420145,
    "title": "星际猎人",
    "author": "太极阴阳鱼",
@@ -42,29 +61,10 @@
    "metricLabel": "捧场",
    "serialStatus": 0,
    "intro": "母星毁于内战，少年从废墟走出，入万兽星球，闯上古遗弃之地，盗药都仙缘，窃未来文明科技……杀伐决断，打破历史轮回宿命，重燃文明之火。",
-   "latestChapter": "第1648章、三窍顽石",
-   "latestChapterTime": "09-03 23:24",
-   "updatedToday": false,
+   "latestChapter": "第1653章、王者之境",
+   "latestChapterTime": "09-05 00:05",
+   "updatedToday": true,
    "url": "https://www.zongheng.com/book/1420145.html"
-  },
-  {
-   "rank": 3,
-   "bookId": 1451287,
-   "title": "末世，从吞尸体开始进化",
-   "author": "只是小脑虎",
-   "authorId": 56457896,
-   "authorCover": "",
-   "cover": "https://static.zongheng.com/upload/cover/5c/d6/5cd609abf0534c2f185ab7566dcbd4771787646840381.jpeg",
-   "category": "科幻",
-   "cateFineId": 8105,
-   "metric": 200,
-   "metricLabel": "捧场",
-   "serialStatus": 0,
-   "intro": "废土末世，流民如蝼蚁。堡垒高墙之内是天堂？不，只是另一座囚牢。\r 徐煜重生在这片充满危机的废土上，想要获取力量，想要在这吃人的废土活下去，那就只有不断变强！\r 没有食物？遍地都是“食材”，以身为炉，炼化万般凶煞，以牙为刃，撕开人族生路！\r 【吞噬能量+9】\r 【请选择加点方式：气血/精神力】",
-   "latestChapter": "第742章 坐镇南域",
-   "latestChapterTime": "08-31 23:53",
-   "updatedToday": false,
-   "url": "https://www.zongheng.com/book/1451287.html"
   }
  ],
  "trend": {
@@ -73,9 +73,40 @@
   "dropped_count": 0,
   "new_books": [],
   "dropped_books": [],
-  "top_movers": [],
+  "top_movers": [
+   {
+    "bookId": 1451287,
+    "title": "末世，从吞尸体开始进化",
+    "author": "只是小脑虎",
+    "rank": 2,
+    "rankChange": 1,
+    "metric": 300,
+    "metricGrowth": 0.5,
+    "momentum": 71.3
+   },
+   {
+    "bookId": 325639,
+    "title": "星辰之主",
+    "author": "减肥专家",
+    "rank": 1,
+    "rankChange": 0,
+    "metric": 7800,
+    "metricGrowth": 0.013,
+    "momentum": 68.5
+   },
+   {
+    "bookId": 1420145,
+    "title": "星际猎人",
+    "author": "太极阴阳鱼",
+    "rank": 3,
+    "rankChange": -1,
+    "metric": 200,
+    "metricGrowth": 0.0,
+    "momentum": 64.0
+   }
+  ],
   "darkhorses": [],
-  "update_rate": 0.0,
-  "summary": "【捧场榜·科幻】榜单结构稳定，头部固若金汤。"
+  "update_rate": 0.333,
+  "summary": "【捧场榜·科幻】《末世，从吞尸体开始进化》升 1 位至第 2 名。"
  }
 }
