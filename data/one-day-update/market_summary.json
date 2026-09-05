@@ -1,68 +1,68 @@
 {
- "date": "2026-09-05",
+ "date": "2026-09-06",
  "category_heat": [
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 126816,
+   "metric_sum_top10": 142642,
+   "heat": 132.8
+  },
+  {
+   "name": "玄幻奇幻",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 130260,
+   "heat": 132.1
+  },
+  {
+   "name": "武侠仙侠",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 127253,
    "heat": 131.9
   },
   {
    "name": "历史",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 127262,
-   "heat": 131.9
-  },
-  {
-   "name": "玄幻奇幻",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 116732,
-   "heat": 131.2
-  },
-  {
-   "name": "武侠仙侠",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 107765,
-   "heat": 130.6
-  },
-  {
-   "name": "奇闻异事",
-   "count": 16,
-   "top10": 10,
-   "metric_sum_top10": 72612,
-   "heat": 127.5
+   "metric_sum_top10": 119754,
+   "heat": 131.4
   },
   {
    "name": "科幻",
+   "count": 14,
+   "top10": 10,
+   "metric_sum_top10": 77305,
+   "heat": 128.0
+  },
+  {
+   "name": "奇闻异事",
    "count": 17,
    "top10": 10,
-   "metric_sum_top10": 65912,
-   "heat": 126.7
+   "metric_sum_top10": 67983,
+   "heat": 127.0
   },
   {
    "name": "N次元",
    "count": 8,
    "top10": 8,
-   "metric_sum_top10": 97762,
-   "heat": 121.8
+   "metric_sum_top10": 61026,
+   "heat": 118.1
   },
   {
    "name": "军事",
-   "count": 6,
-   "top10": 6,
-   "metric_sum_top10": 41668,
-   "heat": 107.2
+   "count": 7,
+   "top10": 7,
+   "metric_sum_top10": 47662,
+   "heat": 112.2
   },
   {
    "name": "游戏",
-   "count": 3,
-   "top10": 3,
-   "metric_sum_top10": 12927,
-   "heat": 86.0
+   "count": 1,
+   "top10": 1,
+   "metric_sum_top10": 4427,
+   "heat": 69.6
   },
   {
    "name": "现实题材",
@@ -75,38 +75,50 @@
  "keyword_heat": [
   {
    "keyword": "穿越",
-   "count": 11
+   "count": 9
+  },
+  {
+   "keyword": "系统",
+   "count": 6
   },
   {
    "keyword": "玄幻",
    "count": 4
   },
   {
-   "keyword": "系统",
+   "keyword": "重生",
    "count": 4
-  },
-  {
-   "keyword": "无敌",
-   "count": 3
   },
   {
    "keyword": "杀伐果断",
    "count": 3
   },
   {
-   "keyword": "重生",
+   "keyword": "诸天",
    "count": 3
   },
   {
-   "keyword": "扮猪吃虎",
+   "keyword": "无敌",
+   "count": 3
+  },
+  {
+   "keyword": "宗门",
+   "count": 3
+  },
+  {
+   "keyword": "战神",
    "count": 2
   },
   {
-   "keyword": "诸天",
+   "keyword": "签到",
    "count": 2
   },
   {
    "keyword": "修仙",
+   "count": 2
+  },
+  {
+   "keyword": "扮猪吃虎",
    "count": 1
   },
   {
@@ -114,23 +126,11 @@
    "count": 1
   },
   {
-   "keyword": "赘婿",
+   "keyword": "都市",
    "count": 1
   },
   {
-   "keyword": "签到",
-   "count": 1
-  },
-  {
-   "keyword": "种田",
-   "count": 1
-  },
-  {
-   "keyword": "星际",
-   "count": 1
-  },
-  {
-   "keyword": "科技",
+   "keyword": "群像",
    "count": 1
   }
  ],
@@ -432,6 +432,26 @@
      "title": "乾坤造化诀",
      "author": "凌慕雨",
      "bookId": 1579071
+    }
+   ]
+  },
+  {
+   "date": "2026-09-06",
+   "top3": [
+    {
+     "title": "天道酬勤：我的武道没有瓶颈！",
+     "author": "深巷说书人",
+     "bookId": 1575006
+    },
+    {
+     "title": "我就是个保安，美女别硬来啊！",
+     "author": "千年星云",
+     "bookId": 1590095
+    },
+    {
+     "title": "校花别搞，我真不是你妈妈！",
+     "author": "根深蒂固",
+     "bookId": 1585081
     }
    ]
   }
