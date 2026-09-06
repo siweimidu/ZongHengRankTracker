@@ -1,74 +1,78 @@
 {
- "date": "2026-09-06",
+ "date": "2026-09-07",
  "category_heat": [
   {
-   "name": "玄幻奇幻",
-   "count": 30,
+   "name": "科幻",
+   "count": 26,
    "top10": 10,
-   "metric_sum_top10": 24361,
-   "heat": 119.0
-  },
-  {
-   "name": "都市",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 21507,
-   "heat": 118.0
+   "metric_sum_top10": 1108,
+   "heat": 94.8
   },
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 20108,
-   "heat": 117.5
-  },
-  {
-   "name": "科幻",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 7141,
-   "heat": 109.4
-  },
-  {
-   "name": "历史",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 6775,
-   "heat": 109.0
+   "metric_sum_top10": 867,
+   "heat": 92.9
   },
   {
    "name": "奇闻异事",
+   "count": 21,
+   "top10": 10,
+   "metric_sum_top10": 623,
+   "heat": 90.3
+  },
+  {
+   "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 2365,
-   "heat": 100.7
+   "metric_sum_top10": 601,
+   "heat": 90.0
   },
   {
    "name": "现实题材",
    "count": 11,
    "top10": 10,
-   "metric_sum_top10": 426,
-   "heat": 87.3
+   "metric_sum_top10": 480,
+   "heat": 88.3
+  },
+  {
+   "name": "都市",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 433,
+   "heat": 87.5
+  },
+  {
+   "name": "历史",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 278,
+   "heat": 84.0
   },
   {
    "name": "N次元",
-   "count": 10,
-   "top10": 10,
-   "metric_sum_top10": 387,
-   "heat": 86.6
+   "count": 8,
+   "top10": 8,
+   "metric_sum_top10": 228,
+   "heat": 74.5
   },
   {
    "name": "游戏",
-   "count": 8,
-   "top10": 8,
-   "metric_sum_top10": 282,
-   "heat": 76.1
+   "count": 7,
+   "top10": 7,
+   "metric_sum_top10": 60,
+   "heat": 60.1
   }
  ],
  "keyword_heat": [
   {
    "keyword": "玄幻",
-   "count": 6
+   "count": 5
+  },
+  {
+   "keyword": "穿越",
+   "count": 4
   },
   {
    "keyword": "无敌",
@@ -79,14 +83,6 @@
    "count": 4
   },
   {
-   "keyword": "穿越",
-   "count": 4
-  },
-  {
-   "keyword": "科技",
-   "count": 3
-  },
-  {
    "keyword": "修仙",
    "count": 3
   },
@@ -95,19 +91,15 @@
    "count": 2
   },
   {
+   "keyword": "科技",
+   "count": 2
+  },
+  {
    "keyword": "仙侠",
    "count": 2
   },
   {
-   "keyword": "兵王",
-   "count": 1
-  },
-  {
-   "keyword": "群像",
-   "count": 1
-  },
-  {
-   "keyword": "重生",
+   "keyword": "宗门",
    "count": 1
   },
   {
@@ -115,15 +107,23 @@
    "count": 1
   },
   {
+   "keyword": "重生",
+   "count": 1
+  },
+  {
    "keyword": "杀伐果断",
    "count": 1
   },
   {
-   "keyword": "末世",
+   "keyword": "兵王",
    "count": 1
   },
   {
    "keyword": "轻松",
+   "count": 1
+  },
+  {
+   "keyword": "搞笑",
    "count": 1
   }
  ],
@@ -525,6 +525,26 @@
      "title": "剑来",
      "author": "烽火戏诸侯",
      "bookId": 672340
+    }
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "星辰之主",
+     "author": "减肥专家",
+     "bookId": 325639
     }
    ]
   }

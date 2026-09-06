@@ -1,85 +1,93 @@
 {
- "date": "2026-09-06",
+ "date": "2026-09-07",
  "category_heat": [
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 2701129,
-   "heat": 155.8
+   "metric_sum_top10": 316549,
+   "heat": 139.0
   },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 784930,
-   "heat": 146.1
+   "metric_sum_top10": 22012,
+   "heat": 118.2
+  },
+  {
+   "name": "奇闻异事",
+   "count": 17,
+   "top10": 10,
+   "metric_sum_top10": 19720,
+   "heat": 117.3
   },
   {
    "name": "历史",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 341657,
-   "heat": 139.6
+   "metric_sum_top10": 12737,
+   "heat": 113.9
+  },
+  {
+   "name": "科幻",
+   "count": 12,
+   "top10": 10,
+   "metric_sum_top10": 9528,
+   "heat": 111.6
   },
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 241657,
-   "heat": 136.9
-  },
-  {
-   "name": "科幻",
-   "count": 20,
-   "top10": 10,
-   "metric_sum_top10": 137489,
-   "heat": 132.5
-  },
-  {
-   "name": "奇闻异事",
-   "count": 21,
-   "top10": 10,
-   "metric_sum_top10": 32409,
-   "heat": 121.2
+   "metric_sum_top10": 9005,
+   "heat": 111.2
   },
   {
    "name": "N次元",
-   "count": 14,
-   "top10": 10,
-   "metric_sum_top10": 13473,
-   "heat": 114.3
+   "count": 8,
+   "top10": 8,
+   "metric_sum_top10": 11994,
+   "heat": 105.4
   },
   {
    "name": "游戏",
-   "count": 8,
-   "top10": 8,
-   "metric_sum_top10": 20286,
-   "heat": 109.5
+   "count": 7,
+   "top10": 7,
+   "metric_sum_top10": 15738,
+   "heat": 103.5
   },
   {
    "name": "现实题材",
-   "count": 3,
-   "top10": 3,
-   "metric_sum_top10": 324,
-   "heat": 57.2
+   "count": 2,
+   "top10": 2,
+   "metric_sum_top10": 127,
+   "heat": 45.9
   }
  ],
  "keyword_heat": [
   {
-   "keyword": "诸天",
-   "count": 3
-  },
-  {
    "keyword": "无敌",
-   "count": 2
+   "count": 4
   },
   {
    "keyword": "重生",
+   "count": 3
+  },
+  {
+   "keyword": "都市",
    "count": 2
   },
   {
-   "keyword": "种田",
+   "keyword": "穿越",
+   "count": 2
+  },
+  {
+   "keyword": "诸天",
+   "count": 1
+  },
+  {
+   "keyword": "网游",
    "count": 1
   },
   {
@@ -87,27 +95,15 @@
    "count": 1
   },
   {
+   "keyword": "系统",
+   "count": 1
+  },
+  {
    "keyword": "宗门",
    "count": 1
   },
   {
-   "keyword": "穿越",
-   "count": 1
-  },
-  {
-   "keyword": "科技",
-   "count": 1
-  },
-  {
-   "keyword": "工业",
-   "count": 1
-  },
-  {
-   "keyword": "万界",
-   "count": 1
-  },
-  {
-   "keyword": "玄幻",
+   "keyword": "种田",
    "count": 1
   }
  ],
@@ -429,6 +425,26 @@
      "title": "雪中悍刀行",
      "author": "烽火戏诸侯",
      "bookId": 189169
+    }
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "我有一剑",
+     "author": "青鸾峰上",
+     "bookId": 1215341
+    },
+    {
+     "title": "剑道第一仙",
+     "author": "萧瑾瑜",
+     "bookId": 957220
     }
    ]
   }
