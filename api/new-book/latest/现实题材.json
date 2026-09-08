@@ -1,5 +1,5 @@
 {
- "date": "2026-09-07",
+ "date": "2026-09-09",
  "board": {
   "slug": "new-book",
   "name": "新书榜",
@@ -8,16 +8,51 @@
   "metric_label": "周收藏"
  },
  "category": "现实题材",
- "books": [],
+ "books": [
+  {
+   "rank": 1,
+   "bookId": 1593642,
+   "title": "金妆大贵人",
+   "author": "半解不解",
+   "authorId": 56299557,
+   "authorCover": "",
+   "cover": "https://static.zongheng.com/upload/cover/de/2e/de2ea1be92116a03f5078fe0001d61ef.jpeg",
+   "category": "现实题材",
+   "cateFineId": 8109,
+   "metric": 1200,
+   "metricLabel": "周收藏",
+   "serialStatus": 0,
+   "intro": "老板出轨被发现后找我背锅，老板娘却将计就计，让我和女秘同居……",
+   "latestChapter": "第15章 老板娘的猜疑",
+   "latestChapterTime": "09-08 13:55",
+   "updatedToday": false,
+   "url": "https://www.zongheng.com/book/1593642.html"
+  }
+ ],
  "trend": {
   "first_day": false,
-  "new_count": 0,
+  "new_count": 1,
   "dropped_count": 0,
-  "new_books": [],
+  "new_books": [
+   {
+    "title": "金妆大贵人",
+    "author": "半解不解",
+    "rank": 1,
+    "bookId": 1593642
+   }
+  ],
   "dropped_books": [],
   "top_movers": [],
-  "darkhorses": [],
-  "update_rate": 0,
-  "summary": "【新书榜·现实题材】榜单结构稳定，头部固若金汤。"
+  "darkhorses": [
+   {
+    "bookId": 1593642,
+    "title": "金妆大贵人",
+    "author": "半解不解",
+    "rank": 1,
+    "reason": "新上榜即进入前列"
+   }
+  ],
+  "update_rate": 0.0,
+  "summary": "【新书榜·现实题材】1 本新上榜；黑马《金妆大贵人》第 1 名。"
  }
 }

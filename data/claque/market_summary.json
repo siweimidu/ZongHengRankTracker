@@ -1,102 +1,71 @@
 {
- "date": "2026-09-07",
+ "date": "2026-09-09",
  "category_heat": [
-  {
-   "name": "都市",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 3300270,
-   "heat": 157.3
-  },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 502185,
-   "heat": 142.6
+   "metric_sum_top10": 228895,
+   "heat": 136.5
   },
   {
    "name": "武侠仙侠",
-   "count": 23,
+   "count": 27,
    "top10": 10,
-   "metric_sum_top10": 174254,
-   "heat": 134.3
+   "metric_sum_top10": 171174,
+   "heat": 134.2
+  },
+  {
+   "name": "都市",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 10135,
+   "heat": 112.1
   },
   {
    "name": "历史",
-   "count": 24,
+   "count": 27,
    "top10": 10,
-   "metric_sum_top10": 129954,
-   "heat": 132.0
-  },
-  {
-   "name": "奇闻异事",
-   "count": 6,
-   "top10": 6,
-   "metric_sum_top10": 31922,
-   "heat": 105.1
-  },
-  {
-   "name": "科幻",
-   "count": 3,
-   "top10": 3,
-   "metric_sum_top10": 11000,
-   "heat": 84.7
-  },
-  {
-   "name": "N次元",
-   "count": 2,
-   "top10": 2,
-   "metric_sum_top10": 300,
-   "heat": 52.6
-  },
-  {
-   "name": "游戏",
-   "count": 0,
-   "top10": 0,
-   "metric_sum_top10": 0,
-   "heat": 0
-  },
-  {
-   "name": "现实题材",
-   "count": 0,
-   "top10": 0,
-   "metric_sum_top10": 0,
-   "heat": 0
+   "metric_sum_top10": 4804,
+   "heat": 106.3
   }
  ],
  "keyword_heat": [
   {
-   "keyword": "穿越",
-   "count": 7
+   "keyword": "玄幻",
+   "count": 6
   },
   {
-   "keyword": "玄幻",
+   "keyword": "穿越",
    "count": 5
   },
   {
-   "keyword": "系统",
-   "count": 4
-  },
-  {
    "keyword": "诸天",
-   "count": 4
+   "count": 3
   },
   {
    "keyword": "修仙",
    "count": 3
   },
   {
-   "keyword": "杀伐果断",
-   "count": 2
+   "keyword": "无敌",
+   "count": 3
   },
   {
    "keyword": "重生",
    "count": 2
   },
   {
-   "keyword": "无敌",
+   "keyword": "杀伐果断",
    "count": 2
+  },
+  {
+   "keyword": "历史",
+   "count": 1
+  },
+  {
+   "keyword": "科技",
+   "count": 1
   },
   {
    "keyword": "轻松",
@@ -107,23 +76,19 @@
    "count": 1
   },
   {
-   "keyword": "历史",
+   "keyword": "大明",
    "count": 1
   },
   {
-   "keyword": "苟道",
+   "keyword": "系统",
    "count": 1
   },
   {
-   "keyword": "神医",
+   "keyword": "争霸",
    "count": 1
   },
   {
-   "keyword": "都市",
-   "count": 1
-  },
-  {
-   "keyword": "科技",
+   "keyword": "克苏鲁",
    "count": 1
   }
  ],
@@ -545,6 +510,26 @@
      "title": "狱医",
      "author": "破空",
      "bookId": 1296117
+    }
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "top3": [
+    {
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "bookId": 1552353
+    },
+    {
+     "title": "鸿蒙霸体诀",
+     "author": "鱼初见",
+     "bookId": 1268659
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
     }
    ]
   }

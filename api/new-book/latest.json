@@ -1,7 +1,7 @@
 {
  "slug": "new-book",
  "name": "新书榜",
- "date": "2026-09-07",
+ "date": "2026-09-09",
  "types": [
   {
    "name": "全部",
@@ -41,7 +41,7 @@
   {
    "name": "奇闻异事",
    "url": "api/new-book/latest/奇闻异事.json",
-   "count": 5
+   "count": 7
   },
   {
    "name": "游戏",
@@ -56,7 +56,7 @@
   {
    "name": "现实题材",
    "url": "api/new-book/latest/现实题材.json",
-   "count": 0
+   "count": 1
   }
  ]
 }
