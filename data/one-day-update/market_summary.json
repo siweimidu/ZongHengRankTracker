@@ -1,100 +1,108 @@
 {
- "date": "2026-09-07",
+ "date": "2026-09-10",
  "category_heat": [
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 124930,
-   "heat": 131.7
-  },
-  {
-   "name": "武侠仙侠",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 120626,
-   "heat": 131.5
+   "metric_sum_top10": 133148,
+   "heat": 132.2
   },
   {
    "name": "历史",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 118817,
-   "heat": 131.3
+   "metric_sum_top10": 131085,
+   "heat": 132.1
   },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 118158,
-   "heat": 131.3
+   "metric_sum_top10": 130273,
+   "heat": 132.1
+  },
+  {
+   "name": "武侠仙侠",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 105756,
+   "heat": 130.4
   },
   {
    "name": "奇闻异事",
-   "count": 16,
+   "count": 17,
    "top10": 10,
-   "metric_sum_top10": 70695,
-   "heat": 127.3
+   "metric_sum_top10": 68381,
+   "heat": 127.0
   },
   {
    "name": "科幻",
-   "count": 15,
+   "count": 14,
    "top10": 10,
-   "metric_sum_top10": 64157,
-   "heat": 126.5
+   "metric_sum_top10": 62680,
+   "heat": 126.3
+  },
+  {
+   "name": "军事",
+   "count": 7,
+   "top10": 7,
+   "metric_sum_top10": 49295,
+   "heat": 112.5
   },
   {
    "name": "N次元",
    "count": 6,
    "top10": 6,
-   "metric_sum_top10": 108945,
-   "heat": 114.7
-  },
-  {
-   "name": "军事",
-   "count": 6,
-   "top10": 6,
-   "metric_sum_top10": 40958,
-   "heat": 107.0
+   "metric_sum_top10": 44230,
+   "heat": 107.6
   },
   {
    "name": "游戏",
-   "count": 2,
-   "top10": 2,
-   "metric_sum_top10": 8585,
-   "heat": 78.8
+   "count": 3,
+   "top10": 3,
+   "metric_sum_top10": 13037,
+   "heat": 86.1
   },
   {
    "name": "现实题材",
-   "count": 0,
-   "top10": 0,
-   "metric_sum_top10": 0,
-   "heat": 0
+   "count": 1,
+   "top10": 1,
+   "metric_sum_top10": 4457,
+   "heat": 69.7
   }
  ],
  "keyword_heat": [
   {
    "keyword": "穿越",
-   "count": 9
+   "count": 11
   },
   {
    "keyword": "系统",
-   "count": 6
+   "count": 8
+  },
+  {
+   "keyword": "重生",
+   "count": 4
   },
   {
    "keyword": "无敌",
    "count": 4
   },
   {
-   "keyword": "玄幻",
-   "count": 4
-  },
-  {
-   "keyword": "杀伐果断",
+   "keyword": "万界",
    "count": 3
   },
   {
-   "keyword": "扮猪吃虎",
+   "keyword": "玄幻",
+   "count": 3
+  },
+  {
+   "keyword": "签到",
+   "count": 2
+  },
+  {
+   "keyword": "大明",
    "count": 2
   },
   {
@@ -102,11 +110,15 @@
    "count": 2
   },
   {
-   "keyword": "科技",
+   "keyword": "杀伐果断",
    "count": 2
   },
   {
-   "keyword": "大明",
+   "keyword": "宗门",
+   "count": 1
+  },
+  {
+   "keyword": "种田",
    "count": 1
   },
   {
@@ -114,23 +126,11 @@
    "count": 1
   },
   {
-   "keyword": "签到",
-   "count": 1
-  },
-  {
    "keyword": "电竞",
    "count": 1
   },
   {
-   "keyword": "重生",
-   "count": 1
-  },
-  {
-   "keyword": "苟道",
-   "count": 1
-  },
-  {
-   "keyword": "高武",
+   "keyword": "神医",
    "count": 1
   }
  ],
@@ -472,6 +472,26 @@
      "title": "监国太子，开局软禁崇祯",
      "author": "不知明月",
      "bookId": 1508524
+    }
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "top3": [
+    {
+     "title": "七零：守山打猎，我把大山搬空了",
+     "author": "葡萄熟了",
+     "bookId": 1555101
+    },
+    {
+     "title": "九霄神鼎",
+     "author": "墨狩",
+     "bookId": 1557513
+    },
+    {
+     "title": "开局拿下花魁，从小厮速成当世武圣",
+     "author": "莉利娅",
+     "bookId": 1582153
     }
    ]
   }

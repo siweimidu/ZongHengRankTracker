@@ -1,5 +1,5 @@
 {
- "date": "2026-09-07",
+ "date": "2026-09-10",
  "board": {
   "slug": "claque",
   "name": "捧场榜",
@@ -8,16 +8,36 @@
   "metric_label": "捧场"
  },
  "category": "游戏",
- "books": [],
+ "books": [
+  {
+   "rank": 1,
+   "bookId": 338556,
+   "title": "网游之剑刃舞者",
+   "author": "不是闻人",
+   "authorId": 9026826,
+   "authorCover": "",
+   "cover": "https://static.zongheng.com/upload/cover/b9/16/b916b2ba11f417d81e9c579e89639a1a1754372655986.jpeg",
+   "category": "游戏",
+   "cateFineId": 8107,
+   "metric": 200,
+   "metricLabel": "捧场",
+   "serialStatus": 0,
+   "intro": "手握史诗神兵，身披史诗武装，谈笑间，群敌灰飞烟灭，这是一部热血沸腾的战斗物语……当然不是，其实只是个讲述一个不断推倒萌妹子的男人一路开挂的故事主角光环万岁！",
+   "latestChapter": "第9328章，大势下谋算",
+   "latestChapterTime": "08-28 23:59",
+   "updatedToday": false,
+   "url": "https://www.zongheng.com/book/338556.html"
+  }
+ ],
  "trend": {
-  "first_day": false,
+  "first_day": true,
   "new_count": 0,
   "dropped_count": 0,
   "new_books": [],
   "dropped_books": [],
   "top_movers": [],
   "darkhorses": [],
-  "update_rate": 0,
+  "update_rate": 0.0,
   "summary": "【捧场榜·游戏】榜单结构稳定，头部固若金汤。"
  }
 }

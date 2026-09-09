@@ -1,5 +1,5 @@
 {
- "date": "2026-09-07",
+ "date": "2026-09-10",
  "board": {
   "slug": "one-day-update",
   "name": "24小时更新榜",
@@ -8,16 +8,51 @@
   "metric_label": "更新字数"
  },
  "category": "现实题材",
- "books": [],
+ "books": [
+  {
+   "rank": 1,
+   "bookId": 1593642,
+   "title": "金妆大贵人",
+   "author": "半解不解",
+   "authorId": 56299557,
+   "authorCover": "",
+   "cover": "https://static.zongheng.com/upload/cover/de/2e/de2ea1be92116a03f5078fe0001d61ef.jpeg",
+   "category": "现实题材",
+   "cateFineId": 8109,
+   "metric": 4457,
+   "metricLabel": "更新字数",
+   "serialStatus": 0,
+   "intro": "老板出轨被发现后找我背锅，老板娘却将计就计，让我和女秘同居……",
+   "latestChapter": "第17章 情不自禁",
+   "latestChapterTime": "09-09 10:01",
+   "updatedToday": false,
+   "url": "https://www.zongheng.com/book/1593642.html"
+  }
+ ],
  "trend": {
   "first_day": false,
-  "new_count": 0,
+  "new_count": 1,
   "dropped_count": 0,
-  "new_books": [],
+  "new_books": [
+   {
+    "title": "金妆大贵人",
+    "author": "半解不解",
+    "rank": 1,
+    "bookId": 1593642
+   }
+  ],
   "dropped_books": [],
   "top_movers": [],
-  "darkhorses": [],
-  "update_rate": 0,
-  "summary": "榜单固化反映出题材供给陷入“存量博弈”，头部效应极强，新书突围难度陡增。现实题材正从“强情节”向“强情绪、高共鸣”转型，缺乏差异化人设的跟风作已难见容。建议编辑部：重点挖掘职场细分领域（如医疗、金融、基层治理）的冷门切口，作者需在“现实底色”中植入更强烈的反差爽感，避免平铺直叙，以“强冲突+强共情”作为破局关键。"
+  "darkhorses": [
+   {
+    "bookId": 1593642,
+    "title": "金妆大贵人",
+    "author": "半解不解",
+    "rank": 1,
+    "reason": "新上榜即进入前列"
+   }
+  ],
+  "update_rate": 0.0,
+  "summary": "【24小时更新榜·现实题材】1 本新上榜；黑马《金妆大贵人》第 1 名。"
  }
 }
