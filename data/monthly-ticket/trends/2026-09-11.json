@@ -1,0 +1,1537 @@
+{
+ "date": "2026-09-11",
+ "prev_date": "2026-09-10",
+ "board": {
+  "slug": "monthly-ticket",
+  "name": "月票榜",
+  "rankType": 1,
+  "period": 0
+ },
+ "trends": {
+  "全部": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1552353,
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 8642,
+     "metricGrowth": 0.023,
+     "momentum": 68.6
+    },
+    {
+     "bookId": 1435440,
+     "title": "齐天",
+     "author": "日落红尘",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 4701,
+     "metricGrowth": 0.0118,
+     "momentum": 66.4
+    },
+    {
+     "bookId": 1385191,
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "rank": 3,
+     "rankChange": 0,
+     "metric": 1765,
+     "metricGrowth": 0.0425,
+     "momentum": 64.8
+    },
+    {
+     "bookId": 1336976,
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "rank": 4,
+     "rankChange": 0,
+     "metric": 1593,
+     "metricGrowth": 0.0641,
+     "momentum": 55.0
+    },
+    {
+     "bookId": 916691,
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "rank": 7,
+     "rankChange": 2,
+     "metric": 1135,
+     "metricGrowth": 0.1127,
+     "momentum": 54.3
+    },
+    {
+     "bookId": 1268659,
+     "title": "鸿蒙霸体诀",
+     "author": "鱼初见",
+     "rank": 5,
+     "rankChange": 0,
+     "metric": 1358,
+     "metricGrowth": 0.0881,
+     "momentum": 53.2
+    },
+    {
+     "bookId": 1366535,
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "rank": 6,
+     "rankChange": 0,
+     "metric": 1308,
+     "metricGrowth": 0.0498,
+     "momentum": 50.9
+    },
+    {
+     "bookId": 1589055,
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "rank": 8,
+     "rankChange": -1,
+     "metric": 1093,
+     "metricGrowth": 0.0064,
+     "momentum": 46.3
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.233,
+   "summary": "榜单固化严重，玄幻霸榜率达60%，头部效应极强，新书突围难度极大。除《盗梦千年》断层领跑外，腰部作品月票数趋同，竞争白热化。建议作者：深耕“高概念+强节奏”的细分赛道，避开传统玄幻同质化红海；编辑应重点扶持具备强人设与独特切入点的新人，打破存量博弈困局。"
+  },
+  "玄幻奇幻": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1435440,
+     "title": "齐天",
+     "author": "日落红尘",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 4701,
+     "metricGrowth": 0.0118,
+     "momentum": 68.4
+    },
+    {
+     "bookId": 1385191,
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 1765,
+     "metricGrowth": 0.0425,
+     "momentum": 66.8
+    },
+    {
+     "bookId": 1336976,
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "rank": 3,
+     "rankChange": 0,
+     "metric": 1593,
+     "metricGrowth": 0.0641,
+     "momentum": 65.0
+    },
+    {
+     "bookId": 916691,
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "rank": 5,
+     "rankChange": 1,
+     "metric": 1135,
+     "metricGrowth": 0.1127,
+     "momentum": 55.8
+    },
+    {
+     "bookId": 1268659,
+     "title": "鸿蒙霸体诀",
+     "author": "鱼初见",
+     "rank": 4,
+     "rankChange": 0,
+     "metric": 1358,
+     "metricGrowth": 0.0881,
+     "momentum": 55.2
+    },
+    {
+     "bookId": 1412188,
+     "title": "万仙来朝",
+     "author": "萧瑾瑜",
+     "rank": 6,
+     "rankChange": -1,
+     "metric": 1080,
+     "metricGrowth": 0.0208,
+     "momentum": 50.6
+    },
+    {
+     "bookId": 1269302,
+     "title": "吞噬九重天",
+     "author": "屠刀成佛",
+     "rank": 7,
+     "rankChange": 0,
+     "metric": 1007,
+     "metricGrowth": 0.1548,
+     "momentum": 49.6
+    },
+    {
+     "bookId": 1380095,
+     "title": "有帝族背景还开挂，我无敌了！",
+     "author": "不太勇敢",
+     "rank": 9,
+     "rankChange": 1,
+     "metric": 328,
+     "metricGrowth": 0.2964,
+     "momentum": 48.7
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.267,
+   "summary": "榜单头部固化严重，日落红尘以超二倍票数断层领跑，显示出头部IP的强统治力。题材上，“无敌、吞天、霸体”类传统爽文仍是流量基石，但增长乏力。建议编辑部：关注榜单中段的“系统+反套路”变体，鼓励作者在“无敌流”框架下植入强社交或反转钩子，避免同质化内卷，通过差异化人设破局。"
+  },
+  "武侠仙侠": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1552353,
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 8642,
+     "metricGrowth": 0.023,
+     "momentum": 68.6
+    },
+    {
+     "bookId": 1388197,
+     "title": "人间有剑",
+     "author": "平生未知寒",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 1072,
+     "metricGrowth": 0.0582,
+     "momentum": 67.0
+    },
+    {
+     "bookId": 1478384,
+     "title": "凡人修仙：疯了吧！你一百岁了还要修仙",
+     "author": "我家有母老虎",
+     "rank": 3,
+     "rankChange": 0,
+     "metric": 708,
+     "metricGrowth": 0.0412,
+     "momentum": 64.8
+    },
+    {
+     "bookId": 672340,
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "rank": 4,
+     "rankChange": 0,
+     "metric": 707,
+     "metricGrowth": 0.103,
+     "momentum": 55.3
+    },
+    {
+     "bookId": 1410173,
+     "title": "众仙俯首",
+     "author": "咸鱼老白",
+     "rank": 5,
+     "rankChange": 0,
+     "metric": 562,
+     "metricGrowth": 0.102,
+     "momentum": 53.3
+    },
+    {
+     "bookId": 1367620,
+     "title": "不是说好解毒么，怎么成仙帝了？",
+     "author": "抹茶春卷",
+     "rank": 7,
+     "rankChange": 0,
+     "metric": 153,
+     "metricGrowth": 0.6105,
+     "momentum": 51.1
+    },
+    {
+     "bookId": 1296262,
+     "title": "躺平：老婆修炼我变强",
+     "author": "万红壮",
+     "rank": 6,
+     "rankChange": 0,
+     "metric": 175,
+     "metricGrowth": 0.0294,
+     "momentum": 50.7
+    },
+    {
+     "bookId": 953526,
+     "title": "五仙门",
+     "author": "看得两叁言",
+     "rank": 8,
+     "rankChange": 0,
+     "metric": 82,
+     "metricGrowth": 0.0649,
+     "momentum": 47.0
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.067,
+   "summary": "头部固化严重，咸鱼老白双榜霸榜，断层优势显著。榜单呈现“系统流+反套路”主导趋势，传统武侠式微，生存压力大。编辑应侧重挖掘具有“极致反差感”的新奇设定，如“高龄修仙”、“躺平变强”等轻量化爽点，避开传统升级叙事，通过情绪价值驱动读者买单。作者需强化开篇钩子，切忌慢热。"
+  },
+  "历史": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1473924,
+     "title": "玄幻：拳练百遍，顿悟自见！",
+     "author": "尼罗河",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 764,
+     "metricGrowth": 0.07,
+     "momentum": 69.1
+    },
+    {
+     "bookId": 1424492,
+     "title": "封疆悍卒",
+     "author": "宿言辰",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 504,
+     "metricGrowth": 0.0815,
+     "momentum": 67.1
+    },
+    {
+     "bookId": 1406951,
+     "title": "从军赋",
+     "author": "风尘落雨",
+     "rank": 3,
+     "rankChange": 0,
+     "metric": 278,
+     "metricGrowth": 0.0817,
+     "momentum": 65.1
+    },
+    {
+     "bookId": 1270202,
+     "title": "大明：寒门辅臣",
+     "author": "寒梅惊雪",
+     "rank": 4,
+     "rankChange": 0,
+     "metric": 147,
+     "metricGrowth": 0.0576,
+     "momentum": 55.0
+    },
+    {
+     "bookId": 1494591,
+     "title": "江山绝色榜",
+     "author": "六如和尚",
+     "rank": 5,
+     "rankChange": 0,
+     "metric": 140,
+     "metricGrowth": 0.3462,
+     "momentum": 54.4
+    },
+    {
+     "bookId": 1494905,
+     "title": "天命纨绔",
+     "author": "梁山老鬼",
+     "rank": 6,
+     "rankChange": 1,
+     "metric": 91,
+     "metricGrowth": 0.1667,
+     "momentum": 54.1
+    },
+    {
+     "bookId": 1340178,
+     "title": "绝色生骄",
+     "author": "沙漠",
+     "rank": 7,
+     "rankChange": -1,
+     "metric": 85,
+     "metricGrowth": 0.0366,
+     "momentum": 48.8
+    },
+    {
+     "bookId": 1421865,
+     "title": "边关兵王：从领娶罪女开始崛起",
+     "author": "青岳",
+     "rank": 9,
+     "rankChange": 1,
+     "metric": 70,
+     "metricGrowth": 0.0606,
+     "momentum": 47.5
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.2,
+   "summary": "历史榜单固化严重，头部效应极强，但“玄幻+历史”的交叉题材异军突起，通过高频爽点降维打击传统历史文。纯历史考据流生存空间被压缩，读者更偏好“系统/顿悟+强人设”的快节奏叙事。建议作者：弱化沉重历史架构，强化个体成长爽感，将“金手指”与具体的历史困境深度绑定，提升读者的代入感与追读欲望。"
+  },
+  "都市": {
+   "first_day": false,
+   "new_count": 1,
+   "dropped_count": 1,
+   "new_books": [
+    {
+     "title": "电诈风云，我被骗到缅北的日子",
+     "author": "江湖老六",
+     "rank": 26,
+     "bookId": 1289710
+    }
+   ],
+   "dropped_books": [
+    {
+     "title": "都市古仙医2：大医镇世",
+     "author": "超爽黑啤",
+     "prevRank": 30,
+     "bookId": 1430876
+    }
+   ],
+   "top_movers": [
+    {
+     "bookId": 1366535,
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 1308,
+     "metricGrowth": 0.0498,
+     "momentum": 68.9
+    },
+    {
+     "bookId": 1589055,
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 1093,
+     "metricGrowth": 0.0064,
+     "momentum": 66.3
+    },
+    {
+     "bookId": 1478560,
+     "title": "我的江湖往事2",
+     "author": "登岩的歌",
+     "rank": 3,
+     "rankChange": 0,
+     "metric": 237,
+     "metricGrowth": 0.0676,
+     "momentum": 65.0
+    },
+    {
+     "bookId": 1386772,
+     "title": "我医武双绝，踏出女子监狱起无敌！",
+     "author": "清风万里",
+     "rank": 7,
+     "rankChange": 5,
+     "metric": 60,
+     "metricGrowth": 0.6216,
+     "momentum": 63.7
+    },
+    {
+     "bookId": 1516055,
+     "title": "火红年代：开发北大荒，种田赶山养全家",
+     "author": "慎思量",
+     "rank": 4,
+     "rankChange": 0,
+     "metric": 98,
+     "metricGrowth": 0.1395,
+     "momentum": 55.5
+    },
+    {
+     "bookId": 1391941,
+     "title": "重生急诊医生：从挽救市长千金开始",
+     "author": "纸扇不用扇",
+     "rank": 6,
+     "rankChange": 0,
+     "metric": 60,
+     "metricGrowth": 0.0526,
+     "momentum": 50.9
+    },
+    {
+     "bookId": 1457294,
+     "title": "东北修道三十年，世人敬我如敬神",
+     "author": "火出全宇宙",
+     "rank": 8,
+     "rankChange": -1,
+     "metric": 58,
+     "metricGrowth": 0.1373,
+     "momentum": 47.5
+    },
+    {
+     "bookId": 1530530,
+     "title": "让你军转民，你干成中东军火商？",
+     "author": "风丘颜凉",
+     "rank": 9,
+     "rankChange": -1,
+     "metric": 51,
+     "metricGrowth": 0.0625,
+     "momentum": 45.0
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.133,
+   "summary": "榜单呈“头部固化、中腰部混战”态势。大神续作统治力极强，但榜单下半区“年代文+职业爽文”占比走高，显示读者偏好正向回归。新上榜的《电诈风云》揭示了现实题材对社会热点的强吸附力。建议作者：避开同质化神医套路，深挖“职业+时代背景”的复合卖点，利用强现实冲突制造爽点，这是当前都市类突围的最佳路径。"
+  },
+  "现代言情": {
+   "first_day": false,
+   "new_count": 1,
+   "dropped_count": 1,
+   "new_books": [
+    {
+     "title": "飒美小神医虐渣忙，随军误撩首长被疯宠",
+     "author": "逍遥的妖",
+     "rank": 30,
+     "bookId": 1472853
+    }
+   ],
+   "dropped_books": [
+    {
+     "title": "形婚两年不同房，改嫁大佬被宠坏",
+     "author": "小满年",
+     "prevRank": 30,
+     "bookId": 1523569
+    }
+   ],
+   "top_movers": [
+    {
+     "bookId": 1235804,
+     "title": "离婚后她惊艳了世界",
+     "author": "明婳",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 404,
+     "metricGrowth": 0.0604,
+     "momentum": 69.0
+    },
+    {
+     "bookId": 1513182,
+     "title": "霍二爷，新婚请克制！",
+     "author": "墨墨卿卿",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 134,
+     "metricGrowth": 0.2072,
+     "momentum": 67.8
+    },
+    {
+     "bookId": 1554119,
+     "title": "她玩火",
+     "author": "如鱼",
+     "rank": 3,
+     "rankChange": 0,
+     "metric": 103,
+     "metricGrowth": 0.0957,
+     "momentum": 65.2
+    },
+    {
+     "bookId": 1483599,
+     "title": "离婚后，沈总彻夜白头悔疯了",
+     "author": "一世从欢",
+     "rank": 5,
+     "rankChange": 1,
+     "metric": 58,
+     "metricGrowth": 0.1373,
+     "momentum": 56.0
+    },
+    {
+     "bookId": 1499450,
+     "title": "盛总，太太让您签的是去父留子协议",
+     "author": "吟雾",
+     "rank": 4,
+     "rankChange": 0,
+     "metric": 60,
+     "metricGrowth": 0.1321,
+     "momentum": 55.5
+    },
+    {
+     "bookId": 1535113,
+     "title": "家有玄妻，百邪不侵！",
+     "author": "雪落听风",
+     "rank": 6,
+     "rankChange": 1,
+     "metric": 53,
+     "metricGrowth": 0.0816,
+     "momentum": 53.6
+    },
+    {
+     "bookId": 1339807,
+     "title": "触碰蔷薇",
+     "author": "子木李",
+     "rank": 7,
+     "rankChange": -2,
+     "metric": 52,
+     "metricGrowth": 0.0196,
+     "momentum": 48.6
+    },
+    {
+     "bookId": 1320098,
+     "title": "大佬十代单传，我为他一胎生四宝",
+     "author": "白生米",
+     "rank": 8,
+     "rankChange": 0,
+     "metric": 50,
+     "metricGrowth": 0.1628,
+     "momentum": 47.6
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.067,
+   "summary": "纵横现言榜单呈现“强情绪、快节奏”特征：离婚、打脸、追妻火葬场霸榜前五，核心爽点在于“女性觉醒+男主悔恨”。《离婚后她惊艳了世界》断层领先，印证大女主独立叙事仍是吸票引擎。建议作者：避开平淡生活流，开篇即抛出“离婚/去父留子”等强冲突钩子，强化男主“卑微追妻”的极端反差，精准收割女性用户情绪共鸣。"
+  },
+  "科幻": {
+   "first_day": false,
+   "new_count": 1,
+   "dropped_count": 0,
+   "new_books": [
+    {
+     "title": "全球灾变之末日游戏",
+     "author": "我爱吃猫片",
+     "rank": 6,
+     "bookId": 1236794
+    }
+   ],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1488852,
+     "title": "摘星",
+     "author": "辰燃",
+     "rank": 3,
+     "rankChange": 2,
+     "metric": 21,
+     "metricGrowth": 0.75,
+     "momentum": 72.5
+    },
+    {
+     "bookId": 1420145,
+     "title": "星际猎人",
+     "author": "太极阴阳鱼",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 397,
+     "metricGrowth": 0.1711,
+     "momentum": 69.7
+    },
+    {
+     "bookId": 325639,
+     "title": "星辰之主",
+     "author": "减肥专家",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 216,
+     "metricGrowth": 0.0385,
+     "momentum": 66.8
+    },
+    {
+     "bookId": 1451287,
+     "title": "末世，从吞尸体开始进化",
+     "author": "只是小脑虎",
+     "rank": 4,
+     "rankChange": -1,
+     "metric": 17,
+     "metricGrowth": 0.0625,
+     "momentum": 55.0
+    },
+    {
+     "bookId": 718689,
+     "title": "踏星",
+     "author": "随散飘风",
+     "rank": 5,
+     "rankChange": -1,
+     "metric": 15,
+     "metricGrowth": 0.0,
+     "momentum": 52.0
+    },
+    {
+     "bookId": 1235922,
+     "title": "最强末世进化",
+     "author": "蔡四爷",
+     "rank": 7,
+     "rankChange": -1,
+     "metric": 2,
+     "metricGrowth": 0.0,
+     "momentum": 48.0
+    },
+    {
+     "bookId": 1288310,
+     "title": "冲破星云",
+     "author": "天之佼",
+     "rank": 8,
+     "rankChange": -1,
+     "metric": 1,
+     "metricGrowth": 0.0,
+     "momentum": 46.0
+    },
+    {
+     "bookId": 1236077,
+     "title": "原点序列",
+     "author": "九天抚彗星",
+     "rank": 9,
+     "rankChange": -1,
+     "metric": 1,
+     "metricGrowth": 0.0,
+     "momentum": 44.0
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1236794,
+     "title": "全球灾变之末日游戏",
+     "author": "我爱吃猫片",
+     "rank": 6,
+     "reason": "新上榜即进入前列"
+    }
+   ],
+   "update_rate": 0.0,
+   "summary": "榜单头部固化严重，前三名月票断层，科幻题材正向“硬核星际”与“末世进化”两极分化。黑马《全球灾变》入榜印证了系统流在末世题材的强生命力。建议作者：避开纯硬科幻门槛，将“进化升级”与“末世生存”深度捆绑，强化爽点节奏，这是目前获取读者留存的高效路径。"
+  },
+  "奇闻异事": {
+   "first_day": false,
+   "new_count": 1,
+   "dropped_count": 0,
+   "new_books": [
+    {
+     "title": "恐怖复苏：离婚后，我不替她挡灾了",
+     "author": "东城芹菜",
+     "rank": 10,
+     "bookId": 1557941
+    }
+   ],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1415876,
+     "title": "天黑请点灯",
+     "author": "罗樵森",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 1017,
+     "metricGrowth": 0.0485,
+     "momentum": 68.9
+    },
+    {
+     "bookId": 1500557,
+     "title": "厌胜术",
+     "author": "月下闻歌",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 54,
+     "metricGrowth": 0.0588,
+     "momentum": 67.0
+    },
+    {
+     "bookId": 1491568,
+     "title": "贫道看事，只杀不渡！",
+     "author": "三两二钱",
+     "rank": 4,
+     "rankChange": 0,
+     "metric": 14,
+     "metricGrowth": 0.1667,
+     "momentum": 55.6
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1557941,
+     "title": "恐怖复苏：离婚后，我不替她挡灾了",
+     "author": "东城芹菜",
+     "rank": 10,
+     "reason": "新上榜即进入前列"
+    }
+   ],
+   "update_rate": 0.0,
+   "summary": "榜单头部效应极度畸形，《天黑请点灯》断层领跑，其余作品月票均未过百，腰部塌陷严重。民俗恐怖题材仍是主流，但“离婚+复苏”等强冲突、快节奏的开篇模式正成为新切入点。建议编辑重点挖掘“民俗+爽文”融合类作品，鼓励作者缩短铺垫，强化开篇的冲突张力，以高频反转留住碎片化阅读用户。"
+  },
+  "古代言情": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1336851,
+     "title": "凰宫梦",
+     "author": "蓝九九",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 256,
+     "metricGrowth": 0.1228,
+     "momentum": 69.4
+    },
+    {
+     "bookId": 1472851,
+     "title": "朱门春闺",
+     "author": "琼玉",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 109,
+     "metricGrowth": 0.3797,
+     "momentum": 68.5
+    },
+    {
+     "bookId": 1526604,
+     "title": "玉帐春",
+     "author": "秋仪",
+     "rank": 3,
+     "rankChange": 0,
+     "metric": 85,
+     "metricGrowth": 0.1333,
+     "momentum": 65.5
+    },
+    {
+     "bookId": 1325755,
+     "title": "皇叔借点功德，王妃把符画猛了",
+     "author": "安卿心",
+     "rank": 4,
+     "rankChange": 0,
+     "metric": 77,
+     "metricGrowth": 0.1159,
+     "momentum": 55.4
+    },
+    {
+     "bookId": 1497977,
+     "title": "神算嫡女不好惹，回京嘎嘎乱杀",
+     "author": "玖笑1",
+     "rank": 5,
+     "rankChange": 0,
+     "metric": 33,
+     "metricGrowth": 0.0645,
+     "momentum": 53.0
+    },
+    {
+     "bookId": 1513180,
+     "title": "通房妩媚，清冷世子又又又破戒了",
+     "author": "韶光煮雪",
+     "rank": 7,
+     "rankChange": 1,
+     "metric": 25,
+     "metricGrowth": 0.087,
+     "momentum": 51.7
+    },
+    {
+     "bookId": 1530583,
+     "title": "拒做通房后，高冷世子他疯魔了",
+     "author": "辞辞不吃糖",
+     "rank": 9,
+     "rankChange": 2,
+     "metric": 23,
+     "metricGrowth": 0.4375,
+     "momentum": 51.6
+    },
+    {
+     "bookId": 1465377,
+     "title": "被逼自刎，嫡女重生撕婚书覆皇朝",
+     "author": "柠檬小丸子",
+     "rank": 6,
+     "rankChange": 0,
+     "metric": 32,
+     "metricGrowth": 0.0667,
+     "momentum": 51.0
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.133,
+   "summary": "榜单固化严重，头部断层明显，腰部题材高度同质化。当前“重生复仇+世子/皇叔+玄学/孕肚”套路过载，审美疲劳已现。月票断崖式分布说明新书缺乏强力拉动。**建议：** 编辑部严控同质化选题，作者需在“强冲突”基础上叠加差异化人设（如职场化、反套路权谋），避免陷入单纯的“重生打脸”死循环。"
+  },
+  "游戏": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 338556,
+     "title": "网游之剑刃舞者",
+     "author": "不是闻人",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 24,
+     "metricGrowth": 2.0,
+     "momentum": 73.7
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.0,
+   "summary": "游戏榜单陷入“存量博弈”僵局，头部效应极弱。传统网游风式微，反倒是“游戏降临现实+情绪博弈”类题材具备更强的破圈潜力。目前榜单缺乏新鲜血液，读者审美疲劳严重。建议编辑部：重点挖掘“游戏+都市/反套路”类作品，通过高密度爽点与强人设冲突激活市场，而非继续堆砌传统虚拟网游的升级套路。"
+  },
+  "N次元": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1490982,
+     "title": "逆天邪神之续章",
+     "author": "二维时间",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 13,
+     "metricGrowth": 0.0833,
+     "momentum": 69.2
+    },
+    {
+     "bookId": 828765,
+     "title": "金币即是正义",
+     "author": "盘古混沌",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 10,
+     "metricGrowth": 0.1111,
+     "momentum": 67.3
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.0,
+   "summary": "N次元榜单呈现“存量固化、同人霸榜”态势，头部作品月票均未破20，市场活跃度极低。目前榜单完全被《逆天邪神》《剑来》等知名IP同人占据，原创二次元题材断层严重。建议编辑部：加大原创轻小说扶持力度，通过“二次元+爽文节奏”征文打破同人垄断，吸引具备强人设、快节奏创作能力的作者入驻，重构分类生态。"
+  },
+  "现实题材": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0.0,
+   "summary": "纵横现实题材呈现“头部固化、增长乏力”特征。榜单长期由《稀土》单骑领跑，缺乏新鲜血液，反映出题材创作的专业门槛极高，读者对硬核工业题材的审美已趋于饱和。\n\n**建议：** 编辑部需打破“工业/职场”单一叙事，引入“现实+悬疑/科技+纪实”复合赛道；作者应跳出宏大叙事，深挖行业内幕与人性博弈，以“强冲突+真实感”破局。"
+  }
+ },
+ "category_heat": [
+  {
+   "name": "玄幻奇幻",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 13790,
+   "heat": 114.5
+  },
+  {
+   "name": "武侠仙侠",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 12243,
+   "heat": 113.6
+  },
+  {
+   "name": "都市",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 3070,
+   "heat": 102.8
+  },
+  {
+   "name": "历史",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 2226,
+   "heat": 100.3
+  },
+  {
+   "name": "奇闻异事",
+   "count": 10,
+   "top10": 10,
+   "metric_sum_top10": 1117,
+   "heat": 94.9
+  },
+  {
+   "name": "现代言情",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 961,
+   "heat": 93.7
+  },
+  {
+   "name": "古代言情",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 687,
+   "heat": 91.1
+  },
+  {
+   "name": "科幻",
+   "count": 10,
+   "top10": 10,
+   "metric_sum_top10": 674,
+   "heat": 90.9
+  },
+  {
+   "name": "N次元",
+   "count": 3,
+   "top10": 3,
+   "metric_sum_top10": 26,
+   "heat": 37.8
+  },
+  {
+   "name": "游戏",
+   "count": 2,
+   "top10": 2,
+   "metric_sum_top10": 25,
+   "heat": 33.5
+  },
+  {
+   "name": "现实题材",
+   "count": 1,
+   "top10": 1,
+   "metric_sum_top10": 1,
+   "heat": 9.4
+  }
+ ],
+ "keyword_heat": [
+  {
+   "keyword": "玄幻",
+   "count": 7
+  },
+  {
+   "keyword": "穿越",
+   "count": 7
+  },
+  {
+   "keyword": "无敌",
+   "count": 5
+  },
+  {
+   "keyword": "诸天",
+   "count": 4
+  },
+  {
+   "keyword": "重生",
+   "count": 3
+  },
+  {
+   "keyword": "历史",
+   "count": 2
+  },
+  {
+   "keyword": "群像",
+   "count": 2
+  },
+  {
+   "keyword": "科技",
+   "count": 2
+  },
+  {
+   "keyword": "杀伐果断",
+   "count": 2
+  },
+  {
+   "keyword": "修仙",
+   "count": 2
+  },
+  {
+   "keyword": "轻松",
+   "count": 2
+  },
+  {
+   "keyword": "系统",
+   "count": 2
+  },
+  {
+   "keyword": "兵王",
+   "count": 1
+  },
+  {
+   "keyword": "仙侠",
+   "count": 1
+  },
+  {
+   "keyword": "鉴宝",
+   "count": 1
+  }
+ ],
+ "timeline": [
+  {
+   "date": "2026-08-18",
+   "top3": [
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "top3": [
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "天黑请点灯",
+     "author": "罗樵森",
+     "bookId": 1415876
+    }
+   ]
+  },
+  {
+   "date": "2026-08-20",
+   "top3": [
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "天黑请点灯",
+     "author": "罗樵森",
+     "bookId": 1415876
+    }
+   ]
+  },
+  {
+   "date": "2026-08-21",
+   "top3": [
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-08-22",
+   "top3": [
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-08-23",
+   "top3": [
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-08-24",
+   "top3": [
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-08-25",
+   "top3": [
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-08-26",
+   "top3": [
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-08-27",
+   "top3": [
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-08-28",
+   "top3": [
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-08-29",
+   "top3": [
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-08-30",
+   "top3": [
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-08-31",
+   "top3": [
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-09-01",
+   "top3": [
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "bookId": 1552353
+    },
+    {
+     "title": "鸿蒙霸体诀",
+     "author": "鱼初见",
+     "bookId": 1268659
+    }
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "top3": [
+    {
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "bookId": 1552353
+    },
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "top3": [
+    {
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "bookId": 1552353
+    },
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-09-04",
+   "top3": [
+    {
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "bookId": 1552353
+    },
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-09-05",
+   "top3": [
+    {
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "bookId": 1552353
+    },
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-09-06",
+   "top3": [
+    {
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "bookId": 1552353
+    },
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "top3": [
+    {
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "bookId": 1552353
+    },
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "top3": [
+    {
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "bookId": 1552353
+    },
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "top3": [
+    {
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "bookId": 1552353
+    },
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "top3": [
+    {
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "bookId": 1552353
+    },
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    }
+   ]
+  }
+ ],
+ "total_books": 30
+}
