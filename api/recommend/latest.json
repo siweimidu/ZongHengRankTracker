@@ -1,7 +1,7 @@
 {
  "slug": "recommend",
  "name": "推荐榜",
- "date": "2026-09-11",
+ "date": "2026-09-12",
  "types": [
   {
    "name": "全部",
@@ -41,12 +41,12 @@
   {
    "name": "游戏",
    "url": "api/recommend/latest/游戏.json",
-   "count": 9
+   "count": 10
   },
   {
    "name": "N次元",
    "url": "api/recommend/latest/N次元.json",
-   "count": 8
+   "count": 9
   },
   {
    "name": "现实题材",
