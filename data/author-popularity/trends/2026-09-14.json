@@ -1,0 +1,676 @@
+{
+ "date": "2026-09-14",
+ "prev_date": "2026-09-13",
+ "board": {
+  "slug": "author-popularity",
+  "name": "作者人气榜",
+  "rankType": 12,
+  "period": 0
+ },
+ "trends": {
+  "全部": {
+   "first_day": false,
+   "new_count": 13,
+   "dropped_count": 13,
+   "new_books": [
+    {
+     "title": "大荒剑帝",
+     "author": "食堂包子",
+     "rank": 12,
+     "bookId": 1198878
+    },
+    {
+     "title": "他是春风沉醉",
+     "author": "明婳",
+     "rank": 15,
+     "bookId": 1237378
+    },
+    {
+     "title": "封总，太太想跟你离婚很久了",
+     "author": "云中觅",
+     "rank": 16,
+     "bookId": 1358294
+    },
+    {
+     "title": "五仙门",
+     "author": "看得两叁言",
+     "rank": 18,
+     "bookId": 953526
+    },
+    {
+     "title": "太古龙神",
+     "author": "月如火",
+     "rank": 19,
+     "bookId": 1268494
+    },
+    {
+     "title": "重生78，开局被女知青退婚",
+     "author": "风里掌灯见惊泓",
+     "rank": 20,
+     "bookId": 1330288
+    }
+   ],
+   "dropped_books": [
+    {
+     "title": "弄奴娇",
+     "author": "目成心许",
+     "prevRank": 3,
+     "bookId": 1553610
+    },
+    {
+     "title": "一剑惊天下，可她身后的男人更可怕！",
+     "author": "君子好逑",
+     "prevRank": 6,
+     "bookId": 1492376
+    },
+    {
+     "title": "游戏入侵：我在仙界以杀证道",
+     "author": "李所礼",
+     "prevRank": 10,
+     "bookId": 1570671
+    },
+    {
+     "title": "谁说通背拳，打不死筑基期？",
+     "author": "声音画家",
+     "prevRank": 12,
+     "bookId": 1540239
+    },
+    {
+     "title": "周老驴收租日记",
+     "author": "燃烧飞鹰",
+     "prevRank": 18,
+     "bookId": 1588936
+    },
+    {
+     "title": "监国太子，开局软禁崇祯",
+     "author": "不知明月",
+     "prevRank": 21,
+     "bookId": 1508524
+    }
+   ],
+   "top_movers": [
+    {
+     "bookId": 325639,
+     "title": "星辰之主",
+     "author": "减肥专家",
+     "rank": 3,
+     "rankChange": 14,
+     "metric": 81100,
+     "metricGrowth": -0.2384,
+     "momentum": 84.0
+    },
+    {
+     "bookId": 1345361,
+     "title": "妖孽归来",
+     "author": "修果",
+     "rank": 5,
+     "rankChange": 10,
+     "metric": 70594,
+     "metricGrowth": -0.3445,
+     "momentum": 72.0
+    },
+    {
+     "bookId": 1385191,
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "rank": 6,
+     "rankChange": 10,
+     "metric": 64715,
+     "metricGrowth": -0.3985,
+     "momentum": 70.0
+    },
+    {
+     "bookId": 1336976,
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 374988,
+     "metricGrowth": -0.0918,
+     "momentum": 68.0
+    },
+    {
+     "bookId": 916691,
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 162796,
+     "metricGrowth": -0.1881,
+     "momentum": 66.0
+    },
+    {
+     "bookId": 1435440,
+     "title": "齐天",
+     "author": "日落红尘",
+     "rank": 8,
+     "rankChange": 12,
+     "metric": 52336,
+     "metricGrowth": -0.4739,
+     "momentum": 66.0
+    },
+    {
+     "bookId": 1393673,
+     "title": "源力过载",
+     "author": "我爱小豆",
+     "rank": 10,
+     "rankChange": 9,
+     "metric": 49620,
+     "metricGrowth": -0.5032,
+     "momentum": 62.0
+    },
+    {
+     "bookId": 1388197,
+     "title": "人间有剑",
+     "author": "平生未知寒",
+     "rank": 11,
+     "rankChange": 12,
+     "metric": 49094,
+     "metricGrowth": -0.416,
+     "momentum": 60.0
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 325639,
+     "title": "星辰之主",
+     "author": "减肥专家",
+     "rank": 3,
+     "reason": "一日上升 14 位"
+    },
+    {
+     "bookId": 1345361,
+     "title": "妖孽归来",
+     "author": "修果",
+     "rank": 5,
+     "reason": "一日上升 10 位"
+    },
+    {
+     "bookId": 1385191,
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "rank": 6,
+     "reason": "一日上升 10 位"
+    },
+    {
+     "bookId": 1435440,
+     "title": "齐天",
+     "author": "日落红尘",
+     "rank": 8,
+     "reason": "一日上升 12 位"
+    },
+    {
+     "bookId": 1393673,
+     "title": "源力过载",
+     "author": "我爱小豆",
+     "rank": 10,
+     "reason": "一日上升 9 位"
+    }
+   ],
+   "update_rate": 0.0,
+   "summary": "【作者人气榜·全部】13 本新上榜；13 本掉榜；《星辰之主》升 14 位至第 3 名；黑马《星辰之主》第 3 名；当日更新率 0%。"
+  }
+ },
+ "category_heat": [],
+ "keyword_heat": [
+  {
+   "keyword": "无敌",
+   "count": 1
+  },
+  {
+   "keyword": "都市",
+   "count": 1
+  },
+  {
+   "keyword": "重生",
+   "count": 1
+  },
+  {
+   "keyword": "神医",
+   "count": 1
+  }
+ ],
+ "timeline": [
+  {
+   "date": "2026-08-18",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    }
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    }
+   ]
+  },
+  {
+   "date": "2026-08-21",
+   "top3": [
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    },
+    {
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-08-22",
+   "top3": [
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    },
+    {
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-08-23",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    }
+   ]
+  },
+  {
+   "date": "2026-08-24",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    }
+   ]
+  },
+  {
+   "date": "2026-08-25",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    }
+   ]
+  },
+  {
+   "date": "2026-08-26",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    }
+   ]
+  },
+  {
+   "date": "2026-08-27",
+   "top3": [
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    },
+    {
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-08-30",
+   "top3": [
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    },
+    {
+     "title": "仕途青云之扶摇直上",
+     "author": "微微一笑很倾城",
+     "bookId": 1501816
+    }
+   ]
+  },
+  {
+   "date": "2026-08-31",
+   "top3": [
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    },
+    {
+     "title": "星辰之主",
+     "author": "减肥专家",
+     "bookId": 325639
+    }
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "top3": [
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    },
+    {
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "top3": [
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    },
+    {
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-09-04",
+   "top3": [
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    },
+    {
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-09-05",
+   "top3": [
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    },
+    {
+     "title": "三角洲：开局与王宇昊是兄弟",
+     "author": "靖青",
+     "bookId": 1591063
+    }
+   ]
+  },
+  {
+   "date": "2026-09-06",
+   "top3": [
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    },
+    {
+     "title": "三角洲：开局与王宇昊是兄弟",
+     "author": "靖青",
+     "bookId": 1591063
+    }
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    }
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "top3": [
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    },
+    {
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "top3": [
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    },
+    {
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "top3": [
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    },
+    {
+     "title": "权力危途",
+     "author": "任语丁",
+     "bookId": 1587629
+    }
+   ]
+  },
+  {
+   "date": "2026-09-13",
+   "top3": [
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    },
+    {
+     "title": "弄奴娇",
+     "author": "目成心许",
+     "bookId": 1553610
+    }
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "top3": [
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    },
+    {
+     "title": "星辰之主",
+     "author": "减肥专家",
+     "bookId": 325639
+    }
+   ]
+  }
+ ],
+ "total_books": 30
+}

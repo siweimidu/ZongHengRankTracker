@@ -1,68 +1,68 @@
 {
- "date": "2026-09-13",
+ "date": "2026-09-14",
  "category_heat": [
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 413013,
-   "heat": 141.1
+   "metric_sum_top10": 27245,
+   "heat": 119.8
   },
   {
    "name": "历史",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 137636,
-   "heat": 132.5
-  },
-  {
-   "name": "武侠仙侠",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 50974,
-   "heat": 124.7
+   "metric_sum_top10": 6186,
+   "heat": 108.2
   },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 49252,
-   "heat": 124.5
+   "metric_sum_top10": 2493,
+   "heat": 101.1
   },
   {
    "name": "科幻",
-   "count": 10,
+   "count": 8,
+   "top10": 8,
+   "metric_sum_top10": 6893,
+   "heat": 101.1
+  },
+  {
+   "name": "武侠仙侠",
+   "count": 30,
    "top10": 10,
-   "metric_sum_top10": 36340,
-   "heat": 122.1
+   "metric_sum_top10": 1160,
+   "heat": 95.2
   },
   {
    "name": "奇闻异事",
-   "count": 7,
-   "top10": 7,
-   "metric_sum_top10": 26231,
-   "heat": 107.5
-  },
-  {
-   "name": "N次元",
-   "count": 2,
-   "top10": 2,
-   "metric_sum_top10": 8265,
-   "heat": 78.5
-  },
-  {
-   "name": "游戏",
-   "count": 1,
-   "top10": 1,
-   "metric_sum_top10": 4243,
-   "heat": 69.3
+   "count": 5,
+   "top10": 5,
+   "metric_sum_top10": 8282,
+   "heat": 90.5
   },
   {
    "name": "现实题材",
    "count": 1,
    "top10": 1,
-   "metric_sum_top10": 3620,
-   "heat": 68.1
+   "metric_sum_top10": 4230,
+   "heat": 69.3
+  },
+  {
+   "name": "游戏",
+   "count": 1,
+   "top10": 1,
+   "metric_sum_top10": 601,
+   "heat": 54.0
+  },
+  {
+   "name": "N次元",
+   "count": 2,
+   "top10": 2,
+   "metric_sum_top10": 12,
+   "heat": 28.1
   },
   {
    "name": "军事",
@@ -75,22 +75,26 @@
  "keyword_heat": [
   {
    "keyword": "穿越",
-   "count": 15
-  },
-  {
-   "keyword": "系统",
-   "count": 8
-  },
-  {
-   "keyword": "宗门",
-   "count": 4
+   "count": 13
   },
   {
    "keyword": "重生",
-   "count": 4
+   "count": 6
+  },
+  {
+   "keyword": "系统",
+   "count": 5
   },
   {
    "keyword": "无敌",
+   "count": 4
+  },
+  {
+   "keyword": "宗门",
+   "count": 3
+  },
+  {
+   "keyword": "兵王",
    "count": 2
   },
   {
@@ -98,31 +102,11 @@
    "count": 2
   },
   {
-   "keyword": "轻松",
-   "count": 2
-  },
-  {
-   "keyword": "赘婿",
-   "count": 2
-  },
-  {
    "keyword": "修仙",
    "count": 1
   },
   {
-   "keyword": "玄幻",
-   "count": 1
-  },
-  {
-   "keyword": "杀伐果断",
-   "count": 1
-  },
-  {
-   "keyword": "兵王",
-   "count": 1
-  },
-  {
-   "keyword": "群像",
+   "keyword": "赘婿",
    "count": 1
   },
   {
@@ -130,7 +114,23 @@
    "count": 1
   },
   {
-   "keyword": "争霸",
+   "keyword": "神医",
+   "count": 1
+  },
+  {
+   "keyword": "星际",
+   "count": 1
+  },
+  {
+   "keyword": "科技",
+   "count": 1
+  },
+  {
+   "keyword": "工业",
+   "count": 1
+  },
+  {
+   "keyword": "废土",
    "count": 1
   }
  ],
@@ -652,6 +652,26 @@
      "title": "大唐第一谋",
      "author": "寒梅惊雪",
      "bookId": 1585118
+    }
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    },
+    {
+     "title": "每日结算：从淘金工到覆海大圣",
+     "author": "竹海听澜",
+     "bookId": 1587627
     }
    ]
   }

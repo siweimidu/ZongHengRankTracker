@@ -1,17 +1,17 @@
 {
  "slug": "new-book-subscribe",
  "name": "新书订阅榜",
- "date": "2026-09-13",
+ "date": "2026-09-14",
  "types": [
   {
    "name": "全部",
    "url": "api/new-book-subscribe/latest/全部.json",
-   "count": 5
+   "count": 8
   },
   {
    "name": "历史",
    "url": "api/new-book-subscribe/latest/历史.json",
-   "count": 1
+   "count": 3
   },
   {
    "name": "玄幻奇幻",
@@ -26,7 +26,7 @@
   {
    "name": "都市",
    "url": "api/new-book-subscribe/latest/都市.json",
-   "count": 1
+   "count": 2
   },
   {
    "name": "科幻",

@@ -1,75 +1,71 @@
 {
- "date": "2026-09-13",
+ "date": "2026-09-14",
  "category_heat": [
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 3397416,
-   "heat": 157.6
+   "metric_sum_top10": 73661,
+   "heat": 127.6
   },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 599057,
-   "heat": 144.0
+   "metric_sum_top10": 23374,
+   "heat": 118.6
   },
   {
-   "name": "历史",
-   "count": 30,
+   "name": "奇闻异事",
+   "count": 15,
    "top10": 10,
-   "metric_sum_top10": 346536,
-   "heat": 139.7
+   "metric_sum_top10": 19465,
+   "heat": 117.2
+  },
+  {
+   "name": "科幻",
+   "count": 14,
+   "top10": 10,
+   "metric_sum_top10": 14605,
+   "heat": 115.0
   },
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 227695,
-   "heat": 136.4
+   "metric_sum_top10": 13346,
+   "heat": 114.3
   },
   {
-   "name": "科幻",
-   "count": 17,
+   "name": "历史",
+   "count": 30,
    "top10": 10,
-   "metric_sum_top10": 155014,
-   "heat": 133.4
-  },
-  {
-   "name": "奇闻异事",
-   "count": 22,
-   "top10": 10,
-   "metric_sum_top10": 27957,
-   "heat": 120.0
-  },
-  {
-   "name": "游戏",
-   "count": 9,
-   "top10": 9,
-   "metric_sum_top10": 32917,
-   "heat": 117.3
+   "metric_sum_top10": 10207,
+   "heat": 112.2
   },
   {
    "name": "N次元",
-   "count": 11,
-   "top10": 10,
-   "metric_sum_top10": 17173,
-   "heat": 116.2
+   "count": 8,
+   "top10": 8,
+   "metric_sum_top10": 11886,
+   "heat": 105.4
+  },
+  {
+   "name": "游戏",
+   "count": 6,
+   "top10": 6,
+   "metric_sum_top10": 9018,
+   "heat": 95.2
   },
   {
    "name": "现实题材",
-   "count": 3,
-   "top10": 3,
-   "metric_sum_top10": 1988,
-   "heat": 71.4
+   "count": 4,
+   "top10": 4,
+   "metric_sum_top10": 2406,
+   "heat": 76.9
   }
  ],
  "keyword_heat": [
-  {
-   "keyword": "无敌",
-   "count": 4
-  },
   {
    "keyword": "重生",
    "count": 3
@@ -79,15 +75,31 @@
    "count": 2
   },
   {
-   "keyword": "种田",
+   "keyword": "无敌",
    "count": 2
+  },
+  {
+   "keyword": "系统",
+   "count": 2
+  },
+  {
+   "keyword": "战神",
+   "count": 2
+  },
+  {
+   "keyword": "大明",
+   "count": 2
+  },
+  {
+   "keyword": "种田",
+   "count": 1
   },
   {
    "keyword": "穿越",
-   "count": 2
+   "count": 1
   },
   {
-   "keyword": "宗门",
+   "keyword": "修仙",
    "count": 1
   },
   {
@@ -99,15 +111,7 @@
    "count": 1
   },
   {
-   "keyword": "搞笑",
-   "count": 1
-  },
-  {
-   "keyword": "网游",
-   "count": 1
-  },
-  {
-   "keyword": "万界",
+   "keyword": "都市",
    "count": 1
   }
  ],
@@ -524,6 +528,26 @@
      "title": "剑道第一仙",
      "author": "萧瑾瑜",
      "bookId": 957220
+    },
+    {
+     "title": "踏星",
+     "author": "随散飘风",
+     "bookId": 718689
+    }
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "万相之王",
+     "author": "天蚕土豆",
+     "bookId": 1116385
     },
     {
      "title": "踏星",

@@ -1,5 +1,5 @@
 {
- "date": "2026-09-13",
+ "date": "2026-09-14",
  "board": {
   "slug": "end",
   "name": "完结榜",
@@ -19,7 +19,7 @@
    "cover": "https://static.zongheng.com/upload/cover/9a/c9/9ac9b1086ca3720eaa8192e9216a583e1778029509800.jpeg",
    "category": "现实题材",
    "cateFineId": 8109,
-   "metric": 1473,
+   "metric": 1696,
    "metricLabel": "阅读",
    "serialStatus": 1,
    "intro": "非洲A国政局动荡，各方势力暗斗，国际恐怖组织不断渗透，中方援建重大项目维阿铁路阿尔提段建设受到严重威胁。一场血腥的恐怖袭击后，受A国邀请，中方决定组建一支特勤队参与联合反恐，保护中方财产安全。转业的特战军官秦天受邀组建“蛟龙”特勤队，率队赴阿尔提完成联合反恐、打击海盗、保护中资、营救人员等一系列任务，用铁与血铸就大国利刃。",
@@ -49,30 +49,69 @@
   },
   {
    "rank": 3,
-   "bookId": 1387209,
-   "title": "秦皇不老",
-   "author": "簪君",
-   "authorId": 83873547,
+   "bookId": 1528778,
+   "title": "界碑之下",
+   "author": "玉蝙蝠",
+   "authorId": 51876376,
    "authorCover": "",
-   "cover": "https://static.zongheng.com/upload/cover/f7/f9/f7f98fe1824758f6e7eca4e298b124571743388118565.jpeg",
+   "cover": "https://static.zongheng.com/upload/cover/2f/2a/2f2a37b248184aca691075360f3c467c1783578961102.jpeg",
    "category": "现实题材",
    "cateFineId": 8109,
-   "metric": 25,
+   "metric": 193,
    "metricLabel": "阅读",
    "serialStatus": 1,
-   "intro": "外星探索200载，归来竟发现自己成为了全民偶像\r 基因革命使地球文明进入到长生时代。地球在圣贤王的统治下一片繁荣，全球共产。\r 而月球的流放者们虽艰苦求生，却在绝境中点燃了反抗的火焰。\r 一场关于基因革命与文明存亡的时代变革在暗流涌动。归来成为精神图腾的林奇将如何抉择？\r 一个全民长生未来的奇妙幻想，一场地月文明之间的精彩对抗。且看长篇悬疑科幻——《秦皇不老》",
-   "latestChapter": "第82章 后记",
-   "latestChapterTime": "02-02 22:11",
+   "intro": "【现实军旅小说，武警版《士兵突击》】\r 东北底层少年林野，历经坎坷入伍武警部队，\r 执勤、处突、缉毒、救援……\r 渐渐的，他从最初“混日子的思想”，活成自己曾仰望的兵。",
+   "latestChapter": "第139章 家属分房，傣乡求婚（终章）",
+   "latestChapterTime": "05-30 10:03",
    "updatedToday": false,
-   "url": "https://www.zongheng.com/book/1387209.html"
+   "url": "https://www.zongheng.com/book/1528778.html"
+  },
+  {
+   "rank": 4,
+   "bookId": 1334504,
+   "title": "沉默的邻居",
+   "author": "长弓难鸣",
+   "authorId": 53169752,
+   "authorCover": "",
+   "cover": "https://static.zongheng.com/upload/cover/60/78/6078061e530c8e0d56dd8ee6806aad581785378109686.jpeg",
+   "category": "现实题材",
+   "cateFineId": 8109,
+   "metric": 27,
+   "metricLabel": "阅读",
+   "serialStatus": 1,
+   "intro": "又名《请你消消气》 现代生活压力太大，每个人都有一肚子怒气，但冲动的代价可曾想过？ 忍字头上一把刀，事到临头，你是否真的能忍气吞声？ 胭脂胡同饺子馆服务员外出送餐，却意外带回一个人头，老板隔天清早第一个发现，他会怎么做，事情又会因他的选择发生什么样的变化…… 暖阳市的两位刑警，为了查案，牺牲了许多东西，包括不限于青春、健康、家庭等。甚至，还包括自己的生命。",
+   "latestChapter": "第一百二十四章 大结局（4）",
+   "latestChapterTime": "10-03 23:36",
+   "updatedToday": false,
+   "url": "https://www.zongheng.com/book/1334504.html"
   }
  ],
  "trend": {
   "first_day": false,
-  "new_count": 0,
-  "dropped_count": 0,
-  "new_books": [],
-  "dropped_books": [],
+  "new_count": 2,
+  "dropped_count": 1,
+  "new_books": [
+   {
+    "title": "界碑之下",
+    "author": "玉蝙蝠",
+    "rank": 3,
+    "bookId": 1528778
+   },
+   {
+    "title": "沉默的邻居",
+    "author": "长弓难鸣",
+    "rank": 4,
+    "bookId": 1334504
+   }
+  ],
+  "dropped_books": [
+   {
+    "title": "秦皇不老",
+    "author": "簪君",
+    "prevRank": 3,
+    "bookId": 1387209
+   }
+  ],
   "top_movers": [
    {
     "bookId": 1344701,
@@ -80,13 +119,28 @@
     "author": "秦锐士",
     "rank": 1,
     "rankChange": 0,
-    "metric": 1473,
-    "metricGrowth": 0.6931,
-    "momentum": 71.3
+    "metric": 1696,
+    "metricGrowth": 0.1514,
+    "momentum": 69.6
    }
   ],
-  "darkhorses": [],
+  "darkhorses": [
+   {
+    "bookId": 1528778,
+    "title": "界碑之下",
+    "author": "玉蝙蝠",
+    "rank": 3,
+    "reason": "新上榜即进入前列"
+   },
+   {
+    "bookId": 1334504,
+    "title": "沉默的邻居",
+    "author": "长弓难鸣",
+    "rank": 4,
+    "reason": "新上榜即进入前列"
+   }
+  ],
   "update_rate": 0.0,
-  "summary": "【完结榜·现实题材】榜单结构稳定，头部固若金汤。"
+  "summary": "【完结榜·现实题材】2 本新上榜；1 本掉榜；黑马《界碑之下》第 3 名。"
  }
 }

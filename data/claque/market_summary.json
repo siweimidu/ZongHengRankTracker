@@ -1,47 +1,47 @@
 {
- "date": "2026-09-13",
+ "date": "2026-09-14",
  "category_heat": [
-  {
-   "name": "武侠仙侠",
-   "count": 28,
-   "top10": 10,
-   "metric_sum_top10": 368182,
-   "heat": 140.2
-  },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 342007,
-   "heat": 139.6
+   "metric_sum_top10": 233216,
+   "heat": 136.6
+  },
+  {
+   "name": "武侠仙侠",
+   "count": 25,
+   "top10": 10,
+   "metric_sum_top10": 92535,
+   "heat": 129.4
   },
   {
    "name": "都市",
-   "count": 30,
+   "count": 24,
    "top10": 10,
-   "metric_sum_top10": 51099,
-   "heat": 124.8
+   "metric_sum_top10": 53840,
+   "heat": 125.2
   },
   {
    "name": "历史",
-   "count": 27,
+   "count": 21,
    "top10": 10,
-   "metric_sum_top10": 45594,
-   "heat": 123.9
-  },
-  {
-   "name": "奇闻异事",
-   "count": 6,
-   "top10": 6,
-   "metric_sum_top10": 18958,
-   "heat": 101.0
+   "metric_sum_top10": 41443,
+   "heat": 123.1
   },
   {
    "name": "科幻",
-   "count": 5,
-   "top10": 5,
-   "metric_sum_top10": 6802,
-   "heat": 89.0
+   "count": 4,
+   "top10": 4,
+   "metric_sum_top10": 11502,
+   "heat": 89.1
+  },
+  {
+   "name": "奇闻异事",
+   "count": 3,
+   "top10": 3,
+   "metric_sum_top10": 857,
+   "heat": 64.8
   },
   {
    "name": "N次元",
@@ -68,18 +68,10 @@
  "keyword_heat": [
   {
    "keyword": "穿越",
-   "count": 7
-  },
-  {
-   "keyword": "玄幻",
-   "count": 6
+   "count": 10
   },
   {
    "keyword": "重生",
-   "count": 5
-  },
-  {
-   "keyword": "诸天",
    "count": 3
   },
   {
@@ -87,15 +79,39 @@
    "count": 3
   },
   {
-   "keyword": "无敌",
+   "keyword": "玄幻",
    "count": 3
   },
   {
-   "keyword": "杀伐果断",
+   "keyword": "诸天",
    "count": 2
   },
   {
    "keyword": "历史",
+   "count": 2
+  },
+  {
+   "keyword": "无敌",
+   "count": 2
+  },
+  {
+   "keyword": "宗门",
+   "count": 1
+  },
+  {
+   "keyword": "杀伐果断",
+   "count": 1
+  },
+  {
+   "keyword": "三国",
+   "count": 1
+  },
+  {
+   "keyword": "仙侠",
+   "count": 1
+  },
+  {
+   "keyword": "群像",
    "count": 1
   },
   {
@@ -108,22 +124,6 @@
   },
   {
    "keyword": "搞笑",
-   "count": 1
-  },
-  {
-   "keyword": "都市",
-   "count": 1
-  },
-  {
-   "keyword": "脑洞",
-   "count": 1
-  },
-  {
-   "keyword": "大明",
-   "count": 1
-  },
-  {
-   "keyword": "宗门",
    "count": 1
   }
  ],
@@ -645,6 +645,26 @@
      "title": "鸿蒙霸体诀",
      "author": "鱼初见",
      "bookId": 1268659
+    }
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "top3": [
+    {
+     "title": "鸿蒙霸体诀",
+     "author": "鱼初见",
+     "bookId": 1268659
+    },
+    {
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "bookId": 1552353
+    },
+    {
+     "title": "生死混沌铃：血海黄泉宗",
+     "author": "焱焱燃垵",
+     "bookId": 1592317
     }
    ]
   }

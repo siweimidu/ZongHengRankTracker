@@ -1,75 +1,75 @@
 {
- "date": "2026-09-13",
+ "date": "2026-09-14",
  "category_heat": [
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 170231,
-   "heat": 134.2
+   "metric_sum_top10": 157478,
+   "heat": 133.6
   },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 136085,
-   "heat": 132.4
-  },
-  {
-   "name": "武侠仙侠",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 116719,
-   "heat": 131.2
+   "metric_sum_top10": 132089,
+   "heat": 132.2
   },
   {
    "name": "历史",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 113618,
-   "heat": 131.0
+   "metric_sum_top10": 127998,
+   "heat": 131.9
+  },
+  {
+   "name": "武侠仙侠",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 98338,
+   "heat": 129.9
   },
   {
    "name": "奇闻异事",
-   "count": 12,
+   "count": 15,
    "top10": 10,
-   "metric_sum_top10": 61863,
-   "heat": 126.2
+   "metric_sum_top10": 63900,
+   "heat": 126.5
   },
   {
    "name": "科幻",
-   "count": 12,
+   "count": 14,
    "top10": 10,
-   "metric_sum_top10": 58668,
-   "heat": 125.8
+   "metric_sum_top10": 62680,
+   "heat": 126.3
   },
   {
    "name": "军事",
    "count": 7,
    "top10": 7,
-   "metric_sum_top10": 49461,
-   "heat": 112.5
+   "metric_sum_top10": 55276,
+   "heat": 113.4
   },
   {
    "name": "N次元",
-   "count": 6,
-   "top10": 6,
-   "metric_sum_top10": 38282,
-   "heat": 106.5
+   "count": 7,
+   "top10": 7,
+   "metric_sum_top10": 51297,
+   "heat": 112.8
   },
   {
    "name": "游戏",
-   "count": 4,
-   "top10": 4,
-   "metric_sum_top10": 48975,
-   "heat": 100.4
+   "count": 2,
+   "top10": 2,
+   "metric_sum_top10": 25932,
+   "heat": 87.4
   },
   {
    "name": "现实题材",
    "count": 1,
    "top10": 1,
-   "metric_sum_top10": 4423,
-   "heat": 69.6
+   "metric_sum_top10": 4327,
+   "heat": 69.5
   }
  ],
  "keyword_heat": [
@@ -79,42 +79,34 @@
   },
   {
    "keyword": "系统",
-   "count": 8
+   "count": 7
   },
   {
-   "keyword": "无敌",
-   "count": 5
+   "keyword": "重生",
+   "count": 6
   },
   {
    "keyword": "玄幻",
    "count": 5
   },
   {
-   "keyword": "万界",
-   "count": 4
-  },
-  {
-   "keyword": "重生",
-   "count": 4
-  },
-  {
-   "keyword": "修仙",
-   "count": 3
-  },
-  {
    "keyword": "杀伐果断",
    "count": 3
   },
   {
-   "keyword": "诸天",
+   "keyword": "无敌",
    "count": 3
   },
   {
-   "keyword": "都市",
+   "keyword": "神医",
    "count": 3
   },
   {
-   "keyword": "签到",
+   "keyword": "宗门",
+   "count": 3
+  },
+  {
+   "keyword": "修仙",
    "count": 2
   },
   {
@@ -122,7 +114,15 @@
    "count": 2
   },
   {
-   "keyword": "大明",
+   "keyword": "群像",
+   "count": 1
+  },
+  {
+   "keyword": "美食",
+   "count": 1
+  },
+  {
+   "keyword": "都市",
    "count": 1
   },
   {
@@ -130,7 +130,7 @@
    "count": 1
   },
   {
-   "keyword": "苟道",
+   "keyword": "鉴宝",
    "count": 1
   }
  ],
@@ -552,6 +552,26 @@
      "title": "九霄神鼎",
      "author": "墨狩",
      "bookId": 1557513
+    }
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "top3": [
+    {
+     "title": "美女总裁，请上车",
+     "author": "白首不相离",
+     "bookId": 1473768
+    },
+    {
+     "title": "游戏入侵：我在仙界以杀证道",
+     "author": "李所礼",
+     "bookId": 1570671
+    },
+    {
+     "title": "下人凶猛",
+     "author": "城南陆佰",
+     "bookId": 1581755
     }
    ]
   }
