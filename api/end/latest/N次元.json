@@ -1,5 +1,5 @@
 {
- "date": "2026-09-14",
+ "date": "2026-09-15",
  "board": {
   "slug": "end",
   "name": "完结榜",
@@ -19,7 +19,7 @@
    "cover": "https://static.zongheng.com/upload/cover/21/13/21139144c460e05676b1f3f82a50111d1789086934716.jpeg",
    "category": "N次元",
    "cateFineId": 8108,
-   "metric": 5744,
+   "metric": 362,
    "metricLabel": "阅读",
    "serialStatus": 1,
    "intro": "剑之上，为魔法。 魔法之上，为权力。 权力之上，为利益。 利益的象征，则为金钱。 带着自己的秘密和100枚金币，艾罗来到了帝国的边陲小镇，他将在这里白手起家，建立属于自己的冒险者公会，并以此建立自己的经济帝国。 【本作同名漫画已登录哔哩哔哩漫画，欢迎大家观看！】",
@@ -164,54 +164,10 @@
  ],
  "trend": {
   "first_day": false,
-  "new_count": 2,
-  "dropped_count": 5,
-  "new_books": [
-   {
-    "title": "红楼：开局错婚王熙凤",
-    "author": "暗黑沉沦",
-    "rank": 6,
-    "bookId": 1447299
-   },
-   {
-    "title": "剑来：我陈平安，唯有一剑",
-    "author": "蝉眠",
-    "rank": 8,
-    "bookId": 1349041
-   }
-  ],
-  "dropped_books": [
-   {
-    "title": "四合院：火红年代小地主",
-    "author": "白字",
-    "prevRank": 7,
-    "bookId": 1296504
-   },
-   {
-    "title": "我在霍格沃茨抡大剑",
-    "author": "南山豆稀",
-    "prevRank": 8,
-    "bookId": 1258961
-   },
-   {
-    "title": "超奥特传记",
-    "author": "冰冻的血",
-    "prevRank": 9,
-    "bookId": 926375
-   },
-   {
-    "title": "妹控不好惹",
-    "author": "橘子很甜",
-    "prevRank": 10,
-    "bookId": 904686
-   },
-   {
-    "title": "剑来：开局镇守剑气长城",
-    "author": "夏雨秋风",
-    "prevRank": 11,
-    "bookId": 1406152
-   }
-  ],
+  "new_count": 0,
+  "dropped_count": 0,
+  "new_books": [],
+  "dropped_books": [],
   "top_movers": [
    {
     "bookId": 828765,
@@ -219,38 +175,13 @@
     "author": "盘古混沌",
     "rank": 1,
     "rankChange": 0,
-    "metric": 5744,
-    "metricGrowth": 0.0026,
-    "momentum": 68.2
-   },
-   {
-    "bookId": 1328489,
-    "title": "迪迦：从杰顿开始进化",
-    "author": "冰镇芒果汁",
-    "rank": 7,
-    "rankChange": -1,
-    "metric": 12,
-    "metricGrowth": 0.0,
-    "momentum": 48.0
+    "metric": 362,
+    "metricGrowth": -0.937,
+    "momentum": 68.0
    }
   ],
-  "darkhorses": [
-   {
-    "bookId": 1447299,
-    "title": "红楼：开局错婚王熙凤",
-    "author": "暗黑沉沦",
-    "rank": 6,
-    "reason": "新上榜即进入前列"
-   },
-   {
-    "bookId": 1349041,
-    "title": "剑来：我陈平安，唯有一剑",
-    "author": "蝉眠",
-    "rank": 8,
-    "reason": "新上榜即进入前列"
-   }
-  ],
+  "darkhorses": [],
   "update_rate": 0.0,
-  "summary": "【完结榜·N次元】2 本新上榜；5 本掉榜；黑马《红楼：开局错婚王熙凤》第 6 名。"
+  "summary": "【完结榜·N次元】榜单结构稳定，头部固若金汤。"
  }
 }
