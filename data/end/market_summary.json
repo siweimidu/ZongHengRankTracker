@@ -1,81 +1,89 @@
 {
- "date": "2026-09-15",
+ "date": "2026-09-16",
  "category_heat": [
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 465958,
-   "heat": 142.0
+   "metric_sum_top10": 824667,
+   "heat": 146.5
   },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 141583,
-   "heat": 132.7
-  },
-  {
-   "name": "都市",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 74235,
-   "heat": 127.7
+   "metric_sum_top10": 254519,
+   "heat": 137.3
   },
   {
    "name": "历史",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 71531,
-   "heat": 127.4
+   "metric_sum_top10": 164911,
+   "heat": 133.9
+  },
+  {
+   "name": "都市",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 114640,
+   "heat": 131.1
   },
   {
    "name": "科幻",
-   "count": 15,
+   "count": 16,
    "top10": 10,
-   "metric_sum_top10": 35022,
-   "heat": 121.8
+   "metric_sum_top10": 58717,
+   "heat": 125.8
   },
   {
    "name": "奇闻异事",
-   "count": 16,
+   "count": 17,
    "top10": 10,
-   "metric_sum_top10": 6272,
+   "metric_sum_top10": 6288,
    "heat": 108.4
   },
   {
    "name": "游戏",
    "count": 9,
    "top10": 9,
-   "metric_sum_top10": 4820,
-   "heat": 102.3
+   "metric_sum_top10": 8248,
+   "heat": 106.5
   },
   {
    "name": "N次元",
    "count": 8,
    "top10": 8,
-   "metric_sum_top10": 6504,
-   "heat": 100.6
+   "metric_sum_top10": 8013,
+   "heat": 102.3
   },
   {
    "name": "现实题材",
    "count": 4,
    "top10": 4,
-   "metric_sum_top10": 2012,
-   "heat": 75.5
+   "metric_sum_top10": 2108,
+   "heat": 75.8
   }
  ],
  "keyword_heat": [
   {
+   "keyword": "重生",
+   "count": 3
+  },
+  {
    "keyword": "无敌",
-   "count": 4
+   "count": 3
   },
   {
    "keyword": "诸天",
    "count": 2
   },
   {
-   "keyword": "重生",
+   "keyword": "穿越",
+   "count": 2
+  },
+  {
+   "keyword": "大明",
    "count": 2
   },
   {
@@ -91,15 +99,15 @@
    "count": 1
   },
   {
-   "keyword": "穿越",
-   "count": 1
-  },
-  {
-   "keyword": "大明",
-   "count": 1
-  },
-  {
    "keyword": "宗门",
+   "count": 1
+  },
+  {
+   "keyword": "科技",
+   "count": 1
+  },
+  {
+   "keyword": "工业",
    "count": 1
   }
  ],
@@ -561,6 +569,26 @@
      "title": "踏星",
      "author": "随散飘风",
      "bookId": 718689
+    }
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "top3": [
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "剑道第一仙",
+     "author": "萧瑾瑜",
+     "bookId": 957220
+    },
+    {
+     "title": "大明：寒门辅臣",
+     "author": "寒梅惊雪",
+     "bookId": 1270202
     }
    ]
   }
