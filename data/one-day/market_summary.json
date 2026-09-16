@@ -1,90 +1,94 @@
 {
- "date": "2026-09-16",
+ "date": "2026-09-17",
  "category_heat": [
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 4258405,
-   "heat": 159.3
-  },
-  {
-   "name": "都市",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 997052,
-   "heat": 148.0
+   "metric_sum_top10": 4588672,
+   "heat": 159.9
   },
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 981442,
-   "heat": 147.9
+   "metric_sum_top10": 1010944,
+   "heat": 148.1
+  },
+  {
+   "name": "都市",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 765773,
+   "heat": 145.9
   },
   {
    "name": "历史",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 658906,
-   "heat": 144.7
+   "metric_sum_top10": 662595,
+   "heat": 144.8
   },
   {
    "name": "奇闻异事",
    "count": 15,
    "top10": 10,
-   "metric_sum_top10": 164391,
-   "heat": 133.9
+   "metric_sum_top10": 143845,
+   "heat": 132.8
   },
   {
    "name": "科幻",
-   "count": 16,
+   "count": 15,
    "top10": 10,
-   "metric_sum_top10": 112797,
-   "heat": 130.9
+   "metric_sum_top10": 113990,
+   "heat": 131.0
+  },
+  {
+   "name": "游戏",
+   "count": 7,
+   "top10": 7,
+   "metric_sum_top10": 3561,
+   "heat": 91.9
   },
   {
    "name": "N次元",
    "count": 5,
    "top10": 5,
-   "metric_sum_top10": 9726,
-   "heat": 91.8
-  },
-  {
-   "name": "游戏",
-   "count": 5,
-   "top10": 5,
-   "metric_sum_top10": 3787,
-   "heat": 84.4
+   "metric_sum_top10": 7264,
+   "heat": 89.5
   },
   {
    "name": "现实题材",
    "count": 1,
    "top10": 1,
-   "metric_sum_top10": 96,
-   "heat": 39.8
+   "metric_sum_top10": 108,
+   "heat": 40.7
   }
  ],
  "keyword_heat": [
   {
    "keyword": "玄幻",
-   "count": 8
+   "count": 9
   },
   {
    "keyword": "穿越",
-   "count": 8
+   "count": 9
   },
   {
    "keyword": "无敌",
-   "count": 5
+   "count": 4
   },
   {
    "keyword": "诸天",
-   "count": 5
+   "count": 4
   },
   {
    "keyword": "重生",
-   "count": 2
+   "count": 3
+  },
+  {
+   "keyword": "杀伐果断",
+   "count": 3
   },
   {
    "keyword": "群像",
@@ -99,19 +103,15 @@
    "count": 2
   },
   {
-   "keyword": "杀伐果断",
-   "count": 2
-  },
-  {
    "keyword": "修仙",
    "count": 2
   },
   {
-   "keyword": "兵王",
+   "keyword": "科技",
    "count": 1
   },
   {
-   "keyword": "科技",
+   "keyword": "兵王",
    "count": 1
   },
   {
@@ -705,6 +705,26 @@
      "title": "最强狂兵Ⅱ：黑暗荣耀",
      "author": "烈焰滔滔",
      "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "top3": [
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
+    },
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
     }
    ]
   }

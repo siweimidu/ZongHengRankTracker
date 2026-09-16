@@ -1,5 +1,5 @@
 {
- "date": "2026-09-16",
+ "date": "2026-09-17",
  "board": {
   "slug": "monthly-ticket",
   "name": "月票榜",
@@ -11,6 +11,25 @@
  "books": [
   {
    "rank": 1,
+   "bookId": 1436445,
+   "title": "七与十七",
+   "author": "知白",
+   "authorId": 1185346,
+   "authorCover": "",
+   "cover": "https://static.zongheng.com/upload/cover/0a/cd/0acd9930492159f58b920660919715591779953171873.jpeg",
+   "category": "现实题材",
+   "cateFineId": 8109,
+   "metric": 8,
+   "metricLabel": "月票",
+   "serialStatus": 0,
+   "intro": "抗战烽烟中一个十七岁少年的七年。",
+   "latestChapter": "第六章",
+   "latestChapterTime": "06-26 17:05",
+   "updatedToday": false,
+   "url": "https://www.zongheng.com/book/1436445.html"
+  },
+  {
+   "rank": 2,
    "bookId": 1463775,
    "title": "稀土：大国锁钥",
    "author": "创里有作",
@@ -31,13 +50,39 @@
  ],
  "trend": {
   "first_day": false,
-  "new_count": 0,
+  "new_count": 1,
   "dropped_count": 0,
-  "new_books": [],
+  "new_books": [
+   {
+    "title": "七与十七",
+    "author": "知白",
+    "rank": 1,
+    "bookId": 1436445
+   }
+  ],
   "dropped_books": [],
-  "top_movers": [],
-  "darkhorses": [],
+  "top_movers": [
+   {
+    "bookId": 1463775,
+    "title": "稀土：大国锁钥",
+    "author": "创里有作",
+    "rank": 2,
+    "rankChange": -1,
+    "metric": 1,
+    "metricGrowth": 0.0,
+    "momentum": 66.0
+   }
+  ],
+  "darkhorses": [
+   {
+    "bookId": 1436445,
+    "title": "七与十七",
+    "author": "知白",
+    "rank": 1,
+    "reason": "新上榜即进入前列"
+   }
+  ],
   "update_rate": 0.0,
-  "summary": "纵横现实题材呈现“高壁垒、低流动”态势，榜单长期被《稀土：大国锁钥》等硬核工业文霸榜，题材红利向“行业深度+国家叙事”高度集中。缺乏新秀入局，反映出该类目对作者专业背景要求极高。\n\n建议：编辑部应重点挖掘具有实业经验的跨界作者，鼓励将“硬科技/国企改革”与“个人成长”深度绑定，通过专业性构建内容护城河，切忌同质化跟风。"
+  "summary": "现实题材在纵横表现疲软，头部效应极弱。知白新作《七与十七》虽登顶，但仅8票，折射出该赛道在平台流量分配中的边缘化。工业题材《稀土》后劲不足，说明硬核职场文缺乏网文爽感的“强冲突”包装。建议作者：避开纯纪实枯燥叙事，将“职场博弈”与“反转打脸”结合，用强情绪钩子替代平铺直叙，才能在冷门赛道突围。"
  }
 }
