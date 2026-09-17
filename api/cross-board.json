@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T07:21:19",
+ "updated_at": "2026-09-18T07:11:33",
  "top": [
   {
    "bookId": 1268659,
@@ -16,7 +16,7 @@
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 9
+     "rank": 10
     },
     {
      "board": "click",
@@ -31,12 +31,12 @@
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 3
+     "rank": 5
     },
     {
      "board": "one-day-update",
      "name": "24小时更新榜",
-     "rank": 12
+     "rank": 16
     },
     {
      "board": "author-popularity",
@@ -44,8 +44,8 @@
      "rank": 19
     }
    ],
-   "best_rank": 3,
-   "score": 213
+   "best_rank": 5,
+   "score": 201
   },
   {
    "bookId": 1269302,
@@ -62,7 +62,7 @@
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 16
+     "rank": 15
     },
     {
      "board": "click",
@@ -77,17 +77,17 @@
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 15
+     "rank": 17
     },
     {
      "board": "one-day-update",
      "name": "24小时更新榜",
-     "rank": 19
+     "rank": 14
     },
     {
      "board": "author-popularity",
      "name": "作者人气榜",
-     "rank": 22
+     "rank": 23
     }
    ],
    "best_rank": 10,
@@ -108,7 +108,7 @@
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 14
+     "rank": 13
     },
     {
      "board": "click",
@@ -123,17 +123,17 @@
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 19
+     "rank": 22
     },
     {
      "board": "one-day-update",
      "name": "24小时更新榜",
-     "rank": 23
+     "rank": 19
     },
     {
      "board": "author-popularity",
      "name": "作者人气榜",
-     "rank": 27
+     "rank": 29
     }
    ],
    "best_rank": 11,
@@ -154,7 +154,7 @@
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 22
+     "rank": 21
     },
     {
      "board": "click",
@@ -164,7 +164,7 @@
     {
      "board": "recommend",
      "name": "推荐榜",
-     "rank": 7
+     "rank": 6
     },
     {
      "board": "claque",
@@ -174,48 +174,7 @@
     {
      "board": "author-popularity",
      "name": "作者人气榜",
-     "rank": 8
-    }
-   ],
-   "best_rank": 1,
-   "score": 190
-  },
-  {
-   "bookId": 1385191,
-   "title": "星辰大道",
-   "author": "随散飘风",
-   "cover": "https://static.zongheng.com/upload/cover/23/db/23db602ee55f62ee16a3c250ba9055991752211140487.jpeg",
-   "category": "玄幻奇幻",
-   "boards": [
-    {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 3
-    },
-    {
-     "board": "one-day",
-     "name": "24小时畅销榜",
-     "rank": 4
-    },
-    {
-     "board": "click",
-     "name": "点击榜",
-     "rank": 3
-    },
-    {
-     "board": "recommend",
-     "name": "推荐榜",
-     "rank": 1
-    },
-    {
-     "board": "claque",
-     "name": "捧场榜",
-     "rank": 21
-    },
-    {
-     "board": "author-popularity",
-     "name": "作者人气榜",
-     "rank": 10
+     "rank": 6
     }
    ],
    "best_rank": 1,
@@ -231,7 +190,7 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 4
+     "rank": 3
     },
     {
      "board": "one-day",
@@ -251,12 +210,53 @@
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 14
+     "rank": 12
     },
     {
      "board": "author-popularity",
      "name": "作者人气榜",
      "rank": 1
+    }
+   ],
+   "best_rank": 1,
+   "score": 190
+  },
+  {
+   "bookId": 1385191,
+   "title": "星辰大道",
+   "author": "随散飘风",
+   "cover": "https://static.zongheng.com/upload/cover/23/db/23db602ee55f62ee16a3c250ba9055991752211140487.jpeg",
+   "category": "玄幻奇幻",
+   "boards": [
+    {
+     "board": "monthly-ticket",
+     "name": "月票榜",
+     "rank": 4
+    },
+    {
+     "board": "one-day",
+     "name": "24小时畅销榜",
+     "rank": 4
+    },
+    {
+     "board": "click",
+     "name": "点击榜",
+     "rank": 3
+    },
+    {
+     "board": "recommend",
+     "name": "推荐榜",
+     "rank": 1
+    },
+    {
+     "board": "claque",
+     "name": "捧场榜",
+     "rank": 26
+    },
+    {
+     "board": "author-popularity",
+     "name": "作者人气榜",
+     "rank": 12
     }
    ],
    "best_rank": 1,
@@ -272,12 +272,12 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 14
+     "rank": 13
     },
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 3
+     "rank": 5
     },
     {
      "board": "click",
@@ -292,7 +292,7 @@
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 16
+     "rank": 19
     },
     {
      "board": "end",
@@ -307,7 +307,7 @@
    "bookId": 1435440,
    "title": "齐天",
    "author": "日落红尘",
-   "cover": "https://static.zongheng.com/upload/cover/f9/b4/f9b401d91f61e73cd853ac580e670fdc1789564119333.jpeg",
+   "cover": "https://static.zongheng.com/upload/cover/f9/b4/f9b401d91f61e73cd853ac580e670fdc1789667673351.jpeg",
    "category": "玄幻奇幻",
    "boards": [
     {
@@ -318,7 +318,7 @@
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 10
+     "rank": 9
     },
     {
      "board": "click",
@@ -328,17 +328,17 @@
     {
      "board": "recommend",
      "name": "推荐榜",
-     "rank": 17
+     "rank": 16
     },
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 28
+     "rank": 2
     },
     {
      "board": "author-popularity",
      "name": "作者人气榜",
-     "rank": 11
+     "rank": 14
     }
    ],
    "best_rank": 2,
@@ -354,7 +354,7 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 8
+     "rank": 7
     },
     {
      "board": "one-day",
@@ -374,7 +374,7 @@
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 12
+     "rank": 15
     },
     {
      "board": "author-popularity",
@@ -386,47 +386,6 @@
    "score": 189
   },
   {
-   "bookId": 1366535,
-   "title": "最强狂兵Ⅱ：黑暗荣耀",
-   "author": "烈焰滔滔",
-   "cover": "https://static.zongheng.com/upload/cover/eb/fb/ebfb4a139ef395999128eee7e4d01c471756282378804.jpeg",
-   "category": "都市",
-   "boards": [
-    {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 5
-    },
-    {
-     "board": "one-day",
-     "name": "24小时畅销榜",
-     "rank": 5
-    },
-    {
-     "board": "click",
-     "name": "点击榜",
-     "rank": 4
-    },
-    {
-     "board": "recommend",
-     "name": "推荐榜",
-     "rank": 4
-    },
-    {
-     "board": "one-day-update",
-     "name": "24小时更新榜",
-     "rank": 9
-    },
-    {
-     "board": "author-popularity",
-     "name": "作者人气榜",
-     "rank": 3
-    }
-   ],
-   "best_rank": 3,
-   "score": 188
-  },
-  {
    "bookId": 1412188,
    "title": "万仙来朝",
    "author": "萧瑾瑜",
@@ -436,7 +395,7 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 7
+     "rank": 8
     },
     {
      "board": "one-day",
@@ -456,7 +415,7 @@
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 27
+     "rank": 30
     },
     {
      "board": "author-popularity",
@@ -477,7 +436,7 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 13
+     "rank": 14
     },
     {
      "board": "new-book",
@@ -497,11 +456,83 @@
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 11
+     "rank": 14
     }
    ],
    "best_rank": 1,
    "score": 165
+  },
+  {
+   "bookId": 1366535,
+   "title": "最强狂兵Ⅱ：黑暗荣耀",
+   "author": "烈焰滔滔",
+   "cover": "https://static.zongheng.com/upload/cover/eb/fb/ebfb4a139ef395999128eee7e4d01c471756282378804.jpeg",
+   "category": "都市",
+   "boards": [
+    {
+     "board": "monthly-ticket",
+     "name": "月票榜",
+     "rank": 5
+    },
+    {
+     "board": "one-day",
+     "name": "24小时畅销榜",
+     "rank": 3
+    },
+    {
+     "board": "click",
+     "name": "点击榜",
+     "rank": 4
+    },
+    {
+     "board": "recommend",
+     "name": "推荐榜",
+     "rank": 4
+    },
+    {
+     "board": "author-popularity",
+     "name": "作者人气榜",
+     "rank": 4
+    }
+   ],
+   "best_rank": 3,
+   "score": 163
+  },
+  {
+   "bookId": 1410173,
+   "title": "众仙俯首",
+   "author": "咸鱼老白",
+   "cover": "https://static.zongheng.com/upload/cover/7e/3d/7e3d44de1fca9f7f304bb9421bee62ce1788257525887.jpeg",
+   "category": "武侠仙侠",
+   "boards": [
+    {
+     "board": "monthly-ticket",
+     "name": "月票榜",
+     "rank": 17
+    },
+    {
+     "board": "one-day",
+     "name": "24小时畅销榜",
+     "rank": 7
+    },
+    {
+     "board": "click",
+     "name": "点击榜",
+     "rank": 6
+    },
+    {
+     "board": "recommend",
+     "name": "推荐榜",
+     "rank": 11
+    },
+    {
+     "board": "claque",
+     "name": "捧场榜",
+     "rank": 18
+    }
+   ],
+   "best_rank": 6,
+   "score": 150
   },
   {
    "bookId": 325639,
@@ -523,57 +554,21 @@
     {
      "board": "click",
      "name": "点击榜",
-     "rank": 28
+     "rank": 27
     },
     {
      "board": "recommend",
      "name": "推荐榜",
-     "rank": 6
+     "rank": 7
     },
     {
      "board": "author-popularity",
      "name": "作者人气榜",
-     "rank": 5
+     "rank": 7
     }
    ],
-   "best_rank": 5,
-   "score": 151
-  },
-  {
-   "bookId": 1410173,
-   "title": "众仙俯首",
-   "author": "咸鱼老白",
-   "cover": "https://static.zongheng.com/upload/cover/7e/3d/7e3d44de1fca9f7f304bb9421bee62ce1788257525887.jpeg",
-   "category": "武侠仙侠",
-   "boards": [
-    {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 17
-    },
-    {
-     "board": "one-day",
-     "name": "24小时畅销榜",
-     "rank": 8
-    },
-    {
-     "board": "click",
-     "name": "点击榜",
-     "rank": 6
-    },
-    {
-     "board": "recommend",
-     "name": "推荐榜",
-     "rank": 11
-    },
-    {
-     "board": "claque",
-     "name": "捧场榜",
-     "rank": 23
-    }
-   ],
-   "best_rank": 6,
-   "score": 150
+   "best_rank": 7,
+   "score": 149
   },
   {
    "bookId": 1415876,
@@ -595,7 +590,7 @@
     {
      "board": "click",
      "name": "点击榜",
-     "rank": 14
+     "rank": 13
     },
     {
      "board": "recommend",
@@ -605,11 +600,83 @@
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 29
+     "rank": 24
     }
    ],
    "best_rank": 9,
    "score": 147
+  },
+  {
+   "bookId": 1380095,
+   "title": "有帝族背景还开挂，我无敌了！",
+   "author": "不太勇敢",
+   "cover": "https://static.zongheng.com/upload/cover/e3/79/e379be61953b7925317e255149fcb9541789032043240.jpeg",
+   "category": "玄幻奇幻",
+   "boards": [
+    {
+     "board": "monthly-ticket",
+     "name": "月票榜",
+     "rank": 18
+    },
+    {
+     "board": "one-day",
+     "name": "24小时畅销榜",
+     "rank": 18
+    },
+    {
+     "board": "click",
+     "name": "点击榜",
+     "rank": 19
+    },
+    {
+     "board": "one-day-update",
+     "name": "24小时更新榜",
+     "rank": 11
+    },
+    {
+     "board": "author-popularity",
+     "name": "作者人气榜",
+     "rank": 26
+    }
+   ],
+   "best_rank": 11,
+   "score": 145
+  },
+  {
+   "bookId": 1388197,
+   "title": "人间有剑",
+   "author": "平生未知寒",
+   "cover": "https://static.zongheng.com/upload/cover/1c/fa/1cfa15d386593bf72290f181ff4a870b1787198158066.jpeg",
+   "category": "武侠仙侠",
+   "boards": [
+    {
+     "board": "monthly-ticket",
+     "name": "月票榜",
+     "rank": 12
+    },
+    {
+     "board": "one-day",
+     "name": "24小时畅销榜",
+     "rank": 17
+    },
+    {
+     "board": "click",
+     "name": "点击榜",
+     "rank": 25
+    },
+    {
+     "board": "recommend",
+     "name": "推荐榜",
+     "rank": 15
+    },
+    {
+     "board": "author-popularity",
+     "name": "作者人气榜",
+     "rank": 22
+    }
+   ],
+   "best_rank": 12,
+   "score": 144
   },
   {
    "bookId": 1478384,
@@ -636,145 +703,16 @@
     {
      "board": "recommend",
      "name": "推荐榜",
-     "rank": 28
+     "rank": 29
     },
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 10
-    }
-   ],
-   "best_rank": 10,
-   "score": 146
-  },
-  {
-   "bookId": 1388197,
-   "title": "人间有剑",
-   "author": "平生未知寒",
-   "cover": "https://static.zongheng.com/upload/cover/1c/fa/1cfa15d386593bf72290f181ff4a870b1787198158066.jpeg",
-   "category": "武侠仙侠",
-   "boards": [
-    {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 12
-    },
-    {
-     "board": "one-day",
-     "name": "24小时畅销榜",
-     "rank": 18
-    },
-    {
-     "board": "click",
-     "name": "点击榜",
-     "rank": 25
-    },
-    {
-     "board": "recommend",
-     "name": "推荐榜",
-     "rank": 15
-    },
-    {
-     "board": "author-popularity",
-     "name": "作者人气榜",
-     "rank": 17
-    }
-   ],
-   "best_rank": 12,
-   "score": 144
-  },
-  {
-   "bookId": 1494591,
-   "title": "江山绝色榜",
-   "author": "六如和尚",
-   "cover": "https://static.zongheng.com/upload/cover/d2/ea/d2ea6050e0c6355f69eacf54ded49a721787045011745.jpeg",
-   "category": "历史",
-   "boards": [
-    {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 30
-    },
-    {
-     "board": "recommend",
-     "name": "推荐榜",
-     "rank": 16
-    },
-    {
-     "board": "claque",
-     "name": "捧场榜",
-     "rank": 4
-    },
-    {
-     "board": "author-popularity",
-     "name": "作者人气榜",
-     "rank": 6
-    }
-   ],
-   "best_rank": 4,
-   "score": 127
-  },
-  {
-   "bookId": 1380095,
-   "title": "有帝族背景还开挂，我无敌了！",
-   "author": "不太勇敢",
-   "cover": "https://static.zongheng.com/upload/cover/e3/79/e379be61953b7925317e255149fcb9541789032043240.jpeg",
-   "category": "玄幻奇幻",
-   "boards": [
-    {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 18
-    },
-    {
-     "board": "one-day",
-     "name": "24小时畅销榜",
-     "rank": 15
-    },
-    {
-     "board": "click",
-     "name": "点击榜",
-     "rank": 13
-    },
-    {
-     "board": "one-day-update",
-     "name": "24小时更新榜",
-     "rank": 10
-    }
-   ],
-   "best_rank": 10,
-   "score": 121
-  },
-  {
-   "bookId": 1473924,
-   "title": "玄幻：拳练百遍，顿悟自见！",
-   "author": "尼罗河",
-   "cover": "https://static.zongheng.com/upload/cover/ec/7f/ec7fd31142f6ada0c401893dc79a64b51787652675053.jpeg",
-   "category": "历史",
-   "boards": [
-    {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 15
-    },
-    {
-     "board": "one-day",
-     "name": "24小时畅销榜",
-     "rank": 25
-    },
-    {
-     "board": "click",
-     "name": "点击榜",
-     "rank": 27
-    },
-    {
-     "board": "recommend",
-     "name": "推荐榜",
      "rank": 13
     }
    ],
    "best_rank": 13,
-   "score": 118
+   "score": 143
   },
   {
    "bookId": 1296262,
@@ -799,13 +737,106 @@
      "rank": 26
     },
     {
-     "board": "author-popularity",
-     "name": "作者人气榜",
-     "rank": 26
+     "board": "claque",
+     "name": "捧场榜",
+     "rank": 3
     }
    ],
-   "best_rank": 25,
-   "score": 106
+   "best_rank": 3,
+   "score": 138
+  },
+  {
+   "bookId": 1237164,
+   "title": "太古神族",
+   "author": "子莫谦",
+   "cover": "https://static.zongheng.com/upload/cover/cc/02/cc02a7fc6d66bc32889637780c718fba1789640387232.jpeg",
+   "category": "玄幻奇幻",
+   "boards": [
+    {
+     "board": "one-day",
+     "name": "24小时畅销榜",
+     "rank": 30
+    },
+    {
+     "board": "click",
+     "name": "点击榜",
+     "rank": 30
+    },
+    {
+     "board": "claque",
+     "name": "捧场榜",
+     "rank": 25
+    },
+    {
+     "board": "one-day-update",
+     "name": "24小时更新榜",
+     "rank": 4
+    }
+   ],
+   "best_rank": 4,
+   "score": 127
+  },
+  {
+   "bookId": 1494591,
+   "title": "江山绝色榜",
+   "author": "六如和尚",
+   "cover": "https://static.zongheng.com/upload/cover/d2/ea/d2ea6050e0c6355f69eacf54ded49a721787045011745.jpeg",
+   "category": "历史",
+   "boards": [
+    {
+     "board": "monthly-ticket",
+     "name": "月票榜",
+     "rank": 30
+    },
+    {
+     "board": "recommend",
+     "name": "推荐榜",
+     "rank": 17
+    },
+    {
+     "board": "claque",
+     "name": "捧场榜",
+     "rank": 7
+    },
+    {
+     "board": "author-popularity",
+     "name": "作者人气榜",
+     "rank": 8
+    }
+   ],
+   "best_rank": 7,
+   "score": 124
+  },
+  {
+   "bookId": 1473924,
+   "title": "玄幻：拳练百遍，顿悟自见！",
+   "author": "尼罗河",
+   "cover": "https://static.zongheng.com/upload/cover/ec/7f/ec7fd31142f6ada0c401893dc79a64b51787652675053.jpeg",
+   "category": "历史",
+   "boards": [
+    {
+     "board": "monthly-ticket",
+     "name": "月票榜",
+     "rank": 15
+    },
+    {
+     "board": "one-day",
+     "name": "24小时畅销榜",
+     "rank": 25
+    },
+    {
+     "board": "click",
+     "name": "点击榜",
+     "rank": 28
+    },
+    {
+     "board": "recommend",
+     "name": "推荐榜",
+     "rank": 13
+    }
+   ],
+   "best_rank": 13,
+   "score": 118
   },
   {
    "bookId": 1406951,
@@ -817,12 +848,12 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 22
+     "rank": 23
     },
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 7
+     "rank": 8
     },
     {
      "board": "click",
@@ -830,34 +861,8 @@
      "rank": 8
     }
    ],
-   "best_rank": 7,
-   "score": 99
-  },
-  {
-   "bookId": 1456066,
-   "title": "剑动仙朝",
-   "author": "一叶青天",
-   "cover": "https://static.zongheng.com/upload/cover/79/25/7925f5d43ea0fa2d9dda685448f1b4fc1787909524672.jpeg",
-   "category": "玄幻奇幻",
-   "boards": [
-    {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 23
-    },
-    {
-     "board": "recommend",
-     "name": "推荐榜",
-     "rank": 25
-    },
-    {
-     "board": "one-day-update",
-     "name": "24小时更新榜",
-     "rank": 7
-    }
-   ],
-   "best_rank": 7,
-   "score": 99
+   "best_rank": 8,
+   "score": 98
   },
   {
    "bookId": 408586,
@@ -895,21 +900,21 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 19
+     "rank": 20
     },
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 13
+     "rank": 12
     },
     {
      "board": "click",
      "name": "点击榜",
-     "rank": 18
+     "rank": 14
     }
    ],
-   "best_rank": 13,
-   "score": 93
+   "best_rank": 12,
+   "score": 94
   },
   {
    "bookId": 1415874,
@@ -921,21 +926,42 @@
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 20
+     "rank": 22
     },
     {
      "board": "click",
      "name": "点击榜",
-     "rank": 19
+     "rank": 16
     },
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 13
+     "rank": 16
     }
    ],
-   "best_rank": 13,
-   "score": 93
+   "best_rank": 16,
+   "score": 90
+  },
+  {
+   "bookId": 1578809,
+   "title": "洞房逼我下跪立规矩，我扶公主当女帝",
+   "author": "吃饭不洗手",
+   "cover": "https://static.zongheng.com/upload/cover/04/df/04df238ba02291a5066ec476e975d4fa1789435986241.jpeg",
+   "category": "历史",
+   "boards": [
+    {
+     "board": "one-day-update",
+     "name": "24小时更新榜",
+     "rank": 1
+    },
+    {
+     "board": "author-popularity",
+     "name": "作者人气榜",
+     "rank": 27
+    }
+   ],
+   "best_rank": 1,
+   "score": 90
   },
   {
    "bookId": 1585118,
@@ -952,74 +978,53 @@
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 6
+     "rank": 8
     }
    ],
    "best_rank": 2,
    "score": 89
   },
   {
-   "bookId": 1562907,
-   "title": "无敌圣体",
-   "author": "列夕",
-   "cover": "https://static.zongheng.com/upload/cover/11/3c/113c8c1407576e81189f94abb925efb31783479648820.jpeg",
-   "category": "玄幻奇幻",
-   "boards": [
-    {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 26
-    },
-    {
-     "board": "new-book-subscribe",
-     "name": "新书订阅榜",
-     "rank": 3
-    }
-   ],
-   "best_rank": 3,
-   "score": 88
-  },
-  {
-   "bookId": 1270202,
-   "title": "大明：寒门辅臣",
-   "author": "寒梅惊雪",
-   "cover": "https://static.zongheng.com/upload/cover/74/87/74877f711a2aaed06aa0faaa8f13c5a61789401617658.jpeg",
-   "category": "历史",
-   "boards": [
-    {
-     "board": "one-day",
-     "name": "24小时畅销榜",
-     "rank": 29
-    },
-    {
-     "board": "end",
-     "name": "完结榜",
-     "rank": 3
-    }
-   ],
-   "best_rank": 3,
-   "score": 88
-  },
-  {
-   "bookId": 1552548,
-   "title": "执剑人",
-   "author": "浮生一诺",
-   "cover": "https://static.zongheng.com/upload/cover/fd/e8/fde8f680abc0195d9a82298ca193f9f41785076730871.jpeg",
-   "category": "玄幻奇幻",
+   "bookId": 1579143,
+   "title": "被医院辞退，我靠中医挣到了一个亿",
+   "author": "陈小花",
+   "cover": "https://static.zongheng.com/upload/cover/f2/63/f26305b5355d1d41d5a6b84ea0952bb21788484989015.jpeg",
+   "category": "都市",
    "boards": [
     {
      "board": "new-book-subscribe",
      "name": "新书订阅榜",
-     "rank": 7
+     "rank": 2
+    },
+    {
+     "board": "one-day-update",
+     "name": "24小时更新榜",
+     "rank": 21
+    }
+   ],
+   "best_rank": 2,
+   "score": 89
+  },
+  {
+   "bookId": 1565259,
+   "title": "四合院：从中医学徒开始创建顶级家族",
+   "author": "白熊叙",
+   "cover": "https://static.zongheng.com/upload/cover/2f/6e/2f6ea000cf30470df1f7556a89787bab1789463899489.jpeg",
+   "category": "N次元",
+   "boards": [
+    {
+     "board": "one-day-update",
+     "name": "24小时更新榜",
+     "rank": 2
     },
     {
      "board": "author-popularity",
      "name": "作者人气榜",
-     "rank": 15
+     "rank": 20
     }
    ],
-   "best_rank": 7,
-   "score": 74
+   "best_rank": 2,
+   "score": 89
   }
  ]
 }
