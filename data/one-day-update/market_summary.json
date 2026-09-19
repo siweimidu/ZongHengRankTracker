@@ -1,68 +1,68 @@
 {
- "date": "2026-09-19",
+ "date": "2026-09-20",
  "category_heat": [
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 199112,
-   "heat": 135.4
-  },
-  {
-   "name": "都市",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 142055,
-   "heat": 132.7
-  },
-  {
-   "name": "历史",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 135514,
-   "heat": 132.4
+   "metric_sum_top10": 131819,
+   "heat": 132.2
   },
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 116461,
-   "heat": 131.2
+   "metric_sum_top10": 127282,
+   "heat": 131.9
   },
   {
-   "name": "科幻",
-   "count": 15,
+   "name": "历史",
+   "count": 30,
    "top10": 10,
-   "metric_sum_top10": 62244,
-   "heat": 126.3
+   "metric_sum_top10": 121399,
+   "heat": 131.5
+  },
+  {
+   "name": "都市",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 115396,
+   "heat": 131.1
   },
   {
    "name": "奇闻异事",
    "count": 12,
    "top10": 10,
-   "metric_sum_top10": 61134,
-   "heat": 126.2
+   "metric_sum_top10": 59692,
+   "heat": 126.0
   },
   {
-   "name": "N次元",
-   "count": 8,
-   "top10": 8,
-   "metric_sum_top10": 73101,
-   "heat": 119.6
+   "name": "科幻",
+   "count": 12,
+   "top10": 10,
+   "metric_sum_top10": 55294,
+   "heat": 125.4
   },
   {
    "name": "军事",
+   "count": 8,
+   "top10": 8,
+   "metric_sum_top10": 57353,
+   "heat": 117.7
+  },
+  {
+   "name": "N次元",
    "count": 7,
    "top10": 7,
-   "metric_sum_top10": 46519,
-   "heat": 112.0
+   "metric_sum_top10": 60775,
+   "heat": 114.1
   },
   {
    "name": "游戏",
    "count": 2,
    "top10": 2,
-   "metric_sum_top10": 9885,
-   "heat": 79.9
+   "metric_sum_top10": 17953,
+   "heat": 84.6
   },
   {
    "name": "现实题材",
@@ -74,31 +74,43 @@
  ],
  "keyword_heat": [
   {
+   "keyword": "系统",
+   "count": 9
+  },
+  {
    "keyword": "穿越",
    "count": 9
   },
   {
    "keyword": "无敌",
-   "count": 6
-  },
-  {
-   "keyword": "系统",
-   "count": 5
+   "count": 7
   },
   {
    "keyword": "修仙",
-   "count": 4
+   "count": 5
+  },
+  {
+   "keyword": "玄幻",
+   "count": 5
   },
   {
    "keyword": "诸天",
-   "count": 3
+   "count": 4
   },
   {
    "keyword": "宗门",
+   "count": 4
+  },
+  {
+   "keyword": "都市",
+   "count": 4
+  },
+  {
+   "keyword": "杀伐果断",
    "count": 3
   },
   {
-   "keyword": "大明",
+   "keyword": "重生",
    "count": 3
   },
   {
@@ -106,23 +118,11 @@
    "count": 2
   },
   {
-   "keyword": "重生",
-   "count": 2
-  },
-  {
-   "keyword": "都市",
-   "count": 2
-  },
-  {
-   "keyword": "神医",
-   "count": 2
-  },
-  {
-   "keyword": "金融",
+   "keyword": "苟道",
    "count": 1
   },
   {
-   "keyword": "国运",
+   "keyword": "大明",
    "count": 1
   },
   {
@@ -130,7 +130,7 @@
    "count": 1
   },
   {
-   "keyword": "战神",
+   "keyword": "种田",
    "count": 1
   }
  ],
@@ -652,6 +652,26 @@
      "title": "仙界富家翁",
      "author": "美女蛇爱我",
      "bookId": 1452437
+    }
+   ]
+  },
+  {
+   "date": "2026-09-20",
+   "top3": [
+    {
+     "title": "九转仙葫",
+     "author": "西山落尘",
+     "bookId": 1555785
+    },
+    {
+     "title": "四合院：从中医学徒开始创建顶级家族",
+     "author": "白熊叙",
+     "bookId": 1565259
+    },
+    {
+     "title": "太古神族",
+     "author": "子莫谦",
+     "bookId": 1237164
     }
    ]
   }

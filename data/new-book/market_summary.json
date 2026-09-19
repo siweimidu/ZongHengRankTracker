@@ -1,61 +1,61 @@
 {
- "date": "2026-09-19",
+ "date": "2026-09-20",
  "category_heat": [
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 307409,
-   "heat": 138.8
+   "metric_sum_top10": 358791,
+   "heat": 140.0
   },
   {
    "name": "历史",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 71943,
-   "heat": 127.4
+   "metric_sum_top10": 86559,
+   "heat": 128.9
   },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 44796,
-   "heat": 123.7
+   "metric_sum_top10": 53276,
+   "heat": 125.1
   },
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 40121,
-   "heat": 122.9
+   "metric_sum_top10": 49560,
+   "heat": 124.5
   },
   {
    "name": "科幻",
    "count": 9,
    "top10": 9,
-   "metric_sum_top10": 30007,
-   "heat": 116.6
+   "metric_sum_top10": 36749,
+   "heat": 118.2
   },
   {
    "name": "奇闻异事",
-   "count": 5,
-   "top10": 5,
-   "metric_sum_top10": 16262,
-   "heat": 95.8
+   "count": 6,
+   "top10": 6,
+   "metric_sum_top10": 22468,
+   "heat": 102.3
   },
   {
    "name": "N次元",
    "count": 3,
    "top10": 3,
-   "metric_sum_top10": 8279,
-   "heat": 82.5
+   "metric_sum_top10": 10230,
+   "heat": 84.2
   },
   {
    "name": "军事",
    "count": 2,
    "top10": 2,
-   "metric_sum_top10": 6141,
-   "heat": 76.2
+   "metric_sum_top10": 7361,
+   "heat": 77.6
   },
   {
    "name": "游戏",
@@ -75,7 +75,7 @@
  "keyword_heat": [
   {
    "keyword": "系统",
-   "count": 12
+   "count": 13
   },
   {
    "keyword": "穿越",
@@ -87,7 +87,11 @@
   },
   {
    "keyword": "宗门",
-   "count": 6
+   "count": 5
+  },
+  {
+   "keyword": "修仙",
+   "count": 3
   },
   {
    "keyword": "无敌",
@@ -95,14 +99,6 @@
   },
   {
    "keyword": "玄幻",
-   "count": 3
-  },
-  {
-   "keyword": "修仙",
-   "count": 2
-  },
-  {
-   "keyword": "诸天",
    "count": 2
   },
   {
@@ -114,7 +110,15 @@
    "count": 1
   },
   {
+   "keyword": "诸天",
+   "count": 1
+  },
+  {
    "keyword": "废土",
+   "count": 1
+  },
+  {
+   "keyword": "群像",
    "count": 1
   },
   {
@@ -126,11 +130,7 @@
    "count": 1
   },
   {
-   "keyword": "星际",
-   "count": 1
-  },
-  {
-   "keyword": "科技",
+   "keyword": "争霸",
    "count": 1
   }
  ],
@@ -757,6 +757,26 @@
   },
   {
    "date": "2026-09-19",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    },
+    {
+     "title": "苟在妖魔乱世修成武圣",
+     "author": "李四员外",
+     "bookId": 1584787
+    }
+   ]
+  },
+  {
+   "date": "2026-09-20",
    "top3": [
     {
      "title": "人生读档：2001",
