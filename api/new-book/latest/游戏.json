@@ -1,5 +1,5 @@
 {
- "date": "2026-09-20",
+ "date": "2026-09-21",
  "board": {
   "slug": "new-book",
   "name": "新书榜",
@@ -8,36 +8,23 @@
   "metric_label": "周收藏"
  },
  "category": "游戏",
- "books": [
-  {
-   "rank": 1,
-   "bookId": 1587443,
-   "title": "网游：寂灭轮回，死亡即变强",
-   "author": "时鸢",
-   "authorId": 21892024,
-   "authorCover": "",
-   "cover": "https://static.zongheng.com/upload/cover/e9/69/e969796c5cd3d36e081a6ffe2e83797d1788413621172.jpeg",
-   "category": "游戏",
-   "cateFineId": 8107,
-   "metric": 4248,
-   "metricLabel": "周收藏",
-   "serialStatus": 0,
-   "intro": "“他跳了多少次了？”\r “整整两天半，少说七八十次。”\r “他疯了？”\r 宁尘跳塔自杀，死了足足一百次，终于觉醒了SSS级天赋【寂灭轮回】。\r 轮回不渡，神魂不灭。\r 死亡，不是终点，而是一个轮回。",
-   "latestChapter": "第66章 驱魂阵",
-   "latestChapterTime": "09-20 00:02",
-   "updatedToday": true,
-   "url": "https://www.zongheng.com/book/1587443.html"
-  }
- ],
+ "books": [],
  "trend": {
   "first_day": false,
   "new_count": 0,
-  "dropped_count": 0,
+  "dropped_count": 1,
   "new_books": [],
-  "dropped_books": [],
+  "dropped_books": [
+   {
+    "title": "网游：寂灭轮回，死亡即变强",
+    "author": "时鸢",
+    "prevRank": 1,
+    "bookId": 1587443
+   }
+  ],
   "top_movers": [],
   "darkhorses": [],
-  "update_rate": 1.0,
-  "summary": "【新书榜·游戏】榜单结构稳定，头部固若金汤。"
+  "update_rate": 0,
+  "summary": "游戏榜陷入“僵局期”，头部作品统治力强，新书断层严重。传统网游套路疲软，纯粹的“数值升级”已难触动读者，榜单缺乏高概念、强情绪的创新品类。**建议：** 编辑部应重点扶持“游戏+”跨界题材（如游戏+诡异、游戏+权谋），作者切忌堆砌属性词，需强化“反常规爽点”与“强人设”构建，打破传统网游平庸的升级循环。"
  }
 }

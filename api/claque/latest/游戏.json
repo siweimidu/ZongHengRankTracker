@@ -1,5 +1,5 @@
 {
- "date": "2026-09-20",
+ "date": "2026-09-21",
  "board": {
   "slug": "claque",
   "name": "捧场榜",
@@ -8,36 +8,23 @@
   "metric_label": "捧场"
  },
  "category": "游戏",
- "books": [
-  {
-   "rank": 1,
-   "bookId": 338556,
-   "title": "网游之剑刃舞者",
-   "author": "不是闻人",
-   "authorId": 9026826,
-   "authorCover": "",
-   "cover": "https://static.zongheng.com/upload/cover/b9/16/b916b2ba11f417d81e9c579e89639a1a1789041930406.jpeg",
-   "category": "游戏",
-   "cateFineId": 8107,
-   "metric": 200,
-   "metricLabel": "捧场",
-   "serialStatus": 0,
-   "intro": "手握史诗神兵，身披史诗武装，谈笑间，群敌灰飞烟灭，这是一部热血沸腾的战斗物语……当然不是，其实只是个讲述一个不断推倒萌妹子的男人一路开挂的故事主角光环万岁！",
-   "latestChapter": "第9328章，大势下谋算",
-   "latestChapterTime": "08-28 23:59",
-   "updatedToday": false,
-   "url": "https://www.zongheng.com/book/338556.html"
-  }
- ],
+ "books": [],
  "trend": {
   "first_day": false,
   "new_count": 0,
-  "dropped_count": 0,
+  "dropped_count": 1,
   "new_books": [],
-  "dropped_books": [],
+  "dropped_books": [
+   {
+    "title": "网游之剑刃舞者",
+    "author": "不是闻人",
+    "prevRank": 1,
+    "bookId": 338556
+   }
+  ],
   "top_movers": [],
   "darkhorses": [],
-  "update_rate": 0.0,
-  "summary": "【捧场榜·游戏】榜单结构稳定，头部固若金汤。"
+  "update_rate": 0,
+  "summary": "游戏分类进入存量博弈期，榜单固化严重，缺乏新入局者冲击。当前纯网游题材式微，玩家审美已向“游戏异界+现实交互”或“系统流+经营养成”转型。建议作者切入“游戏职业+职场/现实困境”的复合题材，增强代入感；编辑部应重点挖掘具备强社交属性、轻数值重体验的创新型作品，打破当前游戏文的题材同质化困局。"
  }
 }
