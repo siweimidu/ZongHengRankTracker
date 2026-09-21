@@ -1,0 +1,999 @@
+{
+ "date": "2026-09-22",
+ "prev_date": "2026-09-21",
+ "board": {
+  "slug": "new-book-subscribe",
+  "name": "新书订阅榜",
+  "rankType": 9,
+  "period": 0
+ },
+ "trends": {
+  "全部": {
+   "first_day": false,
+   "new_count": 1,
+   "dropped_count": 0,
+   "new_books": [
+    {
+     "title": "离婚后，前妻闺蜜找上我",
+     "author": "无色",
+     "rank": 3,
+     "bookId": 1569864
+    }
+   ],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1562907,
+     "title": "无敌圣体",
+     "author": "列夕",
+     "rank": 1,
+     "rankChange": 2,
+     "metric": 2417,
+     "metricGrowth": 0.0067,
+     "momentum": 73.3
+    },
+    {
+     "bookId": 1579143,
+     "title": "被医院辞退，我靠中医挣到了一个亿",
+     "author": "陈小花",
+     "rank": 2,
+     "rankChange": -1,
+     "metric": 1360,
+     "metricGrowth": -0.6646,
+     "momentum": 66.0
+    },
+    {
+     "bookId": 1566964,
+     "title": "年代：都重生了，还纠结娶谁？！",
+     "author": "饱食",
+     "rank": 4,
+     "rankChange": 2,
+     "metric": 966,
+     "metricGrowth": 0.7856,
+     "momentum": 62.5
+    },
+    {
+     "bookId": 1552548,
+     "title": "执剑人",
+     "author": "浮生一诺",
+     "rank": 6,
+     "rankChange": 1,
+     "metric": 575,
+     "metricGrowth": 0.5052,
+     "momentum": 55.3
+    },
+    {
+     "bookId": 1570492,
+     "title": "贱籍仵作，从摸尸开始炼成武神",
+     "author": "弄潮",
+     "rank": 5,
+     "rankChange": -1,
+     "metric": 791,
+     "metricGrowth": -0.3325,
+     "momentum": 52.0
+    },
+    {
+     "bookId": 1570413,
+     "title": "断绝关系后，我成大魏第一国公",
+     "author": "雨夜出门人",
+     "rank": 8,
+     "rankChange": 0,
+     "metric": 113,
+     "metricGrowth": 0.4675,
+     "momentum": 48.7
+    },
+    {
+     "bookId": 1568767,
+     "title": "斩佞，镇北，王天下！",
+     "author": "幺三四",
+     "rank": 7,
+     "rankChange": -2,
+     "metric": 243,
+     "metricGrowth": -0.6296,
+     "momentum": 48.0
+    },
+    {
+     "bookId": 1582826,
+     "title": "寒渊帝途",
+     "author": "长风天行",
+     "rank": 9,
+     "rankChange": -7,
+     "metric": 40,
+     "metricGrowth": -0.9846,
+     "momentum": 44.0
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1569864,
+     "title": "离婚后，前妻闺蜜找上我",
+     "author": "无色",
+     "rank": 3,
+     "reason": "新上榜即进入前列"
+    }
+   ],
+   "update_rate": 0.111,
+   "summary": "【新书订阅榜·全部】1 本新上榜；《无敌圣体》升 2 位至第 1 名；黑马《离婚后，前妻闺蜜找上我》第 3 名；当日更新率 11%。"
+  },
+  "历史": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1570413,
+     "title": "断绝关系后，我成大魏第一国公",
+     "author": "雨夜出门人",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 113,
+     "metricGrowth": 0.4675,
+     "momentum": 68.7
+    },
+    {
+     "bookId": 1568767,
+     "title": "斩佞，镇北，王天下！",
+     "author": "幺三四",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 243,
+     "metricGrowth": -0.6296,
+     "momentum": 68.0
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.0,
+   "summary": "【新书订阅榜·历史】榜单结构稳定，头部固若金汤。"
+  },
+  "玄幻奇幻": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1552548,
+     "title": "执剑人",
+     "author": "浮生一诺",
+     "rank": 2,
+     "rankChange": 1,
+     "metric": 575,
+     "metricGrowth": 0.5052,
+     "momentum": 71.3
+    },
+    {
+     "bookId": 1562907,
+     "title": "无敌圣体",
+     "author": "列夕",
+     "rank": 1,
+     "rankChange": 1,
+     "metric": 2417,
+     "metricGrowth": 0.0067,
+     "momentum": 70.8
+    },
+    {
+     "bookId": 1582826,
+     "title": "寒渊帝途",
+     "author": "长风天行",
+     "rank": 3,
+     "rankChange": -2,
+     "metric": 40,
+     "metricGrowth": -0.9846,
+     "momentum": 64.0
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.333,
+   "summary": "【新书订阅榜·玄幻奇幻】《执剑人》升 1 位至第 2 名。"
+  },
+  "武侠仙侠": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1570492,
+     "title": "贱籍仵作，从摸尸开始炼成武神",
+     "author": "弄潮",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 791,
+     "metricGrowth": -0.3325,
+     "momentum": 68.0
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.0,
+   "summary": "【新书订阅榜·武侠仙侠】榜单结构稳定，头部固若金汤。"
+  },
+  "都市": {
+   "first_day": false,
+   "new_count": 1,
+   "dropped_count": 0,
+   "new_books": [
+    {
+     "title": "离婚后，前妻闺蜜找上我",
+     "author": "无色",
+     "rank": 2,
+     "bookId": 1569864
+    }
+   ],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1579143,
+     "title": "被医院辞退，我靠中医挣到了一个亿",
+     "author": "陈小花",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 1360,
+     "metricGrowth": -0.6646,
+     "momentum": 68.0
+    },
+    {
+     "bookId": 1566964,
+     "title": "年代：都重生了，还纠结娶谁？！",
+     "author": "饱食",
+     "rank": 3,
+     "rankChange": -1,
+     "metric": 966,
+     "metricGrowth": 0.7856,
+     "momentum": 67.5
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1569864,
+     "title": "离婚后，前妻闺蜜找上我",
+     "author": "无色",
+     "rank": 2,
+     "reason": "新上榜即进入前列"
+    }
+   ],
+   "update_rate": 0.0,
+   "summary": "【新书订阅榜·都市】1 本新上榜；黑马《离婚后，前妻闺蜜找上我》第 2 名。"
+  },
+  "科幻": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0,
+   "summary": "【新书订阅榜·科幻】榜单结构稳定，头部固若金汤。"
+  },
+  "奇闻异事": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0,
+   "summary": "【新书订阅榜·奇闻异事】榜单结构稳定，头部固若金汤。"
+  },
+  "游戏": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0,
+   "summary": "【新书订阅榜·游戏】榜单结构稳定，头部固若金汤。"
+  },
+  "N次元": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0,
+   "summary": "【新书订阅榜·N次元】榜单结构稳定，头部固若金汤。"
+  },
+  "现实题材": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0,
+   "summary": "【新书订阅榜·现实题材】榜单结构稳定，头部固若金汤。"
+  }
+ },
+ "category_heat": [
+  {
+   "name": "都市",
+   "count": 3,
+   "top10": 3,
+   "metric_sum_top10": 3410,
+   "heat": 75.6
+  },
+  {
+   "name": "玄幻奇幻",
+   "count": 3,
+   "top10": 3,
+   "metric_sum_top10": 3032,
+   "heat": 74.7
+  },
+  {
+   "name": "武侠仙侠",
+   "count": 1,
+   "top10": 1,
+   "metric_sum_top10": 791,
+   "heat": 56.2
+  },
+  {
+   "name": "历史",
+   "count": 2,
+   "top10": 2,
+   "metric_sum_top10": 356,
+   "heat": 53.9
+  },
+  {
+   "name": "科幻",
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
+  },
+  {
+   "name": "奇闻异事",
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
+  },
+  {
+   "name": "游戏",
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
+  },
+  {
+   "name": "N次元",
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
+  },
+  {
+   "name": "现实题材",
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
+  }
+ ],
+ "keyword_heat": [
+  {
+   "keyword": "穿越",
+   "count": 4
+  },
+  {
+   "keyword": "无敌",
+   "count": 1
+  },
+  {
+   "keyword": "系统",
+   "count": 1
+  },
+  {
+   "keyword": "重生",
+   "count": 1
+  },
+  {
+   "keyword": "末世",
+   "count": 1
+  },
+  {
+   "keyword": "玄幻",
+   "count": 1
+  },
+  {
+   "keyword": "修仙",
+   "count": 1
+  },
+  {
+   "keyword": "争霸",
+   "count": 1
+  }
+ ],
+ "timeline": [
+  {
+   "date": "2026-08-18",
+   "top3": [
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "九转仙葫",
+     "author": "西山落尘",
+     "bookId": 1555785
+    },
+    {
+     "title": "三国：穿越刘备义子，开局驰援关羽",
+     "author": "卖酒郎君",
+     "bookId": 1544423
+    }
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "top3": [
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    },
+    {
+     "title": "斩神刀",
+     "author": "四眼秀才",
+     "bookId": 1555584
+    }
+   ]
+  },
+  {
+   "date": "2026-08-21",
+   "top3": [
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "三国：穿越刘备义子，开局驰援关羽",
+     "author": "卖酒郎君",
+     "bookId": 1544423
+    },
+    {
+     "title": "斩神刀",
+     "author": "四眼秀才",
+     "bookId": 1555584
+    }
+   ]
+  },
+  {
+   "date": "2026-08-22",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    }
+   ]
+  },
+  {
+   "date": "2026-08-23",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    }
+   ]
+  },
+  {
+   "date": "2026-08-24",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    },
+    {
+     "title": "三国：穿越刘备义子，开局驰援关羽",
+     "author": "卖酒郎君",
+     "bookId": 1544423
+    }
+   ]
+  },
+  {
+   "date": "2026-08-25",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    },
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    }
+   ]
+  },
+  {
+   "date": "2026-08-26",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    },
+    {
+     "title": "斩神刀",
+     "author": "四眼秀才",
+     "bookId": 1555584
+    }
+   ]
+  },
+  {
+   "date": "2026-08-27",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    },
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    }
+   ]
+  },
+  {
+   "date": "2026-08-30",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    },
+    {
+     "title": "斩神刀",
+     "author": "四眼秀才",
+     "bookId": 1555584
+    }
+   ]
+  },
+  {
+   "date": "2026-08-31",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "三国：穿越刘备义子，开局驰援关羽",
+     "author": "卖酒郎君",
+     "bookId": 1544423
+    }
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    }
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "斩神刀",
+     "author": "四眼秀才",
+     "bookId": 1555584
+    },
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    }
+   ]
+  },
+  {
+   "date": "2026-09-04",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "斩神刀",
+     "author": "四眼秀才",
+     "bookId": 1555584
+    },
+    {
+     "title": "高武严父，永远比儿子高五个境界",
+     "author": "邯郸财阀",
+     "bookId": 1561182
+    }
+   ]
+  },
+  {
+   "date": "2026-09-05",
+   "top3": [
+    {
+     "title": "诗仙，诗圣，镇国公！",
+     "author": "月出长安",
+     "bookId": 1539197
+    },
+    {
+     "title": "高武严父，永远比儿子高五个境界",
+     "author": "邯郸财阀",
+     "bookId": 1561182
+    },
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    }
+   ]
+  },
+  {
+   "date": "2026-09-06",
+   "top3": [
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "六零年代：我有一扇两界门",
+     "author": "鹿兮尔",
+     "bookId": 1564283
+    },
+    {
+     "title": "高武严父，永远比儿子高五个境界",
+     "author": "邯郸财阀",
+     "bookId": 1561182
+    }
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "top3": [
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "斩神刀",
+     "author": "四眼秀才",
+     "bookId": 1555584
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    }
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "top3": [
+    {
+     "title": "斩神刀",
+     "author": "四眼秀才",
+     "bookId": 1555584
+    },
+    {
+     "title": "寒渊帝途",
+     "author": "长风天行",
+     "bookId": 1582826
+    },
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    }
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "top3": [
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    },
+    {
+     "title": "寒渊帝途",
+     "author": "长风天行",
+     "bookId": 1582826
+    }
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "top3": [
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    },
+    {
+     "title": "六零年代：我有一扇两界门",
+     "author": "鹿兮尔",
+     "bookId": 1564283
+    }
+   ]
+  },
+  {
+   "date": "2026-09-13",
+   "top3": [
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    },
+    {
+     "title": "寒渊帝途",
+     "author": "长风天行",
+     "bookId": 1582826
+    }
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "top3": [
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "年代：都重生了，还纠结娶谁？！",
+     "author": "饱食",
+     "bookId": 1566964
+    },
+    {
+     "title": "寒渊帝途",
+     "author": "长风天行",
+     "bookId": 1582826
+    }
+   ]
+  },
+  {
+   "date": "2026-09-15",
+   "top3": [
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "年代：都重生了，还纠结娶谁？！",
+     "author": "饱食",
+     "bookId": 1566964
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    }
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "top3": [
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "年代：都重生了，还纠结娶谁？！",
+     "author": "饱食",
+     "bookId": 1566964
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    }
+   ]
+  },
+  {
+   "date": "2026-09-18",
+   "top3": [
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "被医院辞退，我靠中医挣到了一个亿",
+     "author": "陈小花",
+     "bookId": 1579143
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    }
+   ]
+  },
+  {
+   "date": "2026-09-19",
+   "top3": [
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "被医院辞退，我靠中医挣到了一个亿",
+     "author": "陈小花",
+     "bookId": 1579143
+    },
+    {
+     "title": "寒渊帝途",
+     "author": "长风天行",
+     "bookId": 1582826
+    }
+   ]
+  },
+  {
+   "date": "2026-09-20",
+   "top3": [
+    {
+     "title": "让你当个替身，你咋君临天下",
+     "author": "骑着蜗牛追奔驰",
+     "bookId": 1565048
+    },
+    {
+     "title": "被医院辞退，我靠中医挣到了一个亿",
+     "author": "陈小花",
+     "bookId": 1579143
+    },
+    {
+     "title": "斩佞，镇北，王天下！",
+     "author": "幺三四",
+     "bookId": 1568767
+    }
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "top3": [
+    {
+     "title": "被医院辞退，我靠中医挣到了一个亿",
+     "author": "陈小花",
+     "bookId": 1579143
+    },
+    {
+     "title": "寒渊帝途",
+     "author": "长风天行",
+     "bookId": 1582826
+    },
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    }
+   ]
+  },
+  {
+   "date": "2026-09-22",
+   "top3": [
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    },
+    {
+     "title": "被医院辞退，我靠中医挣到了一个亿",
+     "author": "陈小花",
+     "bookId": 1579143
+    },
+    {
+     "title": "离婚后，前妻闺蜜找上我",
+     "author": "无色",
+     "bookId": 1569864
+    }
+   ]
+  }
+ ],
+ "total_books": 9
+}
