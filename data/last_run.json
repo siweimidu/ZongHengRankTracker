@@ -1,6 +1,6 @@
 {
- "finished_at": "2026-09-22T07:42:56",
- "elapsed_sec": 59.8,
+ "finished_at": "2026-09-23T07:20:02",
+ "elapsed_sec": 60.5,
  "client_stats": {
   "requests": 95,
   "retries": 0,
@@ -20,7 +20,7 @@
    "name": "24小时畅销榜",
    "ok": true,
    "categories": 10,
-   "books": 191,
+   "books": 196,
    "warnings": []
   },
   {
@@ -36,15 +36,7 @@
    "name": "捧场榜",
    "ok": true,
    "categories": 8,
-   "books": 143,
-   "warnings": []
-  },
-  {
-   "slug": "recommend",
-   "name": "推荐榜",
-   "ok": true,
-   "categories": 10,
-   "books": 221,
+   "books": 146,
    "warnings": []
   },
   {
@@ -53,6 +45,14 @@
    "ok": true,
    "categories": 10,
    "books": 300,
+   "warnings": []
+  },
+  {
+   "slug": "recommend",
+   "name": "推荐榜",
+   "ok": true,
+   "categories": 10,
+   "books": 223,
    "warnings": []
   },
   {
@@ -76,7 +76,7 @@
    "name": "完结榜",
    "ok": true,
    "categories": 10,
-   "books": 196,
+   "books": 199,
    "warnings": []
   },
   {
@@ -84,7 +84,7 @@
    "name": "24小时更新榜",
    "ok": true,
    "categories": 10,
-   "books": 195,
+   "books": 192,
    "warnings": []
   }
  ]

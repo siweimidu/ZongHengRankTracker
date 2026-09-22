@@ -1,40 +1,40 @@
 {
- "date": "2026-09-22",
+ "date": "2026-09-23",
  "category_heat": [
   {
    "name": "历史",
-   "count": 23,
-   "top10": 10,
-   "metric_sum_top10": 217929,
-   "heat": 136.1
-  },
-  {
-   "name": "都市",
-   "count": 26,
-   "top10": 10,
-   "metric_sum_top10": 16403,
-   "heat": 115.9
-  },
-  {
-   "name": "武侠仙侠",
    "count": 25,
    "top10": 10,
-   "metric_sum_top10": 15500,
-   "heat": 115.4
+   "metric_sum_top10": 2632272,
+   "heat": 155.6
   },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 13644,
-   "heat": 114.4
+   "metric_sum_top10": 28801,
+   "heat": 120.3
+  },
+  {
+   "name": "武侠仙侠",
+   "count": 25,
+   "top10": 10,
+   "metric_sum_top10": 23989,
+   "heat": 118.8
+  },
+  {
+   "name": "都市",
+   "count": 27,
+   "top10": 10,
+   "metric_sum_top10": 2302,
+   "heat": 100.5
   },
   {
    "name": "科幻",
    "count": 2,
    "top10": 2,
-   "metric_sum_top10": 5299,
-   "heat": 75.0
+   "metric_sum_top10": 5100,
+   "heat": 74.7
   },
   {
    "name": "奇闻异事",
@@ -47,8 +47,8 @@
    "name": "N次元",
    "count": 4,
    "top10": 4,
-   "metric_sum_top10": 900,
-   "heat": 69.2
+   "metric_sum_top10": 500,
+   "heat": 64.6
   },
   {
    "name": "游戏",
@@ -68,38 +68,54 @@
  "keyword_heat": [
   {
    "keyword": "穿越",
-   "count": 7
+   "count": 5
   },
   {
    "keyword": "杀伐果断",
-   "count": 6
+   "count": 5
   },
   {
    "keyword": "重生",
-   "count": 5
-  },
-  {
-   "keyword": "诸天",
-   "count": 5
-  },
-  {
-   "keyword": "无敌",
-   "count": 5
-  },
-  {
-   "keyword": "系统",
    "count": 4
   },
   {
-   "keyword": "修仙",
-   "count": 3
+   "keyword": "玄幻",
+   "count": 4
   },
   {
-   "keyword": "玄幻",
-   "count": 3
+   "keyword": "无敌",
+   "count": 4
+  },
+  {
+   "keyword": "系统",
+   "count": 2
+  },
+  {
+   "keyword": "诸天",
+   "count": 2
+  },
+  {
+   "keyword": "修仙",
+   "count": 2
+  },
+  {
+   "keyword": "宗门",
+   "count": 2
   },
   {
    "keyword": "历史",
+   "count": 1
+  },
+  {
+   "keyword": "无限流",
+   "count": 1
+  },
+  {
+   "keyword": "异能",
+   "count": 1
+  },
+  {
+   "keyword": "悬疑",
    "count": 1
   },
   {
@@ -107,23 +123,7 @@
    "count": 1
   },
   {
-   "keyword": "宗门",
-   "count": 1
-  },
-  {
    "keyword": "大明",
-   "count": 1
-  },
-  {
-   "keyword": "都市",
-   "count": 1
-  },
-  {
-   "keyword": "轻松",
-   "count": 1
-  },
-  {
-   "keyword": "搞笑",
    "count": 1
   }
  ],
@@ -825,6 +825,26 @@
      "title": "剑来",
      "author": "烽火戏诸侯",
      "bookId": 672340
+    }
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "top3": [
+    {
+     "title": "明君",
+     "author": "知白",
+     "bookId": 1610880
+    },
+    {
+     "title": "封疆悍卒",
+     "author": "宿言辰",
+     "bookId": 1424492
+    },
+    {
+     "title": "天下长宁",
+     "author": "知白",
+     "bookId": 1317295
     }
    ]
   }

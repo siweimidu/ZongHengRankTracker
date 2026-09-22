@@ -1,73 +1,77 @@
 {
- "date": "2026-09-22",
+ "date": "2026-09-23",
  "category_heat": [
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 4557,
-   "heat": 105.9
+   "metric_sum_top10": 7611,
+   "heat": 109.9
   },
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 3173,
-   "heat": 103.0
+   "metric_sum_top10": 5545,
+   "heat": 107.4
   },
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 2987,
-   "heat": 102.6
-  },
-  {
-   "name": "科幻",
-   "count": 28,
-   "top10": 10,
-   "metric_sum_top10": 1487,
-   "heat": 97.1
+   "metric_sum_top10": 5269,
+   "heat": 107.0
   },
   {
    "name": "历史",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 1468,
-   "heat": 97.0
+   "metric_sum_top10": 4856,
+   "heat": 106.4
+  },
+  {
+   "name": "科幻",
+   "count": 27,
+   "top10": 10,
+   "metric_sum_top10": 2643,
+   "heat": 101.6
   },
   {
    "name": "奇闻异事",
-   "count": 16,
+   "count": 19,
    "top10": 10,
-   "metric_sum_top10": 379,
-   "heat": 86.4
+   "metric_sum_top10": 629,
+   "heat": 90.4
   },
   {
    "name": "现实题材",
-   "count": 11,
+   "count": 10,
    "top10": 10,
-   "metric_sum_top10": 152,
-   "heat": 79.3
+   "metric_sum_top10": 190,
+   "heat": 81.1
   },
   {
    "name": "N次元",
-   "count": 10,
+   "count": 11,
    "top10": 10,
-   "metric_sum_top10": 135,
-   "heat": 78.4
+   "metric_sum_top10": 186,
+   "heat": 80.9
   },
   {
    "name": "游戏",
    "count": 6,
    "top10": 6,
-   "metric_sum_top10": 77,
-   "heat": 58.1
+   "metric_sum_top10": 84,
+   "heat": 58.7
   }
  ],
  "keyword_heat": [
   {
    "keyword": "玄幻",
+   "count": 6
+  },
+  {
+   "keyword": "穿越",
    "count": 5
   },
   {
@@ -79,19 +83,15 @@
    "count": 4
   },
   {
-   "keyword": "穿越",
-   "count": 4
-  },
-  {
    "keyword": "科技",
    "count": 3
   },
   {
-   "keyword": "历史",
-   "count": 2
+   "keyword": "修仙",
+   "count": 3
   },
   {
-   "keyword": "修仙",
+   "keyword": "历史",
    "count": 2
   },
   {
@@ -111,11 +111,11 @@
    "count": 1
   },
   {
-   "keyword": "末世",
+   "keyword": "杀伐果断",
    "count": 1
   },
   {
-   "keyword": "杀伐果断",
+   "keyword": "末世",
    "count": 1
   },
   {
@@ -825,6 +825,26 @@
      "title": "星辰大道",
      "author": "随散飘风",
      "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "top3": [
+    {
+     "title": "明君",
+     "author": "知白",
+     "bookId": 1610880
+    },
+    {
+     "title": "剑来",
+     "author": "烽火戏诸侯",
+     "bookId": 672340
+    },
+    {
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "bookId": 1366535
     }
    ]
   }
