@@ -1,47 +1,40 @@
 {
- "date": "2026-09-23",
+ "date": "2026-09-24",
  "category_heat": [
   {
    "name": "历史",
-   "count": 25,
+   "count": 26,
    "top10": 10,
-   "metric_sum_top10": 2632272,
-   "heat": 155.6
+   "metric_sum_top10": 2764983,
+   "heat": 156.0
+  },
+  {
+   "name": "武侠仙侠",
+   "count": 26,
+   "top10": 10,
+   "metric_sum_top10": 55276,
+   "heat": 125.4
   },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 28801,
-   "heat": 120.3
-  },
-  {
-   "name": "武侠仙侠",
-   "count": 25,
-   "top10": 10,
-   "metric_sum_top10": 23989,
-   "heat": 118.8
+   "metric_sum_top10": 34391,
+   "heat": 121.7
   },
   {
    "name": "都市",
-   "count": 27,
+   "count": 29,
    "top10": 10,
-   "metric_sum_top10": 2302,
-   "heat": 100.5
+   "metric_sum_top10": 3978,
+   "heat": 104.8
   },
   {
    "name": "科幻",
    "count": 2,
    "top10": 2,
-   "metric_sum_top10": 5100,
-   "heat": 74.7
-  },
-  {
-   "name": "奇闻异事",
-   "count": 3,
-   "top10": 3,
-   "metric_sum_top10": 1502,
-   "heat": 69.2
+   "metric_sum_top10": 5200,
+   "heat": 74.9
   },
   {
    "name": "N次元",
@@ -49,6 +42,13 @@
    "top10": 4,
    "metric_sum_top10": 500,
    "heat": 64.6
+  },
+  {
+   "name": "奇闻异事",
+   "count": 3,
+   "top10": 3,
+   "metric_sum_top10": 401,
+   "heat": 58.9
   },
   {
    "name": "游戏",
@@ -68,15 +68,7 @@
  "keyword_heat": [
   {
    "keyword": "穿越",
-   "count": 5
-  },
-  {
-   "keyword": "杀伐果断",
-   "count": 5
-  },
-  {
-   "keyword": "重生",
-   "count": 4
+   "count": 6
   },
   {
    "keyword": "玄幻",
@@ -87,23 +79,35 @@
    "count": 4
   },
   {
+   "keyword": "修仙",
+   "count": 3
+  },
+  {
+   "keyword": "诸天",
+   "count": 3
+  },
+  {
+   "keyword": "杀伐果断",
+   "count": 3
+  },
+  {
+   "keyword": "历史",
+   "count": 2
+  },
+  {
+   "keyword": "重生",
+   "count": 2
+  },
+  {
    "keyword": "系统",
    "count": 2
   },
   {
-   "keyword": "诸天",
-   "count": 2
+   "keyword": "轻松",
+   "count": 1
   },
   {
-   "keyword": "修仙",
-   "count": 2
-  },
-  {
-   "keyword": "宗门",
-   "count": 2
-  },
-  {
-   "keyword": "历史",
+   "keyword": "搞笑",
    "count": 1
   },
   {
@@ -120,10 +124,6 @@
   },
   {
    "keyword": "苟道",
-   "count": 1
-  },
-  {
-   "keyword": "大明",
    "count": 1
   }
  ],
@@ -830,6 +830,26 @@
   },
   {
    "date": "2026-09-23",
+   "top3": [
+    {
+     "title": "明君",
+     "author": "知白",
+     "bookId": 1610880
+    },
+    {
+     "title": "封疆悍卒",
+     "author": "宿言辰",
+     "bookId": 1424492
+    },
+    {
+     "title": "天下长宁",
+     "author": "知白",
+     "bookId": 1317295
+    }
+   ]
+  },
+  {
+   "date": "2026-09-24",
    "top3": [
     {
      "title": "明君",
