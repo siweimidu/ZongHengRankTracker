@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-24T07:17:39",
+ "updated_at": "2026-09-25T07:38:08",
  "top": [
   {
    "bookId": 1424492,
@@ -21,12 +21,12 @@
     {
      "board": "click",
      "name": "点击榜",
-     "rank": 7
+     "rank": 6
     },
     {
      "board": "recommend",
      "name": "推荐榜",
-     "rank": 21
+     "rank": 22
     },
     {
      "board": "claque",
@@ -41,57 +41,11 @@
     {
      "board": "author-popularity",
      "name": "作者人气榜",
-     "rank": 6
+     "rank": 3
     }
    ],
    "best_rank": 1,
    "score": 215
-  },
-  {
-   "bookId": 1268659,
-   "title": "鸿蒙霸体诀",
-   "author": "鱼初见",
-   "cover": "https://static.zongheng.com/upload/cover/90/a2/90a2985bde7c88c8934409d48b8b481f1752805720652.jpeg",
-   "category": "玄幻奇幻",
-   "boards": [
-    {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 8
-    },
-    {
-     "board": "one-day",
-     "name": "24小时畅销榜",
-     "rank": 8
-    },
-    {
-     "board": "click",
-     "name": "点击榜",
-     "rank": 8
-    },
-    {
-     "board": "recommend",
-     "name": "推荐榜",
-     "rank": 22
-    },
-    {
-     "board": "claque",
-     "name": "捧场榜",
-     "rank": 16
-    },
-    {
-     "board": "one-day-update",
-     "name": "24小时更新榜",
-     "rank": 22
-    },
-    {
-     "board": "author-popularity",
-     "name": "作者人气榜",
-     "rank": 19
-    }
-   ],
-   "best_rank": 8,
-   "score": 198
   },
   {
    "bookId": 1552353,
@@ -108,7 +62,7 @@
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 22
+     "rank": 23
     },
     {
      "board": "click",
@@ -123,12 +77,12 @@
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 4
+     "rank": 5
     },
     {
      "board": "author-popularity",
      "name": "作者人气榜",
-     "rank": 4
+     "rank": 5
     }
    ],
    "best_rank": 1,
@@ -164,7 +118,7 @@
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 28
+     "rank": 21
     },
     {
      "board": "author-popularity",
@@ -185,7 +139,7 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 15
+     "rank": 14
     },
     {
      "board": "one-day",
@@ -195,17 +149,17 @@
     {
      "board": "click",
      "name": "点击榜",
-     "rank": 6
+     "rank": 7
     },
     {
      "board": "recommend",
      "name": "推荐榜",
-     "rank": 2
+     "rank": 3
     },
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 11
+     "rank": 15
     },
     {
      "board": "end",
@@ -246,7 +200,7 @@
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 7
+     "rank": 10
     },
     {
      "board": "author-popularity",
@@ -272,7 +226,7 @@
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 10
+     "rank": 11
     },
     {
      "board": "click",
@@ -282,12 +236,135 @@
     {
      "board": "recommend",
      "name": "推荐榜",
-     "rank": 15
+     "rank": 14
     },
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 26
+     "rank": 25
+    },
+    {
+     "board": "author-popularity",
+     "name": "作者人气榜",
+     "rank": 8
+    }
+   ],
+   "best_rank": 3,
+   "score": 188
+  },
+  {
+   "bookId": 1366535,
+   "title": "最强狂兵Ⅱ：黑暗荣耀",
+   "author": "烈焰滔滔",
+   "cover": "https://static.zongheng.com/upload/cover/eb/fb/ebfb4a139ef395999128eee7e4d01c471789878186072.jpeg",
+   "category": "都市",
+   "boards": [
+    {
+     "board": "monthly-ticket",
+     "name": "月票榜",
+     "rank": 5
+    },
+    {
+     "board": "one-day",
+     "name": "24小时畅销榜",
+     "rank": 4
+    },
+    {
+     "board": "click",
+     "name": "点击榜",
+     "rank": 5
+    },
+    {
+     "board": "recommend",
+     "name": "推荐榜",
+     "rank": 4
+    },
+    {
+     "board": "one-day-update",
+     "name": "24小时更新榜",
+     "rank": 28
+    },
+    {
+     "board": "author-popularity",
+     "name": "作者人气榜",
+     "rank": 4
+    }
+   ],
+   "best_rank": 4,
+   "score": 177
+  },
+  {
+   "bookId": 1268659,
+   "title": "鸿蒙霸体诀",
+   "author": "鱼初见",
+   "cover": "https://static.zongheng.com/upload/cover/90/a2/90a2985bde7c88c8934409d48b8b481f1752805720652.jpeg",
+   "category": "玄幻奇幻",
+   "boards": [
+    {
+     "board": "monthly-ticket",
+     "name": "月票榜",
+     "rank": 8
+    },
+    {
+     "board": "one-day",
+     "name": "24小时畅销榜",
+     "rank": 7
+    },
+    {
+     "board": "click",
+     "name": "点击榜",
+     "rank": 8
+    },
+    {
+     "board": "recommend",
+     "name": "推荐榜",
+     "rank": 21
+    },
+    {
+     "board": "claque",
+     "name": "捧场榜",
+     "rank": 23
+    },
+    {
+     "board": "author-popularity",
+     "name": "作者人气榜",
+     "rank": 19
+    }
+   ],
+   "best_rank": 7,
+   "score": 174
+  },
+  {
+   "bookId": 325639,
+   "title": "星辰之主",
+   "author": "减肥专家",
+   "cover": "https://static.zongheng.com/upload/cover/5e/92/5e92bc1fbd960a00a17aaff6b5a59e4d1789041969921.jpeg",
+   "category": "科幻",
+   "boards": [
+    {
+     "board": "monthly-ticket",
+     "name": "月票榜",
+     "rank": 28
+    },
+    {
+     "board": "one-day",
+     "name": "24小时畅销榜",
+     "rank": 30
+    },
+    {
+     "board": "click",
+     "name": "点击榜",
+     "rank": 28
+    },
+    {
+     "board": "recommend",
+     "name": "推荐榜",
+     "rank": 7
+    },
+    {
+     "board": "claque",
+     "name": "捧场榜",
+     "rank": 9
     },
     {
      "board": "author-popularity",
@@ -295,8 +372,8 @@
      "rank": 9
     }
    ],
-   "best_rank": 3,
-   "score": 188
+   "best_rank": 7,
+   "score": 174
   },
   {
    "bookId": 1269302,
@@ -313,12 +390,12 @@
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 15
+     "rank": 14
     },
     {
      "board": "click",
      "name": "点击榜",
-     "rank": 18
+     "rank": 20
     },
     {
      "board": "recommend",
@@ -328,7 +405,7 @@
     {
      "board": "one-day-update",
      "name": "24小时更新榜",
-     "rank": 16
+     "rank": 23
     },
     {
      "board": "author-popularity",
@@ -340,51 +417,10 @@
    "score": 169
   },
   {
-   "bookId": 1478384,
-   "title": "凡人修仙：疯了吧！你一百岁了还要修仙",
-   "author": "我家有母老虎",
-   "cover": "https://static.zongheng.com/upload/cover/25/ce/25ce73864c38666892340e4a3e8c6e7a.jpeg",
-   "category": "武侠仙侠",
-   "boards": [
-    {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 17
-    },
-    {
-     "board": "one-day",
-     "name": "24小时畅销榜",
-     "rank": 13
-    },
-    {
-     "board": "click",
-     "name": "点击榜",
-     "rank": 17
-    },
-    {
-     "board": "recommend",
-     "name": "推荐榜",
-     "rank": 28
-    },
-    {
-     "board": "claque",
-     "name": "捧场榜",
-     "rank": 18
-    },
-    {
-     "board": "one-day-update",
-     "name": "24小时更新榜",
-     "rank": 21
-    }
-   ],
-   "best_rank": 13,
-   "score": 168
-  },
-  {
    "bookId": 1610880,
    "title": "明君",
    "author": "知白",
-   "cover": "https://static.zongheng.com/upload/cover/e5/e4/e5e42cc32b65748b1db9909fc72fdcfc1789697473110.jpeg",
+   "cover": "https://static.zongheng.com/upload/cover/e5/e4/e5e42cc32b65748b1db9909fc72fdcfc1790249805053.jpeg",
    "category": "历史",
    "boards": [
     {
@@ -417,6 +453,42 @@
    "score": 165
   },
   {
+   "bookId": 1385191,
+   "title": "星辰大道",
+   "author": "随散飘风",
+   "cover": "https://static.zongheng.com/upload/cover/23/db/23db602ee55f62ee16a3c250ba9055991790071360674.jpeg",
+   "category": "玄幻奇幻",
+   "boards": [
+    {
+     "board": "monthly-ticket",
+     "name": "月票榜",
+     "rank": 4
+    },
+    {
+     "board": "one-day",
+     "name": "24小时畅销榜",
+     "rank": 3
+    },
+    {
+     "board": "click",
+     "name": "点击榜",
+     "rank": 4
+    },
+    {
+     "board": "recommend",
+     "name": "推荐榜",
+     "rank": 2
+    },
+    {
+     "board": "author-popularity",
+     "name": "作者人气榜",
+     "rank": 13
+    }
+   ],
+   "best_rank": 2,
+   "score": 164
+  },
+  {
    "bookId": 1589055,
    "title": "人生读档：2001",
    "author": "更俗",
@@ -441,88 +513,52 @@
     {
      "board": "recommend",
      "name": "推荐榜",
-     "rank": 4
+     "rank": 5
     },
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 14
+     "rank": 18
     }
    ],
    "best_rank": 2,
    "score": 164
   },
   {
-   "bookId": 1385191,
-   "title": "星辰大道",
-   "author": "随散飘风",
-   "cover": "https://static.zongheng.com/upload/cover/23/db/23db602ee55f62ee16a3c250ba9055991790071360674.jpeg",
-   "category": "玄幻奇幻",
+   "bookId": 1296262,
+   "title": "躺平：老婆修炼我变强",
+   "author": "万红壮",
+   "cover": "https://static.zongheng.com/upload/cover/71/57/7157d106bf31d61872d6dac824c1c2de1788029527891.jpeg",
+   "category": "武侠仙侠",
    "boards": [
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 4
+     "rank": 27
     },
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 4
+     "rank": 25
     },
     {
      "board": "click",
      "name": "点击榜",
-     "rank": 4
+     "rank": 29
     },
     {
      "board": "recommend",
      "name": "推荐榜",
-     "rank": 3
+     "rank": 30
     },
     {
-     "board": "author-popularity",
-     "name": "作者人气榜",
-     "rank": 12
+     "board": "claque",
+     "name": "捧场榜",
+     "rank": 6
     }
    ],
-   "best_rank": 3,
-   "score": 163
-  },
-  {
-   "bookId": 1366535,
-   "title": "最强狂兵Ⅱ：黑暗荣耀",
-   "author": "烈焰滔滔",
-   "cover": "https://static.zongheng.com/upload/cover/eb/fb/ebfb4a139ef395999128eee7e4d01c471789878186072.jpeg",
-   "category": "都市",
-   "boards": [
-    {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 5
-    },
-    {
-     "board": "one-day",
-     "name": "24小时畅销榜",
-     "rank": 3
-    },
-    {
-     "board": "click",
-     "name": "点击榜",
-     "rank": 5
-    },
-    {
-     "board": "recommend",
-     "name": "推荐榜",
-     "rank": 5
-    },
-    {
-     "board": "author-popularity",
-     "name": "作者人气榜",
-     "rank": 3
-    }
-   ],
-   "best_rank": 3,
-   "score": 163
+   "best_rank": 6,
+   "score": 150
   },
   {
    "bookId": 1410173,
@@ -539,7 +575,7 @@
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 7
+     "rank": 8
     },
     {
      "board": "click",
@@ -554,47 +590,83 @@
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 9
+     "rank": 12
     }
    ],
-   "best_rank": 7,
-   "score": 149
+   "best_rank": 8,
+   "score": 148
   },
   {
-   "bookId": 325639,
-   "title": "星辰之主",
-   "author": "减肥专家",
-   "cover": "https://static.zongheng.com/upload/cover/5e/92/5e92bc1fbd960a00a17aaff6b5a59e4d1789041969921.jpeg",
-   "category": "科幻",
+   "bookId": 1473924,
+   "title": "玄幻：拳练百遍，顿悟自见！",
+   "author": "尼罗河",
+   "cover": "https://static.zongheng.com/upload/cover/ec/7f/ec7fd31142f6ada0c401893dc79a64b51787652675053.jpeg",
+   "category": "历史",
    "boards": [
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 30
+     "rank": 19
+    },
+    {
+     "board": "one-day",
+     "name": "24小时畅销榜",
+     "rank": 28
     },
     {
      "board": "click",
      "name": "点击榜",
-     "rank": 29
+     "rank": 27
     },
     {
      "board": "recommend",
      "name": "推荐榜",
-     "rank": 7
+     "rank": 15
     },
     {
      "board": "claque",
      "name": "捧场榜",
      "rank": 8
-    },
-    {
-     "board": "author-popularity",
-     "name": "作者人气榜",
-     "rank": 7
     }
    ],
-   "best_rank": 7,
-   "score": 149
+   "best_rank": 8,
+   "score": 148
+  },
+  {
+   "bookId": 1415876,
+   "title": "天黑请点灯",
+   "author": "罗樵森",
+   "cover": "https://static.zongheng.com/upload/cover/ad/1a/ad1a5d91334a6fd8b5554de6a6fbc1bd1790075481098.jpeg",
+   "category": "奇闻异事",
+   "boards": [
+    {
+     "board": "monthly-ticket",
+     "name": "月票榜",
+     "rank": 9
+    },
+    {
+     "board": "one-day",
+     "name": "24小时畅销榜",
+     "rank": 12
+    },
+    {
+     "board": "click",
+     "name": "点击榜",
+     "rank": 15
+    },
+    {
+     "board": "recommend",
+     "name": "推荐榜",
+     "rank": 13
+    },
+    {
+     "board": "claque",
+     "name": "捧场榜",
+     "rank": 13
+    }
+   ],
+   "best_rank": 9,
+   "score": 147
   },
   {
    "bookId": 1412188,
@@ -611,7 +683,7 @@
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 11
+     "rank": 9
     },
     {
      "board": "click",
@@ -626,11 +698,11 @@
     {
      "board": "author-popularity",
      "name": "作者人气榜",
-     "rank": 18
+     "rank": 20
     }
    ],
-   "best_rank": 10,
-   "score": 146
+   "best_rank": 9,
+   "score": 147
   },
   {
    "bookId": 1388197,
@@ -662,47 +734,119 @@
     {
      "board": "author-popularity",
      "name": "作者人气榜",
-     "rank": 17
+     "rank": 18
     }
    ],
    "best_rank": 13,
    "score": 143
   },
   {
-   "bookId": 1473924,
-   "title": "玄幻：拳练百遍，顿悟自见！",
-   "author": "尼罗河",
-   "cover": "https://static.zongheng.com/upload/cover/ec/7f/ec7fd31142f6ada0c401893dc79a64b51787652675053.jpeg",
-   "category": "历史",
+   "bookId": 1360196,
+   "title": "吞天神体",
+   "author": "化十",
+   "cover": "https://static.zongheng.com/upload/cover/68/c9/68c9c9737ac1861c8132fde9a82066b51789034476111.jpeg",
+   "category": "玄幻奇幻",
    "boards": [
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 19
+     "rank": 20
     },
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 28
+     "rank": 15
     },
     {
      "board": "click",
      "name": "点击榜",
-     "rank": 27
-    },
-    {
-     "board": "recommend",
-     "name": "推荐榜",
-     "rank": 14
+     "rank": 21
     },
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 19
+     "rank": 30
+    },
+    {
+     "board": "one-day-update",
+     "name": "24小时更新榜",
+     "rank": 13
     }
    ],
-   "best_rank": 14,
-   "score": 142
+   "best_rank": 13,
+   "score": 143
+  },
+  {
+   "bookId": 1380095,
+   "title": "有帝族背景还开挂，我无敌了！",
+   "author": "不太勇敢",
+   "cover": "https://static.zongheng.com/upload/cover/e3/79/e379be61953b7925317e255149fcb9541789032043240.jpeg",
+   "category": "玄幻奇幻",
+   "boards": [
+    {
+     "board": "monthly-ticket",
+     "name": "月票榜",
+     "rank": 15
+    },
+    {
+     "board": "one-day",
+     "name": "24小时畅销榜",
+     "rank": 19
+    },
+    {
+     "board": "click",
+     "name": "点击榜",
+     "rank": 24
+    },
+    {
+     "board": "one-day-update",
+     "name": "24小时更新榜",
+     "rank": 24
+    },
+    {
+     "board": "author-popularity",
+     "name": "作者人气榜",
+     "rank": 26
+    }
+   ],
+   "best_rank": 15,
+   "score": 141
+  },
+  {
+   "bookId": 1478384,
+   "title": "凡人修仙：疯了吧！你一百岁了还要修仙",
+   "author": "我家有母老虎",
+   "cover": "https://static.zongheng.com/upload/cover/25/ce/25ce73864c38666892340e4a3e8c6e7a.jpeg",
+   "category": "武侠仙侠",
+   "boards": [
+    {
+     "board": "monthly-ticket",
+     "name": "月票榜",
+     "rank": 17
+    },
+    {
+     "board": "one-day",
+     "name": "24小时畅销榜",
+     "rank": 21
+    },
+    {
+     "board": "click",
+     "name": "点击榜",
+     "rank": 18
+    },
+    {
+     "board": "recommend",
+     "name": "推荐榜",
+     "rank": 27
+    },
+    {
+     "board": "claque",
+     "name": "捧场榜",
+     "rank": 20
+    }
+   ],
+   "best_rank": 17,
+   "score": 139
   },
   {
    "bookId": 408586,
@@ -714,7 +858,7 @@
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 23
+     "rank": 22
     },
     {
      "board": "click",
@@ -729,73 +873,11 @@
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 6
+     "rank": 7
     }
    ],
-   "best_rank": 6,
-   "score": 125
-  },
-  {
-   "bookId": 1415876,
-   "title": "天黑请点灯",
-   "author": "罗樵森",
-   "cover": "https://static.zongheng.com/upload/cover/ad/1a/ad1a5d91334a6fd8b5554de6a6fbc1bd1790075481098.jpeg",
-   "category": "奇闻异事",
-   "boards": [
-    {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 9
-    },
-    {
-     "board": "one-day",
-     "name": "24小时畅销榜",
-     "rank": 12
-    },
-    {
-     "board": "click",
-     "name": "点击榜",
-     "rank": 15
-    },
-    {
-     "board": "recommend",
-     "name": "推荐榜",
-     "rank": 13
-    }
-   ],
-   "best_rank": 9,
-   "score": 122
-  },
-  {
-   "bookId": 1380095,
-   "title": "有帝族背景还开挂，我无敌了！",
-   "author": "不太勇敢",
-   "cover": "https://static.zongheng.com/upload/cover/e3/79/e379be61953b7925317e255149fcb9541789032043240.jpeg",
-   "category": "玄幻奇幻",
-   "boards": [
-    {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 14
-    },
-    {
-     "board": "one-day",
-     "name": "24小时畅销榜",
-     "rank": 17
-    },
-    {
-     "board": "click",
-     "name": "点击榜",
-     "rank": 24
-    },
-    {
-     "board": "one-day-update",
-     "name": "24小时更新榜",
-     "rank": 15
-    }
-   ],
-   "best_rank": 14,
-   "score": 117
+   "best_rank": 7,
+   "score": 124
   },
   {
    "bookId": 1270202,
@@ -807,7 +889,7 @@
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 26
+     "rank": 29
     },
     {
      "board": "click",
@@ -824,32 +906,6 @@
    "score": 114
   },
   {
-   "bookId": 1296262,
-   "title": "躺平：老婆修炼我变强",
-   "author": "万红壮",
-   "cover": "https://static.zongheng.com/upload/cover/71/57/7157d106bf31d61872d6dac824c1c2de1788029527891.jpeg",
-   "category": "武侠仙侠",
-   "boards": [
-    {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 27
-    },
-    {
-     "board": "click",
-     "name": "点击榜",
-     "rank": 28
-    },
-    {
-     "board": "claque",
-     "name": "捧场榜",
-     "rank": 5
-    }
-   ],
-   "best_rank": 5,
-   "score": 101
-  },
-  {
    "bookId": 1406951,
    "title": "从军赋",
    "author": "风尘落雨",
@@ -864,7 +920,7 @@
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 9
+     "rank": 10
     },
     {
      "board": "click",
@@ -872,8 +928,8 @@
      "rank": 10
     }
    ],
-   "best_rank": 9,
-   "score": 97
+   "best_rank": 10,
+   "score": 96
   },
   {
    "bookId": 1494591,
@@ -895,7 +951,7 @@
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 21
+     "rank": 26
     }
    ],
    "best_rank": 16,
@@ -911,7 +967,7 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 28
+     "rank": 30
     },
     {
      "board": "new-book-subscribe",
@@ -923,30 +979,25 @@
    "score": 89
   },
   {
-   "bookId": 1340178,
-   "title": "绝色生骄",
-   "author": "沙漠",
-   "cover": "https://static.zongheng.com/upload/cover/fc/ba/fcba566aa1f342e9d63a2bba882fe99f1769702085129.jpeg",
+   "bookId": 1486644,
+   "title": "大明危局？朕抬手定江山！",
+   "author": "快飞的乌鸦",
+   "cover": "https://static.zongheng.com/upload/cover/89/f1/89f119d77bfd525ad3e9b154bba6c1e51790238365904.jpeg",
    "category": "历史",
    "boards": [
     {
-     "board": "one-day",
-     "name": "24小时畅销榜",
-     "rank": 25
+     "board": "one-day-update",
+     "name": "24小时更新榜",
+     "rank": 2
     },
     {
-     "board": "recommend",
-     "name": "推荐榜",
-     "rank": 18
-    },
-    {
-     "board": "claque",
-     "name": "捧场榜",
-     "rank": 29
+     "board": "author-popularity",
+     "name": "作者人气榜",
+     "rank": 17
     }
    ],
-   "best_rank": 18,
-   "score": 88
+   "best_rank": 2,
+   "score": 89
   },
   {
    "bookId": 1585118,
@@ -961,60 +1012,34 @@
      "rank": 3
     },
     {
-     "board": "author-popularity",
-     "name": "作者人气榜",
-     "rank": 22
+     "board": "claque",
+     "name": "捧场榜",
+     "rank": 4
     }
    ],
    "best_rank": 3,
    "score": 88
   },
   {
-   "bookId": 1547877,
-   "title": "大唐第一言官，满朝文武求我闭嘴",
-   "author": "老土",
-   "cover": "https://static.zongheng.com/upload/cover/a7/b7/a7b7b5f75e8a24accd48c5d95065f30b1790157298311.jpeg",
-   "category": "历史",
-   "boards": [
-    {
-     "board": "one-day-update",
-     "name": "24小时更新榜",
-     "rank": 3
-    },
-    {
-     "board": "author-popularity",
-     "name": "作者人气榜",
-     "rank": 24
-    }
-   ],
-   "best_rank": 3,
-   "score": 88
-  },
-  {
-   "bookId": 1360196,
-   "title": "吞天神体",
-   "author": "化十",
-   "cover": "https://static.zongheng.com/upload/cover/68/c9/68c9c9737ac1861c8132fde9a82066b51789034476111.jpeg",
+   "bookId": 189169,
+   "title": "雪中悍刀行",
+   "author": "烽火戏诸侯",
+   "cover": "https://static.zongheng.com/upload/cover/8c/75/8c75ecea9f7dc46658af000726406ce01789041849010.jpeg",
    "category": "玄幻奇幻",
    "boards": [
     {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 20
+     "board": "claque",
+     "name": "捧场榜",
+     "rank": 19
     },
     {
-     "board": "one-day",
-     "name": "24小时畅销榜",
-     "rank": 21
-    },
-    {
-     "board": "click",
-     "name": "点击榜",
-     "rank": 22
+     "board": "end",
+     "name": "完结榜",
+     "rank": 4
     }
    ],
-   "best_rank": 20,
-   "score": 86
+   "best_rank": 4,
+   "score": 77
   }
  ]
 }
