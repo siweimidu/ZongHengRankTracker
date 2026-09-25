@@ -1,5 +1,5 @@
 {
- "date": "2026-09-25",
+ "date": "2026-09-26",
  "board": {
   "slug": "monthly-ticket",
   "name": "月票榜",
@@ -30,6 +30,25 @@
   },
   {
    "rank": 2,
+   "bookId": 1533211,
+   "title": "网游：我和怪物的一万种死法",
+   "author": "醉卧九重云",
+   "authorId": 51174565,
+   "authorCover": "",
+   "cover": "https://static.zongheng.com/upload/cover/e9/fe/e9fe0d9525758c25f86265dd9af204711781139240876.jpeg",
+   "category": "游戏",
+   "cateFineId": 8107,
+   "metric": 4,
+   "metricLabel": "月票",
+   "serialStatus": 0,
+   "intro": "【每天5更，网游，乐子，爽！】\r 每一个遇到地球玩家的外星人都知道，那个叫秦帝的家伙会先送死几十次，然后杀光所有人！",
+   "latestChapter": "第268章 驯服龙雀",
+   "latestChapterTime": "07-01 18:40",
+   "updatedToday": false,
+   "url": "https://www.zongheng.com/book/1533211.html"
+  },
+  {
+   "rank": 3,
    "bookId": 1204546,
    "title": "网游：我有万倍增幅",
    "author": "醉卧九重云",
@@ -38,7 +57,7 @@
    "cover": "https://static.zongheng.com/upload/cover/81/74/817423234a639fc8dfd8adb8b49870131789041851139.jpeg",
    "category": "游戏",
    "cateFineId": 8107,
-   "metric": 2,
+   "metric": 3,
    "metricLabel": "月票",
    "serialStatus": 1,
    "intro": "新书《我和怪物的一万种死法》已经上传！\r 开局觉醒万倍天赋！普攻秒boss，大招清全图！横扫诸天宇宙一切敌！\r 没有什么是一个火球术解决不了的问题，如果有，那就两个！",
@@ -48,7 +67,7 @@
    "url": "https://www.zongheng.com/book/1204546.html"
   },
   {
-   "rank": 3,
+   "rank": 4,
    "bookId": 1526773,
    "title": "游戏降临：开局清空青梅账号，她急哭了",
    "author": "尘云",
@@ -69,34 +88,49 @@
  ],
  "trend": {
   "first_day": false,
-  "new_count": 0,
+  "new_count": 1,
   "dropped_count": 0,
-  "new_books": [],
+  "new_books": [
+   {
+    "title": "网游：我和怪物的一万种死法",
+    "author": "醉卧九重云",
+    "rank": 2,
+    "bookId": 1533211
+   }
+  ],
   "dropped_books": [],
   "top_movers": [
    {
     "bookId": 1204546,
     "title": "网游：我有万倍增幅",
     "author": "醉卧九重云",
-    "rank": 2,
-    "rankChange": 1,
-    "metric": 2,
-    "metricGrowth": 1.0,
-    "momentum": 72.5
+    "rank": 3,
+    "rankChange": -1,
+    "metric": 3,
+    "metricGrowth": 0.5,
+    "momentum": 66.8
    },
    {
     "bookId": 1526773,
     "title": "游戏降临：开局清空青梅账号，她急哭了",
     "author": "尘云",
-    "rank": 3,
+    "rank": 4,
     "rankChange": -1,
     "metric": 1,
     "metricGrowth": 0.0,
-    "momentum": 64.0
+    "momentum": 54.0
    }
   ],
-  "darkhorses": [],
+  "darkhorses": [
+   {
+    "bookId": 1533211,
+    "title": "网游：我和怪物的一万种死法",
+    "author": "醉卧九重云",
+    "rank": 2,
+    "reason": "新上榜即进入前列"
+   }
+  ],
   "update_rate": 0.0,
-  "summary": "纵横游戏榜固化严重，头部断层明显。传统网游风头正劲，但“游戏降临现实+情绪流”题材虽有入榜但缺乏爆发力。目前榜单缺乏强力黑马，市场处于存量博弈。建议作者：避开纯粹的数值堆砌，深挖“游戏现实映射”下的极度反差与社交博弈，通过高密度的情绪钩子（如复仇、截胡）破局，而非单纯依赖系统流的平铺直叙。"
+  "summary": "游戏榜存量博弈特征显著，头部效应断层。榜单呈现“系统流+爽文”的同质化困境，爆款缺位导致月票基数低迷。新入榜的《死法》虽有创意，但整体缺乏强竞技或强社交驱动。\n\n**建议：** 编辑部需引导作者跳出“万倍增幅”等陈旧数值模板，挖掘“游戏+现实融合”或“高智商博弈”题材，在强情绪钩子（如复仇、反转）上做增量，而非单纯堆砌系统属性。"
  }
 }

@@ -1,5 +1,5 @@
 {
- "date": "2026-09-25",
+ "date": "2026-09-26",
  "board": {
   "slug": "one-day",
   "name": "24小时畅销榜",
@@ -11,25 +11,6 @@
  "books": [
   {
    "rank": 1,
-   "bookId": 1473406,
-   "title": "喀什的云朵",
-   "author": "乱世TICH",
-   "authorId": 52523027,
-   "authorCover": "",
-   "cover": "https://static.zongheng.com/upload/cover/b5/e4/b5e4994a01c7e36a3a7f4c514c9423d41779171556021.jpeg",
-   "category": "现实题材",
-   "cateFineId": 8109,
-   "metric": 241,
-   "metricLabel": "24h销量",
-   "serialStatus": 1,
-   "intro": "一场追逐诗和远方的“逃离”，却让陈风邂逅了生命中最美丽的云朵。\r 它们生长在喀什的大地上，漫山遍野，一望无际。",
-   "latestChapter": "第一百五十四章 喀什云朵",
-   "latestChapterTime": "03-18 11:56",
-   "updatedToday": false,
-   "url": "https://www.zongheng.com/book/1473406.html"
-  },
-  {
-   "rank": 2,
    "bookId": 1276087,
    "title": "西北风",
    "author": "方方土",
@@ -38,7 +19,7 @@
    "cover": "https://static.zongheng.com/upload/cover/13/05/1305e5bcdef92f53c65d3a081e6832a91789977163532.jpeg",
    "category": "现实题材",
    "cateFineId": 8109,
-   "metric": 217,
+   "metric": 263,
    "metricLabel": "24h销量",
    "serialStatus": 1,
    "intro": "20世纪70年代末，在西北戈壁某市居住着程姓一家，父亲程家安与母亲李秀兰是五十年代大西北垦荒建设者中的一员，他们将家庭的根系扎在了西北贫瘠荒凉的戈壁上，在艰苦的岁月里养育了他们的“三个半”孩子。然而命运的捉弄，却让这个本是普通平凡的家庭，历经了人世间许多令人唏嘘的悲欢离合，也书写了一部当代中国百姓的生活史诗。 【这是一部怀念父辈、见证过往的时代诗篇，也是希冀我们的后辈艰苦奋斗的时代备忘录。】",
@@ -51,33 +32,30 @@
  "trend": {
   "first_day": false,
   "new_count": 0,
-  "dropped_count": 0,
+  "dropped_count": 1,
   "new_books": [],
-  "dropped_books": [],
-  "top_movers": [
+  "dropped_books": [
    {
-    "bookId": 1473406,
     "title": "喀什的云朵",
     "author": "乱世TICH",
-    "rank": 1,
-    "rankChange": 1,
-    "metric": 241,
-    "metricGrowth": 4.7381,
-    "momentum": 79.2
-   },
+    "prevRank": 1,
+    "bookId": 1473406
+   }
+  ],
+  "top_movers": [
    {
     "bookId": 1276087,
     "title": "西北风",
     "author": "方方土",
-    "rank": 2,
-    "rankChange": -1,
-    "metric": 217,
-    "metricGrowth": -0.4953,
-    "momentum": 66.0
+    "rank": 1,
+    "rankChange": 1,
+    "metric": 263,
+    "metricGrowth": 0.212,
+    "momentum": 72.3
    }
   ],
   "darkhorses": [],
   "update_rate": 0.0,
-  "summary": "【24小时畅销榜·现实题材】《喀什的云朵》升 1 位至第 1 名。"
+  "summary": "【24小时畅销榜·现实题材】1 本掉榜；《西北风》升 1 位至第 1 名。"
  }
 }
