@@ -1,5 +1,5 @@
 {
- "date": "2026-09-27",
+ "date": "2026-09-28",
  "board": {
   "slug": "claque",
   "name": "捧场榜",
@@ -11,6 +11,25 @@
  "books": [
   {
    "rank": 1,
+   "bookId": 1420145,
+   "title": "星际猎人",
+   "author": "太极阴阳鱼",
+   "authorId": 13084761,
+   "authorCover": "",
+   "cover": "https://static.zongheng.com/upload/cover/3e/df/3edfe1017c78746090ecc7cd8cb58dac1790152634565.jpeg",
+   "category": "科幻",
+   "cateFineId": 8105,
+   "metric": 20500,
+   "metricLabel": "捧场",
+   "serialStatus": 0,
+   "intro": "母星毁于内战，少年从废墟走出，入万兽星球，闯上古遗弃之地，盗药都仙缘，窃未来文明科技……杀伐决断，打破历史轮回宿命，重燃文明之火。",
+   "latestChapter": "第1753章、主动出击（下）",
+   "latestChapterTime": "09-27 23:08",
+   "updatedToday": false,
+   "url": "https://www.zongheng.com/book/1420145.html"
+  },
+  {
+   "rank": 2,
    "bookId": 325639,
    "title": "星辰之主",
    "author": "减肥专家",
@@ -19,7 +38,7 @@
    "cover": "https://static.zongheng.com/upload/cover/5e/92/5e92bc1fbd960a00a17aaff6b5a59e4d1789041969921.jpeg",
    "category": "科幻",
    "cateFineId": 8105,
-   "metric": 21696,
+   "metric": 369,
    "metricLabel": "捧场",
    "serialStatus": 0,
    "intro": "世纪之交，人类懵懂着踏入星空，就此暴露在诸神的视线之下。少年罗南背负着祖父的罪孽，走出实验室，且看他： 高举燃烧的笔记，脚踏诸神的尸骨； 书写万物的格式，增删宇宙的星图。 当知：万物皆备于我；必信：吾心即是宇宙。",
@@ -29,55 +48,70 @@
    "url": "https://www.zongheng.com/book/325639.html"
   },
   {
-   "rank": 2,
-   "bookId": 1420145,
-   "title": "星际猎人",
-   "author": "太极阴阳鱼",
-   "authorId": 13084761,
+   "rank": 3,
+   "bookId": 1594453,
+   "title": "废土人命如草芥？我有外卖系统！",
+   "author": "菜籽油蛋",
+   "authorId": 89726014,
    "authorCover": "",
-   "cover": "https://static.zongheng.com/upload/cover/3e/df/3edfe1017c78746090ecc7cd8cb58dac1790152634565.jpeg",
+   "cover": "https://static.zongheng.com/upload/cover/c4/dc/c4dc2432272561efb473171b2ffe3cf31790236024195.jpeg",
    "category": "科幻",
    "cateFineId": 8105,
-   "metric": 16000,
+   "metric": 100,
    "metricLabel": "捧场",
    "serialStatus": 0,
-   "intro": "母星毁于内战，少年从废墟走出，入万兽星球，闯上古遗弃之地，盗药都仙缘，窃未来文明科技……杀伐决断，打破历史轮回宿命，重燃文明之火。",
-   "latestChapter": "第1749章、改变主意（加更2）",
-   "latestChapterTime": "09-27 01:50",
+   "intro": "白宇穿越到了食物匮乏、阶级分明且人命如草芥的废土，成为了领地中的一个奴隶。\r 父母双亡，资源匮乏，奴隶身份，天崩开局！\r 但好在前世的“拼宝东”购物软件跟着他一起穿越了，每天一百元额度。\r 当其他奴隶、灾民还在啃黑麦饼，喝黄泥坑水时，白宇早已一手烤鸡、一手柠檬红茶大快朵颐。\r 当其他人还身着破洞布衣时抵抗严寒时，白宇早已敞着上半身，躺在火炉的沙发上旁呼呼大睡。\r 正当白宇以为要在这个世界养老时，后续发生的一系列事情却让他意识到并没有想象中的那么简单。\r 异魔、畸变体横行，诡异乱世。\r 在这个背景下，白宇惊讶地发现自己的“拼宝东”升级了——\r “什么叫还能购买枪械？”\r “什么叫还能购买超凡魔种！？”",
+   "latestChapter": "第38章 资产么.....",
+   "latestChapterTime": "09-28 00:01",
    "updatedToday": true,
-   "url": "https://www.zongheng.com/book/1420145.html"
+   "url": "https://www.zongheng.com/book/1594453.html"
   }
  ],
  "trend": {
   "first_day": false,
-  "new_count": 0,
+  "new_count": 1,
   "dropped_count": 0,
-  "new_books": [],
+  "new_books": [
+   {
+    "title": "废土人命如草芥？我有外卖系统！",
+    "author": "菜籽油蛋",
+    "rank": 3,
+    "bookId": 1594453
+   }
+  ],
   "dropped_books": [],
   "top_movers": [
    {
     "bookId": 1420145,
     "title": "星际猎人",
     "author": "太极阴阳鱼",
-    "rank": 2,
-    "rankChange": 0,
-    "metric": 16000,
-    "metricGrowth": 52.3333,
-    "momentum": 86.0
+    "rank": 1,
+    "rankChange": 1,
+    "metric": 20500,
+    "metricGrowth": 0.2812,
+    "momentum": 72.6
    },
    {
     "bookId": 325639,
     "title": "星辰之主",
     "author": "减肥专家",
-    "rank": 1,
-    "rankChange": 0,
-    "metric": 21696,
-    "metricGrowth": 0.8873,
-    "momentum": 71.8
+    "rank": 2,
+    "rankChange": -1,
+    "metric": 369,
+    "metricGrowth": -0.983,
+    "momentum": 66.0
    }
   ],
-  "darkhorses": [],
-  "update_rate": 0.5,
-  "summary": "【捧场榜·科幻】榜单结构稳定，头部固若金汤。"
+  "darkhorses": [
+   {
+    "bookId": 1594453,
+    "title": "废土人命如草芥？我有外卖系统！",
+    "author": "菜籽油蛋",
+    "rank": 3,
+    "reason": "新上榜即进入前列"
+   }
+  ],
+  "update_rate": 0.333,
+  "summary": "【捧场榜·科幻】1 本新上榜；《星际猎人》升 1 位至第 1 名；黑马《废土人命如草芥？我有外卖系统！》第 3 名。"
  }
 }

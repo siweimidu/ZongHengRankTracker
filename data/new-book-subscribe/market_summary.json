@@ -1,33 +1,33 @@
 {
- "date": "2026-09-27",
+ "date": "2026-09-28",
  "category_heat": [
-  {
-   "name": "都市",
-   "count": 3,
-   "top10": 3,
-   "metric_sum_top10": 2101,
-   "heat": 71.8
-  },
   {
    "name": "玄幻奇幻",
    "count": 2,
    "top10": 2,
-   "metric_sum_top10": 2732,
-   "heat": 69.9
+   "metric_sum_top10": 11055,
+   "heat": 80.8
+  },
+  {
+   "name": "都市",
+   "count": 3,
+   "top10": 3,
+   "metric_sum_top10": 1092,
+   "heat": 66.7
   },
   {
    "name": "武侠仙侠",
    "count": 1,
    "top10": 1,
-   "metric_sum_top10": 576,
-   "heat": 53.7
+   "metric_sum_top10": 969,
+   "heat": 57.8
   },
   {
    "name": "历史",
    "count": 2,
    "top10": 2,
-   "metric_sum_top10": 204,
-   "heat": 49.6
+   "metric_sum_top10": 377,
+   "heat": 54.4
   },
   {
    "name": "科幻",
@@ -75,14 +75,6 @@
    "count": 1
   },
   {
-   "keyword": "系统",
-   "count": 1
-  },
-  {
-   "keyword": "重生",
-   "count": 1
-  },
-  {
    "keyword": "玄幻",
    "count": 1
   },
@@ -92,6 +84,14 @@
   },
   {
    "keyword": "争霸",
+   "count": 1
+  },
+  {
+   "keyword": "重生",
+   "count": 1
+  },
+  {
+   "keyword": "系统",
    "count": 1
   }
  ],
@@ -773,6 +773,26 @@
      "title": "年代：都重生了，还纠结娶谁？！",
      "author": "饱食",
      "bookId": 1566964
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "top3": [
+    {
+     "title": "无敌圣体",
+     "author": "列夕",
+     "bookId": 1562907
+    },
+    {
+     "title": "寒渊帝途",
+     "author": "长风天行",
+     "bookId": 1582826
+    },
+    {
+     "title": "贱籍仵作，从摸尸开始炼成武神",
+     "author": "弄潮",
+     "bookId": 1570492
     }
    ]
   }

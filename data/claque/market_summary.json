@@ -1,54 +1,54 @@
 {
- "date": "2026-09-27",
+ "date": "2026-09-28",
  "category_heat": [
   {
    "name": "历史",
-   "count": 28,
+   "count": 22,
    "top10": 10,
-   "metric_sum_top10": 2997599,
-   "heat": 156.6
+   "metric_sum_top10": 261504,
+   "heat": 137.5
   },
   {
    "name": "武侠仙侠",
-   "count": 28,
+   "count": 30,
    "top10": 10,
-   "metric_sum_top10": 386585,
-   "heat": 140.6
+   "metric_sum_top10": 31550,
+   "heat": 121.0
   },
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 218775,
-   "heat": 136.1
+   "metric_sum_top10": 8573,
+   "heat": 110.8
   },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 79511,
-   "heat": 128.2
-  },
-  {
-   "name": "奇闻异事",
-   "count": 5,
-   "top10": 5,
-   "metric_sum_top10": 11400,
-   "heat": 93.0
+   "metric_sum_top10": 3676,
+   "heat": 104.2
   },
   {
    "name": "科幻",
-   "count": 2,
-   "top10": 2,
-   "metric_sum_top10": 37696,
-   "heat": 90.4
+   "count": 3,
+   "top10": 3,
+   "metric_sum_top10": 20969,
+   "heat": 89.8
   },
   {
    "name": "N次元",
+   "count": 2,
+   "top10": 2,
+   "metric_sum_top10": 1400,
+   "heat": 64.6
+  },
+  {
+   "name": "奇闻异事",
    "count": 4,
    "top10": 4,
-   "metric_sum_top10": 1600,
-   "heat": 73.7
+   "metric_sum_top10": 400,
+   "heat": 62.9
   },
   {
    "name": "游戏",
@@ -68,15 +68,11 @@
  "keyword_heat": [
   {
    "keyword": "穿越",
-   "count": 6
+   "count": 7
   },
   {
    "keyword": "玄幻",
-   "count": 5
-  },
-  {
-   "keyword": "重生",
-   "count": 4
+   "count": 6
   },
   {
    "keyword": "无敌",
@@ -84,6 +80,10 @@
   },
   {
    "keyword": "修仙",
+   "count": 4
+  },
+  {
+   "keyword": "杀伐果断",
    "count": 3
   },
   {
@@ -91,7 +91,11 @@
    "count": 2
   },
   {
-   "keyword": "科技",
+   "keyword": "重生",
+   "count": 2
+  },
+  {
+   "keyword": "都市",
    "count": 2
   },
   {
@@ -99,8 +103,16 @@
    "count": 2
   },
   {
-   "keyword": "杀伐果断",
+   "keyword": "仙侠",
    "count": 2
+  },
+  {
+   "keyword": "星际",
+   "count": 1
+  },
+  {
+   "keyword": "科技",
+   "count": 1
   },
   {
    "keyword": "轻松",
@@ -111,15 +123,7 @@
    "count": 1
   },
   {
-   "keyword": "星际",
-   "count": 1
-  },
-  {
-   "keyword": "系统",
-   "count": 1
-  },
-  {
-   "keyword": "宗门",
+   "keyword": "群像",
    "count": 1
   }
  ],
@@ -921,6 +925,26 @@
      "title": "盗梦千年",
      "author": "咸鱼老白",
      "bookId": 1552353
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "top3": [
+    {
+     "title": "星际猎人",
+     "author": "太极阴阳鱼",
+     "bookId": 1420145
+    },
+    {
+     "title": "仙道至尊：我有修仙面板",
+     "author": "秋风揽月",
+     "bookId": 1618231
+    },
+    {
+     "title": "凡人修仙：疯了吧！你一百岁了还要修仙",
+     "author": "我家有母老虎",
+     "bookId": 1478384
     }
    ]
   }
