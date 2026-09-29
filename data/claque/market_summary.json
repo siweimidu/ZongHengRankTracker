@@ -1,54 +1,54 @@
 {
- "date": "2026-09-28",
+ "date": "2026-09-29",
  "category_heat": [
-  {
-   "name": "历史",
-   "count": 22,
-   "top10": 10,
-   "metric_sum_top10": 261504,
-   "heat": 137.5
-  },
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 31550,
-   "heat": 121.0
+   "metric_sum_top10": 177151,
+   "heat": 134.5
   },
   {
-   "name": "都市",
-   "count": 30,
+   "name": "历史",
+   "count": 25,
    "top10": 10,
-   "metric_sum_top10": 8573,
-   "heat": 110.8
+   "metric_sum_top10": 133517,
+   "heat": 132.3
   },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 3676,
-   "heat": 104.2
+   "metric_sum_top10": 46705,
+   "heat": 124.0
+  },
+  {
+   "name": "都市",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 32126,
+   "heat": 121.1
+  },
+  {
+   "name": "奇闻异事",
+   "count": 5,
+   "top10": 5,
+   "metric_sum_top10": 26681,
+   "heat": 99.7
   },
   {
    "name": "科幻",
    "count": 3,
    "top10": 3,
-   "metric_sum_top10": 20969,
-   "heat": 89.8
+   "metric_sum_top10": 68269,
+   "heat": 99.0
   },
   {
    "name": "N次元",
    "count": 2,
    "top10": 2,
-   "metric_sum_top10": 1400,
-   "heat": 64.6
-  },
-  {
-   "name": "奇闻异事",
-   "count": 4,
-   "top10": 4,
-   "metric_sum_top10": 400,
-   "heat": 62.9
+   "metric_sum_top10": 5100,
+   "heat": 74.7
   },
   {
    "name": "游戏",
@@ -68,23 +68,23 @@
  "keyword_heat": [
   {
    "keyword": "穿越",
-   "count": 7
-  },
-  {
-   "keyword": "玄幻",
-   "count": 6
+   "count": 10
   },
   {
    "keyword": "无敌",
    "count": 4
   },
   {
-   "keyword": "修仙",
+   "keyword": "玄幻",
    "count": 4
   },
   {
-   "keyword": "杀伐果断",
+   "keyword": "修仙",
    "count": 3
+  },
+  {
+   "keyword": "科技",
+   "count": 2
   },
   {
    "keyword": "历史",
@@ -95,23 +95,19 @@
    "count": 2
   },
   {
-   "keyword": "都市",
-   "count": 2
-  },
-  {
-   "keyword": "诸天",
-   "count": 2
-  },
-  {
-   "keyword": "仙侠",
-   "count": 2
-  },
-  {
    "keyword": "星际",
    "count": 1
   },
   {
-   "keyword": "科技",
+   "keyword": "种田",
+   "count": 1
+  },
+  {
+   "keyword": "大明",
+   "count": 1
+  },
+  {
+   "keyword": "杀伐果断",
    "count": 1
   },
   {
@@ -123,7 +119,11 @@
    "count": 1
   },
   {
-   "keyword": "群像",
+   "keyword": "仙侠",
+   "count": 1
+  },
+  {
+   "keyword": "诸天",
    "count": 1
   }
  ],
@@ -945,6 +945,26 @@
      "title": "凡人修仙：疯了吧！你一百岁了还要修仙",
      "author": "我家有母老虎",
      "bookId": 1478384
+    }
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "top3": [
+    {
+     "title": "明君",
+     "author": "知白",
+     "bookId": 1610880
+    },
+    {
+     "title": "独步缥缈",
+     "author": "空蝉时雨",
+     "bookId": 1437400
+    },
+    {
+     "title": "星际猎人",
+     "author": "太极阴阳鱼",
+     "bookId": 1420145
     }
    ]
   }
