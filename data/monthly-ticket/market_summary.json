@@ -1,96 +1,96 @@
 {
- "date": "2026-09-30",
+ "date": "2026-10-01",
  "category_heat": [
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 57652,
-   "heat": 125.7
+   "metric_sum_top10": 2129,
+   "heat": 99.9
   },
   {
    "name": "武侠仙侠",
-   "count": 30,
+   "count": 21,
    "top10": 10,
-   "metric_sum_top10": 31785,
-   "heat": 121.0
-  },
-  {
-   "name": "历史",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 17073,
-   "heat": 116.2
+   "metric_sum_top10": 685,
+   "heat": 91.1
   },
   {
    "name": "都市",
-   "count": 30,
+   "count": 24,
    "top10": 10,
-   "metric_sum_top10": 12214,
-   "heat": 113.6
+   "metric_sum_top10": 195,
+   "heat": 81.3
+  },
+  {
+   "name": "历史",
+   "count": 18,
+   "top10": 10,
+   "metric_sum_top10": 167,
+   "heat": 80.1
   },
   {
    "name": "现代言情",
-   "count": 30,
+   "count": 18,
    "top10": 10,
-   "metric_sum_top10": 4833,
-   "heat": 106.3
-  },
-  {
-   "name": "奇闻异事",
-   "count": 12,
-   "top10": 10,
-   "metric_sum_top10": 4562,
-   "heat": 105.9
+   "metric_sum_top10": 113,
+   "heat": 77.0
   },
   {
    "name": "古代言情",
-   "count": 30,
+   "count": 11,
    "top10": 10,
-   "metric_sum_top10": 3655,
-   "heat": 104.1
+   "metric_sum_top10": 31,
+   "heat": 67.1
+  },
+  {
+   "name": "奇闻异事",
+   "count": 4,
+   "top10": 4,
+   "metric_sum_top10": 97,
+   "heat": 51.8
   },
   {
    "name": "科幻",
-   "count": 12,
-   "top10": 10,
-   "metric_sum_top10": 3194,
-   "heat": 103.1
+   "count": 3,
+   "top10": 3,
+   "metric_sum_top10": 24,
+   "heat": 37.2
   },
   {
    "name": "N次元",
-   "count": 6,
-   "top10": 6,
-   "metric_sum_top10": 128,
-   "heat": 62.0
+   "count": 1,
+   "top10": 1,
+   "metric_sum_top10": 5,
+   "heat": 18.0
   },
   {
    "name": "游戏",
-   "count": 5,
-   "top10": 5,
-   "metric_sum_top10": 48,
-   "heat": 50.4
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
   },
   {
    "name": "现实题材",
-   "count": 2,
-   "top10": 2,
-   "metric_sum_top10": 12,
-   "heat": 28.1
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
   }
  ],
  "keyword_heat": [
   {
-   "keyword": "穿越",
+   "keyword": "玄幻",
    "count": 8
   },
   {
-   "keyword": "玄幻",
+   "keyword": "穿越",
    "count": 7
   },
   {
    "keyword": "无敌",
-   "count": 4
+   "count": 5
   },
   {
    "keyword": "诸天",
@@ -105,10 +105,6 @@
    "count": 2
   },
   {
-   "keyword": "科技",
-   "count": 2
-  },
-  {
    "keyword": "杀伐果断",
    "count": 2
   },
@@ -117,11 +113,11 @@
    "count": 2
   },
   {
-   "keyword": "系统",
+   "keyword": "轻松",
    "count": 2
   },
   {
-   "keyword": "轻松",
+   "keyword": "科技",
    "count": 2
   },
   {
@@ -129,7 +125,11 @@
    "count": 1
   },
   {
-   "keyword": "仙侠",
+   "keyword": "群像",
+   "count": 1
+  },
+  {
+   "keyword": "搞笑",
    "count": 1
   },
   {
@@ -137,7 +137,7 @@
    "count": 1
   },
   {
-   "keyword": "群像",
+   "keyword": "系统",
    "count": 1
   }
  ],
@@ -999,6 +999,26 @@
      "title": "齐天",
      "author": "日落红尘",
      "bookId": 1435440
+    }
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "top3": [
+    {
+     "title": "齐天",
+     "author": "日落红尘",
+     "bookId": 1435440
+    },
+    {
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "bookId": 1552353
+    },
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
     }
    ]
   }

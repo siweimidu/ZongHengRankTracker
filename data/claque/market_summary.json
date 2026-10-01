@@ -1,68 +1,40 @@
 {
- "date": "2026-09-30",
+ "date": "2026-10-01",
  "category_heat": [
-  {
-   "name": "都市",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 333160,
-   "heat": 139.4
-  },
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 297487,
-   "heat": 138.5
+   "metric_sum_top10": 1458775,
+   "heat": 151.0
+  },
+  {
+   "name": "都市",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 770635,
+   "heat": 146.0
   },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 167943,
-   "heat": 134.1
+   "metric_sum_top10": 204327,
+   "heat": 135.6
   },
   {
    "name": "历史",
-   "count": 27,
+   "count": 29,
    "top10": 10,
-   "metric_sum_top10": 140742,
-   "heat": 132.7
+   "metric_sum_top10": 149357,
+   "heat": 133.1
   },
   {
    "name": "奇闻异事",
-   "count": 6,
-   "top10": 6,
-   "metric_sum_top10": 37281,
-   "heat": 106.3
-  },
-  {
-   "name": "科幻",
-   "count": 3,
-   "top10": 3,
-   "metric_sum_top10": 100269,
-   "heat": 102.0
-  },
-  {
-   "name": "N次元",
-   "count": 2,
-   "top10": 2,
-   "metric_sum_top10": 5100,
-   "heat": 74.7
-  },
-  {
-   "name": "游戏",
-   "count": 0,
-   "top10": 0,
-   "metric_sum_top10": 0,
-   "heat": 0
-  },
-  {
-   "name": "现实题材",
-   "count": 0,
-   "top10": 0,
-   "metric_sum_top10": 0,
-   "heat": 0
+   "count": 7,
+   "top10": 7,
+   "metric_sum_top10": 69381,
+   "heat": 115.1
   }
  ],
  "keyword_heat": [
@@ -72,14 +44,14 @@
   },
   {
    "keyword": "玄幻",
+   "count": 5
+  },
+  {
+   "keyword": "无敌",
    "count": 4
   },
   {
    "keyword": "修仙",
-   "count": 4
-  },
-  {
-   "keyword": "重生",
    "count": 3
   },
   {
@@ -91,12 +63,16 @@
    "count": 2
   },
   {
-   "keyword": "无敌",
+   "keyword": "诸天",
    "count": 2
   },
   {
-   "keyword": "系统",
+   "keyword": "重生",
    "count": 2
+  },
+  {
+   "keyword": "都市",
+   "count": 1
   },
   {
    "keyword": "争霸",
@@ -119,11 +95,7 @@
    "count": 1
   },
   {
-   "keyword": "种田",
-   "count": 1
-  },
-  {
-   "keyword": "大明",
+   "keyword": "兵王",
    "count": 1
   }
  ],
@@ -985,6 +957,26 @@
      "title": "明君",
      "author": "知白",
      "bookId": 1610880
+    }
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "top3": [
+    {
+     "title": "盗梦千年",
+     "author": "咸鱼老白",
+     "bookId": 1552353
+    },
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "出狱即无敌，前妻跪求我原谅",
+     "author": "南极猫",
+     "bookId": 1385445
     }
    ]
   }
