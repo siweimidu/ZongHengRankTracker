@@ -1,5 +1,5 @@
 {
- "date": "2026-10-01",
+ "date": "2026-10-02",
  "board": {
   "slug": "monthly-ticket",
   "name": "月票榜",
@@ -8,47 +8,51 @@
   "metric_label": "月票"
  },
  "category": "游戏",
- "books": [],
+ "books": [
+  {
+   "rank": 1,
+   "bookId": 338556,
+   "title": "网游之剑刃舞者",
+   "author": "不是闻人",
+   "authorId": 9026826,
+   "authorCover": "",
+   "cover": "https://static.zongheng.com/upload/cover/b9/16/b916b2ba11f417d81e9c579e89639a1a1789041930406.jpeg",
+   "category": "游戏",
+   "cateFineId": 8107,
+   "metric": 15,
+   "metricLabel": "月票",
+   "serialStatus": 0,
+   "intro": "手握史诗神兵，身披史诗武装，谈笑间，群敌灰飞烟灭，这是一部热血沸腾的战斗物语……当然不是，其实只是个讲述一个不断推倒萌妹子的男人一路开挂的故事主角光环万岁！",
+   "latestChapter": "第9329章，坐不住的太乙",
+   "latestChapterTime": "09-30 23:40",
+   "updatedToday": false,
+   "url": "https://www.zongheng.com/book/338556.html"
+  }
+ ],
  "trend": {
   "first_day": false,
-  "new_count": 0,
-  "dropped_count": 5,
-  "new_books": [],
-  "dropped_books": [
+  "new_count": 1,
+  "dropped_count": 0,
+  "new_books": [
    {
     "title": "网游之剑刃舞者",
     "author": "不是闻人",
-    "prevRank": 1,
+    "rank": 1,
     "bookId": 338556
-   },
-   {
-    "title": "网游：我和怪物的一万种死法",
-    "author": "醉卧九重云",
-    "prevRank": 2,
-    "bookId": 1533211
-   },
-   {
-    "title": "网游：我有万倍增幅",
-    "author": "醉卧九重云",
-    "prevRank": 3,
-    "bookId": 1204546
-   },
-   {
-    "title": "游戏降临：开局清空青梅账号，她急哭了",
-    "author": "尘云",
-    "prevRank": 4,
-    "bookId": 1526773
-   },
-   {
-    "title": "网游：全是数值，你管这叫圣骑士？",
-    "author": "禅心道骨",
-    "prevRank": 5,
-    "bookId": 1572294
    }
   ],
+  "dropped_books": [],
   "top_movers": [],
-  "darkhorses": [],
-  "update_rate": 0,
-  "summary": "游戏分类进入“存量博弈”期，榜单流动性骤降，传统网游套路已触及读者审美疲劳。目前“数值流”与“反套路”题材虽有余温，但缺乏爆款接力，市场急需“游戏+现实/规则怪谈”等跨界融合创新。建议编辑部弱化纯数值堆砌题材，重点挖掘“游戏降临现实”背景下的高情绪价值作品，通过强化主角与现实世界的强关联，打破传统网游题材的审美天花板。"
+  "darkhorses": [
+   {
+    "bookId": 338556,
+    "title": "网游之剑刃舞者",
+    "author": "不是闻人",
+    "rank": 1,
+    "reason": "新上榜即进入前列"
+   }
+  ],
+  "update_rate": 0.0,
+  "summary": "纵横游戏分类陷入“存量博弈”困境，榜单缺乏强力新品对冲，头部效应极度萎缩。新晋榜首《网游之剑刃舞者》虽破局，但单日15票的低门槛预示赛道活跃度触底。建议编辑部：放弃纯传统网游设定，向“游戏+现实”或“游戏+修仙”的轻量化融合题材倾斜，通过高频强反馈的爽点叙事，激活沉寂的读者粘性。"
  }
 }

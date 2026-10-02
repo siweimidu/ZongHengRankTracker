@@ -1,40 +1,68 @@
 {
- "date": "2026-10-01",
+ "date": "2026-10-02",
  "category_heat": [
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 12897,
-   "heat": 114.0
-  },
-  {
-   "name": "武侠仙侠",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 9479,
-   "heat": 111.6
+   "metric_sum_top10": 16760,
+   "heat": 116.0
   },
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 9357,
-   "heat": 111.5
+   "metric_sum_top10": 12118,
+   "heat": 113.5
+  },
+  {
+   "name": "武侠仙侠",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 11918,
+   "heat": 113.4
   },
   {
    "name": "历史",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 7085,
-   "heat": 109.3
+   "metric_sum_top10": 8842,
+   "heat": 111.0
   },
   {
    "name": "科幻",
-   "count": 28,
+   "count": 30,
    "top10": 10,
-   "metric_sum_top10": 3826,
-   "heat": 104.5
+   "metric_sum_top10": 5246,
+   "heat": 107.0
+  },
+  {
+   "name": "奇闻异事",
+   "count": 22,
+   "top10": 10,
+   "metric_sum_top10": 1282,
+   "heat": 95.9
+  },
+  {
+   "name": "现实题材",
+   "count": 10,
+   "top10": 10,
+   "metric_sum_top10": 273,
+   "heat": 83.9
+  },
+  {
+   "name": "N次元",
+   "count": 12,
+   "top10": 10,
+   "metric_sum_top10": 261,
+   "heat": 83.5
+  },
+  {
+   "name": "游戏",
+   "count": 7,
+   "top10": 7,
+   "metric_sum_top10": 175,
+   "heat": 68.4
   }
  ],
  "keyword_heat": [
@@ -83,6 +111,10 @@
    "count": 1
   },
   {
+   "keyword": "末世",
+   "count": 1
+  },
+  {
    "keyword": "杀伐果断",
    "count": 1
   },
@@ -92,10 +124,6 @@
   },
   {
    "keyword": "搞笑",
-   "count": 1
-  },
-  {
-   "keyword": "末世",
    "count": 1
   }
  ],
@@ -977,6 +1005,26 @@
      "title": "星辰大道",
      "author": "随散飘风",
      "bookId": 1385191
+    }
+   ]
+  },
+  {
+   "date": "2026-10-02",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "星辰大道",
+     "author": "随散飘风",
+     "bookId": 1385191
+    },
+    {
+     "title": "最强狂兵Ⅱ：黑暗荣耀",
+     "author": "烈焰滔滔",
+     "bookId": 1366535
     }
    ]
   }
