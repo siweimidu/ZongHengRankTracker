@@ -1,7 +1,7 @@
 {
  "slug": "one-day-update",
  "name": "24小时更新榜",
- "date": "2026-10-02",
+ "date": "2026-10-03",
  "types": [
   {
    "name": "全部",
@@ -36,27 +36,27 @@
   {
    "name": "军事",
    "url": "api/one-day-update/latest/军事.json",
-   "count": 5
+   "count": 7
   },
   {
    "name": "科幻",
    "url": "api/one-day-update/latest/科幻.json",
-   "count": 17
+   "count": 16
   },
   {
    "name": "游戏",
    "url": "api/one-day-update/latest/游戏.json",
-   "count": 2
+   "count": 1
   },
   {
    "name": "N次元",
    "url": "api/one-day-update/latest/N次元.json",
-   "count": 8
+   "count": 7
   },
   {
    "name": "现实题材",
    "url": "api/one-day-update/latest/现实题材.json",
-   "count": 1
+   "count": 2
   }
  ]
 }
