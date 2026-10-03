@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-03T08:03:59",
+ "updated_at": "2026-10-04T07:27:17",
  "top": [
   {
    "bookId": 672340,
@@ -11,7 +11,7 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 26
+     "rank": 22
     },
     {
      "board": "one-day",
@@ -26,7 +26,7 @@
     {
      "board": "recommend",
      "name": "推荐榜",
-     "rank": 4
+     "rank": 3
     },
     {
      "board": "claque",
@@ -77,7 +77,7 @@
     {
      "board": "recommend",
      "name": "推荐榜",
-     "rank": 5
+     "rank": 6
     },
     {
      "board": "claque",
@@ -108,12 +108,12 @@
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 16
+     "rank": 18
     },
     {
      "board": "click",
      "name": "点击榜",
-     "rank": 13
+     "rank": 12
     },
     {
      "board": "recommend",
@@ -133,6 +133,47 @@
    ],
    "best_rank": 1,
    "score": 190
+  },
+  {
+   "bookId": 1435440,
+   "title": "齐天",
+   "author": "日落红尘",
+   "cover": "https://static.zongheng.com/upload/cover/43/10/431084171eca1f70f6c7809392ad72a5.jpeg",
+   "category": "玄幻奇幻",
+   "boards": [
+    {
+     "board": "monthly-ticket",
+     "name": "月票榜",
+     "rank": 2
+    },
+    {
+     "board": "one-day",
+     "name": "24小时畅销榜",
+     "rank": 10
+    },
+    {
+     "board": "click",
+     "name": "点击榜",
+     "rank": 15
+    },
+    {
+     "board": "recommend",
+     "name": "推荐榜",
+     "rank": 14
+    },
+    {
+     "board": "claque",
+     "name": "捧场榜",
+     "rank": 24
+    },
+    {
+     "board": "author-popularity",
+     "name": "作者人气榜",
+     "rank": 8
+    }
+   ],
+   "best_rank": 2,
+   "score": 189
   },
   {
    "bookId": 1385191,
@@ -164,7 +205,7 @@
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 6
+     "rank": 8
     },
     {
      "board": "author-popularity",
@@ -185,7 +226,7 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 13
+     "rank": 12
     },
     {
      "board": "one-day",
@@ -205,7 +246,7 @@
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 29
+     "rank": 25
     },
     {
      "board": "author-popularity",
@@ -241,12 +282,12 @@
     {
      "board": "recommend",
      "name": "推荐榜",
-     "rank": 3
+     "rank": 4
     },
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 25
+     "rank": 27
     },
     {
      "board": "author-popularity",
@@ -254,49 +295,8 @@
      "rank": 4
     }
    ],
-   "best_rank": 3,
-   "score": 188
-  },
-  {
-   "bookId": 1412188,
-   "title": "万仙来朝",
-   "author": "萧瑾瑜",
-   "cover": "https://static.zongheng.com/upload/cover/a1/0a/a10a8533aea3c7847c0637e3b7652bbf1786094149714.jpeg",
-   "category": "玄幻奇幻",
-   "boards": [
-    {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 8
-    },
-    {
-     "board": "one-day",
-     "name": "24小时畅销榜",
-     "rank": 6
-    },
-    {
-     "board": "click",
-     "name": "点击榜",
-     "rank": 12
-    },
-    {
-     "board": "recommend",
-     "name": "推荐榜",
-     "rank": 9
-    },
-    {
-     "board": "claque",
-     "name": "捧场榜",
-     "rank": 30
-    },
-    {
-     "board": "author-popularity",
-     "name": "作者人气榜",
-     "rank": 17
-    }
-   ],
-   "best_rank": 6,
-   "score": 175
+   "best_rank": 4,
+   "score": 177
   },
   {
    "bookId": 325639,
@@ -308,12 +308,12 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 29
+     "rank": 27
     },
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 22
+     "rank": 30
     },
     {
      "board": "click",
@@ -340,6 +340,47 @@
    "score": 174
   },
   {
+   "bookId": 1412188,
+   "title": "万仙来朝",
+   "author": "萧瑾瑜",
+   "cover": "https://static.zongheng.com/upload/cover/a1/0a/a10a8533aea3c7847c0637e3b7652bbf1786094149714.jpeg",
+   "category": "玄幻奇幻",
+   "boards": [
+    {
+     "board": "monthly-ticket",
+     "name": "月票榜",
+     "rank": 9
+    },
+    {
+     "board": "one-day",
+     "name": "24小时畅销榜",
+     "rank": 9
+    },
+    {
+     "board": "click",
+     "name": "点击榜",
+     "rank": 11
+    },
+    {
+     "board": "recommend",
+     "name": "推荐榜",
+     "rank": 9
+    },
+    {
+     "board": "claque",
+     "name": "捧场榜",
+     "rank": 29
+    },
+    {
+     "board": "author-popularity",
+     "name": "作者人气榜",
+     "rank": 17
+    }
+   ],
+   "best_rank": 9,
+   "score": 172
+  },
+  {
    "bookId": 1424492,
    "title": "封疆悍卒",
    "author": "宿言辰",
@@ -349,7 +390,7 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 17
+     "rank": 16
     },
     {
      "board": "one-day",
@@ -390,12 +431,12 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 12
+     "rank": 13
     },
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 13
+     "rank": 15
     },
     {
      "board": "click",
@@ -418,44 +459,8 @@
      "rank": 23
     }
    ],
-   "best_rank": 12,
-   "score": 169
-  },
-  {
-   "bookId": 1435440,
-   "title": "齐天",
-   "author": "日落红尘",
-   "cover": "https://static.zongheng.com/upload/cover/43/10/431084171eca1f70f6c7809392ad72a5.jpeg",
-   "category": "玄幻奇幻",
-   "boards": [
-    {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 1
-    },
-    {
-     "board": "one-day",
-     "name": "24小时畅销榜",
-     "rank": 10
-    },
-    {
-     "board": "click",
-     "name": "点击榜",
-     "rank": 15
-    },
-    {
-     "board": "recommend",
-     "name": "推荐榜",
-     "rank": 14
-    },
-    {
-     "board": "author-popularity",
-     "name": "作者人气榜",
-     "rank": 8
-    }
-   ],
-   "best_rank": 1,
-   "score": 165
+   "best_rank": 13,
+   "score": 168
   },
   {
    "bookId": 1610880,
@@ -467,7 +472,7 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 2
+     "rank": 1
     },
     {
      "board": "new-book",
@@ -482,7 +487,7 @@
     {
      "board": "recommend",
      "name": "推荐榜",
-     "rank": 6
+     "rank": 5
     },
     {
      "board": "claque",
@@ -492,6 +497,78 @@
    ],
    "best_rank": 1,
    "score": 165
+  },
+  {
+   "bookId": 1268659,
+   "title": "鸿蒙霸体诀",
+   "author": "鱼初见",
+   "cover": "https://static.zongheng.com/upload/cover/90/a2/90a2985bde7c88c8934409d48b8b481f1752805720652.jpeg",
+   "category": "玄幻奇幻",
+   "boards": [
+    {
+     "board": "monthly-ticket",
+     "name": "月票榜",
+     "rank": 8
+    },
+    {
+     "board": "one-day",
+     "name": "24小时畅销榜",
+     "rank": 6
+    },
+    {
+     "board": "click",
+     "name": "点击榜",
+     "rank": 7
+    },
+    {
+     "board": "recommend",
+     "name": "推荐榜",
+     "rank": 20
+    },
+    {
+     "board": "author-popularity",
+     "name": "作者人气榜",
+     "rank": 21
+    }
+   ],
+   "best_rank": 6,
+   "score": 150
+  },
+  {
+   "bookId": 1420145,
+   "title": "星际猎人",
+   "author": "太极阴阳鱼",
+   "cover": "https://static.zongheng.com/upload/cover/3e/df/3edfe1017c78746090ecc7cd8cb58dac1790152634565.jpeg",
+   "category": "科幻",
+   "boards": [
+    {
+     "board": "monthly-ticket",
+     "name": "月票榜",
+     "rank": 28
+    },
+    {
+     "board": "one-day",
+     "name": "24小时畅销榜",
+     "rank": 29
+    },
+    {
+     "board": "recommend",
+     "name": "推荐榜",
+     "rank": 17
+    },
+    {
+     "board": "claque",
+     "name": "捧场榜",
+     "rank": 6
+    },
+    {
+     "board": "one-day-update",
+     "name": "24小时更新榜",
+     "rank": 24
+    }
+   ],
+   "best_rank": 6,
+   "score": 150
   },
   {
    "bookId": 1415876,
@@ -530,42 +607,6 @@
    "score": 149
   },
   {
-   "bookId": 1268659,
-   "title": "鸿蒙霸体诀",
-   "author": "鱼初见",
-   "cover": "https://static.zongheng.com/upload/cover/90/a2/90a2985bde7c88c8934409d48b8b481f1752805720652.jpeg",
-   "category": "玄幻奇幻",
-   "boards": [
-    {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 10
-    },
-    {
-     "board": "one-day",
-     "name": "24小时畅销榜",
-     "rank": 7
-    },
-    {
-     "board": "click",
-     "name": "点击榜",
-     "rank": 7
-    },
-    {
-     "board": "recommend",
-     "name": "推荐榜",
-     "rank": 21
-    },
-    {
-     "board": "author-popularity",
-     "name": "作者人气榜",
-     "rank": 21
-    }
-   ],
-   "best_rank": 7,
-   "score": 149
-  },
-  {
    "bookId": 1494591,
    "title": "江山绝色榜",
    "author": "六如和尚",
@@ -575,17 +616,17 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 23
+     "rank": 25
     },
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 24
+     "rank": 28
     },
     {
      "board": "click",
      "name": "点击榜",
-     "rank": 9
+     "rank": 13
     },
     {
      "board": "recommend",
@@ -595,11 +636,11 @@
     {
      "board": "claque",
      "name": "捧场榜",
-     "rank": 8
+     "rank": 9
     }
    ],
-   "best_rank": 8,
-   "score": 148
+   "best_rank": 9,
+   "score": 147
   },
   {
    "bookId": 1473924,
@@ -616,12 +657,12 @@
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 20
+     "rank": 19
     },
     {
      "board": "click",
      "name": "点击榜",
-     "rank": 22
+     "rank": 21
     },
     {
      "board": "recommend",
@@ -636,6 +677,42 @@
    ],
    "best_rank": 11,
    "score": 145
+  },
+  {
+   "bookId": 1380095,
+   "title": "有帝族背景还开挂，我无敌了！",
+   "author": "不太勇敢",
+   "cover": "https://static.zongheng.com/upload/cover/e3/79/e379be61953b7925317e255149fcb9541789032043240.jpeg",
+   "category": "玄幻奇幻",
+   "boards": [
+    {
+     "board": "monthly-ticket",
+     "name": "月票榜",
+     "rank": 21
+    },
+    {
+     "board": "one-day",
+     "name": "24小时畅销榜",
+     "rank": 13
+    },
+    {
+     "board": "click",
+     "name": "点击榜",
+     "rank": 26
+    },
+    {
+     "board": "one-day-update",
+     "name": "24小时更新榜",
+     "rank": 16
+    },
+    {
+     "board": "author-popularity",
+     "name": "作者人气榜",
+     "rank": 25
+    }
+   ],
+   "best_rank": 13,
+   "score": 143
   },
   {
    "bookId": 1589055,
@@ -669,42 +746,6 @@
    "score": 140
   },
   {
-   "bookId": 1380095,
-   "title": "有帝族背景还开挂，我无敌了！",
-   "author": "不太勇敢",
-   "cover": "https://static.zongheng.com/upload/cover/e3/79/e379be61953b7925317e255149fcb9541789032043240.jpeg",
-   "category": "玄幻奇幻",
-   "boards": [
-    {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 21
-    },
-    {
-     "board": "one-day",
-     "name": "24小时畅销榜",
-     "rank": 17
-    },
-    {
-     "board": "click",
-     "name": "点击榜",
-     "rank": 26
-    },
-    {
-     "board": "one-day-update",
-     "name": "24小时更新榜",
-     "rank": 16
-    },
-    {
-     "board": "author-popularity",
-     "name": "作者人气榜",
-     "rank": 25
-    }
-   ],
-   "best_rank": 16,
-   "score": 140
-  },
-  {
    "bookId": 1360196,
    "title": "吞天神体",
    "author": "化十",
@@ -714,12 +755,12 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 20
+     "rank": 19
     },
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 15
+     "rank": 20
     },
     {
      "board": "click",
@@ -745,12 +786,12 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 24
+     "rank": 23
     },
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 21
+     "rank": 22
     },
     {
      "board": "click",
@@ -768,39 +809,8 @@
      "rank": 22
     }
    ],
-   "best_rank": 21,
-   "score": 135
-  },
-  {
-   "bookId": 1420145,
-   "title": "星际猎人",
-   "author": "太极阴阳鱼",
-   "cover": "https://static.zongheng.com/upload/cover/3e/df/3edfe1017c78746090ecc7cd8cb58dac1790152634565.jpeg",
-   "category": "科幻",
-   "boards": [
-    {
-     "board": "monthly-ticket",
-     "name": "月票榜",
-     "rank": 30
-    },
-    {
-     "board": "recommend",
-     "name": "推荐榜",
-     "rank": 17
-    },
-    {
-     "board": "claque",
-     "name": "捧场榜",
-     "rank": 7
-    },
-    {
-     "board": "one-day-update",
-     "name": "24小时更新榜",
-     "rank": 24
-    }
-   ],
-   "best_rank": 7,
-   "score": 124
+   "best_rank": 22,
+   "score": 134
   },
   {
    "bookId": 1410173,
@@ -812,12 +822,12 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 18
+     "rank": 20
     },
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 8
+     "rank": 7
     },
     {
      "board": "click",
@@ -827,11 +837,11 @@
     {
      "board": "recommend",
      "name": "推荐榜",
-     "rank": 11
+     "rank": 12
     }
    ],
-   "best_rank": 8,
-   "score": 123
+   "best_rank": 7,
+   "score": 124
   },
   {
    "bookId": 408586,
@@ -848,12 +858,12 @@
     {
      "board": "click",
      "name": "点击榜",
-     "rank": 11
+     "rank": 10
     },
     {
      "board": "recommend",
      "name": "推荐榜",
-     "rank": 12
+     "rank": 11
     },
     {
      "board": "claque",
@@ -861,8 +871,8 @@
      "rank": 16
     }
    ],
-   "best_rank": 11,
-   "score": 120
+   "best_rank": 10,
+   "score": 121
   },
   {
    "bookId": 1388197,
@@ -874,12 +884,12 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 28
+     "rank": 26
     },
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 18
+     "rank": 17
     },
     {
      "board": "recommend",
@@ -892,8 +902,8 @@
      "rank": 24
     }
    ],
-   "best_rank": 18,
-   "score": 113
+   "best_rank": 17,
+   "score": 114
   },
   {
    "bookId": 1296262,
@@ -905,7 +915,7 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 19
+     "rank": 18
     },
     {
      "board": "one-day",
@@ -915,7 +925,7 @@
     {
      "board": "click",
      "name": "点击榜",
-     "rank": 30
+     "rank": 29
     },
     {
      "board": "recommend",
@@ -923,8 +933,8 @@
      "rank": 27
     }
    ],
-   "best_rank": 19,
-   "score": 112
+   "best_rank": 18,
+   "score": 113
   },
   {
    "bookId": 1406951,
@@ -941,16 +951,16 @@
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 9
+     "rank": 8
     },
     {
      "board": "click",
      "name": "点击榜",
-     "rank": 10
+     "rank": 9
     }
    ],
-   "best_rank": 9,
-   "score": 97
+   "best_rank": 8,
+   "score": 98
   },
   {
    "bookId": 1596788,
@@ -962,7 +972,7 @@
     {
      "board": "new-book",
      "name": "新书榜",
-     "rank": 23
+     "rank": 21
     },
     {
      "board": "one-day-update",
@@ -983,7 +993,7 @@
     {
      "board": "one-day",
      "name": "24小时畅销榜",
-     "rank": 28
+     "rank": 26
     },
     {
      "board": "end",
@@ -1004,7 +1014,7 @@
     {
      "board": "new-book",
      "name": "新书榜",
-     "rank": 2
+     "rank": 3
     },
     {
      "board": "claque",
@@ -1012,8 +1022,8 @@
      "rank": 20
     }
    ],
-   "best_rank": 2,
-   "score": 89
+   "best_rank": 3,
+   "score": 88
   },
   {
    "bookId": 1456066,
@@ -1025,7 +1035,7 @@
     {
      "board": "monthly-ticket",
      "name": "月票榜",
-     "rank": 22
+     "rank": 24
     },
     {
      "board": "recommend",
