@@ -1,33 +1,33 @@
 {
- "date": "2026-10-03",
+ "date": "2026-10-05",
  "category_heat": [
+  {
+   "name": "都市",
+   "count": 4,
+   "top10": 4,
+   "metric_sum_top10": 3019,
+   "heat": 78.6
+  },
   {
    "name": "历史",
    "count": 3,
    "top10": 3,
-   "metric_sum_top10": 5157,
-   "heat": 78.8
-  },
-  {
-   "name": "都市",
-   "count": 3,
-   "top10": 3,
-   "metric_sum_top10": 2189,
-   "heat": 72.1
+   "metric_sum_top10": 3493,
+   "heat": 75.8
   },
   {
    "name": "武侠仙侠",
    "count": 1,
    "top10": 1,
-   "metric_sum_top10": 4355,
-   "heat": 69.5
+   "metric_sum_top10": 3823,
+   "heat": 68.5
   },
   {
    "name": "玄幻奇幻",
    "count": 1,
    "top10": 1,
-   "metric_sum_top10": 132,
-   "heat": 42.2
+   "metric_sum_top10": 20,
+   "heat": 27.8
   },
   {
    "name": "科幻",
@@ -75,7 +75,19 @@
    "count": 2
   },
   {
+   "keyword": "系统",
+   "count": 2
+  },
+  {
    "keyword": "宗门",
+   "count": 1
+  },
+  {
+   "keyword": "种田",
+   "count": 1
+  },
+  {
+   "keyword": "工业",
    "count": 1
   },
   {
@@ -84,10 +96,6 @@
   },
   {
    "keyword": "鉴宝",
-   "count": 1
-  },
-  {
-   "keyword": "系统",
    "count": 1
   },
   {
@@ -881,6 +889,26 @@
      "title": "斩佞，镇北，王天下！",
      "author": "幺三四",
      "bookId": 1568767
+    }
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "top3": [
+    {
+     "title": "一百岁老头子，谁让你装嫩修仙了",
+     "author": "火烈虫",
+     "bookId": 1572566
+    },
+    {
+     "title": "抱歉，我真的才高八斗",
+     "author": "牛奶有点多",
+     "bookId": 1583322
+    },
+    {
+     "title": "刚查出肝癌晚期，系统就让我败光一千亿",
+     "author": "今朝1",
+     "bookId": 1582383
     }
    ]
   }

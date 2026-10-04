@@ -1,5 +1,5 @@
 {
- "date": "2026-10-03",
+ "date": "2026-10-05",
  "board": {
   "slug": "one-day-update",
   "name": "24小时更新榜",
@@ -11,6 +11,25 @@
  "books": [
   {
    "rank": 1,
+   "bookId": 1041350,
+   "title": "我的弓箭带八倍镜",
+   "author": "九指狂人",
+   "authorId": 52031050,
+   "authorCover": "",
+   "cover": "https://static.zongheng.com/upload/cover/4e/b0/4eb04382a559f17393a6216eb709d5161789031394996.jpeg",
+   "category": "游戏",
+   "cateFineId": 8107,
+   "metric": 5132,
+   "metricLabel": "更新字数",
+   "serialStatus": 0,
+   "intro": "我楚沉，是个男人，是个无赖无耻之徒，同时也是俗人中的极品，当然，也是个见色起意的正人君子。 烟酒剑，混日子，一把长弓，街头江湖。这条荆棘丛生的路，黑暗满目，铁剑与血，玫瑰与王冠，无尽剑士的世界，杀戮是定则，城市高楼，热风火焰，就像是一场风暴，在遥远的机械青铜时代，卷起遗弃荒芜，横尸遍野！",
+   "latestChapter": "第587章 千尸",
+   "latestChapterTime": "10-04 23:14",
+   "updatedToday": false,
+   "url": "https://www.zongheng.com/book/1041350.html"
+  },
+  {
+   "rank": 2,
    "bookId": 1587443,
    "title": "网游：寂灭轮回，死亡即变强",
    "author": "时鸢",
@@ -19,43 +38,51 @@
    "cover": "https://static.zongheng.com/upload/cover/e9/69/e969796c5cd3d36e081a6ffe2e83797d1788413621172.jpeg",
    "category": "游戏",
    "cateFineId": 8107,
-   "metric": 4387,
+   "metric": 4591,
    "metricLabel": "更新字数",
    "serialStatus": 0,
    "intro": "“他跳了多少次了？”\r “整整两天半，少说七八十次。”\r “他疯了？”\r 宁尘跳塔自杀，死了足足一百次，终于觉醒了SSS级天赋【寂灭轮回】。\r 轮回不渡，神魂不灭。\r 死亡，不是终点，而是一个轮回。",
-   "latestChapter": "第92章 人不犯我，我不犯人",
-   "latestChapterTime": "10-03 00:02",
+   "latestChapter": "第96章 神火再现",
+   "latestChapterTime": "10-05 00:02",
    "updatedToday": true,
    "url": "https://www.zongheng.com/book/1587443.html"
   }
  ],
  "trend": {
   "first_day": false,
-  "new_count": 0,
-  "dropped_count": 1,
-  "new_books": [],
-  "dropped_books": [
+  "new_count": 1,
+  "dropped_count": 0,
+  "new_books": [
    {
     "title": "我的弓箭带八倍镜",
     "author": "九指狂人",
-    "prevRank": 1,
+    "rank": 1,
     "bookId": 1041350
    }
   ],
+  "dropped_books": [],
   "top_movers": [
    {
     "bookId": 1587443,
     "title": "网游：寂灭轮回，死亡即变强",
     "author": "时鸢",
-    "rank": 1,
-    "rankChange": 1,
-    "metric": 4387,
-    "metricGrowth": 0.0134,
-    "momentum": 71.0
+    "rank": 2,
+    "rankChange": -1,
+    "metric": 4591,
+    "metricGrowth": 0.0465,
+    "momentum": 66.9
    }
   ],
-  "darkhorses": [],
-  "update_rate": 1.0,
-  "summary": "【24小时更新榜·游戏】1 本掉榜；《网游：寂灭轮回，死亡即变强》升 1 位至第 1 名。"
+  "darkhorses": [
+   {
+    "bookId": 1041350,
+    "title": "我的弓箭带八倍镜",
+    "author": "九指狂人",
+    "rank": 1,
+    "reason": "新上榜即进入前列"
+   }
+  ],
+  "update_rate": 0.5,
+  "summary": "【24小时更新榜·游戏】1 本新上榜；黑马《我的弓箭带八倍镜》第 1 名。"
  }
 }

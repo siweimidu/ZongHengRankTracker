@@ -1,5 +1,5 @@
 {
- "date": "2026-10-03",
+ "date": "2026-10-05",
  "board": {
   "slug": "one-day-update",
   "name": "24小时更新榜",
@@ -11,25 +11,6 @@
  "books": [
   {
    "rank": 1,
-   "bookId": 1518442,
-   "title": "西望",
-   "author": "凌安少年",
-   "authorId": 53820683,
-   "authorCover": "",
-   "cover": "https://static.zongheng.com/upload/cover/5c/41/5c418e412195cc58cb87a587d69ce13b1774335629838.jpeg",
-   "category": "现实题材",
-   "cateFineId": 8109,
-   "metric": 5738,
-   "metricLabel": "更新字数",
-   "serialStatus": 0,
-   "intro": "1975年3月，新疆兵团建制撤销，消息公布后，人心浮动。\r 身为上海知青的李振新，是最早收拾行李的那拨人。\r 他一直渴望离开这里，回到繁华的上海，但命运却让他留了下来。\r 爱情的到来，父亲的离世，以及老班长张有福，为了救他被洪水卷走，连尸体都没找到。\r 这些事情，像一颗颗钉子，把他钉在了这片土地上。\r 他开始真正的用心感受新疆、感受兵团、感受这里的一切。\r 他也不再为了别人的目光活着，而是真正的为了自己。\r 渐渐地，他发现自己爱上了这片荒凉而又慷慨的土地。\r 1981年12月，中央决定恢复新疆兵团建制，改名为“新疆生产建设兵团”。\r 届时，李振新已经成为团场的技术骨干。\r 他的儿子也在这一年出生，并给他取名为···\r 希望。",
-   "latestChapter": "第十四章 最后一节课",
-   "latestChapterTime": "10-02 22:24",
-   "updatedToday": false,
-   "url": "https://www.zongheng.com/book/1518442.html"
-  },
-  {
-   "rank": 2,
    "bookId": 1568771,
    "title": "琢楚",
    "author": "白马出凉州",
@@ -38,51 +19,43 @@
    "cover": "https://static.zongheng.com/upload/cover/af/f6/aff6aa322312d203751279d410046f831784620543636.jpeg",
    "category": "现实题材",
    "cateFineId": 8109,
-   "metric": 5117,
+   "metric": 5224,
    "metricLabel": "更新字数",
    "serialStatus": 0,
    "intro": "本文以安徽省淮南市武王墩大墓考古发现为蓝本创作，该考古项目入选中国社会科学院“2024年中国考古新发现”及国家文物局“2024年度中国十大考古新发现”，引起国内外广泛关注。\r 这是多学科协作科学考古的典范之作——15所高校与科研机构跨界联合，考古学、材料科学、环境工程、生物基因、数字技术同场共舞。这次考古的意义，早已超越本身，是中国整体科技水平在人文领域的一次集中映照。\r 武王墩大墓考古工作人数最多时超百人，平均年龄不到30岁。他们是新时代青年传承中华优秀传统文化的生动注脚。\r 00后女研究生林小满，本科读计算机，考研时阴差阳错调剂到文物保护技术专业，成了著名考古学者沈徽明的关门弟子。她对这门“老古董”学问毫无兴致。\r 跟随导师全程参与武王墩发掘，林小满被出土文物所承载的楚文化深深吸引，渐渐爱上考古，也与不苟言笑的考古博士陆砚冰“相爱相杀”，最终走到一起。\r 本文采用双线叙事，既记录武王墩考古过程，又回望墓主人楚考烈王的一生际遇，带读者领略神秘绚烂的楚文化魅力。",
-   "latestChapter": "第12章 咋咋呼呼",
-   "latestChapterTime": "10-02 08:59",
+   "latestChapter": "第16章 杏花为证",
+   "latestChapterTime": "10-04 10:28",
    "updatedToday": false,
    "url": "https://www.zongheng.com/book/1568771.html"
   }
  ],
  "trend": {
   "first_day": false,
-  "new_count": 1,
-  "dropped_count": 0,
-  "new_books": [
+  "new_count": 0,
+  "dropped_count": 1,
+  "new_books": [],
+  "dropped_books": [
    {
     "title": "西望",
     "author": "凌安少年",
-    "rank": 1,
+    "prevRank": 1,
     "bookId": 1518442
    }
   ],
-  "dropped_books": [],
   "top_movers": [
    {
     "bookId": 1568771,
     "title": "琢楚",
     "author": "白马出凉州",
-    "rank": 2,
-    "rankChange": -1,
-    "metric": 5117,
-    "metricGrowth": 0.0656,
-    "momentum": 67.0
-   }
-  ],
-  "darkhorses": [
-   {
-    "bookId": 1518442,
-    "title": "西望",
-    "author": "凌安少年",
     "rank": 1,
-    "reason": "新上榜即进入前列"
+    "rankChange": 1,
+    "metric": 5224,
+    "metricGrowth": 0.0209,
+    "momentum": 71.1
    }
   ],
+  "darkhorses": [],
   "update_rate": 0.0,
-  "summary": "【24小时更新榜·现实题材】1 本新上榜；黑马《西望》第 1 名。"
+  "summary": "【24小时更新榜·现实题材】1 本掉榜；《琢楚》升 1 位至第 1 名。"
  }
 }

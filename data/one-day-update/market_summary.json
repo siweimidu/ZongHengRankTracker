@@ -1,96 +1,100 @@
 {
- "date": "2026-10-03",
+ "date": "2026-10-05",
  "category_heat": [
+  {
+   "name": "历史",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 130609,
+   "heat": 132.1
+  },
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 135077,
-   "heat": 132.4
+   "metric_sum_top10": 128822,
+   "heat": 132.0
   },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 120400,
+   "metric_sum_top10": 120777,
    "heat": 131.5
   },
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 113339,
-   "heat": 131.0
-  },
-  {
-   "name": "历史",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 109524,
-   "heat": 130.7
+   "metric_sum_top10": 106146,
+   "heat": 130.5
   },
   {
    "name": "奇闻异事",
-   "count": 13,
+   "count": 14,
    "top10": 10,
-   "metric_sum_top10": 85430,
-   "heat": 128.8
-  },
-  {
-   "name": "科幻",
-   "count": 16,
-   "top10": 10,
-   "metric_sum_top10": 60019,
-   "heat": 126.0
-  },
-  {
-   "name": "军事",
-   "count": 7,
-   "top10": 7,
-   "metric_sum_top10": 46406,
-   "heat": 112.0
+   "metric_sum_top10": 80103,
+   "heat": 128.3
   },
   {
    "name": "N次元",
-   "count": 7,
-   "top10": 7,
-   "metric_sum_top10": 43277,
-   "heat": 111.5
+   "count": 10,
+   "top10": 10,
+   "metric_sum_top10": 62522,
+   "heat": 126.3
   },
   {
-   "name": "现实题材",
-   "count": 2,
-   "top10": 2,
-   "metric_sum_top10": 10855,
-   "heat": 80.6
+   "name": "科幻",
+   "count": 11,
+   "top10": 10,
+   "metric_sum_top10": 59162,
+   "heat": 125.9
+  },
+  {
+   "name": "军事",
+   "count": 6,
+   "top10": 6,
+   "metric_sum_top10": 47868,
+   "heat": 108.2
   },
   {
    "name": "游戏",
+   "count": 2,
+   "top10": 2,
+   "metric_sum_top10": 9723,
+   "heat": 79.8
+  },
+  {
+   "name": "现实题材",
    "count": 1,
    "top10": 1,
-   "metric_sum_top10": 4387,
-   "heat": 69.6
+   "metric_sum_top10": 5224,
+   "heat": 70.9
   }
  ],
  "keyword_heat": [
   {
    "keyword": "穿越",
-   "count": 7
+   "count": 8
+  },
+  {
+   "keyword": "系统",
+   "count": 8
   },
   {
    "keyword": "无敌",
    "count": 6
   },
   {
-   "keyword": "系统",
-   "count": 5
-  },
-  {
-   "keyword": "都市",
-   "count": 4
+   "keyword": "万界",
+   "count": 3
   },
   {
    "keyword": "宗门",
+   "count": 3
+  },
+  {
+   "keyword": "诸天",
    "count": 3
   },
   {
@@ -99,19 +103,23 @@
   },
   {
    "keyword": "修仙",
-   "count": 2
+   "count": 3
   },
   {
-   "keyword": "玄幻",
-   "count": 2
+   "keyword": "都市",
+   "count": 3
   },
   {
    "keyword": "重生",
    "count": 2
   },
   {
-   "keyword": "苟道",
+   "keyword": "炼丹",
    "count": 2
+  },
+  {
+   "keyword": "末世",
+   "count": 1
   },
   {
    "keyword": "灵异",
@@ -122,15 +130,7 @@
    "count": 1
   },
   {
-   "keyword": "万界",
-   "count": 1
-  },
-  {
-   "keyword": "末世",
-   "count": 1
-  },
-  {
-   "keyword": "群像",
+   "keyword": "经营",
    "count": 1
   }
  ],
@@ -912,6 +912,26 @@
      "title": "吞天神体",
      "author": "化十",
      "bookId": 1360196
+    }
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "top3": [
+    {
+     "title": "最狂皇太子",
+     "author": "汉三",
+     "bookId": 1554262
+    },
+    {
+     "title": "断案，缉凶，武镇天下！",
+     "author": "仔仔大王",
+     "bookId": 1579880
+    },
+    {
+     "title": "爷爷托梦后，我靠戒指掌控万界",
+     "author": "一缕微光",
+     "bookId": 1555228
     }
    ]
   }
