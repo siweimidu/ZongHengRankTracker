@@ -1,5 +1,5 @@
 {
- "date": "2026-10-06",
+ "date": "2026-10-07",
  "board": {
   "slug": "end",
   "name": "完结榜",
@@ -11,6 +11,25 @@
  "books": [
   {
    "rank": 1,
+   "bookId": 738072,
+   "title": "制造为王",
+   "author": "资深农民工",
+   "authorId": 48944727,
+   "authorCover": "",
+   "cover": "https://static.zongheng.com/upload/cover/6f/a0/6fa09dfd2ec52adbd0c6ad5a76ebf3d81789087418991.jpeg",
+   "category": "现实题材",
+   "cateFineId": 8109,
+   "metric": 18,
+   "metricLabel": "阅读",
+   "serialStatus": 1,
+   "intro": "众多主流媒体说：我们即将从“中国制造年代”过渡到“中国智造年代”。作为混迹制造业近二十年的职场老鸟，作者很想写部属于我们“制造人”自己的小说，来回忆一下我们逝去的青春。 这部小说里描写了金领、白领、蓝领三个不同阶层的职场生态。从小说描写的部门职能来说上，涵盖了制造型企业当中的生产、质量、物流、财务、人事、销售、新产品开发、工程、持续改善等等功能块，这些工作职能有部分是作者亲自管理过的，而大部分是跟作者密切相关的旁系部门。作者通过一些故事情节，把他们串联在一起，让大家感受他们日常运作的种种场景和所面临的挑战。 书中的人物和情节虽然是虚构的，但是熟悉作者的朋友还是很容易找到小说人物的原型（请勿对号入座哈），部分情节甚至出自作者的工作笔记，保证了原汁原味。愿读者在阅读小说的过程中，品味职场中的辛酸苦辣的同时，能够收到一些收获；同年代的朋友，会有共鸣。如有意见或者建议，欢迎您的指点。",
+   "latestChapter": "尾声",
+   "latestChapterTime": "08-16 14:02",
+   "updatedToday": false,
+   "url": "https://www.zongheng.com/book/738072.html"
+  },
+  {
+   "rank": 2,
    "bookId": 1441713,
    "title": "向西，向西！",
    "author": "凌安少年",
@@ -29,7 +48,7 @@
    "url": "https://www.zongheng.com/book/1441713.html"
   },
   {
-   "rank": 2,
+   "rank": 3,
    "bookId": 1269472,
    "title": "春风又绿杨柳岸",
    "author": "乐活漫记",
@@ -50,13 +69,49 @@
  ],
  "trend": {
   "first_day": false,
-  "new_count": 0,
+  "new_count": 1,
   "dropped_count": 0,
-  "new_books": [],
+  "new_books": [
+   {
+    "title": "制造为王",
+    "author": "资深农民工",
+    "rank": 1,
+    "bookId": 738072
+   }
+  ],
   "dropped_books": [],
-  "top_movers": [],
-  "darkhorses": [],
+  "top_movers": [
+   {
+    "bookId": 1441713,
+    "title": "向西，向西！",
+    "author": "凌安少年",
+    "rank": 2,
+    "rankChange": -1,
+    "metric": 1312,
+    "metricGrowth": 0.0,
+    "momentum": 66.0
+   },
+   {
+    "bookId": 1269472,
+    "title": "春风又绿杨柳岸",
+    "author": "乐活漫记",
+    "rank": 3,
+    "rankChange": -1,
+    "metric": 920,
+    "metricGrowth": 0.0,
+    "momentum": 64.0
+   }
+  ],
+  "darkhorses": [
+   {
+    "bookId": 738072,
+    "title": "制造为王",
+    "author": "资深农民工",
+    "rank": 1,
+    "reason": "新上榜即进入前列"
+   }
+  ],
   "update_rate": 0.0,
-  "summary": "【完结榜·现实题材】榜单结构稳定，头部固若金汤。"
+  "summary": "【完结榜·现实题材】1 本新上榜；黑马《制造为王》第 1 名。"
  }
 }

@@ -1,75 +1,75 @@
 {
- "date": "2026-10-06",
+ "date": "2026-10-07",
  "category_heat": [
-  {
-   "name": "历史",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 168104,
-   "heat": 134.1
-  },
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 141879,
+   "metric_sum_top10": 147723,
+   "heat": 133.1
+  },
+  {
+   "name": "历史",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 140871,
    "heat": 132.7
   },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 113923,
-   "heat": 131.0
+   "metric_sum_top10": 125650,
+   "heat": 131.8
   },
   {
    "name": "武侠仙侠",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 102134,
-   "heat": 130.2
+   "metric_sum_top10": 122265,
+   "heat": 131.6
   },
   {
    "name": "奇闻异事",
    "count": 13,
    "top10": 10,
-   "metric_sum_top10": 70360,
-   "heat": 127.3
+   "metric_sum_top10": 69561,
+   "heat": 127.2
   },
   {
    "name": "科幻",
-   "count": 10,
+   "count": 13,
    "top10": 10,
-   "metric_sum_top10": 60237,
+   "metric_sum_top10": 59637,
    "heat": 126.0
   },
   {
    "name": "N次元",
-   "count": 10,
-   "top10": 10,
-   "metric_sum_top10": 59501,
-   "heat": 125.9
+   "count": 7,
+   "top10": 7,
+   "metric_sum_top10": 46861,
+   "heat": 112.1
   },
   {
    "name": "军事",
-   "count": 7,
-   "top10": 7,
-   "metric_sum_top10": 56202,
-   "heat": 113.5
+   "count": 6,
+   "top10": 6,
+   "metric_sum_top10": 57911,
+   "heat": 109.7
   },
   {
    "name": "游戏",
    "count": 2,
    "top10": 2,
-   "metric_sum_top10": 13159,
-   "heat": 82.1
+   "metric_sum_top10": 8599,
+   "heat": 78.8
   },
   {
    "name": "现实题材",
    "count": 1,
    "top10": 1,
-   "metric_sum_top10": 5686,
-   "heat": 71.6
+   "metric_sum_top10": 4374,
+   "heat": 69.5
   }
  ],
  "keyword_heat": [
@@ -78,35 +78,27 @@
    "count": 8
   },
   {
-   "keyword": "修仙",
-   "count": 4
-  },
-  {
-   "keyword": "宗门",
-   "count": 3
+   "keyword": "系统",
+   "count": 7
   },
   {
    "keyword": "无敌",
-   "count": 3
+   "count": 4
   },
   {
    "keyword": "万界",
-   "count": 2
-  },
-  {
-   "keyword": "系统",
-   "count": 2
-  },
-  {
-   "keyword": "灵异",
-   "count": 2
-  },
-  {
-   "keyword": "都市",
-   "count": 2
+   "count": 3
   },
   {
    "keyword": "诸天",
+   "count": 3
+  },
+  {
+   "keyword": "都市",
+   "count": 3
+  },
+  {
+   "keyword": "宗门",
    "count": 2
   },
   {
@@ -114,15 +106,19 @@
    "count": 2
   },
   {
-   "keyword": "大明",
-   "count": 1
+   "keyword": "修仙",
+   "count": 2
   },
   {
    "keyword": "末世",
    "count": 1
   },
   {
-   "keyword": "重生",
+   "keyword": "美食",
+   "count": 1
+  },
+  {
+   "keyword": "大明",
    "count": 1
   },
   {
@@ -130,7 +126,11 @@
    "count": 1
   },
   {
-   "keyword": "苟道",
+   "keyword": "重生",
+   "count": 1
+  },
+  {
+   "keyword": "种田",
    "count": 1
   }
  ],
@@ -952,6 +952,26 @@
      "title": "最狂皇太子",
      "author": "汉三",
      "bookId": 1554262
+    }
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "top3": [
+    {
+     "title": "爷爷托梦后，我靠戒指掌控万界",
+     "author": "一缕微光",
+     "bookId": 1555228
+    },
+    {
+     "title": "谁让他再次入伍的！",
+     "author": "小呀小馒头",
+     "bookId": 1576742
+    },
+    {
+     "title": "仙界崩塌后，我收留了陨落仙子",
+     "author": "玄风异人",
+     "bookId": 1587446
     }
    ]
   }

@@ -1,5 +1,5 @@
 {
- "date": "2026-10-06",
+ "date": "2026-10-07",
  "board": {
   "slug": "claque",
   "name": "捧场榜",
@@ -19,13 +19,13 @@
    "cover": "https://static.zongheng.com/upload/cover/3e/df/3edfe1017c78746090ecc7cd8cb58dac1790152634565.jpeg",
    "category": "科幻",
    "cateFineId": 8105,
-   "metric": 10600,
+   "metric": 15600,
    "metricLabel": "捧场",
    "serialStatus": 0,
    "intro": "母星毁于内战，少年从废墟走出，入万兽星球，闯上古遗弃之地，盗药都仙缘，窃未来文明科技……杀伐决断，打破历史轮回宿命，重燃文明之火。",
-   "latestChapter": "第1790章、把水搅浑",
-   "latestChapterTime": "10-06 09:09",
-   "updatedToday": true,
+   "latestChapter": "第1792章、红花绿叶",
+   "latestChapterTime": "10-06 20:20",
+   "updatedToday": false,
    "url": "https://www.zongheng.com/book/1420145.html"
   },
   {
@@ -38,7 +38,7 @@
    "cover": "https://static.zongheng.com/upload/cover/5e/92/5e92bc1fbd960a00a17aaff6b5a59e4d1789041969921.jpeg",
    "category": "科幻",
    "cateFineId": 8105,
-   "metric": 769,
+   "metric": 1268,
    "metricLabel": "捧场",
    "serialStatus": 0,
    "intro": "世纪之交，人类懵懂着踏入星空，就此暴露在诸神的视线之下。少年罗南背负着祖父的罪孽，走出实验室，且看他： 高举燃烧的笔记，脚踏诸神的尸骨； 书写万物的格式，增删宇宙的星图。 当知：万物皆备于我；必信：吾心即是宇宙。",
@@ -49,6 +49,25 @@
   },
   {
    "rank": 3,
+   "bookId": 1089055,
+   "title": "暗体",
+   "author": "沣水森",
+   "authorId": 52952680,
+   "authorCover": "",
+   "cover": "https://static.zongheng.com/upload/cover/a1/96/a19615972ad2140d568850b26f248fe51789030669843.jpeg",
+   "category": "科幻",
+   "cateFineId": 8105,
+   "metric": 1,
+   "metricLabel": "捧场",
+   "serialStatus": 0,
+   "intro": "惊心动魄的地球保卫战之后，英雄降世，迎来一场波澜壮阔的宇宙探险之旅，暗夜之下，追逐万千星体，迎击无尽文明。",
+   "latestChapter": "第947章 反时间膨胀效应",
+   "latestChapterTime": "10-06 12:00",
+   "updatedToday": false,
+   "url": "https://www.zongheng.com/book/1089055.html"
+  },
+  {
+   "rank": 4,
    "bookId": 1488852,
    "title": "摘星",
    "author": "辰燃",
@@ -61,17 +80,24 @@
    "metricLabel": "捧场",
    "serialStatus": 0,
    "intro": "【机甲+末世+拾荒+机兽】\r 异星入侵，文明崩坏！生态剧变，末日降临！\r 机兽战甲，金属碰撞！万千异能，谁与争锋！\r 拾荒者方远探索迫降荒漠的失落星舰，意外获得超文明机甲。\r 回收核心，点燃进化图谱！\r 【动力装置∶赤霄反应堆……烛龙奇点炉……归墟源质引擎……】\r 【装甲∶玄武生物纤维护甲……纳米自适应装甲……超维相移装甲……】\r 【武装1：飞烟等离子光束剑……共振粒子刃……反物质湮灭剑……】\r 【武装2：天火脉冲炮……】\r 少年崛起于微末，纵横寰宇，只手摘星！",
-   "latestChapter": "第656章   义薄云天",
-   "latestChapterTime": "10-06 08:04",
+   "latestChapter": "第658章   飞龙拾荒团",
+   "latestChapterTime": "10-07 08:02",
    "updatedToday": true,
    "url": "https://www.zongheng.com/book/1488852.html"
   }
  ],
  "trend": {
   "first_day": false,
-  "new_count": 0,
+  "new_count": 1,
   "dropped_count": 0,
-  "new_books": [],
+  "new_books": [
+   {
+    "title": "暗体",
+    "author": "沣水森",
+    "rank": 3,
+    "bookId": 1089055
+   }
+  ],
   "dropped_books": [],
   "top_movers": [
    {
@@ -79,24 +105,42 @@
     "title": "星际猎人",
     "author": "太极阴阳鱼",
     "rank": 1,
-    "rankChange": 1,
-    "metric": 10600,
-    "metricGrowth": -0.9344,
-    "momentum": 70.5
+    "rankChange": 0,
+    "metric": 15600,
+    "metricGrowth": 0.4717,
+    "momentum": 70.7
    },
    {
     "bookId": 325639,
     "title": "星辰之主",
     "author": "减肥专家",
     "rank": 2,
+    "rankChange": 0,
+    "metric": 1268,
+    "metricGrowth": 0.6489,
+    "momentum": 69.2
+   },
+   {
+    "bookId": 1488852,
+    "title": "摘星",
+    "author": "辰燃",
+    "rank": 4,
     "rankChange": -1,
-    "metric": 769,
-    "metricGrowth": 0.3515,
-    "momentum": 68.4
+    "metric": 5000,
+    "metricGrowth": 0.0,
+    "momentum": 54.0
    }
   ],
-  "darkhorses": [],
-  "update_rate": 0.667,
-  "summary": "【捧场榜·科幻】《星际猎人》升 1 位至第 1 名。"
+  "darkhorses": [
+   {
+    "bookId": 1089055,
+    "title": "暗体",
+    "author": "沣水森",
+    "rank": 3,
+    "reason": "新上榜即进入前列"
+   }
+  ],
+  "update_rate": 0.25,
+  "summary": "【捧场榜·科幻】1 本新上榜；黑马《暗体》第 3 名。"
  }
 }
