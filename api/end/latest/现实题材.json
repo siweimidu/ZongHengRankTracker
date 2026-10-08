@@ -1,5 +1,5 @@
 {
- "date": "2026-10-07",
+ "date": "2026-10-08",
  "board": {
   "slug": "end",
   "name": "完结榜",
@@ -69,49 +69,13 @@
  ],
  "trend": {
   "first_day": false,
-  "new_count": 1,
+  "new_count": 0,
   "dropped_count": 0,
-  "new_books": [
-   {
-    "title": "制造为王",
-    "author": "资深农民工",
-    "rank": 1,
-    "bookId": 738072
-   }
-  ],
+  "new_books": [],
   "dropped_books": [],
-  "top_movers": [
-   {
-    "bookId": 1441713,
-    "title": "向西，向西！",
-    "author": "凌安少年",
-    "rank": 2,
-    "rankChange": -1,
-    "metric": 1312,
-    "metricGrowth": 0.0,
-    "momentum": 66.0
-   },
-   {
-    "bookId": 1269472,
-    "title": "春风又绿杨柳岸",
-    "author": "乐活漫记",
-    "rank": 3,
-    "rankChange": -1,
-    "metric": 920,
-    "metricGrowth": 0.0,
-    "momentum": 64.0
-   }
-  ],
-  "darkhorses": [
-   {
-    "bookId": 738072,
-    "title": "制造为王",
-    "author": "资深农民工",
-    "rank": 1,
-    "reason": "新上榜即进入前列"
-   }
-  ],
+  "top_movers": [],
+  "darkhorses": [],
   "update_rate": 0.0,
-  "summary": "【完结榜·现实题材】1 本新上榜；黑马《制造为王》第 1 名。"
+  "summary": "【完结榜·现实题材】榜单结构稳定，头部固若金汤。"
  }
 }

@@ -1,0 +1,2164 @@
+{
+ "date": "2026-10-08",
+ "prev_date": "2026-10-07",
+ "board": {
+  "slug": "new-book",
+  "name": "新书榜",
+  "rankType": 4,
+  "period": 0
+ },
+ "trends": {
+  "全部": {
+   "first_day": false,
+   "new_count": 6,
+   "dropped_count": 6,
+   "new_books": [
+    {
+     "title": "灵脉被废，我手持血镰cos死神",
+     "author": "一只小生",
+     "rank": 13,
+     "bookId": 1621991
+    },
+    {
+     "title": "人在高武，人生模拟器绑定洪荒",
+     "author": "明啸",
+     "rank": 16,
+     "bookId": 1610817
+    },
+    {
+     "title": "人在魔宗，我用仙鼎铸长生",
+     "author": "大王且慢",
+     "rank": 17,
+     "bookId": 1611786
+    },
+    {
+     "title": "这个世子，有点猛！",
+     "author": "少吃亿点",
+     "rank": 19,
+     "bookId": 1620007
+    },
+    {
+     "title": "我四哥是朱棣，目标日不落帝国",
+     "author": "迷茫无所谓",
+     "rank": 28,
+     "bookId": 1621955
+    },
+    {
+     "title": "爆仓后：我觉醒股票预测系统狂赚百万",
+     "author": "公子富",
+     "rank": 30,
+     "bookId": 1620561
+    }
+   ],
+   "dropped_books": [
+    {
+     "title": "被家族驱逐？抱歉，我高武无敌",
+     "author": "砚底沉星",
+     "prevRank": 7,
+     "bookId": 1594449
+    },
+    {
+     "title": "我在东北缝尸那些年",
+     "author": "散人的笔",
+     "prevRank": 16,
+     "bookId": 1596788
+    },
+    {
+     "title": "我一杂役，怎么成圣女孩子他爹了？",
+     "author": "梦九歌",
+     "prevRank": 17,
+     "bookId": 1622117
+    },
+    {
+     "title": "分手后，豪横白富美求我一起修仙",
+     "author": "我真是饱了",
+     "prevRank": 27,
+     "bookId": 1620285
+    },
+    {
+     "title": "魔门来了个软饭王",
+     "author": "清酒半壶",
+     "prevRank": 29,
+     "bookId": 1622837
+    },
+    {
+     "title": "每日情报，开局获取小李飞刀",
+     "author": "白日飞梦",
+     "prevRank": 30,
+     "bookId": 1593910
+    }
+   ],
+   "top_movers": [
+    {
+     "bookId": 1610880,
+     "title": "明君",
+     "author": "知白",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 1613475,
+     "metricGrowth": 0.3852,
+     "momentum": 70.5
+    },
+    {
+     "bookId": 1618231,
+     "title": "仙道至尊：我有修仙面板",
+     "author": "秋风揽月",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 6894,
+     "metricGrowth": 0.1936,
+     "momentum": 67.8
+    },
+    {
+     "bookId": 1619449,
+     "title": "帝关",
+     "author": "天意留香本尊",
+     "rank": 3,
+     "rankChange": 0,
+     "metric": 6862,
+     "metricGrowth": 0.5198,
+     "momentum": 66.9
+    },
+    {
+     "bookId": 1619620,
+     "title": "凡人：她抓我转移丹毒我逃去宗门当杂役",
+     "author": "吃鸡蛋的蜗牛",
+     "rank": 10,
+     "rankChange": 18,
+     "metric": 3047,
+     "metricGrowth": 0.8455,
+     "momentum": 65.7
+    },
+    {
+     "bookId": 1594343,
+     "title": "大道仙种",
+     "author": "黄泉隼",
+     "rank": 8,
+     "rankChange": 6,
+     "metric": 3173,
+     "metricGrowth": 0.6762,
+     "momentum": 64.3
+    },
+    {
+     "bookId": 1603594,
+     "title": "边军营长",
+     "author": "男人四十",
+     "rank": 14,
+     "rankChange": 10,
+     "metric": 2824,
+     "metricGrowth": 0.6156,
+     "momentum": 57.1
+    },
+    {
+     "bookId": 1595751,
+     "title": "让你当个纨绔，你咋毒谋天下",
+     "author": "人生短短急个球",
+     "rank": 4,
+     "rankChange": 0,
+     "metric": 4894,
+     "metricGrowth": 0.3833,
+     "momentum": 56.5
+    },
+    {
+     "bookId": 1594342,
+     "title": "凡人武圣",
+     "author": "狼太孤",
+     "rank": 9,
+     "rankChange": 3,
+     "metric": 3080,
+     "metricGrowth": 0.5362,
+     "momentum": 54.4
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1619620,
+     "title": "凡人：她抓我转移丹毒我逃去宗门当杂役",
+     "author": "吃鸡蛋的蜗牛",
+     "rank": 10,
+     "reason": "一日上升 18 位"
+    },
+    {
+     "bookId": 1621991,
+     "title": "灵脉被废，我手持血镰cos死神",
+     "author": "一只小生",
+     "rank": 13,
+     "reason": "新上榜即进入前列"
+    },
+    {
+     "bookId": 1603594,
+     "title": "边军营长",
+     "author": "男人四十",
+     "rank": 14,
+     "reason": "一日上升 10 位"
+    },
+    {
+     "bookId": 1622055,
+     "title": "拳镇列强，武压邪魔，民国第一武圣！",
+     "author": "藏雷客",
+     "rank": 18,
+     "reason": "一日上升 8 位"
+    }
+   ],
+   "update_rate": 0.733,
+   "summary": "【新书榜·全部】6 本新上榜；6 本掉榜；黑马《凡人：她抓我转移丹毒我逃去宗门当杂役》第 10 名；当日更新率 73%。"
+  },
+  "玄幻奇幻": {
+   "first_day": false,
+   "new_count": 4,
+   "dropped_count": 4,
+   "new_books": [
+    {
+     "title": "无敌刽子手，开局签到十年功力",
+     "author": "日月与暮",
+     "rank": 27,
+     "bookId": 1620550
+    },
+    {
+     "title": "从乞丐开始破限登神！",
+     "author": "一把电吹风",
+     "rank": 28,
+     "bookId": 1596284
+    },
+    {
+     "title": "全民海岛：我能垂钓百变卡牌",
+     "author": "万年斩一剑",
+     "rank": 29,
+     "bookId": 1594262
+    },
+    {
+     "title": "修仙：道侣变强我越强",
+     "author": "小生无礼",
+     "rank": 30,
+     "bookId": 1593239
+    }
+   ],
+   "dropped_books": [
+    {
+     "title": "从贱籍戏子肝成万法道君！",
+     "author": "柴vvvvv",
+     "prevRank": 12,
+     "bookId": 1594339
+    },
+    {
+     "title": "肝出个武道至尊！",
+     "author": "情道妙元君y",
+     "prevRank": 13,
+     "bookId": 1596069
+    },
+    {
+     "title": "帝狱塔：开局修阴阳大道，证无上仙帝！",
+     "author": "钧秋",
+     "prevRank": 20,
+     "bookId": 1620786
+    },
+    {
+     "title": "凡人修仙：从捡到七彩小鼎开始",
+     "author": "曼巴红茶",
+     "prevRank": 29,
+     "bookId": 1619460
+    }
+   ],
+   "top_movers": [
+    {
+     "bookId": 1611786,
+     "title": "人在魔宗，我用仙鼎铸长生",
+     "author": "大王且慢",
+     "rank": 4,
+     "rankChange": 6,
+     "metric": 2636,
+     "metricGrowth": 0.9326,
+     "momentum": 72.9
+    },
+    {
+     "bookId": 1621991,
+     "title": "灵脉被废，我手持血镰cos死神",
+     "author": "一只小生",
+     "rank": 3,
+     "rankChange": 2,
+     "metric": 2874,
+     "metricGrowth": 0.8213,
+     "momentum": 72.6
+    },
+    {
+     "bookId": 1619449,
+     "title": "帝关",
+     "author": "天意留香本尊",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 6862,
+     "metricGrowth": 0.5198,
+     "momentum": 70.9
+    },
+    {
+     "bookId": 1594342,
+     "title": "凡人武圣",
+     "author": "狼太孤",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 3080,
+     "metricGrowth": 0.5362,
+     "momentum": 68.9
+    },
+    {
+     "bookId": 1596065,
+     "title": "大乾武圣，从成为捕快开始！",
+     "author": "提壶酱油去打酒",
+     "rank": 14,
+     "rankChange": 10,
+     "metric": 1907,
+     "metricGrowth": 0.5244,
+     "momentum": 56.9
+    },
+    {
+     "bookId": 1619455,
+     "title": "铸神朝",
+     "author": "只出三剑",
+     "rank": 7,
+     "rankChange": 2,
+     "metric": 2178,
+     "metricGrowth": 0.5327,
+     "momentum": 55.9
+    },
+    {
+     "bookId": 1622171,
+     "title": "修仙，从夜香郎开始",
+     "author": "馀杯",
+     "rank": 15,
+     "rankChange": 15,
+     "metric": 1884,
+     "metricGrowth": 0.5317,
+     "momentum": 54.9
+    },
+    {
+     "bookId": 1622055,
+     "title": "拳镇列强，武压邪魔，民国第一武圣！",
+     "author": "藏雷客",
+     "rank": 5,
+     "rankChange": -1,
+     "metric": 2552,
+     "metricGrowth": 0.4837,
+     "momentum": 54.8
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1596065,
+     "title": "大乾武圣，从成为捕快开始！",
+     "author": "提壶酱油去打酒",
+     "rank": 14,
+     "reason": "一日上升 10 位"
+    },
+    {
+     "bookId": 1622171,
+     "title": "修仙，从夜香郎开始",
+     "author": "馀杯",
+     "rank": 15,
+     "reason": "一日上升 15 位"
+    },
+    {
+     "bookId": 1596046,
+     "title": "老龟修仙传：从池塘到玄武大帝",
+     "author": "Anna",
+     "rank": 18,
+     "reason": "一日上升 10 位"
+    }
+   ],
+   "update_rate": 0.167,
+   "summary": "【新书榜·玄幻奇幻】4 本新上榜；4 本掉榜；《人在魔宗，我用仙鼎铸长生》升 6 位至第 4 名；黑马《大乾武圣，从成为捕快开始！》第 14 名。"
+  },
+  "历史": {
+   "first_day": false,
+   "new_count": 5,
+   "dropped_count": 5,
+   "new_books": [
+    {
+     "title": "我四哥是朱棣，目标日不落帝国",
+     "author": "迷茫无所谓",
+     "rank": 8,
+     "bookId": 1621955
+    },
+    {
+     "title": "执弓，荡寇，扫八荒！",
+     "author": "放牛的崽",
+     "rank": 23,
+     "bookId": 1622570
+    },
+    {
+     "title": "开局被叫采花贼？我是良民！",
+     "author": "看鱼听风雨",
+     "rank": 24,
+     "bookId": 1619215
+    },
+    {
+     "title": "大乾第一马夫：从郡主好感度开始",
+     "author": "山野村夫",
+     "rank": 26,
+     "bookId": 1622141
+    },
+    {
+     "title": "大秦：开局负剑鸣冤，震惊始皇帝",
+     "author": "竹韵墨香",
+     "rank": 27,
+     "bookId": 1596613
+    }
+   ],
+   "dropped_books": [
+    {
+     "title": "让你替身太子，你咋权倾天下了",
+     "author": "柳下刀",
+     "prevRank": 9,
+     "bookId": 1596260
+    },
+    {
+     "title": "开局太子替身，请父皇叫孤陛下！",
+     "author": "甜甜的果冻",
+     "prevRank": 25,
+     "bookId": 1620280
+    },
+    {
+     "title": "大晋苟王，女杀神逼我卷成千古一帝",
+     "author": "豆角盖被",
+     "prevRank": 26,
+     "bookId": 1596462
+    },
+    {
+     "title": "让我顶罪，归来已是天策战神",
+     "author": "燕麦叶",
+     "prevRank": 29,
+     "bookId": 1622489
+    },
+    {
+     "title": "贱籍死囚，从杀敌涨气血开始当杀神！",
+     "author": "油炸大洋芋",
+     "prevRank": 30,
+     "bookId": 1620277
+    }
+   ],
+   "top_movers": [
+    {
+     "bookId": 1620007,
+     "title": "这个世子，有点猛！",
+     "author": "少吃亿点",
+     "rank": 5,
+     "rankChange": 9,
+     "metric": 2543,
+     "metricGrowth": 0.9383,
+     "momentum": 75.9
+    },
+    {
+     "bookId": 1610880,
+     "title": "明君",
+     "author": "知白",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 1613475,
+     "metricGrowth": 0.3852,
+     "momentum": 70.5
+    },
+    {
+     "bookId": 1595751,
+     "title": "让你当个纨绔，你咋毒谋天下",
+     "author": "人生短短急个球",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 4894,
+     "metricGrowth": 0.3833,
+     "momentum": 68.5
+    },
+    {
+     "bookId": 1591529,
+     "title": "文魁，武圣，酒中仙！",
+     "author": "俺老孙来也",
+     "rank": 3,
+     "rankChange": 0,
+     "metric": 2937,
+     "metricGrowth": 0.3491,
+     "momentum": 66.4
+    },
+    {
+     "bookId": 1603594,
+     "title": "边军营长",
+     "author": "男人四十",
+     "rank": 4,
+     "rankChange": 2,
+     "metric": 2824,
+     "metricGrowth": 0.6156,
+     "momentum": 62.1
+    },
+    {
+     "bookId": 1596535,
+     "title": "大唐：你说这小子是长孙皇后弟弟？",
+     "author": "江花边月",
+     "rank": 6,
+     "rankChange": -2,
+     "metric": 2533,
+     "metricGrowth": 0.3744,
+     "momentum": 52.4
+    },
+    {
+     "bookId": 1620819,
+     "title": "叫你顶罪，你怎么成女帝亲夫了？",
+     "author": "飞星骑士2025",
+     "rank": 7,
+     "rankChange": -2,
+     "metric": 2415,
+     "metricGrowth": 0.3343,
+     "momentum": 50.3
+    },
+    {
+     "bookId": 1594301,
+     "title": "大明帝师，手把手教崇祯成为暴君",
+     "author": "廉颇老矣",
+     "rank": 11,
+     "rankChange": 2,
+     "metric": 2043,
+     "metricGrowth": 0.5513,
+     "momentum": 48.0
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1620007,
+     "title": "这个世子，有点猛！",
+     "author": "少吃亿点",
+     "rank": 5,
+     "reason": "一日上升 9 位"
+    },
+    {
+     "bookId": 1621955,
+     "title": "我四哥是朱棣，目标日不落帝国",
+     "author": "迷茫无所谓",
+     "rank": 8,
+     "reason": "新上榜即进入前列"
+    }
+   ],
+   "update_rate": 0.267,
+   "summary": "【新书榜·历史】5 本新上榜；5 本掉榜；《这个世子，有点猛！》升 9 位至第 5 名；黑马《这个世子，有点猛！》第 5 名。"
+  },
+  "都市": {
+   "first_day": false,
+   "new_count": 3,
+   "dropped_count": 3,
+   "new_books": [
+    {
+     "title": "爆仓后：我觉醒股票预测系统狂赚百万",
+     "author": "公子富",
+     "rank": 9,
+     "bookId": 1620561
+    },
+    {
+     "title": "逆徒出山，我无敌你随意",
+     "author": "九天银河1",
+     "rank": 21,
+     "bookId": 1618199
+    },
+    {
+     "title": "穿越1967：带着秒杀系统去下乡",
+     "author": "黑金如水",
+     "rank": 25,
+     "bookId": 1618289
+    }
+   ],
+   "dropped_books": [
+    {
+     "title": "超凡序列001：灾厄禁狱",
+     "author": "七十二翼天使",
+     "prevRank": 17,
+     "bookId": 1619006
+    },
+    {
+     "title": "女儿死后，阎王出世",
+     "author": "海序",
+     "prevRank": 27,
+     "bookId": 1596128
+    },
+    {
+     "title": "人在高武当爷爷，永比孙子高五境",
+     "author": "想写爱写还要写",
+     "prevRank": 29,
+     "bookId": 1595826
+    }
+   ],
+   "top_movers": [
+    {
+     "bookId": 1610817,
+     "title": "人在高武，人生模拟器绑定洪荒",
+     "author": "明啸",
+     "rank": 3,
+     "rankChange": 9,
+     "metric": 2644,
+     "metricGrowth": 0.7615,
+     "momentum": 87.5
+    },
+    {
+     "bookId": 1618197,
+     "title": "野性攀登",
+     "author": "老虎本尊",
+     "rank": 1,
+     "rankChange": 1,
+     "metric": 3429,
+     "metricGrowth": 0.5112,
+     "momentum": 73.4
+    },
+    {
+     "bookId": 1620718,
+     "title": "重生1986，从家徒四壁成万元户",
+     "author": "小鬼长点心",
+     "rank": 2,
+     "rankChange": 1,
+     "metric": 2777,
+     "metricGrowth": 0.3409,
+     "momentum": 70.8
+    },
+    {
+     "bookId": 1620657,
+     "title": "重生02年：只想赚钱，结果校花倒追我",
+     "author": "不定型啫喱水",
+     "rank": 6,
+     "rankChange": 2,
+     "metric": 2474,
+     "metricGrowth": 0.4334,
+     "momentum": 57.6
+    },
+    {
+     "bookId": 1620818,
+     "title": "透视神瞳，从分手后开始揽香鉴玉",
+     "author": "莲生",
+     "rank": 4,
+     "rankChange": 0,
+     "metric": 2516,
+     "metricGrowth": 0.32,
+     "momentum": 56.3
+    },
+    {
+     "bookId": 1595811,
+     "title": "赶山79：大雪荒年，我提枪护三家！",
+     "author": "侃哥",
+     "rank": 5,
+     "rankChange": 0,
+     "metric": 2506,
+     "metricGrowth": 0.3252,
+     "momentum": 54.3
+    },
+    {
+     "bookId": 1603603,
+     "title": "阎王回归，女神非要来纠缠",
+     "author": "顽火",
+     "rank": 7,
+     "rankChange": -1,
+     "metric": 2448,
+     "metricGrowth": 0.3392,
+     "momentum": 50.3
+    },
+    {
+     "bookId": 1619216,
+     "title": "1983摆摊王：从卖喇叭裤开始",
+     "author": "白九",
+     "rank": 8,
+     "rankChange": -1,
+     "metric": 2406,
+     "metricGrowth": 0.3322,
+     "momentum": 48.3
+    }
+   ],
+   "darkhorses": [
+    {
+     "bookId": 1610817,
+     "title": "人在高武，人生模拟器绑定洪荒",
+     "author": "明啸",
+     "rank": 3,
+     "reason": "一日上升 9 位"
+    },
+    {
+     "bookId": 1620561,
+     "title": "爆仓后：我觉醒股票预测系统狂赚百万",
+     "author": "公子富",
+     "rank": 9,
+     "reason": "新上榜即进入前列"
+    }
+   ],
+   "update_rate": 0.367,
+   "summary": "纵横都市榜呈现“年代+生活流”与“高武+系统”双强格局。年代文（占比近40%）以“赶海/赶山+致富”为核心增长点，受众极度细分。黑马《人在高武》暴涨9位，验证“高武+模拟器”仍是流量收割机。建议作者：避开红海，深挖“年代+职业/技能”差异化切入点；编辑应重点扶持具备强钩子、高互动属性的模拟器流作品，抢占高黏性用户。"
+  },
+  "武侠仙侠": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1618231,
+     "title": "仙道至尊：我有修仙面板",
+     "author": "秋风揽月",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 6894,
+     "metricGrowth": 0.1936,
+     "momentum": 69.8
+    },
+    {
+     "bookId": 1620719,
+     "title": "百岁修仙：从九转仙瓶开始",
+     "author": "洛神雨",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 3919,
+     "metricGrowth": 0.2811,
+     "momentum": 68.1
+    },
+    {
+     "bookId": 1594343,
+     "title": "大道仙种",
+     "author": "黄泉隼",
+     "rank": 3,
+     "rankChange": 0,
+     "metric": 3173,
+     "metricGrowth": 0.6762,
+     "momentum": 67.3
+    },
+    {
+     "bookId": 1596458,
+     "title": "开局长生，修仙只为苟",
+     "author": "澄清",
+     "rank": 5,
+     "rankChange": 3,
+     "metric": 2338,
+     "metricGrowth": 0.4495,
+     "momentum": 62.2
+    },
+    {
+     "bookId": 1619620,
+     "title": "凡人：她抓我转移丹毒我逃去宗门当杂役",
+     "author": "吃鸡蛋的蜗牛",
+     "rank": 4,
+     "rankChange": 1,
+     "metric": 3047,
+     "metricGrowth": 0.8455,
+     "momentum": 60.2
+    },
+    {
+     "bookId": 1619247,
+     "title": "百岁修仙：我靠生命掠夺系统养羊长生！",
+     "author": "暴富仙尊",
+     "rank": 6,
+     "rankChange": 3,
+     "metric": 2129,
+     "metricGrowth": 0.4174,
+     "momentum": 60.1
+    },
+    {
+     "bookId": 1598200,
+     "title": "让你养蛇，没让你养出孽龙啊！",
+     "author": "夜小鱼",
+     "rank": 7,
+     "rankChange": 3,
+     "metric": 1984,
+     "metricGrowth": 0.4762,
+     "momentum": 58.3
+    },
+    {
+     "bookId": 1596757,
+     "title": "轩辕剑",
+     "author": "清波凡人",
+     "rank": 8,
+     "rankChange": 3,
+     "metric": 1958,
+     "metricGrowth": 0.4856,
+     "momentum": 56.3
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.172,
+   "summary": "【新书榜·武侠仙侠】榜单结构稳定，头部固若金汤。"
+  },
+  "军事": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1597188,
+     "title": "1950：我在三哥家闹独立",
+     "author": "青菜肉丝面不要青菜",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 2439,
+     "metricGrowth": 0.3263,
+     "momentum": 70.3
+    },
+    {
+     "bookId": 1595749,
+     "title": "三百斤入伍，首长让我当女军医？",
+     "author": "八方来才",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 1857,
+     "metricGrowth": 0.4832,
+     "momentum": 68.8
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.5,
+   "summary": "【新书榜·军事】榜单结构稳定，头部固若金汤。"
+  },
+  "科幻": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1594453,
+     "title": "废土人命如草芥？我有外卖系统！",
+     "author": "菜籽油蛋",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 3000,
+     "metricGrowth": 0.3363,
+     "momentum": 70.3
+    },
+    {
+     "bookId": 1614219,
+     "title": "末日凛冬：我靠召唤兽宠成神级领主",
+     "author": "海人禹州",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 1967,
+     "metricGrowth": 0.3184,
+     "momentum": 68.3
+    },
+    {
+     "bookId": 1622386,
+     "title": "四合院：刚截胡于莉，末世降临了",
+     "author": "扑街就去健身做猛男",
+     "rank": 3,
+     "rankChange": 0,
+     "metric": 1956,
+     "metricGrowth": 0.4586,
+     "momentum": 66.7
+    },
+    {
+     "bookId": 1619259,
+     "title": "末日：我能融合诡怪",
+     "author": "竖与",
+     "rank": 4,
+     "rankChange": 0,
+     "metric": 1939,
+     "metricGrowth": 0.5292,
+     "momentum": 56.9
+    },
+    {
+     "bookId": 1594416,
+     "title": "末日信用贷，我征信满级",
+     "author": "独见青山",
+     "rank": 6,
+     "rankChange": 1,
+     "metric": 1839,
+     "metricGrowth": 0.5086,
+     "momentum": 55.4
+    },
+    {
+     "bookId": 1620060,
+     "title": "废土领主：我有顶级拾荒雷达天赋",
+     "author": "渡鸭舟",
+     "rank": 5,
+     "rankChange": 0,
+     "metric": 1858,
+     "metricGrowth": 0.4948,
+     "momentum": 54.8
+    },
+    {
+     "bookId": 1593930,
+     "title": "星际末路：我的黑甲能吞噬万物",
+     "author": "小晨",
+     "rank": 7,
+     "rankChange": -1,
+     "metric": 1831,
+     "metricGrowth": 0.4996,
+     "momentum": 50.8
+    },
+    {
+     "bookId": 1591948,
+     "title": "末日灾变：我的异能是辆小破车？",
+     "author": "北落师门",
+     "rank": 8,
+     "rankChange": 0,
+     "metric": 1807,
+     "metricGrowth": 0.5033,
+     "momentum": 48.8
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.2,
+   "summary": "【新书榜·科幻】榜单结构稳定，头部固若金汤。"
+  },
+  "奇闻异事": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1620048,
+     "title": "重生98，我在基层当民警",
+     "author": "夜李",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 3770,
+     "metricGrowth": 0.4046,
+     "momentum": 70.5
+    },
+    {
+     "bookId": 1596788,
+     "title": "我在东北缝尸那些年",
+     "author": "散人的笔",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 1900,
+     "metricGrowth": 0.0215,
+     "momentum": 66.6
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.5,
+   "summary": "【新书榜·奇闻异事】榜单结构稳定，头部固若金汤。"
+  },
+  "游戏": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0,
+   "summary": "【新书榜·游戏】榜单结构稳定，头部固若金汤。"
+  },
+  "N次元": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [
+    {
+     "bookId": 1597152,
+     "title": "我的冰霜巨龙老婆也太可爱了",
+     "author": "柳下浩歌",
+     "rank": 1,
+     "rankChange": 0,
+     "metric": 2276,
+     "metricGrowth": 0.8164,
+     "momentum": 71.6
+    },
+    {
+     "bookId": 1594536,
+     "title": "四合院：杀禽抢房，战天斗地！",
+     "author": "一把破键盘",
+     "rank": 2,
+     "rankChange": 0,
+     "metric": 1869,
+     "metricGrowth": 0.4964,
+     "momentum": 68.8
+    },
+    {
+     "bookId": 1597187,
+     "title": "斗罗V：武魂金箍棒我师玉小刚",
+     "author": "辉月姓陈",
+     "rank": 3,
+     "rankChange": 0,
+     "metric": 1844,
+     "metricGrowth": 0.5115,
+     "momentum": 66.9
+    },
+    {
+     "bookId": 1599694,
+     "title": "四合院：部队转业，但犯罪大师！",
+     "author": "一朵小黄花",
+     "rank": 4,
+     "rankChange": 0,
+     "metric": 1306,
+     "metricGrowth": 1.1201,
+     "momentum": 58.2
+    }
+   ],
+   "darkhorses": [],
+   "update_rate": 0.25,
+   "summary": "【新书榜·N次元】榜单结构稳定，头部固若金汤。"
+  },
+  "现实题材": {
+   "first_day": false,
+   "new_count": 0,
+   "dropped_count": 0,
+   "new_books": [],
+   "dropped_books": [],
+   "top_movers": [],
+   "darkhorses": [],
+   "update_rate": 0,
+   "summary": "【新书榜·现实题材】榜单结构稳定，头部固若金汤。"
+  }
+ },
+ "category_heat": [
+  {
+   "name": "历史",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 1638230,
+   "heat": 151.9
+  },
+  {
+   "name": "武侠仙侠",
+   "count": 29,
+   "top10": 10,
+   "metric_sum_top10": 29183,
+   "heat": 120.4
+  },
+  {
+   "name": "玄幻奇幻",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 29010,
+   "heat": 120.3
+  },
+  {
+   "name": "都市",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 25948,
+   "heat": 119.5
+  },
+  {
+   "name": "科幻",
+   "count": 10,
+   "top10": 10,
+   "metric_sum_top10": 18117,
+   "heat": 116.6
+  },
+  {
+   "name": "N次元",
+   "count": 4,
+   "top10": 4,
+   "metric_sum_top10": 7295,
+   "heat": 85.5
+  },
+  {
+   "name": "奇闻异事",
+   "count": 2,
+   "top10": 2,
+   "metric_sum_top10": 5670,
+   "heat": 75.6
+  },
+  {
+   "name": "军事",
+   "count": 2,
+   "top10": 2,
+   "metric_sum_top10": 4296,
+   "heat": 73.4
+  },
+  {
+   "name": "游戏",
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
+  },
+  {
+   "name": "现实题材",
+   "count": 0,
+   "top10": 0,
+   "metric_sum_top10": 0,
+   "heat": 0
+  }
+ ],
+ "keyword_heat": [
+  {
+   "keyword": "穿越",
+   "count": 8
+  },
+  {
+   "keyword": "重生",
+   "count": 7
+  },
+  {
+   "keyword": "系统",
+   "count": 5
+  },
+  {
+   "keyword": "修仙",
+   "count": 2
+  },
+  {
+   "keyword": "炼丹",
+   "count": 2
+  },
+  {
+   "keyword": "宗门",
+   "count": 2
+  },
+  {
+   "keyword": "异能",
+   "count": 2
+  },
+  {
+   "keyword": "杀伐果断",
+   "count": 1
+  },
+  {
+   "keyword": "玄幻",
+   "count": 1
+  },
+  {
+   "keyword": "诸天",
+   "count": 1
+  },
+  {
+   "keyword": "苟道",
+   "count": 1
+  },
+  {
+   "keyword": "废土",
+   "count": 1
+  },
+  {
+   "keyword": "种田",
+   "count": 1
+  },
+  {
+   "keyword": "高武",
+   "count": 1
+  },
+  {
+   "keyword": "都市",
+   "count": 1
+  }
+ ],
+ "timeline": [
+  {
+   "date": "2026-08-18",
+   "top3": [
+    {
+     "title": "一百岁老头子，谁让你装嫩修仙了",
+     "author": "火烈虫",
+     "bookId": 1572566
+    },
+    {
+     "title": "吞噬星空",
+     "author": "第九杯茶",
+     "bookId": 1581705
+    },
+    {
+     "title": "药童凶猛",
+     "author": "牛磺酸",
+     "bookId": 1579091
+    }
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "top3": [
+    {
+     "title": "一百岁老头子，谁让你装嫩修仙了",
+     "author": "火烈虫",
+     "bookId": 1572566
+    },
+    {
+     "title": "吞噬星空",
+     "author": "第九杯茶",
+     "bookId": 1581705
+    },
+    {
+     "title": "雁门刀",
+     "author": "路在西南",
+     "bookId": 1580300
+    }
+   ]
+  },
+  {
+   "date": "2026-08-20",
+   "top3": [
+    {
+     "title": "一百岁老头子，谁让你装嫩修仙了",
+     "author": "火烈虫",
+     "bookId": 1572566
+    },
+    {
+     "title": "吞噬星空",
+     "author": "第九杯茶",
+     "bookId": 1581705
+    },
+    {
+     "title": "雁门刀",
+     "author": "路在西南",
+     "bookId": 1580300
+    }
+   ]
+  },
+  {
+   "date": "2026-08-21",
+   "top3": [
+    {
+     "title": "一百岁老头子，谁让你装嫩修仙了",
+     "author": "火烈虫",
+     "bookId": 1572566
+    },
+    {
+     "title": "雁门刀",
+     "author": "路在西南",
+     "bookId": 1580300
+    },
+    {
+     "title": "噬道长生",
+     "author": "第九杯茶",
+     "bookId": 1581705
+    }
+   ]
+  },
+  {
+   "date": "2026-08-22",
+   "top3": [
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "每日结算：从北境镖师开始武道成圣",
+     "author": "璀璨星空",
+     "bookId": 1579044
+    },
+    {
+     "title": "一百岁老头子，谁让你装嫩修仙了",
+     "author": "火烈虫",
+     "bookId": 1572566
+    }
+   ]
+  },
+  {
+   "date": "2026-08-23",
+   "top3": [
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "每日结算：从北境镖师开始武道成圣",
+     "author": "璀璨星空",
+     "bookId": 1579044
+    },
+    {
+     "title": "一百岁老头子，谁让你装嫩修仙了",
+     "author": "火烈虫",
+     "bookId": 1572566
+    }
+   ]
+  },
+  {
+   "date": "2026-08-24",
+   "top3": [
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "一百岁老头子，谁让你装嫩修仙了",
+     "author": "火烈虫",
+     "bookId": 1572566
+    },
+    {
+     "title": "每日结算：从北境镖师开始武道成圣",
+     "author": "璀璨星空",
+     "bookId": 1579044
+    }
+   ]
+  },
+  {
+   "date": "2026-08-25",
+   "top3": [
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "一百岁老头子，谁让你装嫩修仙了",
+     "author": "火烈虫",
+     "bookId": 1572566
+    },
+    {
+     "title": "每日结算：从北境镖师开始武道成圣",
+     "author": "璀璨星空",
+     "bookId": 1579044
+    }
+   ]
+  },
+  {
+   "date": "2026-08-26",
+   "top3": [
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "一百岁老头子，谁让你装嫩修仙了",
+     "author": "火烈虫",
+     "bookId": 1572566
+    },
+    {
+     "title": "每日结算：从北境镖师开始武道成圣",
+     "author": "璀璨星空",
+     "bookId": 1579044
+    }
+   ]
+  },
+  {
+   "date": "2026-08-27",
+   "top3": [
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "寒渊帝途",
+     "author": "长风天行",
+     "bookId": 1582826
+    },
+    {
+     "title": "一百岁老头子，谁让你装嫩修仙了",
+     "author": "火烈虫",
+     "bookId": 1572566
+    }
+   ]
+  },
+  {
+   "date": "2026-08-28",
+   "top3": [
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "寒渊帝途",
+     "author": "长风天行",
+     "bookId": 1582826
+    },
+    {
+     "title": "一百岁老头子，谁让你装嫩修仙了",
+     "author": "火烈虫",
+     "bookId": 1572566
+    }
+   ]
+  },
+  {
+   "date": "2026-08-29",
+   "top3": [
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "寒渊帝途",
+     "author": "长风天行",
+     "bookId": 1582826
+    },
+    {
+     "title": "一百岁老头子，谁让你装嫩修仙了",
+     "author": "火烈虫",
+     "bookId": 1572566
+    }
+   ]
+  },
+  {
+   "date": "2026-08-30",
+   "top3": [
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "寒渊帝途",
+     "author": "长风天行",
+     "bookId": 1582826
+    },
+    {
+     "title": "一百岁老头子，谁让你装嫩修仙了",
+     "author": "火烈虫",
+     "bookId": 1572566
+    }
+   ]
+  },
+  {
+   "date": "2026-08-31",
+   "top3": [
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "大唐：我一赘婿，你封我为国师作甚？",
+     "author": "青墨子",
+     "bookId": 1583261
+    },
+    {
+     "title": "寒渊帝途",
+     "author": "长风天行",
+     "bookId": 1582826
+    }
+   ]
+  },
+  {
+   "date": "2026-09-01",
+   "top3": [
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "寒渊帝途",
+     "author": "长风天行",
+     "bookId": 1582826
+    },
+    {
+     "title": "每日结算：从淘金工到覆海大圣",
+     "author": "竹海听澜",
+     "bookId": 1587627
+    }
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "寒渊帝途",
+     "author": "长风天行",
+     "bookId": 1582826
+    }
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "寒渊帝途",
+     "author": "长风天行",
+     "bookId": 1582826
+    }
+   ]
+  },
+  {
+   "date": "2026-09-04",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "寒渊帝途",
+     "author": "长风天行",
+     "bookId": 1582826
+    }
+   ]
+  },
+  {
+   "date": "2026-09-05",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    }
+   ]
+  },
+  {
+   "date": "2026-09-06",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    }
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "每日结算：从淘金工到覆海大圣",
+     "author": "竹海听澜",
+     "bookId": 1587627
+    }
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    }
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    }
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    }
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    }
+   ]
+  },
+  {
+   "date": "2026-09-13",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "开局吃我绝户，我单开族谱一页",
+     "author": "是咚不是甜",
+     "bookId": 1583389
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    }
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    },
+    {
+     "title": "每日结算：从淘金工到覆海大圣",
+     "author": "竹海听澜",
+     "bookId": 1587627
+    }
+   ]
+  },
+  {
+   "date": "2026-09-15",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    },
+    {
+     "title": "苟在妖魔乱世修成武圣",
+     "author": "李四员外",
+     "bookId": 1584787
+    }
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    },
+    {
+     "title": "苟在妖魔乱世修成武圣",
+     "author": "李四员外",
+     "bookId": 1584787
+    }
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    },
+    {
+     "title": "边军悍卒：被逐出家门后，我君临天下！",
+     "author": "拾叶知秋",
+     "bookId": 1585126
+    }
+   ]
+  },
+  {
+   "date": "2026-09-18",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    },
+    {
+     "title": "边军悍卒：被逐出家门后，我君临天下！",
+     "author": "拾叶知秋",
+     "bookId": 1585126
+    }
+   ]
+  },
+  {
+   "date": "2026-09-19",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    },
+    {
+     "title": "苟在妖魔乱世修成武圣",
+     "author": "李四员外",
+     "bookId": 1584787
+    }
+   ]
+  },
+  {
+   "date": "2026-09-20",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    },
+    {
+     "title": "苟在妖魔乱世修成武圣",
+     "author": "李四员外",
+     "bookId": 1584787
+    }
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    },
+    {
+     "title": "每日结算：从淘金工到覆海大圣",
+     "author": "竹海听澜",
+     "bookId": 1587627
+    }
+   ]
+  },
+  {
+   "date": "2026-09-22",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    },
+    {
+     "title": "拳镇九州，武破山河，香江第一武圣！",
+     "author": "春秋戏",
+     "bookId": 1588597
+    }
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "top3": [
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    },
+    {
+     "title": "拳镇九州，武破山河，香江第一武圣！",
+     "author": "春秋戏",
+     "bookId": 1588597
+    }
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "top3": [
+    {
+     "title": "明君",
+     "author": "知白",
+     "bookId": 1610880
+    },
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    }
+   ]
+  },
+  {
+   "date": "2026-09-25",
+   "top3": [
+    {
+     "title": "明君",
+     "author": "知白",
+     "bookId": 1610880
+    },
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    }
+   ]
+  },
+  {
+   "date": "2026-09-26",
+   "top3": [
+    {
+     "title": "明君",
+     "author": "知白",
+     "bookId": 1610880
+    },
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    }
+   ]
+  },
+  {
+   "date": "2026-09-27",
+   "top3": [
+    {
+     "title": "明君",
+     "author": "知白",
+     "bookId": 1610880
+    },
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "top3": [
+    {
+     "title": "明君",
+     "author": "知白",
+     "bookId": 1610880
+    },
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    }
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "top3": [
+    {
+     "title": "明君",
+     "author": "知白",
+     "bookId": 1610880
+    },
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    }
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "top3": [
+    {
+     "title": "明君",
+     "author": "知白",
+     "bookId": 1610880
+    },
+    {
+     "title": "人生读档：2001",
+     "author": "更俗",
+     "bookId": 1589055
+    },
+    {
+     "title": "大唐第一谋",
+     "author": "寒梅惊雪",
+     "bookId": 1585118
+    }
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "top3": [
+    {
+     "title": "明君",
+     "author": "知白",
+     "bookId": 1610880
+    },
+    {
+     "title": "仙道至尊：我有修仙面板",
+     "author": "秋风揽月",
+     "bookId": 1618231
+    },
+    {
+     "title": "生死混沌铃：血海黄泉宗",
+     "author": "焱焱燃垵",
+     "bookId": 1592317
+    }
+   ]
+  },
+  {
+   "date": "2026-10-02",
+   "top3": [
+    {
+     "title": "明君",
+     "author": "知白",
+     "bookId": 1610880
+    },
+    {
+     "title": "仙道至尊：我有修仙面板",
+     "author": "秋风揽月",
+     "bookId": 1618231
+    },
+    {
+     "title": "生死混沌铃：血海黄泉宗",
+     "author": "焱焱燃垵",
+     "bookId": 1592317
+    }
+   ]
+  },
+  {
+   "date": "2026-10-03",
+   "top3": [
+    {
+     "title": "明君",
+     "author": "知白",
+     "bookId": 1610880
+    },
+    {
+     "title": "仙道至尊：我有修仙面板",
+     "author": "秋风揽月",
+     "bookId": 1618231
+    },
+    {
+     "title": "生死混沌铃：血海黄泉宗",
+     "author": "焱焱燃垵",
+     "bookId": 1592317
+    }
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "top3": [
+    {
+     "title": "明君",
+     "author": "知白",
+     "bookId": 1610880
+    },
+    {
+     "title": "生死混沌铃：血海黄泉宗",
+     "author": "焱焱燃垵",
+     "bookId": 1592317
+    },
+    {
+     "title": "仙道至尊：我有修仙面板",
+     "author": "秋风揽月",
+     "bookId": 1618231
+    }
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "top3": [
+    {
+     "title": "明君",
+     "author": "知白",
+     "bookId": 1610880
+    },
+    {
+     "title": "仙道至尊：我有修仙面板",
+     "author": "秋风揽月",
+     "bookId": 1618231
+    },
+    {
+     "title": "生死混沌铃：血海黄泉宗",
+     "author": "焱焱燃垵",
+     "bookId": 1592317
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "top3": [
+    {
+     "title": "明君",
+     "author": "知白",
+     "bookId": 1610880
+    },
+    {
+     "title": "仙道至尊：我有修仙面板",
+     "author": "秋风揽月",
+     "bookId": 1618231
+    },
+    {
+     "title": "让你当个纨绔，你咋毒谋天下",
+     "author": "人生短短急个球",
+     "bookId": 1595751
+    }
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "top3": [
+    {
+     "title": "明君",
+     "author": "知白",
+     "bookId": 1610880
+    },
+    {
+     "title": "仙道至尊：我有修仙面板",
+     "author": "秋风揽月",
+     "bookId": 1618231
+    },
+    {
+     "title": "帝关",
+     "author": "天意留香本尊",
+     "bookId": 1619449
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "top3": [
+    {
+     "title": "明君",
+     "author": "知白",
+     "bookId": 1610880
+    },
+    {
+     "title": "仙道至尊：我有修仙面板",
+     "author": "秋风揽月",
+     "bookId": 1618231
+    },
+    {
+     "title": "帝关",
+     "author": "天意留香本尊",
+     "bookId": 1619449
+    }
+   ]
+  }
+ ],
+ "total_books": 30
+}
