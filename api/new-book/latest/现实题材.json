@@ -1,5 +1,5 @@
 {
- "date": "2026-10-08",
+ "date": "2026-10-09",
  "board": {
   "slug": "new-book",
   "name": "新书榜",
@@ -8,16 +8,51 @@
   "metric_label": "周收藏"
  },
  "category": "现实题材",
- "books": [],
+ "books": [
+  {
+   "rank": 1,
+   "bookId": 1625757,
+   "title": "边警探案手记",
+   "author": "喵公公",
+   "authorId": 56297643,
+   "authorCover": "",
+   "cover": "https://static.zongheng.com/upload/cover/c0/3f/c03fc903f444296f6f346c5eac7c2408.jpeg",
+   "category": "现实题材",
+   "cateFineId": 8109,
+   "metric": 600,
+   "metricLabel": "周收藏",
+   "serialStatus": 0,
+   "intro": "以凯南县为核心的南町（音同丁）古国，曾是古代华国南境八大神秘古国之一，与古南境国、古雨郎国齐名。\r 进入上世纪八九十年代，凯南一切向着追求经济效益出发，有人无知无识，在边境沿线干起了各种不法勾当。有违法犯罪，就有维护正义、守正辟邪的安全卫士，比如说凯南刑警队长薛异人。\r 我们要讲的故事，即集中在上世纪末至本世纪前十年左右，凯南这么一段特殊历史时期内，薛警官带领刑警队屡破大案、要案的故事。整本书共分为《扶贫记》《雪域记》等多个单元故事，力图通过刑警薛异人半生的办案经历，打造边警版的《福尔摩斯探案集》。\r 本书承继前作，2015年以后，卸下警队实职的老刑警薛异人，主动到边远山村驻村开展脱贫攻坚。在外人眼中，他只是一名扎根山野的普通老警，后辈鲜有人知道，从警前，身为小兵的薛异人就曾卷入一场雪域风波，为后来万里北上救妻、寻友埋下伏笔。\r 归国，薛异人去警职，一切被官方低调处理。当新组建的专案组再启程，表面佯装淡定的薛警官冲上去死追出山车队，最终力竭倒地。老一辈民警收敛锋芒归于乡野、平凡，新一代警员接过使命奔赴前线、战场，一腔边警赤诚警心代代接续。",
+   "latestChapter": "第7章 从军",
+   "latestChapterTime": "10-08 20:58",
+   "updatedToday": false,
+   "url": "https://www.zongheng.com/book/1625757.html"
+  }
+ ],
  "trend": {
   "first_day": false,
-  "new_count": 0,
+  "new_count": 1,
   "dropped_count": 0,
-  "new_books": [],
+  "new_books": [
+   {
+    "title": "边警探案手记",
+    "author": "喵公公",
+    "rank": 1,
+    "bookId": 1625757
+   }
+  ],
   "dropped_books": [],
   "top_movers": [],
-  "darkhorses": [],
-  "update_rate": 0,
-  "summary": "【新书榜·现实题材】榜单结构稳定，头部固若金汤。"
+  "darkhorses": [
+   {
+    "bookId": 1625757,
+    "title": "边警探案手记",
+    "author": "喵公公",
+    "rank": 1,
+    "reason": "新上榜即进入前列"
+   }
+  ],
+  "update_rate": 0.0,
+  "summary": "【新书榜·现实题材】1 本新上榜；黑马《边警探案手记》第 1 名。"
  }
 }

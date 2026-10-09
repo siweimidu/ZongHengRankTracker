@@ -1,10 +1,10 @@
 {
- "finished_at": "2026-10-08T08:30:44",
- "elapsed_sec": 60.7,
+ "finished_at": "2026-10-09T08:45:29",
+ "elapsed_sec": 129.1,
  "client_stats": {
-  "requests": 95,
-  "retries": 0,
-  "failures": 0
+  "requests": 115,
+  "retries": 64,
+  "failures": 16
  },
  "reports": [
   {
@@ -12,15 +12,7 @@
    "name": "24小时畅销榜",
    "ok": true,
    "categories": 9,
-   "books": 185,
-   "warnings": []
-  },
-  {
-   "slug": "new-book",
-   "name": "新书榜",
-   "ok": true,
-   "categories": 9,
-   "books": 167,
+   "books": 183,
    "warnings": []
   },
   {
@@ -32,60 +24,91 @@
    "warnings": []
   },
   {
+   "slug": "new-book",
+   "name": "新书榜",
+   "ok": true,
+   "categories": 10,
+   "books": 170,
+   "warnings": []
+  },
+  {
    "slug": "click",
    "name": "点击榜",
    "ok": true,
-   "categories": 10,
-   "books": 300,
-   "warnings": []
+   "categories": 7,
+   "books": 210,
+   "warnings": [
+    "游戏: rank/details rankType=5 cate=8107 page=1 failed after 4 tries: HTTP 405",
+    "N次元: rank/details rankType=5 cate=8108 page=1 failed after 4 tries: HTTP 405",
+    "现实题材: rank/details rankType=5 cate=8109 page=1 failed after 4 tries: HTTP 405"
+   ]
   },
   {
    "slug": "recommend",
    "name": "推荐榜",
    "ok": true,
-   "categories": 10,
-   "books": 230,
-   "warnings": []
+   "categories": 6,
+   "books": 180,
+   "warnings": [
+    "奇闻异事: rank/details rankType=6 cate=8106 page=1 failed after 4 tries: HTTP 405",
+    "游戏: rank/details rankType=6 cate=8107 page=1 failed after 4 tries: HTTP 405",
+    "N次元: rank/details rankType=6 cate=8108 page=1 failed after 4 tries: HTTP 405",
+    "现实题材: rank/details rankType=6 cate=8109 page=1 failed after 4 tries: HTTP 405"
+   ]
+  },
+  {
+   "slug": "end",
+   "name": "完结榜",
+   "ok": false,
+   "categories": 0,
+   "books": 0,
+   "warnings": [
+    "rank/details rankType=8 cate=0 page=1 failed after 4 tries: HTTP 405"
+   ]
+  },
+  {
+   "slug": "new-book-subscribe",
+   "name": "新书订阅榜",
+   "ok": false,
+   "categories": 0,
+   "books": 0,
+   "warnings": [
+    "rank/details rankType=9 cate=0 page=1 failed after 4 tries: HTTP 405"
+   ]
   },
   {
    "slug": "claque",
    "name": "捧场榜",
    "ok": true,
-   "categories": 8,
-   "books": 161,
-   "warnings": []
-  },
-  {
-   "slug": "new-book-subscribe",
-   "name": "新书订阅榜",
-   "ok": true,
    "categories": 5,
-   "books": 18,
-   "warnings": []
-  },
-  {
-   "slug": "author-popularity",
-   "name": "作者人气榜",
-   "ok": true,
-   "categories": 1,
-   "books": 30,
-   "warnings": []
-  },
-  {
-   "slug": "end",
-   "name": "完结榜",
-   "ok": true,
-   "categories": 10,
-   "books": 196,
-   "warnings": []
+   "books": 150,
+   "warnings": [
+    "奇闻异事: rank/details rankType=7 cate=8106 page=1 failed after 4 tries: HTTP 405",
+    "科幻: rank/details rankType=7 cate=8105 page=1 failed after 4 tries: HTTP 405",
+    "游戏: rank/details rankType=7 cate=8107 page=1 failed after 4 tries: HTTP 405",
+    "N次元: rank/details rankType=7 cate=8108 page=1 failed after 4 tries: HTTP 405",
+    "现实题材: rank/details rankType=7 cate=8109 page=1 failed after 4 tries: HTTP 405"
+   ]
   },
   {
    "slug": "one-day-update",
    "name": "24小时更新榜",
-   "ok": true,
-   "categories": 11,
-   "books": 191,
-   "warnings": []
+   "ok": false,
+   "categories": 0,
+   "books": 0,
+   "warnings": [
+    "rank/details rankType=10 cate=0 page=1 failed after 4 tries: HTTP 405"
+   ]
+  },
+  {
+   "slug": "author-popularity",
+   "name": "作者人气榜",
+   "ok": false,
+   "categories": 0,
+   "books": 0,
+   "warnings": [
+    "rank/details rankType=12 cate=0 page=1 failed after 4 tries: HTTP 405"
+   ]
   }
  ]
 }

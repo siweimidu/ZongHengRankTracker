@@ -1,71 +1,71 @@
 {
- "date": "2026-10-08",
+ "date": "2026-10-09",
  "category_heat": [
   {
    "name": "历史",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 1638230,
-   "heat": 151.9
-  },
-  {
-   "name": "武侠仙侠",
-   "count": 29,
-   "top10": 10,
-   "metric_sum_top10": 29183,
-   "heat": 120.4
+   "metric_sum_top10": 2106471,
+   "heat": 153.8
   },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 29010,
-   "heat": 120.3
+   "metric_sum_top10": 37416,
+   "heat": 122.3
+  },
+  {
+   "name": "武侠仙侠",
+   "count": 30,
+   "top10": 10,
+   "metric_sum_top10": 35679,
+   "heat": 121.9
   },
   {
    "name": "都市",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 25948,
-   "heat": 119.5
+   "metric_sum_top10": 33096,
+   "heat": 121.4
   },
   {
    "name": "科幻",
-   "count": 10,
+   "count": 11,
    "top10": 10,
-   "metric_sum_top10": 18117,
-   "heat": 116.6
+   "metric_sum_top10": 24977,
+   "heat": 119.2
   },
   {
    "name": "N次元",
    "count": 4,
    "top10": 4,
-   "metric_sum_top10": 7295,
-   "heat": 85.5
-  },
-  {
-   "name": "奇闻异事",
-   "count": 2,
-   "top10": 2,
-   "metric_sum_top10": 5670,
-   "heat": 75.6
+   "metric_sum_top10": 10012,
+   "heat": 88.0
   },
   {
    "name": "军事",
    "count": 2,
    "top10": 2,
-   "metric_sum_top10": 4296,
-   "heat": 73.4
+   "metric_sum_top10": 7341,
+   "heat": 77.6
   },
   {
-   "name": "游戏",
-   "count": 0,
-   "top10": 0,
-   "metric_sum_top10": 0,
-   "heat": 0
+   "name": "奇闻异事",
+   "count": 2,
+   "top10": 2,
+   "metric_sum_top10": 7225,
+   "heat": 77.5
   },
   {
    "name": "现实题材",
+   "count": 1,
+   "top10": 1,
+   "metric_sum_top10": 600,
+   "heat": 54.0
+  },
+  {
+   "name": "游戏",
    "count": 0,
    "top10": 0,
    "metric_sum_top10": 0,
@@ -75,26 +75,22 @@
  "keyword_heat": [
   {
    "keyword": "穿越",
-   "count": 8
+   "count": 11
   },
   {
    "keyword": "重生",
    "count": 7
   },
   {
-   "keyword": "系统",
+   "keyword": "修仙",
    "count": 5
   },
   {
-   "keyword": "修仙",
-   "count": 2
+   "keyword": "系统",
+   "count": 4
   },
   {
-   "keyword": "炼丹",
-   "count": 2
-  },
-  {
-   "keyword": "宗门",
+   "keyword": "杀伐果断",
    "count": 2
   },
   {
@@ -102,11 +98,15 @@
    "count": 2
   },
   {
-   "keyword": "杀伐果断",
-   "count": 1
+   "keyword": "苟道",
+   "count": 2
   },
   {
-   "keyword": "玄幻",
+   "keyword": "宗门",
+   "count": 2
+  },
+  {
+   "keyword": "炼丹",
    "count": 1
   },
   {
@@ -114,15 +114,7 @@
    "count": 1
   },
   {
-   "keyword": "苟道",
-   "count": 1
-  },
-  {
    "keyword": "废土",
-   "count": 1
-  },
-  {
-   "keyword": "种田",
    "count": 1
   },
   {
@@ -130,7 +122,15 @@
    "count": 1
   },
   {
-   "keyword": "都市",
+   "keyword": "种田",
+   "count": 1
+  },
+  {
+   "keyword": "大明",
+   "count": 1
+  },
+  {
+   "keyword": "末世",
    "count": 1
   }
  ],
@@ -1152,6 +1152,26 @@
      "title": "帝关",
      "author": "天意留香本尊",
      "bookId": 1619449
+    }
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "top3": [
+    {
+     "title": "明君",
+     "author": "知白",
+     "bookId": 1610880
+    },
+    {
+     "title": "帝关",
+     "author": "天意留香本尊",
+     "bookId": 1619449
+    },
+    {
+     "title": "仙道至尊：我有修仙面板",
+     "author": "秋风揽月",
+     "bookId": 1618231
     }
    ]
   }
