@@ -1,6 +1,6 @@
 {
- "finished_at": "2026-10-11T07:56:35",
- "elapsed_sec": 60.7,
+ "finished_at": "2026-10-12T08:03:40",
+ "elapsed_sec": 60.0,
  "client_stats": {
   "requests": 95,
   "retries": 0,
@@ -12,7 +12,7 @@
    "name": "24小时畅销榜",
    "ok": true,
    "categories": 9,
-   "books": 178,
+   "books": 185,
    "warnings": []
   },
   {
@@ -20,7 +20,7 @@
    "name": "新书榜",
    "ok": true,
    "categories": 10,
-   "books": 173,
+   "books": 154,
    "warnings": []
   },
   {
@@ -40,19 +40,19 @@
    "warnings": []
   },
   {
-   "slug": "claque",
-   "name": "捧场榜",
-   "ok": true,
-   "categories": 8,
-   "books": 163,
-   "warnings": []
-  },
-  {
    "slug": "recommend",
    "name": "推荐榜",
    "ok": true,
    "categories": 10,
-   "books": 238,
+   "books": 228,
+   "warnings": []
+  },
+  {
+   "slug": "claque",
+   "name": "捧场榜",
+   "ok": true,
+   "categories": 8,
+   "books": 145,
    "warnings": []
   },
   {
@@ -60,7 +60,7 @@
    "name": "新书订阅榜",
    "ok": true,
    "categories": 5,
-   "books": 14,
+   "books": 12,
    "warnings": []
   },
   {
@@ -76,15 +76,15 @@
    "name": "完结榜",
    "ok": true,
    "categories": 10,
-   "books": 200,
+   "books": 182,
    "warnings": []
   },
   {
    "slug": "one-day-update",
    "name": "24小时更新榜",
    "ok": true,
-   "categories": 11,
-   "books": 193,
+   "categories": 10,
+   "books": 195,
    "warnings": []
   }
  ]

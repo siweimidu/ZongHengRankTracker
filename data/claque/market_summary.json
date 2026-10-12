@@ -1,47 +1,47 @@
 {
- "date": "2026-10-11",
+ "date": "2026-10-12",
  "category_heat": [
+  {
+   "name": "武侠仙侠",
+   "count": 26,
+   "top10": 10,
+   "metric_sum_top10": 214972,
+   "heat": 136.0
+  },
   {
    "name": "玄幻奇幻",
    "count": 30,
    "top10": 10,
-   "metric_sum_top10": 269477,
-   "heat": 137.7
-  },
-  {
-   "name": "武侠仙侠",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 214587,
-   "heat": 136.0
-  },
-  {
-   "name": "历史",
-   "count": 30,
-   "top10": 10,
-   "metric_sum_top10": 197283,
-   "heat": 135.3
+   "metric_sum_top10": 202298,
+   "heat": 135.5
   },
   {
    "name": "都市",
-   "count": 30,
+   "count": 26,
    "top10": 10,
-   "metric_sum_top10": 134792,
+   "metric_sum_top10": 134392,
    "heat": 132.3
   },
   {
-   "name": "奇闻异事",
-   "count": 7,
-   "top10": 7,
-   "metric_sum_top10": 38184,
-   "heat": 110.5
+   "name": "历史",
+   "count": 24,
+   "top10": 10,
+   "metric_sum_top10": 71584,
+   "heat": 127.4
   },
   {
    "name": "科幻",
-   "count": 5,
-   "top10": 5,
-   "metric_sum_top10": 27872,
-   "heat": 100.0
+   "count": 4,
+   "top10": 4,
+   "metric_sum_top10": 22872,
+   "heat": 94.5
+  },
+  {
+   "name": "奇闻异事",
+   "count": 4,
+   "top10": 4,
+   "metric_sum_top10": 17084,
+   "heat": 92.2
   },
   {
    "name": "N次元",
@@ -67,11 +67,11 @@
  ],
  "keyword_heat": [
   {
-   "keyword": "玄幻",
-   "count": 5
+   "keyword": "穿越",
+   "count": 6
   },
   {
-   "keyword": "穿越",
+   "keyword": "玄幻",
    "count": 5
   },
   {
@@ -79,8 +79,8 @@
    "count": 4
   },
   {
-   "keyword": "重生",
-   "count": 3
+   "keyword": "修仙",
+   "count": 4
   },
   {
    "keyword": "诸天",
@@ -88,15 +88,23 @@
   },
   {
    "keyword": "历史",
-   "count": 2
+   "count": 3
   },
   {
-   "keyword": "修仙",
+   "keyword": "重生",
+   "count": 3
+  },
+  {
+   "keyword": "仙侠",
    "count": 2
   },
   {
    "keyword": "科技",
    "count": 2
+  },
+  {
+   "keyword": "万界",
+   "count": 1
   },
   {
    "keyword": "兵王",
@@ -116,14 +124,6 @@
   },
   {
    "keyword": "神医",
-   "count": 1
-  },
-  {
-   "keyword": "星际",
-   "count": 1
-  },
-  {
-   "keyword": "仙侠",
    "count": 1
   }
  ],
@@ -1205,6 +1205,26 @@
      "title": "最强狂兵Ⅱ：黑暗荣耀",
      "author": "烈焰滔滔",
      "bookId": 1366535
+    }
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "top3": [
+    {
+     "title": "无敌天命",
+     "author": "青鸾峰上",
+     "bookId": 1336976
+    },
+    {
+     "title": "仙棺，神墟，剑无敌！",
+     "author": "千年老龟",
+     "bookId": 1268638
+    },
+    {
+     "title": "太荒吞天诀",
+     "author": "铁马飞桥",
+     "bookId": 916691
     }
    ]
   }
