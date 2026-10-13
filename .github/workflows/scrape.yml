@@ -13,9 +13,6 @@ env:
   TZ: Asia/Shanghai
 
 on:
-  schedule:
-    # 每天 UTC 21:00（北京时间次日 05:00）触发
-    - cron: '0 21 * * *'
   workflow_dispatch: # 允许手动 Run workflow
 
 jobs:
