@@ -1,5 +1,5 @@
 {
- "date": "2026-10-12",
+ "date": "2026-10-13",
  "board": {
   "slug": "new-book",
   "name": "新书榜",
@@ -19,12 +19,12 @@
    "cover": "https://static.zongheng.com/upload/cover/e6/a3/e6a3ad9745c84cf09945260fbc6c33a71789720653962.jpeg",
    "category": "军事",
    "cateFineId": 8111,
-   "metric": 604,
+   "metric": 1214,
    "metricLabel": "周收藏",
    "serialStatus": 0,
    "intro": "1950年，在藏都的炮火里，沈康重生归来。\r 大军压境，组织失联。摆在他面前只有两条路：抵抗到死，或者缴械投降。\r 沈康选了第三条路——在硝烟里下达进军令，率五万孤军翻越雪域高原，直扑三哥家。\r 彼时的三哥建国仅三年：东北群山割据、土邦林立、大地震后的废墟上武装遍地。而沈康，带着后世七十年的记忆而来。\r \"你们不是喜欢'前进政策'吗？那好，这次我先来。\"",
-   "latestChapter": "第28章 四师被围",
-   "latestChapterTime": "10-12 01:00",
+   "latestChapter": "第29章 南岸攻防",
+   "latestChapterTime": "10-13 01:00",
    "updatedToday": true,
    "url": "https://www.zongheng.com/book/1597188.html"
   },
@@ -35,12 +35,12 @@
    "author": "想飞的羊羔",
    "authorId": 89896299,
    "authorCover": "",
-   "cover": "https://static.zongheng.com/upload/cover/21/79/2179a7d4848b0266987ab1b2861793461791444288655.jpeg",
+   "cover": "https://static.zongheng.com/upload/cover/21/79/2179a7d4848b0266987ab1b2861793461791769077890.jpeg",
    "category": "军事",
    "cateFineId": 8111,
-   "metric": 1,
+   "metric": 143,
    "metricLabel": "周收藏",
-   "serialStatus": 0,
+   "serialStatus": 1,
    "intro": "赵峰重生2008年，重回大学时代。\r     前世戍边五载，满身伤痕，退伍碌碌无为，错失所有时代风口。\r     本想安稳上学、抄底暴富、娶妻安生，不再踏足军营。\r     却被室友随手报名，意外抽中全国唯一直播真人秀《人民团长》!\r     十个普通人，十个偏远部队，三月代理团长，全程无剪辑实时直播!\r     名单一出，全网炸锅!\r     混混、农民、工人、学生……外行带兵，被全网痛骂儿戏!\r     所有人都认为他弱不禁风，不堪一击。\r     入营一路刁难，全员等着看他狼狈退场。\r     就在全网坐等笑话时，\r     【神级军团统帅系统】激活成功！\r     大校威压镇全场，强军技能拉满！\r     老兵挑衅？直接吊打！\r     军纪松散？雷霆整训！\r     队伍废弛？全员练成尖刀劲旅！",
    "latestChapter": "第42章 孩子，过来",
    "latestChapterTime": "10-11 22:22",
@@ -50,46 +50,34 @@
  ],
  "trend": {
   "first_day": false,
-  "new_count": 1,
-  "dropped_count": 1,
-  "new_books": [
+  "new_count": 0,
+  "dropped_count": 0,
+  "new_books": [],
+  "dropped_books": [],
+  "top_movers": [
    {
+    "bookId": 1618988,
     "title": "都重生了，你让我当团长？",
     "author": "想飞的羊羔",
     "rank": 2,
-    "bookId": 1618988
-   }
-  ],
-  "dropped_books": [
-   {
-    "title": "三百斤入伍，首长让我当女军医？",
-    "author": "八方来才",
-    "prevRank": 2,
-    "bookId": 1595749
-   }
-  ],
-  "top_movers": [
+    "rankChange": 0,
+    "metric": 143,
+    "metricGrowth": 142.0,
+    "momentum": 86.0
+   },
    {
     "bookId": 1597188,
     "title": "1950：我在三哥家闹独立",
     "author": "青菜肉丝面不要青菜",
     "rank": 1,
     "rankChange": 0,
-    "metric": 604,
-    "metricGrowth": -0.8583,
-    "momentum": 68.0
+    "metric": 1214,
+    "metricGrowth": 1.0099,
+    "momentum": 72.0
    }
   ],
-  "darkhorses": [
-   {
-    "bookId": 1618988,
-    "title": "都重生了，你让我当团长？",
-    "author": "想飞的羊羔",
-    "rank": 2,
-    "reason": "新上榜即进入前列"
-   }
-  ],
+  "darkhorses": [],
   "update_rate": 0.5,
-  "summary": "【新书榜·军事】1 本新上榜；1 本掉榜；黑马《都重生了，你让我当团长？》第 2 名。"
+  "summary": "【新书榜·军事】榜单结构稳定，头部固若金汤。"
  }
 }
